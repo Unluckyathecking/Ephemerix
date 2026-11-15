@@ -1,0 +1,324 @@
+{
+ "schema": 1,
+ "generated": "2026-11-14T12:00:00Z",
+ "target": {
+  "name": "SYNTHETIC static source (test data)",
+  "slug": "synthetic-no-motion",
+  "ra": 210.5,
+  "dec": -35.25,
+  "epoch": 2016.0,
+  "pmra_masyr": null,
+  "pmdec_masyr": null,
+  "blurb": "Synthetic test case with no known motion and no usable spectrum."
+ },
+ "center": {
+  "ra": 210.5,
+  "dec": -35.25
+ },
+ "fov_arcsec": 192.0,
+ "size_px": 96,
+ "frames": [
+  {
+   "id": "wise-w2-2010p37",
+   "mission": "WISE",
+   "band": "W2",
+   "wavelength_um": [
+    4.0,
+    5.2
+   ],
+   "date": "2010-05-16T03:25:11Z",
+   "mjd": 55332.142,
+   "date_span_days": 1.2,
+   "n_exposures": 12,
+   "native_pixscale_arcsec": 2.75,
+   "image": "frames/wise-w2-2010p37.png",
+   "predicted_px": null,
+   "centroid_px": null,
+   "centroid_err_arcsec": null,
+   "flag_fraction": 0.0,
+   "warnings": []
+  },
+  {
+   "id": "wise-w2-2015p40",
+   "mission": "WISE",
+   "band": "W2",
+   "wavelength_um": [
+    4.0,
+    5.2
+   ],
+   "date": "2015-05-27T08:24:00Z",
+   "mjd": 57169.35,
+   "date_span_days": 1.2,
+   "n_exposures": 12,
+   "native_pixscale_arcsec": 2.75,
+   "image": "frames/wise-w2-2015p40.png",
+   "predicted_px": null,
+   "centroid_px": [
+    48.06,
+    48.17
+   ],
+   "centroid_err_arcsec": 0.35,
+   "flag_fraction": 0.0,
+   "warnings": []
+  },
+  {
+   "id": "wise-w2-2018p40",
+   "mission": "WISE",
+   "band": "W2",
+   "wavelength_um": [
+    4.0,
+    5.2
+   ],
+   "date": "2018-05-27T02:24:00Z",
+   "mjd": 58265.1,
+   "date_span_days": 1.2,
+   "n_exposures": 12,
+   "native_pixscale_arcsec": 2.75,
+   "image": "frames/wise-w2-2018p40.png",
+   "predicted_px": null,
+   "centroid_px": null,
+   "centroid_err_arcsec": null,
+   "flag_fraction": 0.0,
+   "warnings": []
+  },
+  {
+   "id": "wise-w2-2021p40",
+   "mission": "WISE",
+   "band": "W2",
+   "wavelength_um": [
+    4.0,
+    5.2
+   ],
+   "date": "2021-05-26T20:24:00Z",
+   "mjd": 59360.85,
+   "date_span_days": 1.2,
+   "n_exposures": 12,
+   "native_pixscale_arcsec": 2.75,
+   "image": "frames/wise-w2-2021p40.png",
+   "predicted_px": null,
+   "centroid_px": null,
+   "centroid_err_arcsec": null,
+   "flag_fraction": 0.0,
+   "warnings": []
+  },
+  {
+   "id": "wise-w2-2024p40",
+   "mission": "WISE",
+   "band": "W2",
+   "wavelength_um": [
+    4.0,
+    5.2
+   ],
+   "date": "2024-05-26T14:24:00Z",
+   "mjd": 60456.6,
+   "date_span_days": 1.2,
+   "n_exposures": 12,
+   "native_pixscale_arcsec": 2.75,
+   "image": "frames/wise-w2-2024p40.png",
+   "predicted_px": null,
+   "centroid_px": null,
+   "centroid_err_arcsec": null,
+   "flag_fraction": 0.0,
+   "warnings": []
+  },
+  {
+   "id": "spherex-spx-b6-2025p36",
+   "mission": "SPHEREx",
+   "band": "spx-b6",
+   "wavelength_um": [
+    4.42,
+    5.0
+   ],
+   "date": "2025-05-12T05:45:35Z",
+   "mjd": 60807.24,
+   "date_span_days": 9.0,
+   "n_exposures": 4,
+   "native_pixscale_arcsec": 6.15,
+   "image": "frames/spherex-spx-b6-2025p36.png",
+   "predicted_px": null,
+   "centroid_px": null,
+   "centroid_err_arcsec": null,
+   "flag_fraction": 0.0,
+   "warnings": []
+  }
+ ],
+ "track": [],
+ "spectra": [],
+ "match": null,
+ "features": [],
+ "overlays": {
+  "gaia": [
+   {
+    "id": "SYNTH-G000",
+    "ra": 210.4835715,
+    "dec": -35.2477355,
+    "epoch": 2016.0,
+    "pmra_masyr": 420.0,
+    "pmdec_masyr": -260.0,
+    "g_mag": 15.59
+   },
+   {
+    "id": "SYNTH-G001",
+    "ra": 210.5065154,
+    "dec": -35.2435631,
+    "epoch": 2016.0,
+    "pmra_masyr": 0.9,
+    "pmdec_masyr": 0.4,
+    "g_mag": 18.86
+   },
+   {
+    "id": "SYNTH-G002",
+    "ra": 210.4849125,
+    "dec": -35.2636023,
+    "epoch": 2016.0,
+    "pmra_masyr": 6.8,
+    "pmdec_masyr": -0.2,
+    "g_mag": 18.86
+   },
+   {
+    "id": "SYNTH-G003",
+    "ra": 210.4985174,
+    "dec": -35.2428797,
+    "epoch": 2016.0,
+    "pmra_masyr": 5.0,
+    "pmdec_masyr": 6.9,
+    "g_mag": 19.08
+   },
+   {
+    "id": "SYNTH-G004",
+    "ra": 210.5014534,
+    "dec": -35.2376479,
+    "epoch": 2016.0,
+    "pmra_masyr": -1.0,
+    "pmdec_masyr": -1.9,
+    "g_mag": 18.31
+   },
+   {
+    "id": "SYNTH-G005",
+    "ra": 210.5057116,
+    "dec": -35.2601751,
+    "epoch": 2016.0,
+    "pmra_masyr": 11.8,
+    "pmdec_masyr": 2.3,
+    "g_mag": 16.31
+   },
+   {
+    "id": "SYNTH-G006",
+    "ra": 210.5137193,
+    "dec": -35.2306048,
+    "epoch": 2016.0,
+    "pmra_masyr": -3.0,
+    "pmdec_masyr": -13.2,
+    "g_mag": 15.76
+   },
+   {
+    "id": "SYNTH-G007",
+    "ra": 210.5188657,
+    "dec": -35.2528354,
+    "epoch": 2016.0,
+    "pmra_masyr": 11.3,
+    "pmdec_masyr": -4.9,
+    "g_mag": 13.68
+   },
+   {
+    "id": "SYNTH-G008",
+    "ra": 210.4771768,
+    "dec": -35.2644903,
+    "epoch": 2016.0,
+    "pmra_masyr": 6.3,
+    "pmdec_masyr": -1.4,
+    "g_mag": 17.39
+   },
+   {
+    "id": "SYNTH-G009",
+    "ra": 210.4875252,
+    "dec": -35.2496292,
+    "epoch": 2016.0,
+    "pmra_masyr": -4.2,
+    "pmdec_masyr": 3.7,
+    "g_mag": 17.1
+   },
+   {
+    "id": "SYNTH-G010",
+    "ra": 210.5052822,
+    "dec": -35.2293049,
+    "epoch": 2016.0,
+    "pmra_masyr": -5.7,
+    "pmdec_masyr": -12.6,
+    "g_mag": 18.99
+   },
+   {
+    "id": "SYNTH-G011",
+    "ra": 210.530783,
+    "dec": -35.2412308,
+    "epoch": 2016.0,
+    "pmra_masyr": 6.2,
+    "pmdec_masyr": 10.2,
+    "g_mag": 19.75
+   },
+   {
+    "id": "SYNTH-G012",
+    "ra": 210.5253727,
+    "dec": -35.2464617,
+    "epoch": 2016.0,
+    "pmra_masyr": -0.9,
+    "pmdec_masyr": -4.0,
+    "g_mag": 18.82
+   },
+   {
+    "id": "SYNTH-G013",
+    "ra": 210.5046102,
+    "dec": -35.2610102,
+    "epoch": 2016.0,
+    "pmra_masyr": 10.8,
+    "pmdec_masyr": 4.6,
+    "g_mag": 19.93
+   },
+   {
+    "id": "SYNTH-G014",
+    "ra": 210.4742018,
+    "dec": -35.2346095,
+    "epoch": 2016.0,
+    "pmra_masyr": -2.9,
+    "pmdec_masyr": 1.8,
+    "g_mag": 15.06
+   },
+   {
+    "id": "SYNTH-G015",
+    "ra": 210.5168521,
+    "dec": -35.2309143,
+    "epoch": 2016.0,
+    "pmra_masyr": 8.0,
+    "pmdec_masyr": 2.3,
+    "g_mag": 13.31
+   },
+   {
+    "id": "SYNTH-G016",
+    "ra": 210.5136953,
+    "dec": -35.2586551,
+    "epoch": 2016.0,
+    "pmra_masyr": 12.4,
+    "pmdec_masyr": -11.5,
+    "g_mag": 16.54
+   },
+   {
+    "id": "SYNTH-G017",
+    "ra": 210.5312544,
+    "dec": -35.2597449,
+    "epoch": 2016.0,
+    "pmra_masyr": 7.2,
+    "pmdec_masyr": 3.8,
+    "g_mag": 13.22
+   }
+  ],
+  "catwise": []
+ },
+ "measured_motion": null,
+ "warnings": [
+  "Synthetic test data made by web/tools/make_fixture.py. Nothing in this view is a real observation.",
+  "No SPHEREx spectrum could be extracted at this position."
+ ],
+ "credits": [
+  "Synthetic fixture generated for testing; no archive data used."
+ ]
+}

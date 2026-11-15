@@ -1,0 +1,3429 @@
+{
+ "schema": 1,
+ "provenance": {
+  "git_sha": "fec3f40",
+  "git_dirty": true,
+  "campaign": "v1",
+  "sample_drawn_utc": "2026-11-14",
+  "index_mjd_max": 61318.002053793505,
+  "index_releases": {
+   "dr1": {
+    "rows": 1179406,
+    "weeks": 110,
+    "mjd_min": 60789.751428261,
+    "mjd_max": 61174.5040477285,
+    "failed": 0
+   },
+   "qr3": {
+    "rows": 448823,
+    "weeks": 41,
+    "mjd_min": 61174.5066769415,
+    "mjd_max": 61318.002053793505,
+    "failed": 1
+   }
+  }
+ },
+ "bodies": {
+  "n": 103,
+  "recovered": 66,
+  "ci95": [
+   0.5403,
+   0.733
+  ]
+ },
+ "by_class": {
+  "CEN": {
+   "n": 8,
+   "recovered": 4,
+   "ci95": [
+    0.157,
+    0.843
+   ]
+  },
+  "MBA": {
+   "n": 52,
+   "recovered": 41,
+   "ci95": [
+    0.653,
+    0.8894
+   ]
+  },
+  "TJN": {
+   "n": 14,
+   "recovered": 11,
+   "ci95": [
+    0.492,
+    0.9534
+   ]
+  },
+  "TNO": {
+   "n": 29,
+   "recovered": 10,
+   "ci95": [
+    0.1794,
+    0.5433
+   ]
+  }
+ },
+ "passes": {
+  "n": 275,
+  "k": 148,
+  "frac": 0.5382,
+  "ci95": [
+   0.4773,
+   0.5982
+  ]
+ },
+ "by_predicted_v": [
+  {
+   "bin": "6-10",
+   "lo_v": 6.0,
+   "hi_v": 10.0,
+   "n_detected": 2,
+   "n_marginal": 0,
+   "n": 2,
+   "k": 2,
+   "frac": 1.0,
+   "ci95": [
+    0.1581,
+    1.0
+   ],
+   "bodies": [
+    "3 Juno (A804 RA)",
+    "6 Hebe (A847 NA)"
+   ]
+  },
+  {
+   "bin": "10-12",
+   "lo_v": 10.0,
+   "hi_v": 12.0,
+   "n_detected": 18,
+   "n_marginal": 0,
+   "n": 18,
+   "k": 18,
+   "frac": 1.0,
+   "ci95": [
+    0.8147,
+    1.0
+   ],
+   "bodies": [
+    "12 Victoria (A850 RA)",
+    "15 Eunomia (A851 OA)",
+    "16 Psyche (A852 FA)",
+    "3 Juno (A804 RA)",
+    "5 Astraea (A845 XA)",
+    "6 Hebe (A847 NA)",
+    "7 Iris (A847 PA)",
+    "8 Flora (A847 UA)",
+    "9 Metis (A848 HA)"
+   ]
+  },
+  {
+   "bin": "12-14",
+   "lo_v": 12.0,
+   "hi_v": 14.0,
+   "n_detected": 18,
+   "n_marginal": 0,
+   "n": 18,
+   "k": 18,
+   "frac": 1.0,
+   "ci95": [
+    0.8147,
+    1.0
+   ],
+   "bodies": [
+    "112 Iphigenia (A870 SA)",
+    "142 Polana (A875 BA)",
+    "17 Thetis (A852 HA)",
+    "19 Fortuna (A852 QA)",
+    "25 Phocaea (A853 GB)",
+    "34 Circe (A855 GA)",
+    "35 Leukothea (A855 HA)",
+    "47 Aglaja (A857 RA)",
+    "5 Astraea (A845 XA)",
+    "50 Virginia (A857 TA)",
+    "58 Concordia (A860 FA)"
+   ]
+  },
+  {
+   "bin": "14-15",
+   "lo_v": 14.0,
+   "hi_v": 15.0,
+   "n_detected": 19,
+   "n_marginal": 0,
+   "n": 19,
+   "k": 19,
+   "frac": 1.0,
+   "ci95": [
+    0.8235,
+    1.0
+   ],
+   "bodies": [
+    "112 Iphigenia (A870 SA)",
+    "131 Vala (A873 KA)",
+    "134340 Pluto (1930 BM)",
+    "142 Polana (A875 BA)",
+    "149 Medusa (A875 SA)",
+    "180 Garumna (A878 BA)",
+    "33 Polyhymnia (A854 UB)",
+    "47 Aglaja (A857 RA)",
+    "50 Virginia (A857 TA)",
+    "58 Concordia (A860 FA)",
+    "66 Maja (A861 GA)"
+   ]
+  },
+  {
+   "bin": "15-16",
+   "lo_v": 15.0,
+   "hi_v": 16.0,
+   "n_detected": 17,
+   "n_marginal": 0,
+   "n": 17,
+   "k": 17,
+   "frac": 1.0,
+   "ci95": [
+    0.8049,
+    1.0
+   ],
+   "bodies": [
+    "131 Vala (A873 KA)",
+    "157 Dejanira (A875 XA)",
+    "180 Garumna (A878 BA)",
+    "228 Agathe (A882 QA)",
+    "244 Sita (A884 TA)",
+    "254 Augusta (A886 FA)",
+    "315 Constantia (A891 RB)",
+    "588 Achilles (A906 DN)",
+    "617 Patroclus (A906 UL)"
+   ]
+  },
+  {
+   "bin": "16-17",
+   "lo_v": 16.0,
+   "hi_v": 17.0,
+   "n_detected": 14,
+   "n_marginal": 0,
+   "n": 14,
+   "k": 14,
+   "frac": 1.0,
+   "ci95": [
+    0.7684,
+    1.0
+   ],
+   "bodies": [
+    "1208 Troilus (1931 YA)",
+    "155 Scylla (A875 VE)",
+    "157 Dejanira (A875 XA)",
+    "228 Agathe (A882 QA)",
+    "281 Lucretia (A888 UC)",
+    "296 Phaetusa (A890 QB)",
+    "588 Achilles (A906 DN)",
+    "827 Wolfiana (A916 QG)",
+    "831 Stateira (A916 SD)"
+   ]
+  },
+  {
+   "bin": "17-18",
+   "lo_v": 17.0,
+   "hi_v": 18.0,
+   "n_detected": 15,
+   "n_marginal": 0,
+   "n": 15,
+   "k": 15,
+   "frac": 1.0,
+   "ci95": [
+    0.782,
+    1.0
+   ],
+   "bodies": [
+    "136108 Haumea (2003 EL61)",
+    "136472 Makemake (2005 FY9)",
+    "1404 Ajax (1936 QW)",
+    "228 Agathe (A882 QA)",
+    "296 Phaetusa (A890 QB)",
+    "724 Hapag (A911 UP)",
+    "730 Athanasia (A912 GG)",
+    "827 Wolfiana (A916 QG)",
+    "831 Stateira (A916 SD)"
+   ]
+  },
+  {
+   "bin": "18-19",
+   "lo_v": 18.0,
+   "hi_v": 19.0,
+   "n_detected": 16,
+   "n_marginal": 0,
+   "n": 20,
+   "k": 16,
+   "frac": 0.8,
+   "ci95": [
+    0.5634,
+    0.9427
+   ],
+   "bodies": [
+    "136199 Eris (2003 UB313)",
+    "1647 Menelaus (1957 MK)",
+    "1779 Parana (1950 LZ)",
+    "1870 Glaukos (1971 FE)",
+    "1871 Astyanax (1971 FF)",
+    "2060 Chiron (1977 UB)",
+    "4320 Jarosewich (1981 EJ17)",
+    "50000 Quaoar (2002 LM60)",
+    "730 Athanasia (A912 GG)",
+    "878 Mildred (A916 RC)"
+   ]
+  },
+  {
+   "bin": "19-20",
+   "lo_v": 19.0,
+   "hi_v": 20.0,
+   "n_detected": 23,
+   "n_marginal": 8,
+   "n": 46,
+   "k": 22,
+   "frac": 0.4783,
+   "ci95": [
+    0.3289,
+    0.6305
+   ],
+   "bodies": [
+    "10199 Chariklo (1997 CU26)",
+    "145452 Ritona (2005 RN43)",
+    "1538 Detre (1940 RF)",
+    "1779 Parana (1950 LZ)",
+    "1869 Philoctetes (4596 P-L)",
+    "1871 Astyanax (1971 FF)",
+    "2028 Janequeo (1968 OB1)",
+    "229762 G!kun||'homdima (2007 UK126)",
+    "28978 Ixion (2001 KX76)",
+    "3004 Knud (1976 DD)",
+    "4320 Jarosewich (1981 EJ17)",
+    "5257 Laogonus (1988 RS10)",
+    "55637 Uni (2002 UX25)",
+    "6256 Canova (4063 P-L)",
+    "6443 Harpalion (1988 RH12)",
+    "724 Hapag (A911 UP)",
+    "84922 (2003 VS2)",
+    "878 Mildred (A916 RC)",
+    "90482 Orcus (2004 DW)"
+   ]
+  },
+  {
+   "bin": "20-21",
+   "lo_v": 20.0,
+   "hi_v": 21.0,
+   "n_detected": 5,
+   "n_marginal": 13,
+   "n": 48,
+   "k": 5,
+   "frac": 0.1042,
+   "ci95": [
+    0.0347,
+    0.2266
+   ],
+   "bodies": [
+    "120178 (2003 OP32)",
+    "174567 Varda (2003 MW12)",
+    "20000 Varuna (2000 WR106)",
+    "202421 (2005 UQ513)",
+    "208996 Achlys (2003 AZ84)",
+    "23362 (3248 T-1)",
+    "27832 (1994 EW)",
+    "307261 Mani (2002 MS4)",
+    "37572 (1989 UC5)",
+    "37789 (1997 UL16)",
+    "55565 Aya (2002 AW197)",
+    "55636 (2002 TX300)",
+    "55637 Uni (2002 UX25)",
+    "7006 Folco (1981 ER31)",
+    "7733 Segarpassi (1979 MH4)",
+    "8193 Ciaurro (1993 SF)",
+    "84522 (2002 TC302)",
+    "90377 Sedna (2003 VB12)",
+    "90568 Goibniu (2004 GV9)",
+    "944 Hidalgo (A920 UB)",
+    "9692 Kuperus (6354 P-L)"
+   ]
+  },
+  {
+   "bin": "21-22",
+   "lo_v": 21.0,
+   "hi_v": 22.0,
+   "n_detected": 0,
+   "n_marginal": 4,
+   "n": 35,
+   "k": 0,
+   "frac": 0.0,
+   "ci95": [
+    0.0,
+    0.1
+   ],
+   "bodies": [
+    "11606 Almary (1995 UU6)",
+    "12472 Samadhi (1997 CW11)",
+    "157730 (2006 BS88)",
+    "179217 (2001 TB225)",
+    "225088 Gonggong (2007 OR10)",
+    "23362 (3248 T-1)",
+    "303775 (2005 QU182)",
+    "37789 (1997 UL16)",
+    "48359 (1219 T-2)",
+    "523692 (2014 EZ51)",
+    "523794 (2015 RR245)",
+    "574372 (2010 JO179)",
+    "589683 (2010 RF43)",
+    "7733 Segarpassi (1979 MH4)",
+    "8193 Ciaurro (1993 SF)",
+    "9692 Kuperus (6354 P-L)"
+   ]
+  },
+  {
+   "bin": "22-24",
+   "lo_v": 22.0,
+   "hi_v": 24.0,
+   "n_detected": 2,
+   "n_marginal": 3,
+   "n": 15,
+   "k": 2,
+   "frac": 0.1333,
+   "ci95": [
+    0.0166,
+    0.4046
+   ],
+   "bodies": [
+    "10370 Hylonome (1995 DW2)",
+    "27832 (1994 EW)",
+    "5145 Pholus (1992 AD)",
+    "532037 Chiminigagua (2013 FY27)",
+    "8405 Asbolus (1995 GO)"
+   ]
+  },
+  {
+   "bin": "24-27",
+   "lo_v": 24.0,
+   "hi_v": 27.0,
+   "n_detected": 0,
+   "n_marginal": 2,
+   "n": 8,
+   "k": 0,
+   "frac": 0.0,
+   "ci95": [
+    0.0,
+    0.3694
+   ],
+   "bodies": [
+    "5335 Damocles (1991 DA)",
+    "7066 Nessus (1993 HA2)"
+   ]
+  }
+ ],
+ "faintest_reliable_bin": "18-19",
+ "faintest_recovery": {
+  "name": "8405 Asbolus (1995 GO)",
+  "vmag": 23.595,
+  "best_band": "spx-b4",
+  "best_snr": 8.68807003565636,
+  "controls_fired": 0
+ },
+ "astrometry": {
+  "centroid_n": 148,
+  "centroid_median_arcsec": 0.16,
+  "centroid_p90_arcsec": 1.24,
+  "psf_fit_n": 104,
+  "psf_fit_median_arcsec": 0.07,
+  "psf_fit_p90_arcsec": 0.41
+ },
+ "post_hoc_snr_thresholds": [
+  {
+   "snr_min": 5.0,
+   "control_passes": {
+    "n": 551,
+    "k": 34,
+    "frac": 0.0617,
+    "ci95": [
+     0.0431,
+     0.0852
+    ]
+   },
+   "real_passes": {
+    "n": 275,
+    "k": 175,
+    "frac": 0.6364,
+    "ci95": [
+     0.5765,
+     0.6933
+    ]
+   },
+   "real_bodies": {
+    "n": 103,
+    "k": 81,
+    "frac": 0.7864,
+    "ci95": [
+     0.6947,
+     0.861
+    ]
+   },
+   "faintest_reliable_bin": "18-19",
+   "by_predicted_v": [
+    {
+     "bin": "6-10",
+     "n": 2,
+     "k": 2,
+     "ci95": [
+      0.1581,
+      1.0
+     ]
+    },
+    {
+     "bin": "10-12",
+     "n": 18,
+     "k": 18,
+     "ci95": [
+      0.8147,
+      1.0
+     ]
+    },
+    {
+     "bin": "12-14",
+     "n": 18,
+     "k": 18,
+     "ci95": [
+      0.8147,
+      1.0
+     ]
+    },
+    {
+     "bin": "14-15",
+     "n": 19,
+     "k": 19,
+     "ci95": [
+      0.8235,
+      1.0
+     ]
+    },
+    {
+     "bin": "15-16",
+     "n": 17,
+     "k": 17,
+     "ci95": [
+      0.8049,
+      1.0
+     ]
+    },
+    {
+     "bin": "16-17",
+     "n": 14,
+     "k": 14,
+     "ci95": [
+      0.7684,
+      1.0
+     ]
+    },
+    {
+     "bin": "17-18",
+     "n": 15,
+     "k": 15,
+     "ci95": [
+      0.782,
+      1.0
+     ]
+    },
+    {
+     "bin": "18-19",
+     "n": 20,
+     "k": 16,
+     "ci95": [
+      0.5634,
+      0.9427
+     ]
+    },
+    {
+     "bin": "19-20",
+     "n": 46,
+     "k": 29,
+     "ci95": [
+      0.4755,
+      0.7679
+     ]
+    },
+    {
+     "bin": "20-21",
+     "n": 48,
+     "k": 17,
+     "ci95": [
+      0.2216,
+      0.5054
+     ]
+    },
+    {
+     "bin": "21-22",
+     "n": 35,
+     "k": 3,
+     "ci95": [
+      0.018,
+      0.2306
+     ]
+    },
+    {
+     "bin": "22-24",
+     "n": 15,
+     "k": 5,
+     "ci95": [
+      0.1182,
+      0.6162
+     ]
+    },
+    {
+     "bin": "24-27",
+     "n": 8,
+     "k": 2,
+     "ci95": [
+      0.0319,
+      0.6509
+     ]
+    }
+   ]
+  },
+  {
+   "snr_min": 8.0,
+   "control_passes": {
+    "n": 551,
+    "k": 13,
+    "frac": 0.0236,
+    "ci95": [
+     0.0126,
+     0.04
+    ]
+   },
+   "real_passes": {
+    "n": 275,
+    "k": 142,
+    "frac": 0.5164,
+    "ci95": [
+     0.4556,
+     0.5768
+    ]
+   },
+   "real_bodies": {
+    "n": 103,
+    "k": 64,
+    "frac": 0.6214,
+    "ci95": [
+     0.5204,
+     0.7151
+    ]
+   },
+   "faintest_reliable_bin": "18-19",
+   "by_predicted_v": [
+    {
+     "bin": "6-10",
+     "n": 2,
+     "k": 2,
+     "ci95": [
+      0.1581,
+      1.0
+     ]
+    },
+    {
+     "bin": "10-12",
+     "n": 18,
+     "k": 18,
+     "ci95": [
+      0.8147,
+      1.0
+     ]
+    },
+    {
+     "bin": "12-14",
+     "n": 18,
+     "k": 18,
+     "ci95": [
+      0.8147,
+      1.0
+     ]
+    },
+    {
+     "bin": "14-15",
+     "n": 19,
+     "k": 19,
+     "ci95": [
+      0.8235,
+      1.0
+     ]
+    },
+    {
+     "bin": "15-16",
+     "n": 17,
+     "k": 17,
+     "ci95": [
+      0.8049,
+      1.0
+     ]
+    },
+    {
+     "bin": "16-17",
+     "n": 14,
+     "k": 14,
+     "ci95": [
+      0.7684,
+      1.0
+     ]
+    },
+    {
+     "bin": "17-18",
+     "n": 15,
+     "k": 15,
+     "ci95": [
+      0.782,
+      1.0
+     ]
+    },
+    {
+     "bin": "18-19",
+     "n": 20,
+     "k": 16,
+     "ci95": [
+      0.5634,
+      0.9427
+     ]
+    },
+    {
+     "bin": "19-20",
+     "n": 46,
+     "k": 15,
+     "ci95": [
+      0.1953,
+      0.4802
+     ]
+    },
+    {
+     "bin": "20-21",
+     "n": 48,
+     "k": 2,
+     "ci95": [
+      0.0051,
+      0.1425
+     ]
+    },
+    {
+     "bin": "21-22",
+     "n": 35,
+     "k": 2,
+     "ci95": [
+      0.007,
+      0.1916
+     ]
+    },
+    {
+     "bin": "22-24",
+     "n": 15,
+     "k": 3,
+     "ci95": [
+      0.0433,
+      0.4809
+     ]
+    },
+    {
+     "bin": "24-27",
+     "n": 8,
+     "k": 1,
+     "ci95": [
+      0.0032,
+      0.5265
+     ]
+    }
+   ]
+  },
+  {
+   "snr_min": 10.0,
+   "control_passes": {
+    "n": 551,
+    "k": 10,
+    "frac": 0.0181,
+    "ci95": [
+     0.0087,
+     0.0331
+    ]
+   },
+   "real_passes": {
+    "n": 275,
+    "k": 130,
+    "frac": 0.4727,
+    "ci95": [
+     0.4125,
+     0.5336
+    ]
+   },
+   "real_bodies": {
+    "n": 103,
+    "k": 57,
+    "frac": 0.5534,
+    "ci95": [
+     0.4522,
+     0.6514
+    ]
+   },
+   "faintest_reliable_bin": "18-19",
+   "by_predicted_v": [
+    {
+     "bin": "6-10",
+     "n": 2,
+     "k": 2,
+     "ci95": [
+      0.1581,
+      1.0
+     ]
+    },
+    {
+     "bin": "10-12",
+     "n": 18,
+     "k": 18,
+     "ci95": [
+      0.8147,
+      1.0
+     ]
+    },
+    {
+     "bin": "12-14",
+     "n": 18,
+     "k": 18,
+     "ci95": [
+      0.8147,
+      1.0
+     ]
+    },
+    {
+     "bin": "14-15",
+     "n": 19,
+     "k": 19,
+     "ci95": [
+      0.8235,
+      1.0
+     ]
+    },
+    {
+     "bin": "15-16",
+     "n": 17,
+     "k": 17,
+     "ci95": [
+      0.8049,
+      1.0
+     ]
+    },
+    {
+     "bin": "16-17",
+     "n": 14,
+     "k": 14,
+     "ci95": [
+      0.7684,
+      1.0
+     ]
+    },
+    {
+     "bin": "17-18",
+     "n": 15,
+     "k": 14,
+     "ci95": [
+      0.6805,
+      0.9983
+     ]
+    },
+    {
+     "bin": "18-19",
+     "n": 20,
+     "k": 16,
+     "ci95": [
+      0.5634,
+      0.9427
+     ]
+    },
+    {
+     "bin": "19-20",
+     "n": 46,
+     "k": 8,
+     "ci95": [
+      0.0782,
+      0.3142
+     ]
+    },
+    {
+     "bin": "20-21",
+     "n": 48,
+     "k": 1,
+     "ci95": [
+      0.0005,
+      0.1107
+     ]
+    },
+    {
+     "bin": "21-22",
+     "n": 35,
+     "k": 1,
+     "ci95": [
+      0.0007,
+      0.1492
+     ]
+    },
+    {
+     "bin": "22-24",
+     "n": 15,
+     "k": 1,
+     "ci95": [
+      0.0017,
+      0.3195
+     ]
+    },
+    {
+     "bin": "24-27",
+     "n": 8,
+     "k": 1,
+     "ci95": [
+      0.0032,
+      0.5265
+     ]
+    }
+   ]
+  },
+  {
+   "snr_min": 15.0,
+   "control_passes": {
+    "n": 551,
+    "k": 4,
+    "frac": 0.0073,
+    "ci95": [
+     0.002,
+     0.0185
+    ]
+   },
+   "real_passes": {
+    "n": 275,
+    "k": 108,
+    "frac": 0.3927,
+    "ci95": [
+     0.3346,
+     0.4532
+    ]
+   },
+   "real_bodies": {
+    "n": 103,
+    "k": 47,
+    "frac": 0.4563,
+    "ci95": [
+     0.3578,
+     0.5574
+    ]
+   },
+   "faintest_reliable_bin": "17-18",
+   "by_predicted_v": [
+    {
+     "bin": "6-10",
+     "n": 2,
+     "k": 2,
+     "ci95": [
+      0.1581,
+      1.0
+     ]
+    },
+    {
+     "bin": "10-12",
+     "n": 18,
+     "k": 18,
+     "ci95": [
+      0.8147,
+      1.0
+     ]
+    },
+    {
+     "bin": "12-14",
+     "n": 18,
+     "k": 18,
+     "ci95": [
+      0.8147,
+      1.0
+     ]
+    },
+    {
+     "bin": "14-15",
+     "n": 19,
+     "k": 19,
+     "ci95": [
+      0.8235,
+      1.0
+     ]
+    },
+    {
+     "bin": "15-16",
+     "n": 17,
+     "k": 17,
+     "ci95": [
+      0.8049,
+      1.0
+     ]
+    },
+    {
+     "bin": "16-17",
+     "n": 14,
+     "k": 13,
+     "ci95": [
+      0.6613,
+      0.9982
+     ]
+    },
+    {
+     "bin": "17-18",
+     "n": 15,
+     "k": 14,
+     "ci95": [
+      0.6805,
+      0.9983
+     ]
+    },
+    {
+     "bin": "18-19",
+     "n": 20,
+     "k": 6,
+     "ci95": [
+      0.1189,
+      0.5428
+     ]
+    },
+    {
+     "bin": "19-20",
+     "n": 46,
+     "k": 1,
+     "ci95": [
+      0.0006,
+      0.1153
+     ]
+    },
+    {
+     "bin": "20-21",
+     "n": 48,
+     "k": 0,
+     "ci95": [
+      0.0,
+      0.074
+     ]
+    },
+    {
+     "bin": "21-22",
+     "n": 35,
+     "k": 0,
+     "ci95": [
+      0.0,
+      0.1
+     ]
+    },
+    {
+     "bin": "22-24",
+     "n": 15,
+     "k": 0,
+     "ci95": [
+      0.0,
+      0.218
+     ]
+    },
+    {
+     "bin": "24-27",
+     "n": 8,
+     "k": 0,
+     "ci95": [
+      0.0,
+      0.3694
+     ]
+    }
+   ]
+  }
+ ],
+ "false_detections": {
+  "passes": {
+   "n": 551,
+   "k": 4,
+   "frac": 0.0073,
+   "ci95": [
+    0.002,
+    0.0185
+   ]
+  },
+  "passes_snr_only": {
+   "n": 551,
+   "k": 6,
+   "frac": 0.0109,
+   "ci95": [
+    0.004,
+    0.0235
+   ]
+  },
+  "tracks": {
+   "n": 206,
+   "k": 4,
+   "frac": 0.0194,
+   "ci95": [
+    0.0053,
+    0.049
+   ]
+  },
+  "hits": [
+   {
+    "pdes": "1404",
+    "variant": "off_dec",
+    "vmag": 17.359,
+    "best_band": "spx-b4",
+    "best_snr": 8.296358763566719,
+    "recovered": true
+   },
+   {
+    "pdes": "202421",
+    "variant": "off_ra",
+    "vmag": 20.848,
+    "best_band": "spx-b4",
+    "best_snr": 17.881635368567157,
+    "recovered": true
+   },
+   {
+    "pdes": "208996",
+    "variant": "off_ra",
+    "vmag": 20.293,
+    "best_band": "spx-b1",
+    "best_snr": 10.28079703581493,
+    "recovered": true
+   },
+   {
+    "pdes": "523692",
+    "variant": "off_ra",
+    "vmag": 21.361,
+    "best_band": "spx-b4",
+    "best_snr": 6.801040444836348,
+    "recovered": false
+   },
+   {
+    "pdes": "55637",
+    "variant": "off_ra",
+    "vmag": 20.001,
+    "best_band": "spx-b2",
+    "best_snr": 42.74446061307394,
+    "recovered": true
+   },
+   {
+    "pdes": "90377",
+    "variant": "off_dec",
+    "vmag": 20.822,
+    "best_band": "spx-b4",
+    "best_snr": 6.852005617863794,
+    "recovered": false
+   }
+  ],
+  "errors": 0,
+  "by_class": {
+   "CEN": {
+    "passes": {
+     "n": 56,
+     "k": 0,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.0638
+     ]
+    },
+    "tracks": {
+     "n": 16,
+     "k": 0,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.2059
+     ]
+    }
+   },
+   "MBA": {
+    "passes": {
+     "n": 237,
+     "k": 0,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.0154
+     ]
+    },
+    "tracks": {
+     "n": 104,
+     "k": 0,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.0348
+     ]
+    }
+   },
+   "TJN": {
+    "passes": {
+     "n": 80,
+     "k": 1,
+     "frac": 0.0125,
+     "ci95": [
+      0.0003,
+      0.0677
+     ]
+    },
+    "tracks": {
+     "n": 28,
+     "k": 1,
+     "frac": 0.0357,
+     "ci95": [
+      0.0009,
+      0.1835
+     ]
+    }
+   },
+   "TNO": {
+    "passes": {
+     "n": 178,
+     "k": 3,
+     "frac": 0.0169,
+     "ci95": [
+      0.0035,
+      0.0485
+     ]
+    },
+    "tracks": {
+     "n": 58,
+     "k": 3,
+     "frac": 0.0517,
+     "ci95": [
+      0.0108,
+      0.1438
+     ]
+    }
+   }
+  }
+ },
+ "headline": {
+  "faintest_reliable_v_bin": "18-19",
+  "false_detection_rate_per_pass": 0.0073,
+  "false_detection_rate_per_track": 0.0194,
+  "caveats": [
+   "A pass counts as detected under the rule named in `rule`. On empty positions (offset control tracks) that rule fires at about the per-pass rate above.",
+   "A body counts as recovered if any one pass is; control tracks fire under the same rule at the per-track rate above (higher for TNOs, see false_detections.by_class).",
+   "faintest_recovery is the faintest pass meeting the rules, not a credible limit when controls_fired > 0 (its own control tracks fired on the same frames).",
+   "Counts at stricter S/N thresholds are in post_hoc_snr_thresholds; those thresholds were chosen after the controls were seen."
+  ]
+ },
+ "failures_by_cause": {
+  "detected off position": [
+   "229762"
+  ],
+  "marginal only (one band; consistent with noise)": [
+   "120178",
+   "1538",
+   "174567",
+   "1779",
+   "20000",
+   "202421",
+   "2028",
+   "208996",
+   "523692",
+   "532037",
+   "5335",
+   "55636",
+   "589683",
+   "7066",
+   "84922",
+   "90377"
+  ],
+  "not detected": [
+   "11606",
+   "12472",
+   "157730",
+   "225088",
+   "23362",
+   "27832",
+   "303775",
+   "37789",
+   "48359",
+   "523794",
+   "574372",
+   "7006",
+   "8193"
+  ],
+  "not detected, crowded field (|b| < 10 deg)": [
+   "179217",
+   "28978",
+   "307261",
+   "50000",
+   "5145",
+   "944",
+   "9692"
+  ]
+ },
+ "outcomes": [
+  {
+   "pdes": "10199",
+   "name": "10199 Chariklo (1997 CU26)",
+   "cls": "CEN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 4,
+   "n_recovered": 2,
+   "best_snr": 10.6,
+   "vmag_min": 19.26,
+   "vmag_max": 19.35
+  },
+  {
+   "pdes": "10370",
+   "name": "10370 Hylonome (1995 DW2)",
+   "cls": "CEN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 4,
+   "n_recovered": 1,
+   "best_snr": 10.0,
+   "vmag_min": 22.59,
+   "vmag_max": 22.66
+  },
+  {
+   "pdes": "112",
+   "name": "112 Iphigenia (A870 SA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 587.3,
+   "vmag_min": 13.93,
+   "vmag_max": 14.26
+  },
+  {
+   "pdes": "11606",
+   "name": "11606 Almary (1995 UU6)",
+   "cls": "MBA",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 0.7,
+   "vmag_min": 21.07,
+   "vmag_max": 21.87
+  },
+  {
+   "pdes": "12",
+   "name": "12 Victoria (A850 RA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 1150.9,
+   "vmag_min": 11.34,
+   "vmag_max": 11.95
+  },
+  {
+   "pdes": "120178",
+   "name": "120178 (2003 OP32)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 7.8,
+   "vmag_min": 20.46,
+   "vmag_max": 20.47
+  },
+  {
+   "pdes": "1208",
+   "name": "1208 Troilus (1931 YA)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 75.3,
+   "vmag_min": 16.67,
+   "vmag_max": 16.88
+  },
+  {
+   "pdes": "12472",
+   "name": "12472 Samadhi (1997 CW11)",
+   "cls": "MBA",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 3.0,
+   "vmag_min": 21.26,
+   "vmag_max": 21.48
+  },
+  {
+   "pdes": "131",
+   "name": "131 Vala (A873 KA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 246.4,
+   "vmag_min": 14.39,
+   "vmag_max": 15.11
+  },
+  {
+   "pdes": "134340",
+   "name": "134340 Pluto (1930 BM)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 4,
+   "n_recovered": 4,
+   "best_snr": 188.5,
+   "vmag_min": 14.53,
+   "vmag_max": 14.56
+  },
+  {
+   "pdes": "136108",
+   "name": "136108 Haumea (2003 EL61)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 46.6,
+   "vmag_min": 17.25,
+   "vmag_max": 17.28
+  },
+  {
+   "pdes": "136199",
+   "name": "136199 Eris (2003 UB313)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 14.2,
+   "vmag_min": 18.65,
+   "vmag_max": 18.66
+  },
+  {
+   "pdes": "136472",
+   "name": "136472 Makemake (2005 FY9)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 50.5,
+   "vmag_min": 17.11,
+   "vmag_max": 17.13
+  },
+  {
+   "pdes": "1404",
+   "name": "1404 Ajax (1936 QW)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 1,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 49.2,
+   "vmag_min": 17.36,
+   "vmag_max": 17.4
+  },
+  {
+   "pdes": "142",
+   "name": "142 Polana (A875 BA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 651.5,
+   "vmag_min": 13.98,
+   "vmag_max": 14.83
+  },
+  {
+   "pdes": "145452",
+   "name": "145452 Ritona (2005 RN43)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 2,
+   "best_snr": 6.1,
+   "vmag_min": 19.95,
+   "vmag_max": 19.97
+  },
+  {
+   "pdes": "149",
+   "name": "149 Medusa (A875 SA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 326.6,
+   "vmag_min": 14.65,
+   "vmag_max": 14.71
+  },
+  {
+   "pdes": "15",
+   "name": "15 Eunomia (A851 OA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 824.2,
+   "vmag_min": 10.66,
+   "vmag_max": 11.09
+  },
+  {
+   "pdes": "1538",
+   "name": "1538 Detre (1940 RF)",
+   "cls": "MBA",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 8.2,
+   "vmag_min": 19.33,
+   "vmag_max": 19.83
+  },
+  {
+   "pdes": "155",
+   "name": "155 Scylla (A875 VE)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 112.6,
+   "vmag_min": 16.32,
+   "vmag_max": 16.92
+  },
+  {
+   "pdes": "157",
+   "name": "157 Dejanira (A875 XA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 153.2,
+   "vmag_min": 15.83,
+   "vmag_max": 16.53
+  },
+  {
+   "pdes": "157730",
+   "name": "157730 (2006 BS88)",
+   "cls": "TJN",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 2.5,
+   "vmag_min": 21.85,
+   "vmag_max": 21.98
+  },
+  {
+   "pdes": "16",
+   "name": "16 Psyche (A852 FA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 1107.5,
+   "vmag_min": 11.2,
+   "vmag_max": 11.36
+  },
+  {
+   "pdes": "1647",
+   "name": "1647 Menelaus (1957 MK)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 32.4,
+   "vmag_min": 18.08,
+   "vmag_max": 18.21
+  },
+  {
+   "pdes": "17",
+   "name": "17 Thetis (A852 HA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 468.0,
+   "vmag_min": 13.06,
+   "vmag_max": 13.31
+  },
+  {
+   "pdes": "174567",
+   "name": "174567 Varda (2003 MW12)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 5.3,
+   "vmag_min": 20.2,
+   "vmag_max": 20.24
+  },
+  {
+   "pdes": "1779",
+   "name": "1779 Parana (1950 LZ)",
+   "cls": "MBA",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 6.3,
+   "vmag_min": 18.95,
+   "vmag_max": 19.22
+  },
+  {
+   "pdes": "179217",
+   "name": "179217 (2001 TB225)",
+   "cls": "TJN",
+   "outcome": "not detected, crowded field (|b| < 10 deg)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 3.7,
+   "vmag_min": 21.45,
+   "vmag_max": 21.62
+  },
+  {
+   "pdes": "180",
+   "name": "180 Garumna (A878 BA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 125.2,
+   "vmag_min": 14.67,
+   "vmag_max": 15.14
+  },
+  {
+   "pdes": "1869",
+   "name": "1869 Philoctetes (4596 P-L)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 14.5,
+   "vmag_min": 19.03,
+   "vmag_max": 19.1
+  },
+  {
+   "pdes": "1870",
+   "name": "1870 Glaukos (1971 FE)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 20.6,
+   "vmag_min": 18.44,
+   "vmag_max": 18.56
+  },
+  {
+   "pdes": "1871",
+   "name": "1871 Astyanax (1971 FF)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 14.3,
+   "vmag_min": 18.94,
+   "vmag_max": 19.07
+  },
+  {
+   "pdes": "19",
+   "name": "19 Fortuna (A852 QA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 1317.1,
+   "vmag_min": 12.58,
+   "vmag_max": 13.0
+  },
+  {
+   "pdes": "20000",
+   "name": "20000 Varuna (2000 WR106)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 5.9,
+   "vmag_min": 20.42,
+   "vmag_max": 20.43
+  },
+  {
+   "pdes": "202421",
+   "name": "202421 (2005 UQ513)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 1,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 5.6,
+   "vmag_min": 20.82,
+   "vmag_max": 20.85
+  },
+  {
+   "pdes": "2028",
+   "name": "2028 Janequeo (1968 OB1)",
+   "cls": "MBA",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 5.3,
+   "vmag_min": 19.6,
+   "vmag_max": 19.92
+  },
+  {
+   "pdes": "2060",
+   "name": "2060 Chiron (1977 UB)",
+   "cls": "CEN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 14.0,
+   "vmag_min": 18.48,
+   "vmag_max": 18.52
+  },
+  {
+   "pdes": "208996",
+   "name": "208996 Achlys (2003 AZ84)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 1,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 5.5,
+   "vmag_min": 20.28,
+   "vmag_max": 20.29
+  },
+  {
+   "pdes": "225088",
+   "name": "225088 Gonggong (2007 OR10)",
+   "cls": "TNO",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 3.9,
+   "vmag_min": 21.46,
+   "vmag_max": 21.47
+  },
+  {
+   "pdes": "228",
+   "name": "228 Agathe (A882 QA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 209.8,
+   "vmag_min": 15.73,
+   "vmag_max": 17.12
+  },
+  {
+   "pdes": "229762",
+   "name": "229762 G!kun||'homdima (2007 UK126)",
+   "cls": "TNO",
+   "outcome": "detected off position",
+   "controls_fired": 0,
+   "n_passes": 4,
+   "n_recovered": 0,
+   "best_snr": 9.2,
+   "vmag_min": 19.64,
+   "vmag_max": 19.68
+  },
+  {
+   "pdes": "23362",
+   "name": "23362 (3248 T-1)",
+   "cls": "MBA",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 4.1,
+   "vmag_min": 20.88,
+   "vmag_max": 21.95
+  },
+  {
+   "pdes": "244",
+   "name": "244 Sita (A884 TA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 190.7,
+   "vmag_min": 15.7,
+   "vmag_max": 15.83
+  },
+  {
+   "pdes": "25",
+   "name": "25 Phocaea (A853 GB)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 773.8,
+   "vmag_min": 12.48,
+   "vmag_max": 13.06
+  },
+  {
+   "pdes": "254",
+   "name": "254 Augusta (A886 FA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 115.4,
+   "vmag_min": 15.08,
+   "vmag_max": 15.77
+  },
+  {
+   "pdes": "27832",
+   "name": "27832 (1994 EW)",
+   "cls": "MBA",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 3.0,
+   "vmag_min": 20.94,
+   "vmag_max": 22.01
+  },
+  {
+   "pdes": "281",
+   "name": "281 Lucretia (A888 UC)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 128.6,
+   "vmag_min": 16.29,
+   "vmag_max": 16.84
+  },
+  {
+   "pdes": "28978",
+   "name": "28978 Ixion (2001 KX76)",
+   "cls": "TNO",
+   "outcome": "not detected, crowded field (|b| < 10 deg)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 4.2,
+   "vmag_min": 19.37,
+   "vmag_max": 19.41
+  },
+  {
+   "pdes": "296",
+   "name": "296 Phaetusa (A890 QB)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 50.8,
+   "vmag_min": 16.47,
+   "vmag_max": 17.3
+  },
+  {
+   "pdes": "3",
+   "name": "3 Juno (A804 RA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 775.0,
+   "vmag_min": 9.74,
+   "vmag_max": 10.7
+  },
+  {
+   "pdes": "3004",
+   "name": "3004 Knud (1976 DD)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 16.6,
+   "vmag_min": 19.03,
+   "vmag_max": 19.06
+  },
+  {
+   "pdes": "303775",
+   "name": "303775 (2005 QU182)",
+   "cls": "TNO",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 4.1,
+   "vmag_min": 21.42,
+   "vmag_max": 21.46
+  },
+  {
+   "pdes": "307261",
+   "name": "307261 Mani (2002 MS4)",
+   "cls": "TNO",
+   "outcome": "not detected, crowded field (|b| < 10 deg)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 3.4,
+   "vmag_min": 20.41,
+   "vmag_max": 20.44
+  },
+  {
+   "pdes": "315",
+   "name": "315 Constantia (A891 RB)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 1,
+   "n_recovered": 1,
+   "best_snr": 44.6,
+   "vmag_min": 15.76,
+   "vmag_max": 15.76
+  },
+  {
+   "pdes": "33",
+   "name": "33 Polyhymnia (A854 UB)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 318.0,
+   "vmag_min": 14.39,
+   "vmag_max": 14.6
+  },
+  {
+   "pdes": "34",
+   "name": "34 Circe (A855 GA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 378.2,
+   "vmag_min": 13.45,
+   "vmag_max": 13.87
+  },
+  {
+   "pdes": "35",
+   "name": "35 Leukothea (A855 HA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 867.2,
+   "vmag_min": 13.16,
+   "vmag_max": 13.87
+  },
+  {
+   "pdes": "37572",
+   "name": "37572 (1989 UC5)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 1,
+   "best_snr": 7.6,
+   "vmag_min": 20.49,
+   "vmag_max": 20.68
+  },
+  {
+   "pdes": "37789",
+   "name": "37789 (1997 UL16)",
+   "cls": "TJN",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 4.5,
+   "vmag_min": 20.93,
+   "vmag_max": 21.0
+  },
+  {
+   "pdes": "4320",
+   "name": "4320 Jarosewich (1981 EJ17)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 14.3,
+   "vmag_min": 18.9,
+   "vmag_max": 19.43
+  },
+  {
+   "pdes": "47",
+   "name": "47 Aglaja (A857 RA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 455.8,
+   "vmag_min": 13.92,
+   "vmag_max": 14.1
+  },
+  {
+   "pdes": "48359",
+   "name": "48359 (1219 T-2)",
+   "cls": "MBA",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 3.9,
+   "vmag_min": 21.54,
+   "vmag_max": 21.86
+  },
+  {
+   "pdes": "5",
+   "name": "5 Astraea (A845 XA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 957.4,
+   "vmag_min": 11.97,
+   "vmag_max": 12.69
+  },
+  {
+   "pdes": "50",
+   "name": "50 Virginia (A857 TA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 1375.5,
+   "vmag_min": 13.02,
+   "vmag_max": 14.22
+  },
+  {
+   "pdes": "50000",
+   "name": "50000 Quaoar (2002 LM60)",
+   "cls": "TNO",
+   "outcome": "not detected, crowded field (|b| < 10 deg)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 2.1,
+   "vmag_min": 18.86,
+   "vmag_max": 18.89
+  },
+  {
+   "pdes": "5145",
+   "name": "5145 Pholus (1992 AD)",
+   "cls": "CEN",
+   "outcome": "not detected, crowded field (|b| < 10 deg)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 3.9,
+   "vmag_min": 22.09,
+   "vmag_max": 22.14
+  },
+  {
+   "pdes": "523692",
+   "name": "523692 (2014 EZ51)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 8.7,
+   "vmag_min": 21.33,
+   "vmag_max": 21.36
+  },
+  {
+   "pdes": "523794",
+   "name": "523794 (2015 RR245)",
+   "cls": "TNO",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 4.5,
+   "vmag_min": 21.69,
+   "vmag_max": 21.72
+  },
+  {
+   "pdes": "5257",
+   "name": "5257 Laogonus (1988 RS10)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 2,
+   "best_snr": 7.3,
+   "vmag_min": 19.85,
+   "vmag_max": 19.93
+  },
+  {
+   "pdes": "532037",
+   "name": "532037 Chiminigagua (2013 FY27)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 4,
+   "n_recovered": 0,
+   "best_snr": 11.6,
+   "vmag_min": 22.18,
+   "vmag_max": 22.21
+  },
+  {
+   "pdes": "5335",
+   "name": "5335 Damocles (1991 DA)",
+   "cls": "CEN",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 5,
+   "n_recovered": 0,
+   "best_snr": 12.9,
+   "vmag_min": 24.71,
+   "vmag_max": 25.13
+  },
+  {
+   "pdes": "55565",
+   "name": "55565 Aya (2002 AW197)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 1,
+   "best_snr": 6.0,
+   "vmag_min": 20.09,
+   "vmag_max": 20.11
+  },
+  {
+   "pdes": "55636",
+   "name": "55636 (2002 TX300)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 10.4,
+   "vmag_min": 20.05,
+   "vmag_max": 20.08
+  },
+  {
+   "pdes": "55637",
+   "name": "55637 Uni (2002 UX25)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 1,
+   "n_passes": 3,
+   "n_recovered": 1,
+   "best_snr": 7.0,
+   "vmag_min": 19.99,
+   "vmag_max": 20.0
+  },
+  {
+   "pdes": "574372",
+   "name": "574372 (2010 JO179)",
+   "cls": "TNO",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 4.3,
+   "vmag_min": 21.82,
+   "vmag_max": 21.86
+  },
+  {
+   "pdes": "58",
+   "name": "58 Concordia (A860 FA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 383.0,
+   "vmag_min": 13.83,
+   "vmag_max": 14.38
+  },
+  {
+   "pdes": "588",
+   "name": "588 Achilles (A906 DN)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 5,
+   "n_recovered": 5,
+   "best_snr": 191.7,
+   "vmag_min": 15.55,
+   "vmag_max": 16.03
+  },
+  {
+   "pdes": "589683",
+   "name": "589683 (2010 RF43)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 11.7,
+   "vmag_min": 21.35,
+   "vmag_max": 21.37
+  },
+  {
+   "pdes": "6",
+   "name": "6 Hebe (A847 NA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 1133.9,
+   "vmag_min": 9.12,
+   "vmag_max": 10.01
+  },
+  {
+   "pdes": "617",
+   "name": "617 Patroclus (A906 UL)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 185.8,
+   "vmag_min": 15.6,
+   "vmag_max": 15.91
+  },
+  {
+   "pdes": "6256",
+   "name": "6256 Canova (4063 P-L)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 1,
+   "best_snr": 6.1,
+   "vmag_min": 19.67,
+   "vmag_max": 19.88
+  },
+  {
+   "pdes": "6443",
+   "name": "6443 Harpalion (1988 RH12)",
+   "cls": "TJN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 2,
+   "best_snr": 8.5,
+   "vmag_min": 19.52,
+   "vmag_max": 19.75
+  },
+  {
+   "pdes": "66",
+   "name": "66 Maja (A861 GA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 245.2,
+   "vmag_min": 14.24,
+   "vmag_max": 14.94
+  },
+  {
+   "pdes": "7",
+   "name": "7 Iris (A847 PA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 1222.9,
+   "vmag_min": 10.24,
+   "vmag_max": 10.65
+  },
+  {
+   "pdes": "7006",
+   "name": "7006 Folco (1981 ER31)",
+   "cls": "MBA",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 4.2,
+   "vmag_min": 20.16,
+   "vmag_max": 20.7
+  },
+  {
+   "pdes": "7066",
+   "name": "7066 Nessus (1993 HA2)",
+   "cls": "CEN",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 6.0,
+   "vmag_min": 24.79,
+   "vmag_max": 24.84
+  },
+  {
+   "pdes": "724",
+   "name": "724 Hapag (A911 UP)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 4,
+   "n_recovered": 3,
+   "best_snr": 17.3,
+   "vmag_min": 17.75,
+   "vmag_max": 19.6
+  },
+  {
+   "pdes": "730",
+   "name": "730 Athanasia (A912 GG)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 47.3,
+   "vmag_min": 17.36,
+   "vmag_max": 18.32
+  },
+  {
+   "pdes": "7733",
+   "name": "7733 Segarpassi (1979 MH4)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 1,
+   "best_snr": 6.9,
+   "vmag_min": 20.04,
+   "vmag_max": 21.01
+  },
+  {
+   "pdes": "8",
+   "name": "8 Flora (A847 UA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 3,
+   "best_snr": 931.5,
+   "vmag_min": 10.21,
+   "vmag_max": 11.05
+  },
+  {
+   "pdes": "8193",
+   "name": "8193 Ciaurro (1993 SF)",
+   "cls": "MBA",
+   "outcome": "not detected",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 4.1,
+   "vmag_min": 20.46,
+   "vmag_max": 21.01
+  },
+  {
+   "pdes": "827",
+   "name": "827 Wolfiana (A916 QG)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 61.9,
+   "vmag_min": 16.99,
+   "vmag_max": 17.53
+  },
+  {
+   "pdes": "831",
+   "name": "831 Stateira (A916 SD)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 29.9,
+   "vmag_min": 16.84,
+   "vmag_max": 17.09
+  },
+  {
+   "pdes": "8405",
+   "name": "8405 Asbolus (1995 GO)",
+   "cls": "CEN",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 1,
+   "best_snr": 8.7,
+   "vmag_min": 23.58,
+   "vmag_max": 23.65
+  },
+  {
+   "pdes": "84522",
+   "name": "84522 (2002 TC302)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 1,
+   "best_snr": 8.1,
+   "vmag_min": 20.4,
+   "vmag_max": 20.42
+  },
+  {
+   "pdes": "84922",
+   "name": "84922 (2003 VS2)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 5.1,
+   "vmag_min": 19.85,
+   "vmag_max": 19.86
+  },
+  {
+   "pdes": "878",
+   "name": "878 Mildred (A916 RC)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 17.4,
+   "vmag_min": 18.66,
+   "vmag_max": 19.25
+  },
+  {
+   "pdes": "9",
+   "name": "9 Metis (A848 HA)",
+   "cls": "MBA",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 2,
+   "best_snr": 856.7,
+   "vmag_min": 10.97,
+   "vmag_max": 11.15
+  },
+  {
+   "pdes": "90377",
+   "name": "90377 Sedna (2003 VB12)",
+   "cls": "TNO",
+   "outcome": "marginal only (one band; consistent with noise)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 6.1,
+   "vmag_min": 20.81,
+   "vmag_max": 20.82
+  },
+  {
+   "pdes": "90482",
+   "name": "90482 Orcus (2004 DW)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 4,
+   "n_recovered": 3,
+   "best_snr": 9.4,
+   "vmag_min": 19.07,
+   "vmag_max": 19.11
+  },
+  {
+   "pdes": "90568",
+   "name": "90568 Goibniu (2004 GV9)",
+   "cls": "TNO",
+   "outcome": "recovered",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 1,
+   "best_snr": 7.1,
+   "vmag_min": 20.14,
+   "vmag_max": 20.17
+  },
+  {
+   "pdes": "944",
+   "name": "944 Hidalgo (A920 UB)",
+   "cls": "CEN",
+   "outcome": "not detected, crowded field (|b| < 10 deg)",
+   "controls_fired": 0,
+   "n_passes": 3,
+   "n_recovered": 0,
+   "best_snr": 1.9,
+   "vmag_min": 20.67,
+   "vmag_max": 20.8
+  },
+  {
+   "pdes": "9692",
+   "name": "9692 Kuperus (6354 P-L)",
+   "cls": "MBA",
+   "outcome": "not detected, crowded field (|b| < 10 deg)",
+   "controls_fired": 0,
+   "n_passes": 2,
+   "n_recovered": 0,
+   "best_snr": 2.4,
+   "vmag_min": 20.98,
+   "vmag_max": 21.42
+  }
+ ],
+ "max_body_wall_s": 712.5,
+ "rule": "S/N >= 5 in at least two control-corrected detector bands, or S/N >= 50 in the only band measurable; a pass with one band at S/N >= 5 only is 'marginal'",
+ "marginal": {
+  "control_passes": {
+   "n": 551,
+   "k": 33,
+   "frac": 0.0599,
+   "ci95": [
+    0.0416,
+    0.0831
+   ]
+  },
+  "real_passes": {
+   "n": 275,
+   "k": 30,
+   "frac": 0.1091,
+   "ci95": [
+    0.0748,
+    0.1521
+   ]
+  }
+ },
+ "before": {
+  "rule": "best control-corrected band S/N >= 5 (campaign v1 rule)",
+  "bodies": {
+   "n": 103,
+   "recovered": 81,
+   "ci95": [
+    0.6947,
+    0.861
+   ]
+  },
+  "by_class": {
+   "CEN": {
+    "n": 8,
+    "recovered": 6,
+    "ci95": [
+     0.3491,
+     0.9681
+    ]
+   },
+   "MBA": {
+    "n": 52,
+    "recovered": 44,
+    "ci95": [
+     0.7192,
+     0.9312
+    ]
+   },
+   "TJN": {
+    "n": 14,
+    "recovered": 11,
+    "ci95": [
+     0.492,
+     0.9534
+    ]
+   },
+   "TNO": {
+    "n": 29,
+    "recovered": 20,
+    "ci95": [
+     0.4917,
+     0.8472
+    ]
+   }
+  },
+  "passes": {
+   "n": 275,
+   "k": 175,
+   "frac": 0.6364,
+   "ci95": [
+    0.5765,
+    0.6933
+   ]
+  },
+  "by_predicted_v": [
+   {
+    "bin": "6-10",
+    "lo_v": 6.0,
+    "hi_v": 10.0,
+    "n_detected": 2,
+    "n_marginal": 0,
+    "n": 2,
+    "k": 2,
+    "frac": 1.0,
+    "ci95": [
+     0.1581,
+     1.0
+    ],
+    "bodies": [
+     "3 Juno (A804 RA)",
+     "6 Hebe (A847 NA)"
+    ]
+   },
+   {
+    "bin": "10-12",
+    "lo_v": 10.0,
+    "hi_v": 12.0,
+    "n_detected": 18,
+    "n_marginal": 0,
+    "n": 18,
+    "k": 18,
+    "frac": 1.0,
+    "ci95": [
+     0.8147,
+     1.0
+    ],
+    "bodies": [
+     "12 Victoria (A850 RA)",
+     "15 Eunomia (A851 OA)",
+     "16 Psyche (A852 FA)",
+     "3 Juno (A804 RA)",
+     "5 Astraea (A845 XA)",
+     "6 Hebe (A847 NA)",
+     "7 Iris (A847 PA)",
+     "8 Flora (A847 UA)",
+     "9 Metis (A848 HA)"
+    ]
+   },
+   {
+    "bin": "12-14",
+    "lo_v": 12.0,
+    "hi_v": 14.0,
+    "n_detected": 18,
+    "n_marginal": 0,
+    "n": 18,
+    "k": 18,
+    "frac": 1.0,
+    "ci95": [
+     0.8147,
+     1.0
+    ],
+    "bodies": [
+     "112 Iphigenia (A870 SA)",
+     "142 Polana (A875 BA)",
+     "17 Thetis (A852 HA)",
+     "19 Fortuna (A852 QA)",
+     "25 Phocaea (A853 GB)",
+     "34 Circe (A855 GA)",
+     "35 Leukothea (A855 HA)",
+     "47 Aglaja (A857 RA)",
+     "5 Astraea (A845 XA)",
+     "50 Virginia (A857 TA)",
+     "58 Concordia (A860 FA)"
+    ]
+   },
+   {
+    "bin": "14-15",
+    "lo_v": 14.0,
+    "hi_v": 15.0,
+    "n_detected": 19,
+    "n_marginal": 0,
+    "n": 19,
+    "k": 19,
+    "frac": 1.0,
+    "ci95": [
+     0.8235,
+     1.0
+    ],
+    "bodies": [
+     "112 Iphigenia (A870 SA)",
+     "131 Vala (A873 KA)",
+     "134340 Pluto (1930 BM)",
+     "142 Polana (A875 BA)",
+     "149 Medusa (A875 SA)",
+     "180 Garumna (A878 BA)",
+     "33 Polyhymnia (A854 UB)",
+     "47 Aglaja (A857 RA)",
+     "50 Virginia (A857 TA)",
+     "58 Concordia (A860 FA)",
+     "66 Maja (A861 GA)"
+    ]
+   },
+   {
+    "bin": "15-16",
+    "lo_v": 15.0,
+    "hi_v": 16.0,
+    "n_detected": 17,
+    "n_marginal": 0,
+    "n": 17,
+    "k": 17,
+    "frac": 1.0,
+    "ci95": [
+     0.8049,
+     1.0
+    ],
+    "bodies": [
+     "131 Vala (A873 KA)",
+     "157 Dejanira (A875 XA)",
+     "180 Garumna (A878 BA)",
+     "228 Agathe (A882 QA)",
+     "244 Sita (A884 TA)",
+     "254 Augusta (A886 FA)",
+     "315 Constantia (A891 RB)",
+     "588 Achilles (A906 DN)",
+     "617 Patroclus (A906 UL)"
+    ]
+   },
+   {
+    "bin": "16-17",
+    "lo_v": 16.0,
+    "hi_v": 17.0,
+    "n_detected": 14,
+    "n_marginal": 0,
+    "n": 14,
+    "k": 14,
+    "frac": 1.0,
+    "ci95": [
+     0.7684,
+     1.0
+    ],
+    "bodies": [
+     "1208 Troilus (1931 YA)",
+     "155 Scylla (A875 VE)",
+     "157 Dejanira (A875 XA)",
+     "228 Agathe (A882 QA)",
+     "281 Lucretia (A888 UC)",
+     "296 Phaetusa (A890 QB)",
+     "588 Achilles (A906 DN)",
+     "827 Wolfiana (A916 QG)",
+     "831 Stateira (A916 SD)"
+    ]
+   },
+   {
+    "bin": "17-18",
+    "lo_v": 17.0,
+    "hi_v": 18.0,
+    "n_detected": 15,
+    "n_marginal": 0,
+    "n": 15,
+    "k": 15,
+    "frac": 1.0,
+    "ci95": [
+     0.782,
+     1.0
+    ],
+    "bodies": [
+     "136108 Haumea (2003 EL61)",
+     "136472 Makemake (2005 FY9)",
+     "1404 Ajax (1936 QW)",
+     "228 Agathe (A882 QA)",
+     "296 Phaetusa (A890 QB)",
+     "724 Hapag (A911 UP)",
+     "730 Athanasia (A912 GG)",
+     "827 Wolfiana (A916 QG)",
+     "831 Stateira (A916 SD)"
+    ]
+   },
+   {
+    "bin": "18-19",
+    "lo_v": 18.0,
+    "hi_v": 19.0,
+    "n_detected": 16,
+    "n_marginal": 0,
+    "n": 20,
+    "k": 16,
+    "frac": 0.8,
+    "ci95": [
+     0.5634,
+     0.9427
+    ],
+    "bodies": [
+     "136199 Eris (2003 UB313)",
+     "1647 Menelaus (1957 MK)",
+     "1779 Parana (1950 LZ)",
+     "1870 Glaukos (1971 FE)",
+     "1871 Astyanax (1971 FF)",
+     "2060 Chiron (1977 UB)",
+     "4320 Jarosewich (1981 EJ17)",
+     "50000 Quaoar (2002 LM60)",
+     "730 Athanasia (A912 GG)",
+     "878 Mildred (A916 RC)"
+    ]
+   },
+   {
+    "bin": "19-20",
+    "lo_v": 19.0,
+    "hi_v": 20.0,
+    "n_detected": 31,
+    "n_marginal": 0,
+    "n": 46,
+    "k": 29,
+    "frac": 0.6304,
+    "ci95": [
+     0.4755,
+     0.7679
+    ],
+    "bodies": [
+     "10199 Chariklo (1997 CU26)",
+     "145452 Ritona (2005 RN43)",
+     "1538 Detre (1940 RF)",
+     "1779 Parana (1950 LZ)",
+     "1869 Philoctetes (4596 P-L)",
+     "1871 Astyanax (1971 FF)",
+     "2028 Janequeo (1968 OB1)",
+     "229762 G!kun||'homdima (2007 UK126)",
+     "28978 Ixion (2001 KX76)",
+     "3004 Knud (1976 DD)",
+     "4320 Jarosewich (1981 EJ17)",
+     "5257 Laogonus (1988 RS10)",
+     "55637 Uni (2002 UX25)",
+     "6256 Canova (4063 P-L)",
+     "6443 Harpalion (1988 RH12)",
+     "724 Hapag (A911 UP)",
+     "84922 (2003 VS2)",
+     "878 Mildred (A916 RC)",
+     "90482 Orcus (2004 DW)"
+    ]
+   },
+   {
+    "bin": "20-21",
+    "lo_v": 20.0,
+    "hi_v": 21.0,
+    "n_detected": 18,
+    "n_marginal": 0,
+    "n": 48,
+    "k": 17,
+    "frac": 0.3542,
+    "ci95": [
+     0.2216,
+     0.5054
+    ],
+    "bodies": [
+     "120178 (2003 OP32)",
+     "174567 Varda (2003 MW12)",
+     "20000 Varuna (2000 WR106)",
+     "202421 (2005 UQ513)",
+     "208996 Achlys (2003 AZ84)",
+     "23362 (3248 T-1)",
+     "27832 (1994 EW)",
+     "307261 Mani (2002 MS4)",
+     "37572 (1989 UC5)",
+     "37789 (1997 UL16)",
+     "55565 Aya (2002 AW197)",
+     "55636 (2002 TX300)",
+     "55637 Uni (2002 UX25)",
+     "7006 Folco (1981 ER31)",
+     "7733 Segarpassi (1979 MH4)",
+     "8193 Ciaurro (1993 SF)",
+     "84522 (2002 TC302)",
+     "90377 Sedna (2003 VB12)",
+     "90568 Goibniu (2004 GV9)",
+     "944 Hidalgo (A920 UB)",
+     "9692 Kuperus (6354 P-L)"
+    ]
+   },
+   {
+    "bin": "21-22",
+    "lo_v": 21.0,
+    "hi_v": 22.0,
+    "n_detected": 4,
+    "n_marginal": 0,
+    "n": 35,
+    "k": 3,
+    "frac": 0.0857,
+    "ci95": [
+     0.018,
+     0.2306
+    ],
+    "bodies": [
+     "11606 Almary (1995 UU6)",
+     "12472 Samadhi (1997 CW11)",
+     "157730 (2006 BS88)",
+     "179217 (2001 TB225)",
+     "225088 Gonggong (2007 OR10)",
+     "23362 (3248 T-1)",
+     "303775 (2005 QU182)",
+     "37789 (1997 UL16)",
+     "48359 (1219 T-2)",
+     "523692 (2014 EZ51)",
+     "523794 (2015 RR245)",
+     "574372 (2010 JO179)",
+     "589683 (2010 RF43)",
+     "7733 Segarpassi (1979 MH4)",
+     "8193 Ciaurro (1993 SF)",
+     "9692 Kuperus (6354 P-L)"
+    ]
+   },
+   {
+    "bin": "22-24",
+    "lo_v": 22.0,
+    "hi_v": 24.0,
+    "n_detected": 5,
+    "n_marginal": 0,
+    "n": 15,
+    "k": 5,
+    "frac": 0.3333,
+    "ci95": [
+     0.1182,
+     0.6162
+    ],
+    "bodies": [
+     "10370 Hylonome (1995 DW2)",
+     "27832 (1994 EW)",
+     "5145 Pholus (1992 AD)",
+     "532037 Chiminigagua (2013 FY27)",
+     "8405 Asbolus (1995 GO)"
+    ]
+   },
+   {
+    "bin": "24-27",
+    "lo_v": 24.0,
+    "hi_v": 27.0,
+    "n_detected": 2,
+    "n_marginal": 0,
+    "n": 8,
+    "k": 2,
+    "frac": 0.25,
+    "ci95": [
+     0.0319,
+     0.6509
+    ],
+    "bodies": [
+     "5335 Damocles (1991 DA)",
+     "7066 Nessus (1993 HA2)"
+    ]
+   }
+  ],
+  "faintest_reliable_bin": "18-19",
+  "faintest_recovery": {
+   "name": "5335 Damocles (1991 DA)",
+   "vmag": 25.0415,
+   "best_band": "spx-b3",
+   "best_snr": 12.877378391017407,
+   "controls_fired": 2
+  },
+  "false_detections": {
+   "passes": {
+    "n": 551,
+    "k": 34,
+    "frac": 0.0617,
+    "ci95": [
+     0.0431,
+     0.0852
+    ]
+   },
+   "passes_snr_only": {
+    "n": 551,
+    "k": 39,
+    "frac": 0.0708,
+    "ci95": [
+     0.0508,
+     0.0955
+    ]
+   },
+   "tracks": {
+    "n": 206,
+    "k": 34,
+    "frac": 0.165,
+    "ci95": [
+     0.1171,
+     0.2229
+    ]
+   },
+   "hits": [
+    {
+     "pdes": "1208",
+     "variant": "off_dec",
+     "vmag": 16.883,
+     "best_band": "spx-b1",
+     "best_snr": 6.991497018285789,
+     "recovered": true
+    },
+    {
+     "pdes": "12472",
+     "variant": "off_ra",
+     "vmag": 21.4785,
+     "best_band": "spx-b3",
+     "best_snr": 6.692384142640719,
+     "recovered": true
+    },
+    {
+     "pdes": "136472",
+     "variant": "off_ra",
+     "vmag": 17.13,
+     "best_band": "spx-b4",
+     "best_snr": 9.362291759104114,
+     "recovered": true
+    },
+    {
+     "pdes": "1404",
+     "variant": "off_dec",
+     "vmag": 17.359,
+     "best_band": "spx-b4",
+     "best_snr": 8.296358763566719,
+     "recovered": true
+    },
+    {
+     "pdes": "157730",
+     "variant": "off_dec",
+     "vmag": 21.979,
+     "best_band": "spx-b4",
+     "best_snr": 5.508081548298459,
+     "recovered": true
+    },
+    {
+     "pdes": "180",
+     "variant": "off_dec",
+     "vmag": 14.684,
+     "best_band": "spx-b2",
+     "best_snr": 10.356058490759569,
+     "recovered": true
+    },
+    {
+     "pdes": "202421",
+     "variant": "off_ra",
+     "vmag": 20.848,
+     "best_band": "spx-b4",
+     "best_snr": 17.881635368567157,
+     "recovered": true
+    },
+    {
+     "pdes": "208996",
+     "variant": "off_ra",
+     "vmag": 20.293,
+     "best_band": "spx-b1",
+     "best_snr": 10.28079703581493,
+     "recovered": true
+    },
+    {
+     "pdes": "208996",
+     "variant": "off_ra",
+     "vmag": 20.281,
+     "best_band": "spx-b3",
+     "best_snr": 10.982704695647627,
+     "recovered": false
+    },
+    {
+     "pdes": "229762",
+     "variant": "off_dec",
+     "vmag": 19.663,
+     "best_band": "spx-b3",
+     "best_snr": 5.810770370547163,
+     "recovered": true
+    },
+    {
+     "pdes": "281",
+     "variant": "off_ra",
+     "vmag": 16.293,
+     "best_band": "spx-b4",
+     "best_snr": 5.148598061759265,
+     "recovered": true
+    },
+    {
+     "pdes": "296",
+     "variant": "off_dec",
+     "vmag": 16.47,
+     "best_band": "spx-b2",
+     "best_snr": 5.404719932609998,
+     "recovered": false
+    },
+    {
+     "pdes": "303775",
+     "variant": "off_ra",
+     "vmag": 21.418,
+     "best_band": "spx-b4",
+     "best_snr": 8.426059656458875,
+     "recovered": false
+    },
+    {
+     "pdes": "307261",
+     "variant": "off_dec",
+     "vmag": 20.411,
+     "best_band": "spx-b5",
+     "best_snr": 5.737410535602767,
+     "recovered": true
+    },
+    {
+     "pdes": "307261",
+     "variant": "off_ra",
+     "vmag": 20.442,
+     "best_band": "spx-b1",
+     "best_snr": 6.137151603456534,
+     "recovered": true
+    },
+    {
+     "pdes": "34",
+     "variant": "off_ra",
+     "vmag": 13.445,
+     "best_band": "spx-b1",
+     "best_snr": 6.771318863706573,
+     "recovered": true
+    },
+    {
+     "pdes": "37572",
+     "variant": "off_ra",
+     "vmag": 20.681,
+     "best_band": "spx-b4",
+     "best_snr": 5.9158856312767005,
+     "recovered": true
+    },
+    {
+     "pdes": "37789",
+     "variant": "off_dec",
+     "vmag": 20.925,
+     "best_band": "spx-b2",
+     "best_snr": 8.380024996552965,
+     "recovered": true
+    },
+    {
+     "pdes": "50",
+     "variant": "off_dec",
+     "vmag": 14.228,
+     "best_band": "spx-b2",
+     "best_snr": 6.052007051231105,
+     "recovered": true
+    },
+    {
+     "pdes": "523692",
+     "variant": "off_dec",
+     "vmag": 21.361,
+     "best_band": "spx-b1",
+     "best_snr": 5.92642562233426,
+     "recovered": true
+    },
+    {
+     "pdes": "523692",
+     "variant": "off_ra",
+     "vmag": 21.361,
+     "best_band": "spx-b4",
+     "best_snr": 6.801040444836348,
+     "recovered": false
+    },
+    {
+     "pdes": "532037",
+     "variant": "off_ra",
+     "vmag": 22.193,
+     "best_band": "spx-b3",
+     "best_snr": 10.433855096181656,
+     "recovered": true
+    },
+    {
+     "pdes": "5335",
+     "variant": "off_dec",
+     "vmag": 25.134,
+     "best_band": "spx-b2",
+     "best_snr": 5.692706021605858,
+     "recovered": true
+    },
+    {
+     "pdes": "5335",
+     "variant": "off_ra",
+     "vmag": 24.93,
+     "best_band": "spx-b2",
+     "best_snr": 13.374739308422315,
+     "recovered": true
+    },
+    {
+     "pdes": "55636",
+     "variant": "off_dec",
+     "vmag": 20.084,
+     "best_band": "spx-b3",
+     "best_snr": 20.033799434158674,
+     "recovered": true
+    },
+    {
+     "pdes": "55636",
+     "variant": "off_ra",
+     "vmag": 20.049,
+     "best_band": "spx-b3",
+     "best_snr": 7.949397584165869,
+     "recovered": true
+    },
+    {
+     "pdes": "55637",
+     "variant": "off_ra",
+     "vmag": 20.001,
+     "best_band": "spx-b2",
+     "best_snr": 42.74446061307394,
+     "recovered": true
+    },
+    {
+     "pdes": "574372",
+     "variant": "off_dec",
+     "vmag": 21.862,
+     "best_band": "spx-b2",
+     "best_snr": 16.00080147507977,
+     "recovered": true
+    },
+    {
+     "pdes": "588",
+     "variant": "off_ra",
+     "vmag": 15.55,
+     "best_band": "spx-b3",
+     "best_snr": 7.751926604799759,
+     "recovered": true
+    },
+    {
+     "pdes": "589683",
+     "variant": "off_ra",
+     "vmag": 21.356,
+     "best_band": "spx-b4",
+     "best_snr": 10.994813992557605,
+     "recovered": true
+    },
+    {
+     "pdes": "6443",
+     "variant": "off_dec",
+     "vmag": 19.754,
+     "best_band": "spx-b3",
+     "best_snr": 6.025496322929018,
+     "recovered": true
+    },
+    {
+     "pdes": "7733",
+     "variant": "off_dec",
+     "vmag": 20.6495,
+     "best_band": "spx-b3",
+     "best_snr": 10.643804108894965,
+     "recovered": true
+    },
+    {
+     "pdes": "8",
+     "variant": "off_ra",
+     "vmag": 10.853,
+     "best_band": "spx-b2",
+     "best_snr": 5.697877048929932,
+     "recovered": true
+    },
+    {
+     "pdes": "8405",
+     "variant": "off_dec",
+     "vmag": 23.653,
+     "best_band": "spx-b3",
+     "best_snr": 6.550939121611571,
+     "recovered": true
+    },
+    {
+     "pdes": "84522",
+     "variant": "off_dec",
+     "vmag": 20.404,
+     "best_band": "spx-b3",
+     "best_snr": 5.330581367519654,
+     "recovered": true
+    },
+    {
+     "pdes": "878",
+     "variant": "off_ra",
+     "vmag": 18.659,
+     "best_band": "spx-b3",
+     "best_snr": 5.595727310460914,
+     "recovered": true
+    },
+    {
+     "pdes": "90377",
+     "variant": "off_dec",
+     "vmag": 20.822,
+     "best_band": "spx-b4",
+     "best_snr": 6.852005617863794,
+     "recovered": false
+    },
+    {
+     "pdes": "90568",
+     "variant": "off_dec",
+     "vmag": 20.17,
+     "best_band": "spx-b3",
+     "best_snr": 5.043877473494936,
+     "recovered": true
+    },
+    {
+     "pdes": "944",
+     "variant": "off_ra",
+     "vmag": 20.666,
+     "best_band": "spx-b6",
+     "best_snr": 5.993862289196043,
+     "recovered": true
+    }
+   ],
+   "errors": 0,
+   "by_class": {
+    "CEN": {
+     "passes": {
+      "n": 56,
+      "k": 4,
+      "frac": 0.0714,
+      "ci95": [
+       0.0198,
+       0.1729
+      ]
+     },
+     "tracks": {
+      "n": 16,
+      "k": 4,
+      "frac": 0.25,
+      "ci95": [
+       0.0727,
+       0.5238
+      ]
+     }
+    },
+    "MBA": {
+     "passes": {
+      "n": 237,
+      "k": 8,
+      "frac": 0.0338,
+      "ci95": [
+       0.0147,
+       0.0654
+      ]
+     },
+     "tracks": {
+      "n": 104,
+      "k": 8,
+      "frac": 0.0769,
+      "ci95": [
+       0.0338,
+       0.146
+      ]
+     }
+    },
+    "TJN": {
+     "passes": {
+      "n": 80,
+      "k": 7,
+      "frac": 0.0875,
+      "ci95": [
+       0.0359,
+       0.172
+      ]
+     },
+     "tracks": {
+      "n": 28,
+      "k": 7,
+      "frac": 0.25,
+      "ci95": [
+       0.1069,
+       0.4487
+      ]
+     }
+    },
+    "TNO": {
+     "passes": {
+      "n": 178,
+      "k": 15,
+      "frac": 0.0843,
+      "ci95": [
+       0.0479,
+       0.1352
+      ]
+     },
+     "tracks": {
+      "n": 58,
+      "k": 15,
+      "frac": 0.2586,
+      "ci95": [
+       0.1526,
+       0.3904
+      ]
+     }
+    }
+   }
+  },
+  "failures_by_cause": {
+   "detected off position": [
+    "120178",
+    "229762"
+   ],
+   "not detected": [
+    "11606",
+    "12472",
+    "157730",
+    "225088",
+    "23362",
+    "27832",
+    "303775",
+    "37789",
+    "48359",
+    "523794",
+    "574372",
+    "7006",
+    "8193"
+   ],
+   "not detected, crowded field (|b| < 10 deg)": [
+    "179217",
+    "28978",
+    "307261",
+    "50000",
+    "5145",
+    "944",
+    "9692"
+   ]
+  }
+ },
+ "calibration": {
+  "split": "bodies by CRC-32 of the designation: even A, odd B",
+  "criterion": "rule family 'S/N >= 5 in the best band and S/N >= t in the second' with t in {3, 4, 5}: the smallest t whose control-pass rate on half A is at most 1%; half B reported as the check",
+  "chosen_t": 5.0,
+  "halves": [
+   {
+    "half": "A",
+    "control_passes": {
+     "n": 265,
+     "k": 2,
+     "frac": 0.0075,
+     "ci95": [
+      0.0009,
+      0.027
+     ]
+    },
+    "control_passes_before": {
+     "n": 265,
+     "k": 17,
+     "frac": 0.0642,
+     "ci95": [
+      0.0378,
+      0.1007
+     ]
+    }
+   },
+   {
+    "half": "B",
+    "control_passes": {
+     "n": 286,
+     "k": 2,
+     "frac": 0.007,
+     "ci95": [
+      0.0008,
+      0.025
+     ]
+    },
+    "control_passes_before": {
+     "n": 286,
+     "k": 17,
+     "frac": 0.0594,
+     "ci95": [
+      0.035,
+      0.0935
+     ]
+    }
+   }
+  ],
+  "note": "Half B was not blind: both halves were printed while the rule family was explored. The single-band clause (S/N >= 50 with one band measurable) was added after the data were seen, for a saturated bright pass (Hebe)."
+ }
+}

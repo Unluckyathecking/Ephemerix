@@ -1,0 +1,407 @@
+{
+ "source": {
+  "url": "https://data.caltech.edu/api/records/8fjad-x7y61/files/reference_population.csv/content",
+  "sha256": "050b68182ecbf7fd76f280d8cc43c0683d207499aba1488a68092b834420a422",
+  "n_members": 100000,
+  "epoch": "JD 2458270.0 (2018-06-01)",
+  "paper": "Brown & Batygin 2021, AJ 162, 219 (arXiv:2108.09868)"
+ },
+ "rule": {
+  "seed": 20261115,
+  "n_ranked": 48,
+  "kernel_deg": 2.0,
+  "b_min_deg": 15.0,
+  "tile_arcmin": 20.0,
+  "dense_fraction": 0.5,
+  "min_sep_deg": 1.0,
+  "density_cut_per_deg2": 0.0001615586711005277,
+  "eligible_fraction_of_population": 0.8156,
+  "text": "Rule (recorded in tiles.json with the parameters and the population's SHA256):\n1. Local sky density of the full reference population (2018 positions) around each member,\n   top-hat kernel of KERNEL_DEG.\n2. Eligible members: |b| >= B_MIN_DEG + the tile's half-diagonal, so the whole tile is\n   outside |b| < 15.\n3. Keep the densest DENSE_FRACTION of eligible members (density >= that quantile): the\n   region holding that share of the |b| > 15 probability mass.\n4. Walk those members in a seeded random order (so tiles fall in proportion to density\n   inside the region) and accept one as a tile centre if it is at least MIN_SEP_DEG from\n   every accepted centre, until N_RANKED tiles. The order is the rank; the search takes the\n   first N that pass the SPHEREx coverage pre-flight."
+ },
+ "tiles": [
+  {
+   "rank": 1,
+   "name": "P9T01",
+   "ra": 35.0584,
+   "dec": -0.1639,
+   "b_deg": -55.62,
+   "density_per_deg2": 0.0003079960872704641
+  },
+  {
+   "rank": 2,
+   "name": "P9T02",
+   "ra": 351.7945,
+   "dec": -16.9716,
+   "b_deg": -68.04,
+   "density_per_deg2": 0.00017508821498579357
+  },
+  {
+   "rank": 3,
+   "name": "P9T03",
+   "ra": 65.9202,
+   "dec": 13.3442,
+   "b_deg": -24.53,
+   "density_per_deg2": 0.00036291011833419025
+  },
+  {
+   "rank": 4,
+   "name": "P9T04",
+   "ra": 9.0698,
+   "dec": -11.9031,
+   "b_deg": -74.36,
+   "density_per_deg2": 0.00025228620068407526
+  },
+  {
+   "rank": 5,
+   "name": "P9T05",
+   "ra": 116.7652,
+   "dec": 22.261,
+   "b_deg": 21.76,
+   "density_per_deg2": 0.0002753660108412935
+  },
+  {
+   "rank": 6,
+   "name": "P9T06",
+   "ra": 28.4888,
+   "dec": -7.557,
+   "b_deg": -65.45,
+   "density_per_deg2": 0.0002323898126175078
+  },
+  {
+   "rank": 7,
+   "name": "P9T07",
+   "ra": 319.9307,
+   "dec": -23.185,
+   "b_deg": -42.27,
+   "density_per_deg2": 0.00018065920364443243
+  },
+  {
+   "rank": 8,
+   "name": "P9T08",
+   "ra": 319.316,
+   "dec": -24.0394,
+   "b_deg": -41.97,
+   "density_per_deg2": 0.00017588407050845626
+  },
+  {
+   "rank": 9,
+   "name": "P9T09",
+   "ra": 131.367,
+   "dec": 25.2262,
+   "b_deg": 35.35,
+   "density_per_deg2": 0.00022681882395886893
+  },
+  {
+   "rank": 10,
+   "name": "P9T10",
+   "ra": 70.0377,
+   "dec": 15.6562,
+   "b_deg": -19.97,
+   "density_per_deg2": 0.0003836023619234204
+  },
+  {
+   "rank": 11,
+   "name": "P9T11",
+   "ra": 355.8106,
+   "dec": -15.2252,
+   "b_deg": -70.18,
+   "density_per_deg2": 0.0002005555917109999
+  },
+  {
+   "rank": 12,
+   "name": "P9T12",
+   "ra": 11.9009,
+   "dec": -10.4243,
+   "b_deg": -73.27,
+   "density_per_deg2": 0.0002419400788894602
+  },
+  {
+   "rank": 13,
+   "name": "P9T13",
+   "ra": 41.3162,
+   "dec": -0.0595,
+   "b_deg": -51.53,
+   "density_per_deg2": 0.00029685410995318635
+  },
+  {
+   "rank": 14,
+   "name": "P9T14",
+   "ra": 359.7668,
+   "dec": -16.5344,
+   "b_deg": -73.9,
+   "density_per_deg2": 0.00021010585798295227
+  },
+  {
+   "rank": 15,
+   "name": "P9T15",
+   "ra": 73.5397,
+   "dec": 18.1812,
+   "b_deg": -15.77,
+   "density_per_deg2": 0.0003668893959475038
+  },
+  {
+   "rank": 16,
+   "name": "P9T16",
+   "ra": 150.3872,
+   "dec": 26.5024,
+   "b_deg": 52.27,
+   "density_per_deg2": 0.0001639462376685158
+  },
+  {
+   "rank": 17,
+   "name": "P9T17",
+   "ra": 68.2831,
+   "dec": 20.9402,
+   "b_deg": -17.98,
+   "density_per_deg2": 0.00018782190334839673
+  },
+  {
+   "rank": 18,
+   "name": "P9T18",
+   "ra": 63.0546,
+   "dec": 12.3092,
+   "b_deg": -27.35,
+   "density_per_deg2": 0.0003692769625154919
+  },
+  {
+   "rank": 19,
+   "name": "P9T19",
+   "ra": 150.4788,
+   "dec": 23.8263,
+   "b_deg": 51.78,
+   "density_per_deg2": 0.00020453486932431336
+  },
+  {
+   "rank": 20,
+   "name": "P9T20",
+   "ra": 221.9482,
+   "dec": -3.5266,
+   "b_deg": 48.44,
+   "density_per_deg2": 0.0001631503821458531
+  },
+  {
+   "rank": 21,
+   "name": "P9T21",
+   "ra": 334.737,
+   "dec": -24.3178,
+   "b_deg": -55.67,
+   "density_per_deg2": 0.0001623545266231904
+  },
+  {
+   "rank": 22,
+   "name": "P9T22",
+   "ra": 65.1764,
+   "dec": 18.678,
+   "b_deg": -21.68,
+   "density_per_deg2": 0.0002459193565027737
+  },
+  {
+   "rank": 23,
+   "name": "P9T23",
+   "ra": 308.2679,
+   "dec": -24.5003,
+   "b_deg": -32.45,
+   "density_per_deg2": 0.00017508821498579357
+  },
+  {
+   "rank": 24,
+   "name": "P9T24",
+   "ra": 356.7589,
+   "dec": -12.8176,
+   "b_deg": -69.22,
+   "density_per_deg2": 0.00016951722632715466
+  },
+  {
+   "rank": 25,
+   "name": "P9T25",
+   "ra": 23.1302,
+   "dec": -1.5992,
+   "b_deg": -62.64,
+   "density_per_deg2": 0.00021249342455094037
+  },
+  {
+   "rank": 26,
+   "name": "P9T26",
+   "ra": 29.8515,
+   "dec": 1.9016,
+   "b_deg": -56.67,
+   "density_per_deg2": 0.00021249342455094037
+  },
+  {
+   "rank": 27,
+   "name": "P9T27",
+   "ra": 188.8941,
+   "dec": 12.2206,
+   "b_deg": 74.64,
+   "density_per_deg2": 0.00017270064841780548
+  },
+  {
+   "rank": 28,
+   "name": "P9T28",
+   "ra": 235.3988,
+   "dec": -10.9665,
+   "b_deg": 33.85,
+   "density_per_deg2": 0.0001615586711005277
+  },
+  {
+   "rank": 29,
+   "name": "P9T29",
+   "ra": 149.3818,
+   "dec": 20.3519,
+   "b_deg": 49.83,
+   "density_per_deg2": 0.00017827163707644433
+  },
+  {
+   "rank": 30,
+   "name": "P9T30",
+   "ra": 0.6061,
+   "dec": -15.7685,
+   "b_deg": -73.92,
+   "density_per_deg2": 0.0002037390138016507
+  },
+  {
+   "rank": 31,
+   "name": "P9T31",
+   "ra": 323.6219,
+   "dec": -24.0071,
+   "b_deg": -45.75,
+   "density_per_deg2": 0.0001623545266231904
+  },
+  {
+   "rank": 32,
+   "name": "P9T32",
+   "ra": 10.4687,
+   "dec": -13.362,
+   "b_deg": -76.05,
+   "density_per_deg2": 0.00023477737918549591
+  },
+  {
+   "rank": 33,
+   "name": "P9T33",
+   "ra": 148.1251,
+   "dec": 22.9734,
+   "b_deg": 49.47,
+   "density_per_deg2": 0.0001989638806656745
+  },
+  {
+   "rank": 34,
+   "name": "P9T34",
+   "ra": 55.1003,
+   "dec": 6.3911,
+   "b_deg": -37.16,
+   "density_per_deg2": 0.00029764996547584904
+  },
+  {
+   "rank": 35,
+   "name": "P9T35",
+   "ra": 40.9955,
+   "dec": 2.6479,
+   "b_deg": -49.72,
+   "density_per_deg2": 0.00033585103056365856
+  },
+  {
+   "rank": 36,
+   "name": "P9T36",
+   "ra": 213.5716,
+   "dec": 1.806,
+   "b_deg": 57.82,
+   "density_per_deg2": 0.00016872137080449197
+  },
+  {
+   "rank": 37,
+   "name": "P9T37",
+   "ra": 52.9119,
+   "dec": 4.4117,
+   "b_deg": -40.1,
+   "density_per_deg2": 0.00028809969920389665
+  },
+  {
+   "rank": 38,
+   "name": "P9T38",
+   "ra": 29.9817,
+   "dec": -0.9271,
+   "b_deg": -59.07,
+   "density_per_deg2": 0.0002737742997959681
+  },
+  {
+   "rank": 39,
+   "name": "P9T39",
+   "ra": 56.1911,
+   "dec": 14.0947,
+   "b_deg": -31.12,
+   "density_per_deg2": 0.00028889555472655934
+  },
+  {
+   "rank": 40,
+   "name": "P9T40",
+   "ra": 181.1687,
+   "dec": 14.8426,
+   "b_deg": 73.59,
+   "density_per_deg2": 0.0001623545266231904
+  },
+  {
+   "rank": 41,
+   "name": "P9T41",
+   "ra": 37.4594,
+   "dec": 0.0741,
+   "b_deg": -53.96,
+   "density_per_deg2": 0.0003342593195183331
+  },
+  {
+   "rank": 42,
+   "name": "P9T42",
+   "ra": 4.1269,
+   "dec": -10.5353,
+   "b_deg": -71.48,
+   "density_per_deg2": 0.00018941361439372213
+  },
+  {
+   "rank": 43,
+   "name": "P9T43",
+   "ra": 336.1291,
+   "dec": -19.9485,
+   "b_deg": -55.7,
+   "density_per_deg2": 0.00017190479289514276
+  },
+  {
+   "rank": 44,
+   "name": "P9T44",
+   "ra": 130.4217,
+   "dec": 23.3012,
+   "b_deg": 33.96,
+   "density_per_deg2": 0.00020692243589230146
+  },
+  {
+   "rank": 45,
+   "name": "P9T45",
+   "ra": 60.6872,
+   "dec": 7.0613,
+   "b_deg": -32.47,
+   "density_per_deg2": 0.00023477737918549591
+  },
+  {
+   "rank": 46,
+   "name": "P9T46",
+   "ra": 36.3543,
+   "dec": 2.9899,
+   "b_deg": -52.31,
+   "density_per_deg2": 0.00029605825443052366
+  },
+  {
+   "rank": 47,
+   "name": "P9T47",
+   "ra": 8.4063,
+   "dec": -9.2469,
+   "b_deg": -71.63,
+   "density_per_deg2": 0.0002013514472336626
+  },
+  {
+   "rank": 48,
+   "name": "P9T48",
+   "ra": 41.62,
+   "dec": 1.0957,
+   "b_deg": -50.47,
+   "density_per_deg2": 0.0003239131977237181
+  }
+ ]
+}

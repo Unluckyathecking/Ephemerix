@@ -1,0 +1,2337 @@
+{
+ "schema": 1,
+ "campaign": {
+  "date": "2026-11-14",
+  "n_fields": 12,
+  "field_arcmin": 20,
+  "threshold_snr": 7.0,
+  "min_motion_px": 1.5,
+  "pixscale_arcsec": 6.15,
+  "max_span_days": 16,
+  "injections": {
+   "per_field": 200,
+   "flux_ujy": [
+    20,
+    400
+   ],
+   "distance_au": [
+    30,
+    1000
+   ],
+   "reference_um": 1.0
+  },
+  "trials_range": [
+   7132,
+   43071
+  ]
+ },
+ "pooled": {
+  "n_injected": 2400,
+  "n_recovered": 1387,
+  "bins": [
+   {
+    "lo_ujy": 20.0,
+    "hi_ujy": 50.0,
+    "k": 6,
+    "n": 723,
+    "frac": 0.008,
+    "ci95": [
+     0.004,
+     0.018
+    ]
+   },
+   {
+    "lo_ujy": 50.0,
+    "hi_ujy": 100.0,
+    "k": 307,
+    "n": 567,
+    "frac": 0.541,
+    "ci95": [
+     0.5,
+     0.582
+    ]
+   },
+   {
+    "lo_ujy": 100.0,
+    "hi_ujy": 200.0,
+    "k": 560,
+    "n": 594,
+    "frac": 0.943,
+    "ci95": [
+     0.921,
+     0.959
+    ]
+   },
+   {
+    "lo_ujy": 200.0,
+    "hi_ujy": 400.0,
+    "k": 514,
+    "n": 516,
+    "frac": 0.996,
+    "ci95": [
+     0.986,
+     0.999
+    ]
+   }
+  ],
+  "curve": [
+   {
+    "flux_ujy": 24.22,
+    "k": 0,
+    "n": 299,
+    "frac": 0.0,
+    "ci95": [
+     0.0,
+     0.013
+    ]
+   },
+   {
+    "flux_ujy": 35.19,
+    "k": 1,
+    "n": 284,
+    "frac": 0.004,
+    "ci95": [
+     0.001,
+     0.02
+    ]
+   },
+   {
+    "flux_ujy": 51.14,
+    "k": 38,
+    "n": 298,
+    "frac": 0.128,
+    "ci95": [
+     0.094,
+     0.17
+    ]
+   },
+   {
+    "flux_ujy": 74.32,
+    "k": 189,
+    "n": 312,
+    "frac": 0.606,
+    "ci95": [
+     0.551,
+     0.658
+    ]
+   },
+   {
+    "flux_ujy": 108.01,
+    "k": 312,
+    "n": 341,
+    "frac": 0.915,
+    "ci95": [
+     0.881,
+     0.94
+    ]
+   },
+   {
+    "flux_ujy": 156.95,
+    "k": 293,
+    "n": 308,
+    "frac": 0.951,
+    "ci95": [
+     0.921,
+     0.97
+    ]
+   },
+   {
+    "flux_ujy": 228.08,
+    "k": 292,
+    "n": 296,
+    "frac": 0.986,
+    "ci95": [
+     0.966,
+     0.995
+    ]
+   },
+   {
+    "flux_ujy": 331.45,
+    "k": 262,
+    "n": 262,
+    "frac": 1.0,
+    "ci95": [
+     0.986,
+     1.0
+    ]
+   }
+  ],
+  "limits": {
+   "flux50_ujy": 68.4,
+   "vmag50": 19.66,
+   "ab1um50": 19.31,
+   "flux90_ujy": 106.1,
+   "vmag90": 19.18,
+   "ab1um90": 18.84
+  }
+ },
+ "fields": [
+  {
+   "key": "Haumea",
+   "label": "Haumea",
+   "kind": "tno",
+   "ra": 218.641,
+   "dec": 15.0374,
+   "pass_index": 0,
+   "pass_mjd": [
+    60846.617,
+    60855.721
+   ],
+   "span_days": 9.1,
+   "frames_searched": 58,
+   "frames_in_pass": 58,
+   "n_trials": 7132,
+   "masked_fraction": 0.118,
+   "motion_limit_au": 1000.0,
+   "n_injected": 200,
+   "n_recovered": 133,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 0,
+     "n": 58,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.062
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 42,
+     "n": 50,
+     "frac": 0.84,
+     "ci95": [
+      0.715,
+      0.917
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 50,
+     "n": 51,
+     "frac": 0.98,
+     "ci95": [
+      0.897,
+      0.997
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 41,
+     "n": 41,
+     "frac": 1.0,
+     "ci95": [
+      0.914,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.45,
+     "k": 0,
+     "n": 28,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.121
+     ]
+    },
+    {
+     "flux_ujy": 35.46,
+     "k": 0,
+     "n": 20,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.161
+     ]
+    },
+    {
+     "flux_ujy": 51.42,
+     "k": 9,
+     "n": 25,
+     "frac": 0.36,
+     "ci95": [
+      0.202,
+      0.555
+     ]
+    },
+    {
+     "flux_ujy": 74.56,
+     "k": 25,
+     "n": 27,
+     "frac": 0.926,
+     "ci95": [
+      0.766,
+      0.979
+     ]
+    },
+    {
+     "flux_ujy": 108.13,
+     "k": 33,
+     "n": 34,
+     "frac": 0.971,
+     "ci95": [
+      0.851,
+      0.995
+     ]
+    },
+    {
+     "flux_ujy": 156.81,
+     "k": 24,
+     "n": 24,
+     "frac": 1.0,
+     "ci95": [
+      0.862,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 227.41,
+     "k": 26,
+     "n": 26,
+     "frac": 1.0,
+     "ci95": [
+      0.871,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 329.79,
+     "k": 16,
+     "n": 16,
+     "frac": 1.0,
+     "ci95": [
+      0.806,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 56.4,
+    "vmag50": 19.87,
+    "ab1um50": 19.52,
+    "flux90_ujy": 73.3,
+    "vmag90": 19.58,
+    "ab1um90": 19.24
+   },
+   "peaks": {
+    "real_ge5": 187,
+    "null_ge5": 204,
+    "real_ge7": 0,
+    "null_ge7": 0,
+    "real_max": 6.5,
+    "null_max": 5.76
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "key": "Makemake",
+   "label": "Makemake",
+   "kind": "tno",
+   "ra": 200.6329,
+   "dec": 21.0412,
+   "pass_index": 2,
+   "pass_mjd": [
+    61190.766,
+    61204.479
+   ],
+   "span_days": 13.7,
+   "frames_searched": 76,
+   "frames_in_pass": 76,
+   "n_trials": 25276,
+   "masked_fraction": 0.184,
+   "motion_limit_au": 1000.0,
+   "n_injected": 200,
+   "n_recovered": 144,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 3,
+     "n": 46,
+     "frac": 0.065,
+     "ci95": [
+      0.022,
+      0.175
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 42,
+     "n": 54,
+     "frac": 0.778,
+     "ci95": [
+      0.651,
+      0.868
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 51,
+     "n": 52,
+     "frac": 0.981,
+     "ci95": [
+      0.899,
+      0.997
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 48,
+     "n": 48,
+     "frac": 1.0,
+     "ci95": [
+      0.926,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.52,
+     "k": 0,
+     "n": 23,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.143
+     ]
+    },
+    {
+     "flux_ujy": 35.55,
+     "k": 0,
+     "n": 16,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.194
+     ]
+    },
+    {
+     "flux_ujy": 51.54,
+     "k": 10,
+     "n": 20,
+     "frac": 0.5,
+     "ci95": [
+      0.299,
+      0.701
+     ]
+    },
+    {
+     "flux_ujy": 74.72,
+     "k": 26,
+     "n": 32,
+     "frac": 0.812,
+     "ci95": [
+      0.647,
+      0.911
+     ]
+    },
+    {
+     "flux_ujy": 108.33,
+     "k": 40,
+     "n": 40,
+     "frac": 1.0,
+     "ci95": [
+      0.912,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 157.05,
+     "k": 19,
+     "n": 20,
+     "frac": 0.95,
+     "ci95": [
+      0.764,
+      0.991
+     ]
+    },
+    {
+     "flux_ujy": 227.69,
+     "k": 23,
+     "n": 23,
+     "frac": 1.0,
+     "ci95": [
+      0.857,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 330.09,
+     "k": 26,
+     "n": 26,
+     "frac": 1.0,
+     "ci95": [
+      0.871,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 51.5,
+    "vmag50": 19.97,
+    "ab1um50": 19.62,
+    "flux90_ujy": 88.9,
+    "vmag90": 19.38,
+    "ab1um90": 19.03
+   },
+   "peaks": {
+    "real_ge5": 265,
+    "null_ge5": 260,
+    "real_ge7": 0,
+    "null_ge7": 1,
+    "real_max": 6.04,
+    "null_max": 7.05
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "key": "Eris",
+   "label": "Eris",
+   "kind": "tno",
+   "ra": 27.442,
+   "dec": -0.1659,
+   "pass_index": 0,
+   "pass_mjd": [
+    60866.086,
+    60881.44
+   ],
+   "span_days": 15.4,
+   "frames_searched": 56,
+   "frames_in_pass": 56,
+   "n_trials": 42444,
+   "masked_fraction": 0.093,
+   "motion_limit_au": 573.0,
+   "n_injected": 200,
+   "n_recovered": 121,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 0,
+     "n": 60,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.06
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 32,
+     "n": 51,
+     "frac": 0.627,
+     "ci95": [
+      0.49,
+      0.747
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 47,
+     "n": 47,
+     "frac": 1.0,
+     "ci95": [
+      0.924,
+      1.0
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 42,
+     "n": 42,
+     "frac": 1.0,
+     "ci95": [
+      0.916,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.23,
+     "k": 0,
+     "n": 23,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.143
+     ]
+    },
+    {
+     "flux_ujy": 35.08,
+     "k": 0,
+     "n": 28,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.121
+     ]
+    },
+    {
+     "flux_ujy": 50.79,
+     "k": 1,
+     "n": 19,
+     "frac": 0.053,
+     "ci95": [
+      0.009,
+      0.246
+     ]
+    },
+    {
+     "flux_ujy": 73.54,
+     "k": 23,
+     "n": 32,
+     "frac": 0.719,
+     "ci95": [
+      0.546,
+      0.844
+     ]
+    },
+    {
+     "flux_ujy": 106.48,
+     "k": 25,
+     "n": 26,
+     "frac": 0.962,
+     "ci95": [
+      0.811,
+      0.993
+     ]
+    },
+    {
+     "flux_ujy": 154.17,
+     "k": 27,
+     "n": 27,
+     "frac": 1.0,
+     "ci95": [
+      0.875,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 223.22,
+     "k": 33,
+     "n": 33,
+     "frac": 1.0,
+     "ci95": [
+      0.896,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 323.2,
+     "k": 12,
+     "n": 12,
+     "frac": 1.0,
+     "ci95": [
+      0.758,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 65.1,
+    "vmag50": 19.71,
+    "ab1um50": 19.37,
+    "flux90_ujy": 96.9,
+    "vmag90": 19.28,
+    "ab1um90": 18.93
+   },
+   "peaks": {
+    "real_ge5": 180,
+    "null_ge5": 181,
+    "real_ge7": 1,
+    "null_ge7": 2,
+    "real_max": 8.32,
+    "null_max": 10.51
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "key": "B1",
+   "label": "B1",
+   "kind": "blank",
+   "ra": 160.0,
+   "dec": 10.0,
+   "pass_index": 0,
+   "pass_mjd": [
+    60790.165,
+    60803.824
+   ],
+   "span_days": 13.7,
+   "frames_searched": 54,
+   "frames_in_pass": 68,
+   "n_trials": 24969,
+   "masked_fraction": 0.149,
+   "motion_limit_au": 1000.0,
+   "n_injected": 200,
+   "n_recovered": 110,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 0,
+     "n": 63,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.057
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 20,
+     "n": 46,
+     "frac": 0.435,
+     "ci95": [
+      0.302,
+      0.578
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 48,
+     "n": 49,
+     "frac": 0.98,
+     "ci95": [
+      0.893,
+      0.996
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 42,
+     "n": 42,
+     "frac": 1.0,
+     "ci95": [
+      0.916,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 25.31,
+     "k": 0,
+     "n": 30,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.114
+     ]
+    },
+    {
+     "flux_ujy": 36.56,
+     "k": 0,
+     "n": 23,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.143
+     ]
+    },
+    {
+     "flux_ujy": 52.82,
+     "k": 3,
+     "n": 28,
+     "frac": 0.107,
+     "ci95": [
+      0.037,
+      0.272
+     ]
+    },
+    {
+     "flux_ujy": 76.31,
+     "k": 13,
+     "n": 24,
+     "frac": 0.542,
+     "ci95": [
+      0.351,
+      0.721
+     ]
+    },
+    {
+     "flux_ujy": 110.25,
+     "k": 25,
+     "n": 25,
+     "frac": 1.0,
+     "ci95": [
+      0.867,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 159.27,
+     "k": 21,
+     "n": 22,
+     "frac": 0.955,
+     "ci95": [
+      0.782,
+      0.992
+     ]
+    },
+    {
+     "flux_ujy": 230.1,
+     "k": 32,
+     "n": 32,
+     "frac": 1.0,
+     "ci95": [
+      0.893,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 332.42,
+     "k": 16,
+     "n": 16,
+     "frac": 1.0,
+     "ci95": [
+      0.806,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 73.7,
+    "vmag50": 19.58,
+    "ab1um50": 19.23,
+    "flux90_ujy": 101.7,
+    "vmag90": 19.23,
+    "ab1um90": 18.88
+   },
+   "peaks": {
+    "real_ge5": 197,
+    "null_ge5": 184,
+    "real_ge7": 3,
+    "null_ge7": 3,
+    "real_max": 9.83,
+    "null_max": 11.69
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "key": "B2",
+   "label": "B2",
+   "kind": "blank",
+   "ra": 180.0,
+   "dec": -5.0,
+   "pass_index": 0,
+   "pass_mjd": [
+    60808.986,
+    60823.05
+   ],
+   "span_days": 14.1,
+   "frames_searched": 52,
+   "frames_in_pass": 54,
+   "n_trials": 27087,
+   "masked_fraction": 0.078,
+   "motion_limit_au": 1000.0,
+   "n_injected": 200,
+   "n_recovered": 113,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 2,
+     "n": 66,
+     "frac": 0.03,
+     "ci95": [
+      0.008,
+      0.104
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 22,
+     "n": 44,
+     "frac": 0.5,
+     "ci95": [
+      0.358,
+      0.642
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 37,
+     "n": 38,
+     "frac": 0.974,
+     "ci95": [
+      0.865,
+      0.995
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 52,
+     "n": 52,
+     "frac": 1.0,
+     "ci95": [
+      0.931,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.55,
+     "k": 0,
+     "n": 26,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.129
+     ]
+    },
+    {
+     "flux_ujy": 35.52,
+     "k": 0,
+     "n": 24,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.138
+     ]
+    },
+    {
+     "flux_ujy": 51.39,
+     "k": 6,
+     "n": 32,
+     "frac": 0.188,
+     "ci95": [
+      0.089,
+      0.353
+     ]
+    },
+    {
+     "flux_ujy": 74.36,
+     "k": 14,
+     "n": 24,
+     "frac": 0.583,
+     "ci95": [
+      0.388,
+      0.755
+     ]
+    },
+    {
+     "flux_ujy": 107.58,
+     "k": 16,
+     "n": 17,
+     "frac": 0.941,
+     "ci95": [
+      0.73,
+      0.99
+     ]
+    },
+    {
+     "flux_ujy": 155.65,
+     "k": 23,
+     "n": 23,
+     "frac": 1.0,
+     "ci95": [
+      0.857,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 225.21,
+     "k": 22,
+     "n": 22,
+     "frac": 1.0,
+     "ci95": [
+      0.851,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 325.83,
+     "k": 32,
+     "n": 32,
+     "frac": 1.0,
+     "ci95": [
+      0.893,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 68.8,
+    "vmag50": 19.65,
+    "ab1um50": 19.31,
+    "flux90_ujy": 103.1,
+    "vmag90": 19.21,
+    "ab1um90": 18.87
+   },
+   "peaks": {
+    "real_ge5": 192,
+    "null_ge5": 211,
+    "real_ge7": 2,
+    "null_ge7": 2,
+    "real_max": 10.78,
+    "null_max": 8.35
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "key": "B3",
+   "label": "B3",
+   "kind": "blank",
+   "ra": 30.0,
+   "dec": 20.0,
+   "pass_index": 0,
+   "pass_mjd": [
+    60879.471,
+    60891.43
+   ],
+   "span_days": 12.0,
+   "frames_searched": 64,
+   "frames_in_pass": 64,
+   "n_trials": 17818,
+   "masked_fraction": 0.153,
+   "motion_limit_au": 340.0,
+   "n_injected": 200,
+   "n_recovered": 128,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 0,
+     "n": 53,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.068
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 29,
+     "n": 47,
+     "frac": 0.617,
+     "ci95": [
+      0.474,
+      0.742
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 54,
+     "n": 54,
+     "frac": 1.0,
+     "ci95": [
+      0.934,
+      1.0
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 45,
+     "n": 46,
+     "frac": 0.978,
+     "ci95": [
+      0.887,
+      0.996
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.92,
+     "k": 0,
+     "n": 26,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.129
+     ]
+    },
+    {
+     "flux_ujy": 36.06,
+     "k": 0,
+     "n": 20,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.161
+     ]
+    },
+    {
+     "flux_ujy": 52.18,
+     "k": 1,
+     "n": 20,
+     "frac": 0.05,
+     "ci95": [
+      0.009,
+      0.236
+     ]
+    },
+    {
+     "flux_ujy": 75.51,
+     "k": 16,
+     "n": 22,
+     "frac": 0.727,
+     "ci95": [
+      0.518,
+      0.868
+     ]
+    },
+    {
+     "flux_ujy": 109.27,
+     "k": 37,
+     "n": 37,
+     "frac": 1.0,
+     "ci95": [
+      0.906,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 158.12,
+     "k": 24,
+     "n": 24,
+     "frac": 1.0,
+     "ci95": [
+      0.862,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 228.81,
+     "k": 23,
+     "n": 24,
+     "frac": 0.958,
+     "ci95": [
+      0.798,
+      0.993
+     ]
+    },
+    {
+     "flux_ujy": 331.1,
+     "k": 27,
+     "n": 27,
+     "frac": 1.0,
+     "ci95": [
+      0.875,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 66.7,
+    "vmag50": 19.69,
+    "ab1um50": 19.34,
+    "flux90_ujy": 95.4,
+    "vmag90": 19.3,
+    "ab1um90": 18.95
+   },
+   "peaks": {
+    "real_ge5": 269,
+    "null_ge5": 237,
+    "real_ge7": 0,
+    "null_ge7": 1,
+    "real_max": 6.37,
+    "null_max": 7.16
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "key": "B4",
+   "label": "B4",
+   "kind": "blank",
+   "ra": 350.0,
+   "dec": 5.0,
+   "pass_index": 0,
+   "pass_mjd": [
+    60833.889,
+    60849.444
+   ],
+   "span_days": 15.6,
+   "frames_searched": 54,
+   "frames_in_pass": 54,
+   "n_trials": 43005,
+   "masked_fraction": 0.093,
+   "motion_limit_au": 509.0,
+   "n_injected": 200,
+   "n_recovered": 103,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 0,
+     "n": 68,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.053
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 19,
+     "n": 46,
+     "frac": 0.413,
+     "ci95": [
+      0.283,
+      0.557
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 41,
+     "n": 43,
+     "frac": 0.953,
+     "ci95": [
+      0.845,
+      0.987
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 43,
+     "n": 43,
+     "frac": 1.0,
+     "ci95": [
+      0.918,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.21,
+     "k": 0,
+     "n": 25,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.133
+     ]
+    },
+    {
+     "flux_ujy": 35.16,
+     "k": 0,
+     "n": 25,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.133
+     ]
+    },
+    {
+     "flux_ujy": 51.06,
+     "k": 1,
+     "n": 34,
+     "frac": 0.029,
+     "ci95": [
+      0.005,
+      0.149
+     ]
+    },
+    {
+     "flux_ujy": 74.15,
+     "k": 12,
+     "n": 21,
+     "frac": 0.571,
+     "ci95": [
+      0.365,
+      0.755
+     ]
+    },
+    {
+     "flux_ujy": 107.68,
+     "k": 22,
+     "n": 27,
+     "frac": 0.815,
+     "ci95": [
+      0.633,
+      0.918
+     ]
+    },
+    {
+     "flux_ujy": 156.37,
+     "k": 22,
+     "n": 22,
+     "frac": 1.0,
+     "ci95": [
+      0.851,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 227.08,
+     "k": 22,
+     "n": 22,
+     "frac": 1.0,
+     "ci95": [
+      0.851,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 329.77,
+     "k": 24,
+     "n": 24,
+     "frac": 1.0,
+     "ci95": [
+      0.862,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 70.6,
+    "vmag50": 19.63,
+    "ab1um50": 19.28,
+    "flux90_ujy": 127.8,
+    "vmag90": 18.98,
+    "ab1um90": 18.63
+   },
+   "peaks": {
+    "real_ge5": 250,
+    "null_ge5": 224,
+    "real_ge7": 1,
+    "null_ge7": 0,
+    "real_max": 7.02,
+    "null_max": 6.87
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "key": "B5",
+   "label": "B5",
+   "kind": "blank",
+   "ra": 230.0,
+   "dec": -10.0,
+   "pass_index": 0,
+   "pass_mjd": [
+    60867.411,
+    60878.822
+   ],
+   "span_days": 11.4,
+   "frames_searched": 57,
+   "frames_in_pass": 57,
+   "n_trials": 14787,
+   "masked_fraction": 0.127,
+   "motion_limit_au": 1000.0,
+   "n_injected": 200,
+   "n_recovered": 113,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 0,
+     "n": 70,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.052
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 31,
+     "n": 45,
+     "frac": 0.689,
+     "ci95": [
+      0.543,
+      0.805
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 44,
+     "n": 47,
+     "frac": 0.936,
+     "ci95": [
+      0.828,
+      0.978
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 38,
+     "n": 38,
+     "frac": 1.0,
+     "ci95": [
+      0.908,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.69,
+     "k": 0,
+     "n": 33,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.104
+     ]
+    },
+    {
+     "flux_ujy": 35.71,
+     "k": 0,
+     "n": 25,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.133
+     ]
+    },
+    {
+     "flux_ujy": 51.66,
+     "k": 1,
+     "n": 22,
+     "frac": 0.045,
+     "ci95": [
+      0.008,
+      0.218
+     ]
+    },
+    {
+     "flux_ujy": 74.73,
+     "k": 24,
+     "n": 29,
+     "frac": 0.828,
+     "ci95": [
+      0.655,
+      0.924
+     ]
+    },
+    {
+     "flux_ujy": 108.09,
+     "k": 22,
+     "n": 24,
+     "frac": 0.917,
+     "ci95": [
+      0.742,
+      0.977
+     ]
+    },
+    {
+     "flux_ujy": 156.35,
+     "k": 26,
+     "n": 27,
+     "frac": 0.963,
+     "ci95": [
+      0.817,
+      0.993
+     ]
+    },
+    {
+     "flux_ujy": 226.16,
+     "k": 19,
+     "n": 19,
+     "frac": 1.0,
+     "ci95": [
+      0.832,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 327.13,
+     "k": 21,
+     "n": 21,
+     "frac": 1.0,
+     "ci95": [
+      0.845,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 64.0,
+    "vmag50": 19.73,
+    "ab1um50": 19.38,
+    "flux90_ujy": 100.9,
+    "vmag90": 19.24,
+    "ab1um90": 18.89
+   },
+   "peaks": {
+    "real_ge5": 260,
+    "null_ge5": 270,
+    "real_ge7": 4,
+    "null_ge7": 4,
+    "real_max": 8.85,
+    "null_max": 9.8
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "key": "B6",
+   "label": "B6",
+   "kind": "blank",
+   "ra": 140.0,
+   "dec": 25.0,
+   "pass_index": 0,
+   "pass_mjd": [
+    60977.284,
+    60988.557
+   ],
+   "span_days": 11.3,
+   "frames_searched": 49,
+   "frames_in_pass": 54,
+   "n_trials": 16120,
+   "masked_fraction": 0.089,
+   "motion_limit_au": 393.0,
+   "n_injected": 200,
+   "n_recovered": 106,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 0,
+     "n": 59,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.061
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 15,
+     "n": 48,
+     "frac": 0.312,
+     "ci95": [
+      0.199,
+      0.453
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 53,
+     "n": 55,
+     "frac": 0.964,
+     "ci95": [
+      0.877,
+      0.99
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 38,
+     "n": 38,
+     "frac": 1.0,
+     "ci95": [
+      0.908,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.49,
+     "k": 0,
+     "n": 30,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.114
+     ]
+    },
+    {
+     "flux_ujy": 35.34,
+     "k": 0,
+     "n": 24,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.138
+     ]
+    },
+    {
+     "flux_ujy": 51.0,
+     "k": 1,
+     "n": 23,
+     "frac": 0.043,
+     "ci95": [
+      0.008,
+      0.21
+     ]
+    },
+    {
+     "flux_ujy": 73.6,
+     "k": 6,
+     "n": 21,
+     "frac": 0.286,
+     "ci95": [
+      0.138,
+      0.5
+     ]
+    },
+    {
+     "flux_ujy": 106.21,
+     "k": 21,
+     "n": 22,
+     "frac": 0.955,
+     "ci95": [
+      0.782,
+      0.992
+     ]
+    },
+    {
+     "flux_ujy": 153.27,
+     "k": 32,
+     "n": 33,
+     "frac": 0.97,
+     "ci95": [
+      0.847,
+      0.995
+     ]
+    },
+    {
+     "flux_ujy": 221.19,
+     "k": 20,
+     "n": 21,
+     "frac": 0.952,
+     "ci95": [
+      0.773,
+      0.992
+     ]
+    },
+    {
+     "flux_ujy": 319.2,
+     "k": 26,
+     "n": 26,
+     "frac": 1.0,
+     "ci95": [
+      0.871,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 82.8,
+    "vmag50": 19.45,
+    "ab1um50": 19.11,
+    "flux90_ujy": 103.1,
+    "vmag90": 19.21,
+    "ab1um90": 18.87
+   },
+   "peaks": {
+    "real_ge5": 219,
+    "null_ge5": 167,
+    "real_ge7": 4,
+    "null_ge7": 4,
+    "real_max": 15.17,
+    "null_max": 16.74
+   },
+   "extras_per_run": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "key": "B7",
+   "label": "B7",
+   "kind": "blank",
+   "ra": 10.0,
+   "dec": -15.0,
+   "pass_index": 0,
+   "pass_mjd": [
+    60847.2,
+    60860.106
+   ],
+   "span_days": 12.9,
+   "frames_searched": 56,
+   "frames_in_pass": 57,
+   "n_trials": 22908,
+   "masked_fraction": 0.091,
+   "motion_limit_au": 779.0,
+   "n_injected": 200,
+   "n_recovered": 134,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 1,
+     "n": 57,
+     "frac": 0.018,
+     "ci95": [
+      0.003,
+      0.093
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 32,
+     "n": 41,
+     "frac": 0.78,
+     "ci95": [
+      0.633,
+      0.88
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 62,
+     "n": 63,
+     "frac": 0.984,
+     "ci95": [
+      0.915,
+      0.997
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 39,
+     "n": 39,
+     "frac": 1.0,
+     "ci95": [
+      0.91,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 25.27,
+     "k": 0,
+     "n": 26,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.129
+     ]
+    },
+    {
+     "flux_ujy": 36.49,
+     "k": 1,
+     "n": 24,
+     "frac": 0.042,
+     "ci95": [
+      0.007,
+      0.202
+     ]
+    },
+    {
+     "flux_ujy": 52.69,
+     "k": 8,
+     "n": 21,
+     "frac": 0.381,
+     "ci95": [
+      0.208,
+      0.591
+     ]
+    },
+    {
+     "flux_ujy": 76.08,
+     "k": 15,
+     "n": 18,
+     "frac": 0.833,
+     "ci95": [
+      0.608,
+      0.942
+     ]
+    },
+    {
+     "flux_ujy": 109.85,
+     "k": 33,
+     "n": 33,
+     "frac": 1.0,
+     "ci95": [
+      0.896,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 158.61,
+     "k": 34,
+     "n": 35,
+     "frac": 0.971,
+     "ci95": [
+      0.855,
+      0.995
+     ]
+    },
+    {
+     "flux_ujy": 229.01,
+     "k": 26,
+     "n": 26,
+     "frac": 1.0,
+     "ci95": [
+      0.871,
+      1.0
+     ]
+    },
+    {
+     "flux_ujy": 330.65,
+     "k": 17,
+     "n": 17,
+     "frac": 1.0,
+     "ci95": [
+      0.816,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 58.0,
+    "vmag50": 19.84,
+    "ab1um50": 19.49,
+    "flux90_ujy": 88.1,
+    "vmag90": 19.38,
+    "ab1um90": 19.04
+   },
+   "peaks": {
+    "real_ge5": 93,
+    "null_ge5": 71,
+    "real_ge7": 2,
+    "null_ge7": 2,
+    "real_max": 9.36,
+    "null_max": 7.74
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "key": "BarnardsStar",
+   "label": "Barnard's Star",
+   "kind": "control",
+   "ra": 269.4462,
+   "dec": 4.7696,
+   "pass_index": 0,
+   "pass_mjd": [
+    60902.865,
+    60918.628
+   ],
+   "span_days": 15.8,
+   "frames_searched": 53,
+   "frames_in_pass": 55,
+   "n_trials": 43071,
+   "masked_fraction": 0.163,
+   "motion_limit_au": 1000.0,
+   "n_injected": 200,
+   "n_recovered": 80,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 0,
+     "n": 77,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.048
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 13,
+     "n": 42,
+     "frac": 0.31,
+     "ci95": [
+      0.191,
+      0.46
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 25,
+     "n": 38,
+     "frac": 0.658,
+     "ci95": [
+      0.499,
+      0.788
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 42,
+     "n": 43,
+     "frac": 0.977,
+     "ci95": [
+      0.879,
+      0.996
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.41,
+     "k": 0,
+     "n": 26,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.129
+     ]
+    },
+    {
+     "flux_ujy": 35.31,
+     "k": 0,
+     "n": 31,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.11
+     ]
+    },
+    {
+     "flux_ujy": 51.07,
+     "k": 0,
+     "n": 26,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.129
+     ]
+    },
+    {
+     "flux_ujy": 73.86,
+     "k": 9,
+     "n": 27,
+     "frac": 0.333,
+     "ci95": [
+      0.186,
+      0.522
+     ]
+    },
+    {
+     "flux_ujy": 106.82,
+     "k": 13,
+     "n": 24,
+     "frac": 0.542,
+     "ci95": [
+      0.351,
+      0.721
+     ]
+    },
+    {
+     "flux_ujy": 154.5,
+     "k": 11,
+     "n": 16,
+     "frac": 0.688,
+     "ci95": [
+      0.444,
+      0.858
+     ]
+    },
+    {
+     "flux_ujy": 223.45,
+     "k": 23,
+     "n": 26,
+     "frac": 0.885,
+     "ci95": [
+      0.71,
+      0.96
+     ]
+    },
+    {
+     "flux_ujy": 323.17,
+     "k": 24,
+     "n": 24,
+     "frac": 1.0,
+     "ci95": [
+      0.862,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 99.2,
+    "vmag50": 19.26,
+    "ab1um50": 18.91,
+    "flux90_ujy": 234.7,
+    "vmag90": 18.32,
+    "ab1um90": 17.97
+   },
+   "peaks": {
+    "real_ge5": 184,
+    "null_ge5": 213,
+    "real_ge7": 23,
+    "null_ge7": 22,
+    "real_max": 22.04,
+    "null_max": 23.6
+   },
+   "extras_per_run": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    2,
+    1
+   ]
+  },
+  {
+   "key": "WISE0855",
+   "label": "WISE 0855 (pass 1)",
+   "kind": "control",
+   "ra": 133.7583,
+   "dec": -7.242,
+   "pass_index": 1,
+   "pass_mjd": [
+    60979.723,
+    60993.914
+   ],
+   "span_days": 14.2,
+   "frames_searched": 55,
+   "frames_in_pass": 55,
+   "n_trials": 34393,
+   "masked_fraction": 0.165,
+   "motion_limit_au": 1000.0,
+   "n_injected": 200,
+   "n_recovered": 102,
+   "bins": [
+    {
+     "lo_ujy": 20.0,
+     "hi_ujy": 50.0,
+     "k": 0,
+     "n": 46,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.077
+     ]
+    },
+    {
+     "lo_ujy": 50.0,
+     "hi_ujy": 100.0,
+     "k": 10,
+     "n": 53,
+     "frac": 0.189,
+     "ci95": [
+      0.106,
+      0.314
+     ]
+    },
+    {
+     "lo_ujy": 100.0,
+     "hi_ujy": 200.0,
+     "k": 48,
+     "n": 57,
+     "frac": 0.842,
+     "ci95": [
+      0.726,
+      0.915
+     ]
+    },
+    {
+     "lo_ujy": 200.0,
+     "hi_ujy": 400.0,
+     "k": 44,
+     "n": 44,
+     "frac": 1.0,
+     "ci95": [
+      0.92,
+      1.0
+     ]
+    }
+   ],
+   "curve": [
+    {
+     "flux_ujy": 24.32,
+     "k": 0,
+     "n": 15,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.204
+     ]
+    },
+    {
+     "flux_ujy": 35.26,
+     "k": 0,
+     "n": 20,
+     "frac": 0.0,
+     "ci95": [
+      0.0,
+      0.161
+     ]
+    },
+    {
+     "flux_ujy": 51.12,
+     "k": 1,
+     "n": 27,
+     "frac": 0.037,
+     "ci95": [
+      0.007,
+      0.183
+     ]
+    },
+    {
+     "flux_ujy": 74.12,
+     "k": 5,
+     "n": 30,
+     "frac": 0.167,
+     "ci95": [
+      0.073,
+      0.336
+     ]
+    },
+    {
+     "flux_ujy": 107.46,
+     "k": 20,
+     "n": 28,
+     "frac": 0.714,
+     "ci95": [
+      0.529,
+      0.847
+     ]
+    },
+    {
+     "flux_ujy": 155.81,
+     "k": 25,
+     "n": 28,
+     "frac": 0.893,
+     "ci95": [
+      0.728,
+      0.963
+     ]
+    },
+    {
+     "flux_ujy": 225.91,
+     "k": 21,
+     "n": 22,
+     "frac": 0.955,
+     "ci95": [
+      0.782,
+      0.992
+     ]
+    },
+    {
+     "flux_ujy": 327.54,
+     "k": 30,
+     "n": 30,
+     "frac": 1.0,
+     "ci95": [
+      0.886,
+      1.0
+     ]
+    }
+   ],
+   "limits": {
+    "flux50_ujy": 92.9,
+    "vmag50": 19.33,
+    "ab1um50": 18.98,
+    "flux90_ujy": 162.7,
+    "vmag90": 18.72,
+    "ab1um90": 18.37
+   },
+   "peaks": {
+    "real_ge5": 109,
+    "null_ge5": 146,
+    "real_ge7": 17,
+    "null_ge7": 21,
+    "real_max": 29.09,
+    "null_max": 18.4
+   },
+   "extras_per_run": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  }
+ ],
+ "known_bodies": [
+  {
+   "name": "Haumea",
+   "field": "Haumea",
+   "v": 17.3,
+   "delta_au": 49,
+   "snr": 53.5,
+   "rank": 1,
+   "offset_px": 0.0,
+   "offset_arcsec": 0.0
+  },
+  {
+   "name": "Makemake",
+   "field": "Makemake",
+   "v": 17.1,
+   "delta_au": 52,
+   "snr": 49.0,
+   "rank": 1,
+   "offset_px": 0.0,
+   "offset_arcsec": 0.0
+  },
+  {
+   "name": "Eris",
+   "field": "Eris",
+   "v": 18.7,
+   "delta_au": 96,
+   "snr": 13.8,
+   "rank": 1,
+   "offset_px": 0.0,
+   "offset_arcsec": 0.0
+  }
+ ],
+ "classifier": {
+  "train_fields": [
+   "B1",
+   "B2",
+   "B3",
+   "B4",
+   "B5",
+   "BarnardsStar",
+   "Makemake",
+   "WISE0855"
+  ],
+  "test_fields": [
+   "B6",
+   "B7",
+   "Eris",
+   "Haumea"
+  ],
+  "n_train": 4453,
+  "n_test_positives": 546,
+  "n_test_negatives": 1302,
+  "fp_per_test_field": 3.75,
+  "recall_snr_cut": 0.905,
+  "min_gain": 0.05,
+  "variants": {
+   "all_features": {
+    "recall": 0.87,
+    "tnos_kept": true,
+    "gate_passed": false
+   },
+   "without_snr": {
+    "recall": 0.725,
+    "tnos_kept": false,
+    "gate_passed": false
+   }
+  },
+  "passed": false,
+  "shipped": false
+ },
+ "caveats": [
+  "One pass of one 20 arcmin field at a time: a body is searched only while it stays in that field during the pass, and nothing found here has been followed up.",
+  "Only the densest window of at most 16 days in each pass is searched, because the straight-line trajectory model drifts by more than half a pixel beyond that; frames outside the window are dropped.",
+  "At S/N 7 the real sky gives about as many peaks as the mirrored null search, field by field, so the cut sits at the noise and artefact floor and no peak is a candidate.",
+  "The two control fields (Barnard's Star and WISE 0855) gave many more peaks at S/N 7 or above than the blank fields, and their mirrored nulls gave as many. The cause is not established.",
+  "Injections are pooled over rate and distance, so holes in the trajectory grid narrower than one flux bin would not show in these curves.",
+  "The completeness limits are in flux. Turning them into a distance for a planet also needs the body to move at least 1.5 px within the pass, which caps the distance per field and is not folded into the flux curves.",
+  "A vetting classifier trained on these fields did not beat the plain S/N cut on held-out fields, so it is not shipped and does not affect any label."
+ ]
+}

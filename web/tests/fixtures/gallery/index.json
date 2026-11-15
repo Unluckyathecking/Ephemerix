@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "targets": [
+  {
+   "slug": "synthetic-fast-mover",
+   "name": "SYNTHETIC fast mover (test data)",
+   "blurb": "Synthetic test object, not a real star: a cold brown dwarf injected into a fake field.",
+   "manifest": "synthetic-fast-mover/manifest.json",
+   "thumb": "synthetic-fast-mover/thumb.png",
+   "known_type": "Y0 (injected)",
+   "tool_type": "Y0",
+   "group": "Synthetic stand-ins for brief targets"
+  },
+  {
+   "slug": "synthetic-faint",
+   "name": "SYNTHETIC faint mover, no motion given (test data)",
+   "blurb": "Synthetic test case: an object that moves but has no catalogue motion, too faint to type.",
+   "manifest": "synthetic-faint/manifest.json",
+   "thumb": "synthetic-faint/thumb.png",
+   "known_type": "T9 (injected)",
+   "tool_type": null,
+   "group": "Synthetic edge cases"
+  },
+  {
+   "slug": "synthetic-no-motion",
+   "name": "SYNTHETIC static source (test data)",
+   "blurb": "Synthetic test case with no known motion and no usable spectrum.",
+   "manifest": "synthetic-no-motion/manifest.json",
+   "thumb": "synthetic-no-motion/thumb.png",
+   "known_type": null,
+   "tool_type": null,
+   "group": "Synthetic edge cases"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "slug": "denis-0255-4700",
+ "center": {
+  "ra": 43.7730171,
+  "dec": -47.0171131
+ },
+ "fov_arcsec": 240.0,
+ "size_px": 240,
+ "field_movers": {
+  "status": "searched",
+  "reason": null,
+  "method": "wise_visit_tracks",
+  "bands": [
+   "W2",
+   "W1"
+  ],
+  "first_year": 2010.52,
+  "last_year": 2024.52,
+  "baseline_years": 14.0,
+  "n_epochs": {
+   "W2": 24,
+   "W1": 24
+  },
+  "n_tracked": {
+   "W2": 11,
+   "W1": 23
+  },
+  "limits": {
+   "snr_min": 5.0,
+   "significance_min": 6.0,
+   "shift_min_arcsec": 1.0,
+   "min_epochs": 6
+  },
+  "movers": [
+   {
+    "label": "target",
+    "gaia_id": null,
+    "catwise_id": "J025505.26-470100.1",
+    "bands": [
+     "W2",
+     "W1"
+    ],
+    "epoch": 2018.53,
+    "px": [
+     119.96,
+     119.94
+    ],
+    "ra": 43.773034,
+    "dec": -47.017097,
+    "first_px": [
+     128.16,
+     115.48
+    ],
+    "last_px": [
+     113.82,
+     123.28
+    ],
+    "first_year": 2010.52,
+    "last_year": 2024.52,
+    "pmra_masyr": 1024.2,
+    "pmdec_masyr": -557.7,
+    "err_masyr": 7.3,
+    "motion_arcsec_yr": 1.166,
+    "shift_arcsec": 16.33,
+    "significance": 158.9,
+    "snr": 755.0,
+    "n_epochs": 24,
+    "epochs": [
+     "wise-w2-2010a",
+     "wise-w2-2011a",
+     "wise-w2-2014a",
+     "wise-w2-2014b",
+     "wise-w2-2015a",
+     "wise-w2-2015b",
+     "wise-w2-2015c",
+     "wise-w2-2016a",
+     "wise-w2-2016b",
+     "wise-w2-2017a",
+     "wise-w2-2017b",
+     "wise-w2-2018a",
+     "wise-w2-2018b",
+     "wise-w2-2019a",
+     "wise-w2-2019b",
+     "wise-w2-2020a",
+     "wise-w2-2020b",
+     "wise-w2-2021a",
+     "wise-w2-2021b",
+     "wise-w2-2022a",
+     "wise-w2-2022b",
+     "wise-w2-2023a",
+     "wise-w2-2023b",
+     "wise-w2-2024a",
+     "wise-w1-2010a",
+     "wise-w1-2011a",
+     "wise-w1-2014a",
+     "wise-w1-2014b",
+     "wise-w1-2015a",
+     "wise-w1-2015b",
+     "wise-w1-2015c",
+     "wise-w1-2016a",
+     "wise-w1-2016b",
+     "wise-w1-2017a",
+     "wise-w1-2017b",
+     "wise-w1-2018a",
+     "wise-w1-2018b",
+     "wise-w1-2019a",
+     "wise-w1-2019b",
+     "wise-w1-2020a",
+     "wise-w1-2020b",
+     "wise-w1-2021a",
+     "wise-w1-2021b",
+     "wise-w1-2022a",
+     "wise-w1-2022b",
+     "wise-w1-2023a",
+     "wise-w1-2023b",
+     "wise-w1-2024a"
+    ]
+   }
+  ],
+  "n_known": 0,
+  "n_candidates": 0,
+  "candidates_withheld": false,
+  "n_contradicted": 0,
+  "n_band_conflicts": 0,
+  "null_count": 0.0,
+  "null_max": 0,
+  "null_trials": 10,
+  "sentence": "We searched this patch for anything else that moved between 2010 and 2024. We found nothing unexplained. The search also picked up the target itself without being told where it is."
+ }
+}

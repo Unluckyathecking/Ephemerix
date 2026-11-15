@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "r-draconis-cycle",
+    "name": "R Draconis",
+    "blurb": "A pulsating red giant that brightens and fades every 246 days; SPHEREx caught it bright in August 2026 and faint in September 2025.",
+    "ra": 248.1673784,
+    "dec": 66.7550067,
+    "epoch": 2016.0,
+    "pmra_masyr": -20.643,
+    "pmdec_masyr": 6.149,
+    "parallax_mas": 1.251,
+    "known_type": "Mira variable (M), M5e-M9eIII",
+    "known_type_ref": "AAVSO VSX via VizieR B/vsx/vsx (OID 13673), fetched 2026-11-14",
+    "discovery_ref": "Brief target; discovery reference not looked up.",
+    "w1_mag": 0.393,
+    "w2_mag": 0.129,
+    "group": "variable",
+    "notes": "Period 246.12 d, maximum JD 2457370.0, V 6.7-13.2 (VSX; the brief quotes 245.6 d). Saturates every SPHEREx detector, so brightness is measured only as a relative quantity from the unsaturated PSF wings (9-13 px ring). Checked 2026-11-15 (probes/variables/verify.py, verify_followup.py): across 399 exposures (Apr 2025-Sep 2026) a sine fit at the VSX period gives peak-to-peak 1.33 mag (1.01-1.44, 68% over resampled passes) at 0.75-1.1 um and 0.70 mag (0.66-0.85) at 4.4-5.0 um, maxima 0.02 and 0.04 cycles after the VSX prediction. Two comparison stars of similar brightness measured the same way swing at most 7% as much. 1.65-2.4 um fails (a comparison star swings 0.43 times as much) and 2.4-3.8 um fails (rests on one pass); neither is published. The data alone give a best period of 253 d but only 144-276 d (68%), so the period is the catalogue's. NEOWISE per-visit medians (2014-2024, saturated) follow the same ephemeris with 0.33 mag W1 semi-amplitude. Relative only: no calibrated flux. Published in web/data/variability.json (probes/variables/export_web.py).",
+    "sources": [
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=B/vsx/vsx&Name=R%20Dra (AAVSO VSX mirror, fetched 2026-11-14)",
+      "https://irsa.ipac.caltech.edu/SIA (spherex_dr1, spherex_qr3, spherex_dr1_deep, spherex_qr3_deep; 2,493 frames, fetched 2026-11-14)",
+      "https://irsa.ipac.caltech.edu/TAP/sync (neowiser_p1bs_psd and allwise_p3as_mep, fetched 2026-11-14)",
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, source_id=1648328016354496384, fetched 2026-11-14)"
+    ],
+    "position_source": "Gaia DR3 source_id 1648328016354496384, epoch 2016.0 (RUWE 1.30)",
+    "pm_source": "Gaia DR3",
+    "photometry_source": "AllWISE J163240.19+664517.9 (saturated; values are not reliable magnitudes)",
+    "catalog_ids": {
+      "gaia_dr3": "1648328016354496384",
+      "vsx_oid": "13673"
+    },
+    "period_days": 246.12,
+    "t0_max_jd": 2457370.0,
+    "lightcurve_method": "psf_wing_relative"
+  }
+]

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The site's name is set by js/site.js (one constant); it is not repeated in the HTML. -->
+  <title>Can we find a dwarf planet without its coordinates?</title>
+  <meta name="description" content="See which dwarf planets we recovered in SPHEREx images and how we tested the faintest signals against noise.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c0d10">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Can we find a dwarf planet without its coordinates?">
+  <meta property="og:description" content="See which dwarf planets we recovered in SPHEREx images and how we tested the faintest signals against noise.">
+  <meta property="og:image" content="social.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230c0d10'/%3E%3Cpath d='M5 26C12 23 18 17 22.5 10.5' fill='none' stroke='%23e9e6df' stroke-opacity='.45' stroke-width='1.5'/%3E%3Ccircle cx='6' cy='25.6' r='2' fill='%23e9e6df' fill-opacity='.45'/%3E%3Ccircle cx='14.4' cy='19.6' r='2.4' fill='%23e9e6df' fill-opacity='.7'/%3E%3Ccircle cx='22.5' cy='10.5' r='3.6' fill='%23f2a93b'/%3E%3C/svg%3E">
+  <link rel="preload" href="vendor/fonts/ibm-plex-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="vendor/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="search.css">
+  <link rel="modulepreload" href="js/searchpage.js">
+</head>
+<body data-page="search">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site chrome"></header>
+  <main id="main" tabindex="-1" class="page sr-page">
+    <h1>Can we find a dwarf planet without its coordinates?</h1>
+    <p class="answer" id="sr-answer">Given no positions, our search picks out Haumea, Makemake and Eris, each the strongest signal in its field: a validation, not a discovery. Run on the real sky and backwards, it finds about as many peaks either way: nothing new above the noise.</p>
+    <p class="sr-next small">See also <a href="index.html">the blink</a>, <a href="validation.html">the results page</a> and <a href="planetx.html">what SPHEREx can reach for Planet X</a>.</p>
+
+    <section class="sr-stats" aria-label="Key numbers">
+      <dl class="stat-grid" id="sr-stats"></dl>
+    </section>
+
+    <section class="card sr-plot-card" aria-labelledby="sr-plot-h">
+      <h2 id="sr-plot-h">How faint an object can we find?</h2>
+      <p class="small muted">We hid simulated moving objects of known brightness in the real images and counted how many the search found again. Brightness is in microjanskys (µJy), a unit of light received: smaller is fainter.</p>
+      <div class="plot sr-plot" role="img" aria-label="Fraction of planted synthetic movers recovered against their brightness, pooled over all fields with a 95% band, and one thin line per field"></div>
+      <p class="small muted" id="sr-plot-lead"></p>
+      <details class="howto">
+        <summary>How to read this plot</summary>
+        <p>Each point is one brightness bin of planted bodies: the fraction the search found again at the right position and rate. The thick line pools all twelve fields, with its 95% (Wilson) interval shaded; the thin lines are single fields. The dashed lines mark 50% and 90% recovery. Flux is at 1&nbsp;µm for a body that reflects sunlight; hover a limit marker for its V magnitude, which assumes solar colours. Red lines are the two control fields.</p>
+        <p>The 50% and 90% limits are interpolated in these same eight bins. With finer bins the 90% point moves by a few µJy (97 to 106&nbsp;µJy), which is the size of its uncertainty.</p>
+      </details>
+    </section>
+
+    <section class="card" id="p9" aria-labelledby="p9-h">
+      <h2 id="p9-h">A pilot search where Planet Nine is predicted</h2>
+      <div id="sr-p9" class="p9"><p class="small muted">Loading the pilot-search results…</p></div>
+    </section>
+
+    <details class="card sr-more" id="sr-how">
+      <summary><h2>How we worked this out</h2></summary>
+      <div class="prose sr-intro">
+        <h3 id="sr-intro-h">What the search does</h3>
+        <p>A distant object can be too faint to see in a single exposure. If we line up several images along its path, its light adds up. The trick is that we don’t know the path in advance.</p>
+        <p>We start with a patch of sky 20 arcminutes across, subtract images taken months earlier, and try thousands of paths through the remaining images. Each path represents a possible motion for an object 30 to 1000 astronomical units from the Sun during one SPHEREx pass of up to 16 days.</p>
+        <p>We run the search backwards along those paths to estimate how often noise and image artefacts produce peaks. Then we add simulated objects of known brightness to the real images and count how many we find again.</p>
+        <p class="small">One astronomical unit (au) is the distance from Earth to the Sun. S/N, the signal-to-noise ratio, says how many times a peak stands above the noise. The backwards run is our null search: no real object moves that way, so whatever it finds is noise.</p>
+      </div>
+      <h3 id="sr-known-h">The three dwarf planets we recovered</h3>
+      <p class="small muted">After the search, we compared the strongest signal in each of these fields with the dwarf planet’s catalogue position.</p>
+      <div class="table-wrap sr-table" id="sr-known" tabindex="0" aria-labelledby="sr-known-h"></div>
+      <h3 id="sr-null-h">How often does noise look like a moving object?</h3>
+      <p id="sr-null-lead"></p>
+      <div class="table-wrap sr-table" id="sr-null" tabindex="0" aria-labelledby="sr-null-h"></div>
+      <h3 id="sr-px-h">What this means for Planet X</h3>
+      <div id="sr-px"></div>
+    </details>
+
+    <details class="card sr-more" id="sr-numbers">
+      <summary><h2>The numbers</h2></summary>
+      <h3 id="sr-fields-h">Field by field</h3>
+      <p class="small muted">Recovered / planted in four brightness bins, with 95% intervals. "Window" is the part of the pass that was searched. "Motion limit" is the farthest distance at which a body at rest still moves 1.5&nbsp;px within that window, so the search can tell it from a star; 1000&nbsp;au is where the search itself stops.</p>
+      <div class="table-wrap sr-table" id="sr-fields" tabindex="0" aria-labelledby="sr-fields-h"></div>
+    </details>
+
+    <details class="card sr-more sr-limits" id="sr-wrong">
+      <summary><h2 id="sr-limits-h">What could be wrong</h2></summary>
+      <h3>The two control fields</h3>
+      <p id="sr-controls"></p>
+      <h3>Why we kept the simpler detection rule</h3>
+      <p id="sr-classifier"></p>
+      <h3>Other limits</h3>
+      <ul id="sr-caveats" class="sr-caveats"></ul>
+    </details>
+
+    <details class="card sr-more" id="sr-sources">
+      <summary><h2>Sources</h2></summary>
+      <p class="small muted sr-source">Numbers are computed by <span class="mono">python -m pxs.movers.summary</span> from the campaign of <span id="sr-date"></span> into <a href="data/movers.json">data/movers.json</a>. The pilot search is reported by <span class="mono">tools/p9_search/report.py</span> into <a href="data/p9-search.json">data/p9-search.json</a>; the Planet X brightness curves come from <a href="data/planetx-limits.json">data/planetx-limits.json</a>. Earlier searches: Brown, Holman &amp; Batygin 2024 (<a href="https://arxiv.org/abs/2401.17977">arXiv:2401.17977</a>); Meisner et al. 2018 (<a href="https://arxiv.org/abs/1712.04950">arXiv:1712.04950</a>). The full list is on <a href="planetx.html#px-sources">the Planet X page</a>.</p>
+    </details>
+  </main>
+  <footer class="site chrome"></footer>
+  <script type="module" src="js/searchpage.js"></script>
+</body>
+</html>

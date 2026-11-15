@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The site's name is set by js/site.js (one constant); it is not repeated in the HTML. -->
+  <title>Explore the sky</title>
+  <meta name="description" content="Drag across a map of the whole night sky, zoom in, and tap a marker to watch that star or brown dwarf move in SPHEREx and WISE images.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c0d10">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Explore the sky">
+  <meta property="og:description" content="Drag across a map of the whole night sky, zoom in, and tap a marker to watch that star or brown dwarf move in SPHEREx and WISE images.">
+  <meta property="og:image" content="social.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230c0d10'/%3E%3Cpath d='M5 26C12 23 18 17 22.5 10.5' fill='none' stroke='%23e9e6df' stroke-opacity='.45' stroke-width='1.5'/%3E%3Ccircle cx='6' cy='25.6' r='2' fill='%23e9e6df' fill-opacity='.45'/%3E%3Ccircle cx='14.4' cy='19.6' r='2.4' fill='%23e9e6df' fill-opacity='.7'/%3E%3Ccircle cx='22.5' cy='10.5' r='3.6' fill='%23f2a93b'/%3E%3C/svg%3E">
+  <link rel="preload" href="vendor/fonts/ibm-plex-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="vendor/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="data/stars.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="explore.css">
+  <link rel="modulepreload" href="js/explore.js">
+</head>
+<body data-page="explore">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site chrome"></header>
+  <main id="main" tabindex="-1" class="ex-page">
+    <div class="ex-intro">
+      <h1>Explore the sky</h1>
+      <p class="ex-hint">Drag to look around. Tap a marker to watch it move.</p>
+    </div>
+
+    <section class="ex-stage" aria-label="Sky map">
+      <canvas id="ex-sky" class="ex-sky" tabindex="0" role="application"
+        aria-label="Map of the night sky. Arrow keys move around, plus and minus zoom, Enter opens the marker nearest the middle, Escape closes a card. The objects on the map are also listed below."
+        aria-describedby="ex-status"></canvas>
+      <div class="ex-top">
+      <form class="ex-search" id="ex-search" role="search" autocomplete="off">
+        <label class="offscreen" for="ex-q">Find a star, an object or a position</label>
+        <input id="ex-q" type="search" role="combobox" aria-expanded="false" placeholder="Find Proxima Centauri, Vega, 83.8 −5.4…" aria-controls="ex-results" aria-autocomplete="list" spellcheck="false">
+        <ul id="ex-results" class="ex-results" role="listbox" hidden></ul>
+      </form>
+      <button type="button" class="btn primary ex-move" id="ex-move">Take me to something that moves</button>
+      <p class="ex-caption">Star chart from the Hipparcos catalogue, not SPHEREx images</p>
+      </div>
+      <div class="ex-controls">
+        <button type="button" class="btn icon" id="ex-in" aria-label="Zoom in">+</button>
+        <button type="button" class="btn icon" id="ex-out" aria-label="Zoom out">−</button>
+        <button type="button" class="btn" id="ex-reset">Reset view</button>
+        <button type="button" class="btn" id="ex-grid" aria-pressed="false">Grid</button>
+      </div>
+      <div class="ex-tip" id="ex-tip" aria-hidden="true" hidden></div>
+      <aside class="ex-card" id="ex-card" aria-live="polite" hidden></aside>
+      <p class="ex-loading" id="ex-loading">Loading the star chart…</p>
+    </section>
+    <p class="ex-status small muted" id="ex-status" aria-live="polite"></p>
+
+    <div class="ex-below">
+      <div class="ex-lists">
+      <section class="ex-list" aria-labelledby="ex-list-h">
+        <h2 id="ex-list-h">Everything marked on the map</h2>
+        <p class="small muted">Each one opens straight away: we have already built its images.</p>
+        <div id="ex-list"></div>
+      </section>
+      <section class="ex-list" id="ex-known-section" aria-labelledby="ex-known-h" hidden>
+        <h2 id="ex-known-h">Nearby stars and brown dwarfs we can build</h2>
+        <p class="small muted">The cyan diamonds. We have not built these yet: open one and we build its view from SPHEREx and WISE images in about a minute.</p>
+        <div id="ex-known" class="ex-group"></div>
+      </section>
+      </div>
+      <section class="ex-about small muted" aria-labelledby="ex-about-h">
+        <h2 id="ex-about-h">About this map</h2>
+        <p>This is a star chart drawn from a catalogue, not SPHEREx images. The real images are one tap away: open any marker, or drop a pin anywhere and we build the view from SPHEREx and WISE data in about a minute.</p>
+        <p>The orange rings are views we have already built; the cyan diamonds are well-known nearby objects we can build live. Zoom right in on a fast mover and an arrow shows its path from 2010 to 2026, from its catalogue motion. Star colours follow each star’s measured colour; dashed lines show the ecliptic (where the planets travel) and the plane of the Milky Way.</p>
+        <p>Stars: the Hipparcos Catalogue (ESA 1997), from the VizieR service, positions moved to the year 2000. Constellation lines and star names: Stellarium’s “modern” sky culture, CC BY-SA 4.0.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="site chrome"></footer>
+  <script type="module" src="js/explore.js"></script>
+</body>
+</html>

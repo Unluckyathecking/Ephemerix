@@ -1,0 +1,21 @@
+{
+ "_how": "Hand verdicts from the coadd stamps (cache/p9/units/p9/stamps/), the half-pass S/N, the single-frame share and vetting.json. A slow track rate is not used as evidence: near-static injections at 300-1000 au are recovered on the slowest tracks too. 'unexplained peak' means no artefact explanation was found; it is never a candidate planet.",
+ "P9T02#1": {"verdict": "unexplained peak", "why": "Most likely noise. S/N 7.06 against this field's null maximum 6.80 (a 0.26 margin); of the 27 fields with any peak at S/N >= 7, about half would show a real peak above their own null maximum by chance. Flux 56 +- 8 uJy is below the field's 50% completeness flux (66 uJy). Both halves contribute (5.7 / 4.5), the coadd is a faint compact blob with no star residual, no Gaia source brighter than G 19.3 or CatWISE source brighter than W1 16.2 within 60 arcsec, and no JPL-catalogued body (V < 25) within 60 arcsec. Its best track implies 30-37 au (1.9 arcsec/h). Not followed up in another pass."},
+ "P9T05#1": {"verdict": "artefact: bright-star residual", "why": "Second half only (1.9 / 11.8); dipole in the coadd beside a G 10.5 / W1 9.2 star 22 arcsec away."},
+ "P9T09#1": {"verdict": "artefact: bright-star residual", "why": "First half only (25.2 / 0.0); ring around a masked core; G 8.2 star 33 arcsec away (a Gaia G < 16 star 2.8 px from the peak)."},
+ "P9T10#1": {"verdict": "artefact: bright-star residual", "why": "Subtraction dipole in the coadd, 32 arcsec from a W1 7.8 / G 11.3 star."},
+ "P9T13#1": {"verdict": "artefact: bright-star residual", "why": "Masked saturated core with a dipole in the coadd; half-pass S/N lopsided (2.8 / 10.7)."},
+ "P9T14#1": {"verdict": "artefact: one half of the pass only", "why": "First half only (8.1 / 0.8); diffuse coadd 30 arcsec from a G 9.7 / W1 8.6 star."},
+ "P9T15#1": {"verdict": "artefact or noise", "why": "S/N 7.37 against null maximum 7.31; linear streak-like structure across the coadd; flux 65 uJy, below this field's 50% flux."},
+ "P9T15#2": {"verdict": "possible variable star or noise", "why": "S/N 7.35 against null maximum 7.31; coincides (3.4 arcsec) with a G 18.4 / W1 16.3 source; dark streak through the coadd."},
+ "P9T17#1": {"verdict": "artefact: bright-star residual", "why": "Coadd is a large masked saturated star with a ring."},
+ "P9T21#1": {"verdict": "artefact: one half of the pass only", "why": "First half only (21.7 / 1.3); elongated residual 35 arcsec from a G 9.5 / W1 8.0 star."},
+ "P9T22#1": {"verdict": "artefact: bright-star residual", "why": "Compact dipole 30 arcsec from a G 10.5 / W1 8.6 star, and on a W1 15.9 source (4 arcsec)."},
+ "P9T22#14": {"verdict": "artefact: single frame", "why": "All of the S/N from one frame (one frame on the track, share 1.0); second half 0.0."},
+ "P9T24#1": {"verdict": "artefact: one half of the pass only", "why": "Second half only (-0.2 / 9.1); masked dark blob in the coadd."},
+ "P9T24#2": {"verdict": "possible variable star or noise", "why": "First half dominant (8.8 / 1.8, fails half-pass consistency); diffuse ring, on a G 17.7 / W1 15.4 source (5.7 arcsec)."},
+ "P9T26#1": {"verdict": "artefact: bright-star residual", "why": "Masked core with a dipole, 34 arcsec from a G 10.5 star (a G < 16 star 5.6 px away)."},
+ "P9T30#1": {"verdict": "artefact: bright-star residual", "why": "Coadd dominated by a large masked saturated star (a G < 16 star 8.7 px away)."},
+ "P9T30#2": {"verdict": "artefact: bright-star residual", "why": "Masked core, 29 arcsec from a G 10.3 / W1 8.4 star."},
+ "P9T31#1": {"verdict": "artefact: bright-star residual", "why": "Masked dark blob, 21 arcsec from a G 11.2 / W1 9.3 star."}
+}

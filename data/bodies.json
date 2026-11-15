@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "note": "Bodies the Solar System mode is known to work on (detected in a single SPHEREx pass, with a background control: S/N >= 5 in at least two detector bands, or >= 50 when saturation leaves one). 'passes' lists the passes measured and their best per-band S/N. Written with Claude Code.",
+  "bodies": [
+    {
+      "designation": "136108", "name": "Haumea", "horizons": "136108;", "type": "dwarf planet",
+      "blurb": "An egg-shaped dwarf planet beyond Neptune that spins once every four hours, coated in bright crystalline water ice.",
+      "composition": "crystalline water ice with deep 1.5 and 2.0 um bands; band depths 0.36 +- 0.05 at 1.50 um and 0.55 +- 0.05 at 2.00 um against the local continuum (Dumas et al. 2011, arXiv:1101.2102); a 1:1 crystalline/amorphous water-ice mixture (Pinilla-Alonso et al. 2009, arXiv:0803.1080)",
+      "composition_ref": "Dumas et al. 2011, A&A, arXiv:1101.2102; Pinilla-Alonso et al. 2009, A&A 496, 547, arXiv:0803.1080; Gourgeot et al. 2016, A&A, arXiv:1605.04145",
+      "passes": []
+    },
+    {
+      "designation": "136472", "name": "Makemake", "horizons": "136472;", "type": "dwarf planet",
+      "blurb": "One of the brightest worlds in the Kuiper Belt, a dwarf planet covered in methane ice.",
+      "composition": "methane ice dominates, with strong CH4 bands through the near-infrared (Grundy et al. 2024, JWST NIRSpec, arXiv:2309.05085)",
+      "composition_ref": "Grundy et al. 2024, Icarus 411, 115923, arXiv:2309.05085",
+      "passes": []
+    },
+    {
+      "designation": "136199", "name": "Eris", "horizons": "136199;", "type": "dwarf planet",
+      "blurb": "The most massive known dwarf planet, now almost 100 times farther from the Sun than Earth, with a methane-ice surface.",
+      "composition": "methane ice dominates, with N2 ice indicated near 4.2 um (Grundy et al. 2024, JWST NIRSpec, arXiv:2309.05085)",
+      "composition_ref": "Grundy et al. 2024, Icarus 411, 115923, arXiv:2309.05085",
+      "passes": []
+    }
+    ,{
+      "designation": "Pluto", "name": "Pluto", "horizons": "9", "type": "dwarf planet",
+      "blurb": "Pluto and its large moon Charon, unresolved by SPHEREx and measured as one source.",
+      "composition": "",
+      "composition_ref": "",
+      "passes": []
+    }
+  ],
+  "excluded": []
+}

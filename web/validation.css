@@ -1,0 +1,24 @@
+/* Results page: the answer and the five named targets first; the rest in closed sections.
+   Layout, cards, tables and the scoreboard come from styles.css. */
+.val-next { color: var(--ink-2); margin: calc(-1 * var(--s3)) 0 0; max-width: 44rem; }
+.val .val-more { padding-block: var(--s4); }
+.val .val-more > summary { color: var(--ink); }
+.val .val-more[open] > summary { margin-bottom: var(--s4); }
+.val-more + .val-more { margin-top: calc(-1 * var(--s3)); }
+.brief-table { min-width: 720px; }
+.brief-table td { vertical-align: top; line-height: 1.45; }
+.brief-table td .num { font-family: var(--mono); font-size: var(--fs-xs); white-space: nowrap; }
+.brief-table td .vtag { white-space: nowrap; }
+.brief-table .brief-change { min-width: 16rem; color: var(--ink-2); }
+/* On a phone the five rows stack, one card-like block per target, each cell with its heading. */
+@media (max-width: 640px) {
+  .brief-table { min-width: 0; }
+  .brief-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .brief-table, .brief-table tbody, .brief-table tr, .brief-table th, .brief-table td { display: block; }
+  .brief-table tr { padding: var(--s3) 0; border-bottom: 1px solid var(--line); }
+  .brief-table th.name { padding: 0 0 var(--s1); }
+  .brief-table td { padding: var(--s1) 0; border: 0; }
+  .brief-table td::before { content: attr(data-label); display: block; font: 500 0.6875rem/1.4 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  .brief-table .brief-change { min-width: 0; }
+  .brief-table td.none { display: none; }
+}

@@ -1,0 +1,63 @@
+{
+ "fields": [
+  "V01",
+  "V02",
+  "V03",
+  "V04"
+ ],
+ "n_sources": 200,
+ "choices": {
+  "base": {
+   "variance": null,
+   "null_ge7": 47,
+   "null_ge6": 61,
+   "null_ge5": 189,
+   "real_ge7": 45,
+   "recovered_ge7": 99
+  },
+  "den": {
+   "variance": "reference_removed",
+   "null_ge7": 22,
+   "null_ge6": 62,
+   "null_ge5": 252,
+   "real_ge7": 19,
+   "recovered_ge7": 112,
+   "a_ujy": -5.757898467754438,
+   "a_se": 1.137893308488521,
+   "b": 0.004623562568399701,
+   "b_se": 0.006834411491707071,
+   "n": 187,
+   "eligible": false
+  },
+  "den_pipeline": {
+   "variance": "pipeline",
+   "null_ge7": 31,
+   "null_ge6": 90,
+   "null_ge5": 282,
+   "real_ge7": 24,
+   "recovered_ge7": 113,
+   "a_ujy": -4.629559365499103,
+   "a_se": 1.1357428161826832,
+   "b": 0.004317942984550287,
+   "b_se": 0.006821495211052106,
+   "n": 187,
+   "eligible": false
+  },
+  "den_smoothed": {
+   "variance": "smoothed",
+   "null_ge7": 35,
+   "null_ge6": 76,
+   "null_ge5": 229,
+   "real_ge7": 49,
+   "recovered_ge7": 108,
+   "a_ujy": -2.2670855492440656,
+   "a_se": 1.1488076714806361,
+   "b": 0.0018157691216042506,
+   "b_se": 0.006882949162734578,
+   "n": 187,
+   "eligible": true
+  }
+ },
+ "chosen": "den_smoothed",
+ "chosen_variance": "smoothed"
+}

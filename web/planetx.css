@@ -1,0 +1,21 @@
+/* "Could SPHEREx see Planet X?" page. Layout, prose, plot and tables come from styles.css. */
+.px-answer strong, #px-answer strong { color: var(--accent); font-weight: 500; }
+.px-next { color: var(--ink-2); margin: calc(-1 * var(--s3)) 0 var(--s5); max-width: 44rem; }
+.plot.px-reach-plot { min-height: 400px; }
+.px-bands { margin: var(--s2) 0 var(--s3); }
+.px-table td { white-space: nowrap; }
+/* The detail sits in closed sections, one per question; each opens with its title. */
+.px-more { padding-block: var(--s4); }
+.px-more > summary { color: var(--ink); }
+.px-more[open] > summary { margin-bottom: var(--s4); }
+.px-more h3 { margin: var(--s5) 0 var(--s2); }
+.px-more .prose > h3:first-child { margin-top: 0; }
+.px-more > p, .px-more .prose { max-width: 52rem; }
+.px-plot-card { margin-top: var(--s5); }
+.page > details { margin-bottom: var(--s3); }
+@media (max-width: 640px) {
+  .px-table td { white-space: normal; }
+  .plot.px-plot { min-height: 640px; }
+  .plot.px-reach-plot { min-height: 420px; }
+  .segmented.px-bands { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

@@ -1,0 +1,102 @@
+{
+ "slug": "wise-0855-0714",
+ "center": {
+  "ra": 133.7768837,
+  "dec": -7.2437616
+ },
+ "fov_arcsec": 240.0,
+ "size_px": 240,
+ "field_movers": {
+  "status": "searched",
+  "reason": null,
+  "method": "wise_visit_tracks",
+  "bands": [
+   "W2",
+   "W1"
+  ],
+  "first_year": 2010.34,
+  "last_year": 2024.29,
+  "baseline_years": 13.95,
+  "n_epochs": {
+   "W2": 23,
+   "W1": 23
+  },
+  "n_tracked": {
+   "W2": 15,
+   "W1": 27
+  },
+  "limits": {
+   "snr_min": 5.0,
+   "significance_min": 6.0,
+   "shift_min_arcsec": 1.0,
+   "min_epochs": 6
+  },
+  "movers": [
+   {
+    "label": "target",
+    "gaia_id": null,
+    "catwise_id": "J085508.34-071439.2",
+    "bands": [
+     "W2"
+    ],
+    "epoch": 2019.303,
+    "px": [
+     126.89,
+     118.86
+    ],
+    "ra": 133.774954,
+    "dec": -7.243445,
+    "first_px": [
+     86.57,
+     122.15
+    ],
+    "last_px": [
+     167.43,
+     115.55
+    ],
+    "first_year": 2014.34,
+    "last_year": 2024.29,
+    "pmra_masyr": -8131.1,
+    "pmdec_masyr": 663.5,
+    "err_masyr": 25.3,
+    "motion_arcsec_yr": 8.158,
+    "shift_arcsec": 113.81,
+    "significance": 322.2,
+    "snr": 20.6,
+    "n_epochs": 21,
+    "epochs": [
+     "wise-w2-2014a",
+     "wise-w2-2014b",
+     "wise-w2-2015a",
+     "wise-w2-2015b",
+     "wise-w2-2016a",
+     "wise-w2-2016b",
+     "wise-w2-2017a",
+     "wise-w2-2017b",
+     "wise-w2-2018a",
+     "wise-w2-2018b",
+     "wise-w2-2019a",
+     "wise-w2-2019b",
+     "wise-w2-2020a",
+     "wise-w2-2020b",
+     "wise-w2-2021a",
+     "wise-w2-2021b",
+     "wise-w2-2022a",
+     "wise-w2-2022b",
+     "wise-w2-2023a",
+     "wise-w2-2023b",
+     "wise-w2-2024a"
+    ]
+   }
+  ],
+  "n_known": 0,
+  "n_candidates": 0,
+  "candidates_withheld": false,
+  "n_contradicted": 0,
+  "n_band_conflicts": 0,
+  "null_count": 0.0,
+  "null_max": 0,
+  "null_trials": 10,
+  "sentence": "We searched this patch for anything else that moved between 2010 and 2024. We found nothing unexplained. The search also picked up the target itself without being told where it is."
+ }
+}

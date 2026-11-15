@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The site's name is set by js/site.js (one constant); it is not repeated in the HTML. -->
+  <title>Planet X: what we found, and how far SPHEREx can see</title>
+  <meta name="description" content="Haumea, Makemake and Eris found blind in SPHEREx, how far SPHEREx could see a distant planet, and why we claim no Planet X. How bright a distant planet would be in the SPHEREx and WISE bands, how far each survey reaches, and how it would move between passes.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c0d10">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Planet X: what we found, and how far SPHEREx can see">
+  <meta property="og:description" content="Haumea, Makemake and Eris found blind in SPHEREx, how far SPHEREx could see a distant planet, and why we claim no Planet X. How bright a distant planet would be in the SPHEREx and WISE bands, how far each survey reaches, and how it would move between passes.">
+  <meta property="og:image" content="social.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230c0d10'/%3E%3Cpath d='M5 26C12 23 18 17 22.5 10.5' fill='none' stroke='%23e9e6df' stroke-opacity='.45' stroke-width='1.5'/%3E%3Ccircle cx='6' cy='25.6' r='2' fill='%23e9e6df' fill-opacity='.45'/%3E%3Ccircle cx='14.4' cy='19.6' r='2.4' fill='%23e9e6df' fill-opacity='.7'/%3E%3Ccircle cx='22.5' cy='10.5' r='3.6' fill='%23f2a93b'/%3E%3C/svg%3E">
+  <link rel="preload" href="vendor/fonts/ibm-plex-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="vendor/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="planetx.css">
+  <link rel="modulepreload" href="js/planetx.js">
+</head>
+<body data-page="planetx">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site chrome"></header>
+  <main id="main" tabindex="-1" class="page px-page">
+    <h1>Planet X: what we found, and how far SPHEREx can see</h1>
+    <section class="px-found" id="px-found" aria-labelledby="px-found-h">
+      <h2 id="px-found-h">What we found on real objects</h2>
+      <ul id="px-found-list">
+        <li>Given no positions, our blind slow-mover search picks out Haumea, Makemake and Eris. <a href="search.html">The blind search</a>.</li>
+        <li>Following known orbits, our body views recover known Solar System bodies in SPHEREx. <a href="validation.html#bodies">Known bodies recovered</a>.</li>
+        <li>Following Haumea and Makemake along their orbits, SPHEREx measures their ice. <a href="index.html?target=haumea">The Haumea view</a>.</li>
+      </ul>
+    </section>
+
+    <section class="card px-reach-card" aria-labelledby="px-reach-plot-h">
+      <h2 id="px-reach-plot-h">How far SPHEREx could see each kind of planet</h2>
+      <p class="answer" id="px-answer">This is our estimate of how far SPHEREx could see a distant planet, not a detection and not a search result.</p>
+      <div class="plot px-reach-plot" id="px-reach-plot" role="img" aria-label="For each hypothetical planet, the distance out to which one SPHEREx all-sky map would see it, against the 400 to 800 au range where Planet Nine is predicted"></div>
+      <p class="small muted">Each bar runs from a small, dark version of the planet (left end) to a large, bright one (right end); the dot is the most likely case. The amber band is where Planet Nine is predicted.</p>
+    </section>
+
+    <section class="px-why" id="px-why" aria-labelledby="px-why-h">
+      <h2 id="px-why-h">Why we claim no Planet X</h2>
+      <p>One pass of our search cannot find Planet Nine. One SPHEREx map sees a 10-Earth-mass planet only to about <span class="mono" data-reach="se10:spx_one_map_channel">375 au (225 to 550)</span>, short of most of the predicted range, and between passes six months apart it jumps <span class="mono" data-shift="1000:300">7 to 25</span> arcminutes, out of any small field. Finding it would take linking three or four detections from separate passes across the whole sky, which we have not built.</p>
+      <p class="small" id="px-blind"></p>
+      <p><strong>We claim no Planet X.</strong></p>
+    </section>
+
+    <details class="card px-more" id="px-how">
+      <summary><h2>How we worked this out</h2></summary>
+      <div class="prose">
+        <h3>How bright would Planet Nine be?</h3>
+        <p>One proposed orbit has a semimajor axis of 400 to 800 astronomical units (au) for a planet with 5 to 10 times Earth’s mass (Batygin et al. 2019). A later fit favours about 6 Earth masses and 380 au, with a range of 300 to 520 au (Brown &amp; Batygin 2021). One au is the average distance from Earth to the Sun. In reflected sunlight such a planet would be about AB 20 to 22 in the SPHEREx bands at 500 au and fade by 3 magnitudes every time its distance doubles.</p>
+        <p class="small">Brightness here is in magnitudes (AB and V are two versions of the scale): a bigger number is fainter, and 5 magnitudes is a factor of 100. "5 sigma" means the planet stands out at five times the noise.</p>
+        <p>For the 10-Earth-mass model, our estimate for one spectral channel in a single SPHEREx sky map is about <span class="mono" data-reach="se10:spx_one_map_channel">375 au (225 to 550)</span>. Averaging all 17 channels of one detector on the moving planet would stretch that to about <span class="mono" data-reach="se10:spx_one_map_band">550 au (350 to 800)</span>. Using the formal per-frame errors of our own SPHEREx photometry instead, the figure is about <span class="mono" data-reach="se10:spx_measured_channel">325 au</span>.</p>
+        <p>A planet could also glow from its own heat. A planet at the top of the mass range with a methane-depleted atmosphere could be as bright as W1&nbsp;16 near 3.3&nbsp;µm (Fortney et al. 2016). WISE already excludes that case inside about 820&nbsp;au, and a single SPHEREx pass at 2.4 to 3.8&nbsp;µm would see it out to about 1070&nbsp;au. By our own estimate this 820 to 1070&nbsp;au window shrinks or closes once a blind search needs about 7 sigma and has to link three or four detections that jump about <span class="mono" data-shift="1000">7</span> arcminutes each time.</p>
+      </div>
+
+      <section class="px-plot-card" aria-labelledby="px-plot-h">
+        <h3 id="px-plot-h">Brightness against distance, band by band</h3>
+        <div class="segmented px-bands" role="group" aria-label="Band"></div>
+        <div class="plot px-plot" role="img" aria-label="Predicted brightness of each hypothetical planet against distance, with survey depth lines"></div>
+        <p class="small muted px-plot-note"></p>
+        <details class="howto">
+          <summary>How to read this plot</summary>
+          <p>Each coloured line is one hypothetical planet with its most likely size, albedo and temperature; the shaded band around it runs from the faintest to the brightest plausible version. Brighter is up. The flat grey bands are survey depths at 5 sigma: a planet above a band would be detected, one below it would not. The amber strip marks 400 to 800 au, where the Planet Nine hypothesis puts the planet.</p>
+          <p>Reflected light falls as distance to the fourth power. Heat from the planet's interior falls only as distance squared, which is why the methane-depleted WISE models (shown only for W1 and W2) are nearly flat.</p>
+          <p>Depths marked "derived" are scaled from the published two-year SPHEREx depth (Bock et al. 2025) by us; "measured" is the per-frame noise of our own photometry, which is a formal error and probably 0.75 to 1.5 magnitudes too optimistic.</p>
+        </details>
+      </section>
+
+      <h3 id="px-motion-h">How it would move</h3>
+      <p>SPHEREx looks about 90 degrees from the Sun, where Earth's offset of 1&nbsp;au is across the line of sight. Six months later Earth is on the other side, so a distant planet jumps by twice its parallax between passes. Within one pass it creeps by Earth's sideways speed, which is zero in the ecliptic and largest at the poles.</p>
+
+    </details>
+
+    <details class="card px-more" id="px-numbers">
+      <summary><h2>The numbers</h2></summary>
+      <h3 id="px-reach-h">How far each survey reaches</h3>
+      <p class="small muted">Farthest distance at which the planet is still above the 5-sigma depth, best band, most likely value and range.</p>
+      <div class="table-wrap px-table" id="px-reach" tabindex="0" aria-labelledby="px-reach-h"></div>
+      <p class="small muted">The Jupiter analogue is drawn as a 100 K blackbody, which badly underestimates the 4 to 5&nbsp;µm light of a real giant planet, so its WISE and long-wavelength SPHEREx figures are lower bounds; WISE rules out Saturn and Jupiter analogues out to 28,000 and 82,000 au (Luhman 2014).</p>
+      <h3>How far it would move</h3>
+      <div class="table-wrap px-table" id="px-motion" tabindex="0" aria-labelledby="px-motion-h"></div>
+      <p class="small muted">Planet's own motion assumes a circular orbit seen side on (an upper bound). One SPHEREx pixel is 6.15 arcsec. Planet Nine's predicted 15 to 25 degree inclination keeps it within about 25 degrees of the ecliptic.</p>
+    </details>
+
+    <details class="card px-more" id="px-ruled-out">
+      <summary><h2>What earlier searches have ruled out</h2></summary>
+      <p>Anything SPHEREx could see in reflected light would be brighter than V&nbsp;21. The Pan-STARRS search alone is half complete at V&nbsp;21.5, and together with ZTF and DES it has ruled out 78% of the favoured orbits without finding the planet (Brown, Holman &amp; Batygin 2024). WISE has ruled out the brightest models that glow in their own heat at 3 to 5&nbsp;µm (W1 &lt; 16.7 over three quarters of the sky), and the far-infrared IRAS and AKARI searches have only unconfirmed candidates. A planet could still be farther away, fainter, or hidden among the stars of the Galactic plane. Each would make a detection harder.</p>
+    </details>
+
+    <details class="card px-more" id="px-wrong">
+      <summary><h2>What could be wrong</h2></summary>
+      <p class="small muted">Ranges run from a small, dark planet against the shallow end of the survey depth to a large, bright one against the deep end. The bright end assumes a grey albedo of 0.75; methane makes real ice giants much darker at 1 to 5&nbsp;µm, so the true reach is probably nearer the low end.</p>
+    </details>
+
+    <details class="card px-more refs px-refs" id="px-sources">
+      <summary><h2 id="px-refs-h">Sources</h2></summary>
+      <ol class="small">
+        <li>Batygin, Adams, Brown &amp; Becker 2019, The Planet Nine Hypothesis, Phys. Rep. 805, 1: 5-10 Earth masses, a = 400-800 au. <a href="https://arxiv.org/abs/1902.10103">arXiv:1902.10103</a></li>
+        <li>Brown &amp; Batygin 2021, The Orbit of Planet Nine, AJ 162, 219: 6.2 (+2.2/−1.3) Earth masses, a = 380 (+140/−80) au. <a href="https://arxiv.org/abs/2108.09868">arXiv:2108.09868</a></li>
+        <li>Brown, Holman &amp; Batygin 2024, A Pan-STARRS1 Search for Planet Nine, AJ 167, 146: V = 21.5 (50% complete); with ZTF and DES, 78% of the parameter space excluded. <a href="https://arxiv.org/abs/2401.17977">arXiv:2401.17977</a></li>
+        <li>Linder &amp; Mordasini 2016, Evolution and magnitudes of candidate Planet Nine, A&amp;A 589, A134: 10 Earth masses, 3.66 Earth radii, 47 K, V 21.7 and W1 20.1 at 700 au. <a href="https://arxiv.org/abs/1602.07465">arXiv:1602.07465</a></li>
+        <li>Fortney et al. 2016, The Hunt for Planet Nine, ApJL 824, L25: radii and T<sub>eff</sub> of 35-50 K (Table 1); W1/W2 of methane-depleted models (Table 2). <a href="https://arxiv.org/abs/1604.07424">arXiv:1604.07424</a></li>
+        <li>Ginzburg, Sari &amp; Loeb 2016, Blackbody radiation from isolated Neptunes, ApJL 822, L11. <a href="https://arxiv.org/abs/1603.02876">arXiv:1603.02876</a></li>
+        <li>Bock et al. 2025, The SPHEREx Satellite Mission: 5-sigma per channel 19.5-19.9 AB (0.75-3.8 µm) and 17.8-18.8 AB (3.8-5 µm) after four all-sky maps. <a href="https://arxiv.org/abs/2511.02985">arXiv:2511.02985</a></li>
+        <li>Hui et al. 2026, Spectral response of SPHEREx, ApJS 284, 10: detector band edges. <a href="https://arxiv.org/abs/2602.09139">arXiv:2602.09139</a></li>
+        <li>Meisner et al. 2018, A 3π search for Planet Nine at 3.4 µm with WISE and NEOWISE, AJ 155, 166: 90% complete to W1 = 16.7. <a href="https://arxiv.org/abs/1712.04950">arXiv:1712.04950</a></li>
+        <li>Wright et al. 2010, The Wide-field Infrared Survey Explorer, AJ 140, 1868: 5-sigma 0.08 and 0.11 mJy in W1 and W2. <a href="https://arxiv.org/abs/1008.0031">arXiv:1008.0031</a></li>
+        <li>Luhman 2014, A search for a distant companion to the Sun with WISE, ApJ 781, 4: no Saturn analogue within 28,000 au or Jupiter analogue within 82,000 au (with Fortney et al. models). <a href="https://ui.adsabs.harvard.edu/abs/2014ApJ...781....4L">ADS 2014ApJ...781....4L</a></li>
+        <li>Sedgwick &amp; Serjeant 2022, Searching for giant planets in the outer Solar System with far-infrared all-sky surveys (IRAS and AKARI), MNRAS 515, 4828: 535 candidate pairs, none convincing. <a href="https://arxiv.org/abs/2207.09985">arXiv:2207.09985</a></li>
+        <li>Phan et al. 2025, IRAS and AKARI search (<a href="https://arxiv.org/abs/2504.17288">arXiv:2504.17288</a>) and AKARI far-infrared search (<a href="https://arxiv.org/abs/2506.12854">arXiv:2506.12854</a>): unconfirmed candidates awaiting follow-up.</li>
+        <li>Li et al. 2018, Less absorbed solar energy and more internal heat for Jupiter, Nat. Commun. 9, 3709 (Jupiter-analogue T<sub>eff</sub>); Mallama et al. 2017, Icarus 282, 19 (albedo 0.54). <a href="https://doi.org/10.1038/s41467-018-06107-2">doi:10.1038/s41467-018-06107-2</a></li>
+        <li>Willmer 2018, The absolute magnitude of the Sun in several filters, ApJS 236, 47 (solar J and V). <a href="https://arxiv.org/abs/1804.07788">arXiv:1804.07788</a></li>
+        <li>WISE Explanatory Supplement, sec. 4.4h: Vega to AB offsets. <a href="https://wise2.ipac.caltech.edu/docs/release/allsky/expsup/sec4_4h.html">wise2.ipac.caltech.edu</a></li>
+      </ol>
+      <p class="small muted">Numbers are computed by <span class="mono">python -m pxs.planetx</span> into <a href="data/planetx-limits.json">data/planetx-limits.json</a>.</p>
+    </details>
+  </main>
+  <footer class="site chrome"></footer>
+  <script type="module" src="js/planetx.js"></script>
+</body>
+</html>

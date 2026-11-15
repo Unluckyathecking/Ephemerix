@@ -1,0 +1,2009 @@
+[
+ {
+  "rank": 1,
+  "name": "P9T01",
+  "ra": 35.0584,
+  "dec": -0.1639,
+  "b_deg": -55.62,
+  "density_per_deg2": 0.0003079960872704641,
+  "preflight": {
+   "name": "P9T01",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60876.685067115,
+     "mjd_end": 60904.67495274,
+     "n_frames": 60,
+     "n_window": 56,
+     "window_days": 8.354495358995337,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61036.251679314,
+     "mjd_end": 61068.779209731,
+     "n_frames": 70,
+     "n_window": 50,
+     "window_days": 15.55012995400466,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61237.58326568,
+     "mjd_end": 61259.711559488,
+     "n_frames": 73,
+     "n_window": 71,
+     "window_days": 11.60261971050204,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 2,
+  "name": "P9T02",
+  "ra": 351.7945,
+  "dec": -16.9716,
+  "b_deg": -68.04,
+  "density_per_deg2": 0.00017508821498579357,
+  "preflight": {
+   "name": "P9T02",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60825.326108967,
+     "mjd_end": 60846.252334152,
+     "n_frames": 63,
+     "n_window": 62,
+     "window_days": 12.363426296498801,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61000.604608839494,
+     "mjd_end": 61019.077923226505,
+     "n_frames": 59,
+     "n_window": 56,
+     "window_days": 15.487721412006067,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61187.139592161504,
+     "mjd_end": 61229.637540564,
+     "n_frames": 74,
+     "n_window": 56,
+     "window_days": 14.871529131996795,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 3,
+  "name": "P9T03",
+  "ra": 65.9202,
+  "dec": 13.3442,
+  "b_deg": -24.53,
+  "density_per_deg2": 0.00036291011833419025,
+  "preflight": {
+   "name": "P9T03",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60910.107115378996,
+     "mjd_end": 60916.830327069,
+     "n_frames": 56,
+     "n_window": 56,
+     "window_days": 6.723211690004973,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61066.531820518,
+     "mjd_end": 61099.665757219496,
+     "n_frames": 56,
+     "n_window": 48,
+     "window_days": 14.255154594997293,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61274.5088656915,
+     "mjd_end": 61283.130741455505,
+     "n_frames": 54,
+     "n_window": 54,
+     "window_days": 8.620383518507879,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 4,
+  "name": "P9T04",
+  "ra": 9.0698,
+  "dec": -11.9031,
+  "b_deg": -74.36,
+  "density_per_deg2": 0.00025228620068407526,
+  "preflight": {
+   "name": "P9T04",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60842.784337265504,
+     "mjd_end": 60874.715965853495,
+     "n_frames": 58,
+     "n_window": 54,
+     "window_days": 15.896124641498318,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61006.987391143,
+     "mjd_end": 61038.631061907,
+     "n_frames": 56,
+     "n_window": 49,
+     "window_days": 14.3920154285006,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61208.588910448496,
+     "mjd_end": 61230.115612925496,
+     "n_frames": 57,
+     "n_window": 55,
+     "window_days": 15.412293900502846,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 5,
+  "name": "P9T05",
+  "ra": 116.7652,
+  "dec": 22.261,
+  "b_deg": 21.76,
+  "density_per_deg2": 0.0002753660108412935,
+  "preflight": {
+   "name": "P9T05",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60958.336114314,
+     "mjd_end": 60972.593189013496,
+     "n_frames": 57,
+     "n_window": 57,
+     "window_days": 14.257074699497025,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61130.4179083535,
+     "mjd_end": 61144.877693909,
+     "n_frames": 57,
+     "n_window": 57,
+     "window_days": 14.459785555503913,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 6,
+  "name": "P9T06",
+  "ra": 28.4888,
+  "dec": -7.557,
+  "b_deg": -65.45,
+  "density_per_deg2": 0.0002323898126175078,
+  "preflight": {
+   "name": "P9T06",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60865.474182555,
+     "mjd_end": 60876.275212219494,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 10.801029664493399,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61044.5388629255,
+     "mjd_end": 61055.609634708,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 11.070771782498923,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61231.6721948235,
+     "mjd_end": 61259.8464664325,
+     "n_frames": 59,
+     "n_window": 56,
+     "window_days": 8.821785335501772,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 7,
+  "name": "P9T07",
+  "ra": 319.9307,
+  "dec": -23.185,
+  "b_deg": -42.27,
+  "density_per_deg2": 0.00018065920364443243,
+  "preflight": {
+   "name": "P9T07",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60790.876000981,
+     "mjd_end": 60806.712521386,
+     "n_frames": 38,
+     "n_window": 38,
+     "window_days": 15.836520393495448,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60961.4921801015,
+     "mjd_end": 60992.1255634115,
+     "n_frames": 58,
+     "n_window": 46,
+     "window_days": 14.604059698998753,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61161.614696143,
+     "mjd_end": 61166.636133458,
+     "n_frames": 27,
+     "n_window": 27,
+     "window_days": 5.021437315001094,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 8,
+  "name": "P9T08",
+  "ra": 319.316,
+  "dec": -24.0394,
+  "b_deg": -41.97,
+  "density_per_deg2": 0.00017588407050845626,
+  "preflight": {
+   "name": "P9T08",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60790.876000981,
+     "mjd_end": 60807.052684106,
+     "n_frames": 57,
+     "n_window": 53,
+     "window_days": 15.836520393495448,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60832.8620953675,
+     "mjd_end": 60834.156287659,
+     "n_frames": 16,
+     "n_window": 16,
+     "window_days": 1.2941922915051691,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 60962.101144488,
+     "mjd_end": 60992.125563423004,
+     "n_frames": 64,
+     "n_window": 61,
+     "window_days": 13.99509531250078,
+     "has_reference": true
+    },
+    {
+     "index": 3,
+     "mjd_start": 61161.140709881496,
+     "mjd_end": 61166.636133458,
+     "n_frames": 30,
+     "n_window": 30,
+     "window_days": 5.495423576503526,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 9,
+  "name": "P9T09",
+  "ra": 131.367,
+  "dec": 25.2262,
+  "b_deg": 35.35,
+  "density_per_deg2": 0.00022681882395886893,
+  "preflight": {
+   "name": "P9T09",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60971.918707543504,
+     "mjd_end": 60980.471744800496,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 8.553037256991956,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61141.008775564,
+     "mjd_end": 61164.908013608,
+     "n_frames": 59,
+     "n_window": 56,
+     "window_days": 15.549735660002625,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 10,
+  "name": "P9T10",
+  "ra": 70.0377,
+  "dec": 15.6562,
+  "b_deg": -19.97,
+  "density_per_deg2": 0.0003836023619234204,
+  "preflight": {
+   "name": "P9T10",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60912.68830752,
+     "mjd_end": 60920.6393782145,
+     "n_frames": 57,
+     "n_window": 57,
+     "window_days": 7.951070694500231,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61086.7653390365,
+     "mjd_end": 61102.449611548,
+     "n_frames": 57,
+     "n_window": 57,
+     "window_days": 15.68427251149842,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61277.973952393,
+     "mjd_end": 61291.5440569995,
+     "n_frames": 57,
+     "n_window": 57,
+     "window_days": 13.570104606500536,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 11,
+  "name": "P9T11",
+  "ra": 355.8106,
+  "dec": -15.2252,
+  "b_deg": -70.18,
+  "density_per_deg2": 0.0002005555917109999,
+  "preflight": {
+   "name": "P9T11",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60828.656801108,
+     "mjd_end": 60841.7000197425,
+     "n_frames": 56,
+     "n_window": 56,
+     "window_days": 13.043218634498771,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61004.4076734,
+     "mjd_end": 61021.455884673,
+     "n_frames": 55,
+     "n_window": 52,
+     "window_days": 15.757730486002401,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61194.198899869996,
+     "mjd_end": 61212.5291030525,
+     "n_frames": 55,
+     "n_window": 41,
+     "window_days": 12.836644155002432,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 12,
+  "name": "P9T12",
+  "ra": 11.9009,
+  "dec": -10.4243,
+  "b_deg": -73.27,
+  "density_per_deg2": 0.0002419400788894602,
+  "preflight": {
+   "name": "P9T12",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60849.782028955495,
+     "mjd_end": 60875.192616907,
+     "n_frames": 58,
+     "n_window": 56,
+     "window_days": 8.898432951507857,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61007.125211548,
+     "mjd_end": 61040.197822821,
+     "n_frames": 57,
+     "n_window": 52,
+     "window_days": 13.58605578699644,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61215.652392416,
+     "mjd_end": 61230.115612925496,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 14.46322050949675,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 13,
+  "name": "P9T13",
+  "ra": 41.3162,
+  "dec": -0.0595,
+  "b_deg": -51.53,
+  "density_per_deg2": 0.00029685410995318635,
+  "preflight": {
+   "name": "P9T13",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60879.1971183075,
+     "mjd_end": 60904.540081328,
+     "n_frames": 57,
+     "n_window": 56,
+     "window_days": 13.38048004599841,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61057.505615379,
+     "mjd_end": 61073.8703031915,
+     "n_frames": 50,
+     "n_window": 46,
+     "window_days": 14.259595995499694,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61243.759922335,
+     "mjd_end": 61256.041376166,
+     "n_frames": 60,
+     "n_window": 60,
+     "window_days": 12.149140567002178,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 14,
+  "name": "P9T14",
+  "ra": 359.7668,
+  "dec": -16.5344,
+  "b_deg": -73.9,
+  "density_per_deg2": 0.00021010585798295227,
+  "preflight": {
+   "name": "P9T14",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60834.9715021615,
+     "mjd_end": 60849.101916652,
+     "n_frames": 54,
+     "n_window": 54,
+     "window_days": 14.130414478997409,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61006.376419372,
+     "mjd_end": 61025.5963587355,
+     "n_frames": 55,
+     "n_window": 51,
+     "window_days": 13.107557129493216,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61201.940399071,
+     "mjd_end": 61230.181893909,
+     "n_frames": 57,
+     "n_window": 56,
+     "window_days": 12.146955636999337,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 15,
+  "name": "P9T15",
+  "ra": 73.5397,
+  "dec": 18.1812,
+  "b_deg": -15.77,
+  "density_per_deg2": 0.0003668893959475038,
+  "preflight": {
+   "name": "P9T15",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60916.492562312,
+     "mjd_end": 60927.5667443375,
+     "n_frames": 64,
+     "n_window": 64,
+     "window_days": 11.074182025498885,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61090.227494453,
+     "mjd_end": 61105.5041146845,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 15.27662023150333,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61281.636567902,
+     "mjd_end": 61298.5325708885,
+     "n_frames": 56,
+     "n_window": 55,
+     "window_days": 15.746433749998687,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 16,
+  "name": "P9T16",
+  "ra": 150.3872,
+  "dec": 26.5024,
+  "b_deg": 52.27,
+  "density_per_deg2": 0.0001639462376685158,
+  "preflight": {
+   "name": "P9T16",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60792.609750691496,
+     "mjd_end": 60803.3485202865,
+     "n_frames": 16,
+     "n_window": 16,
+     "window_days": 10.73876959500194,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60984.9621709925,
+     "mjd_end": 61002.071601895,
+     "n_frames": 56,
+     "n_window": 54,
+     "window_days": 15.893793912000547,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61152.7512190945,
+     "mjd_end": 61173.26064399,
+     "n_frames": 57,
+     "n_window": 53,
+     "window_days": 14.73802376149979,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 17,
+  "name": "P9T17",
+  "ra": 68.2831,
+  "dec": 20.9402,
+  "b_deg": -17.98,
+  "density_per_deg2": 0.00018782190334839673,
+  "preflight": {
+   "name": "P9T17",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60914.796525946,
+     "mjd_end": 60921.6579840365,
+     "n_frames": 54,
+     "n_window": 54,
+     "window_days": 6.861458078499709,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61086.6294194995,
+     "mjd_end": 61102.1765822655,
+     "n_frames": 52,
+     "n_window": 52,
+     "window_days": 15.547162766000838,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61278.513597983,
+     "mjd_end": 61292.153554291,
+     "n_frames": 53,
+     "n_window": 53,
+     "window_days": 13.639956307997636,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 18,
+  "name": "P9T18",
+  "ra": 63.0546,
+  "dec": 12.3092,
+  "b_deg": -27.35,
+  "density_per_deg2": 0.0003692769625154919,
+  "preflight": {
+   "name": "P9T18",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60907.323829291,
+     "mjd_end": 60914.04688112,
+     "n_frames": 56,
+     "n_window": 56,
+     "window_days": 6.7230518174983445,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61081.402654835,
+     "mjd_end": 61097.629469106,
+     "n_frames": 57,
+     "n_window": 56,
+     "window_days": 15.955721330996312,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61271.2495502285,
+     "mjd_end": 61279.805446664,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 8.555896435500472,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 19,
+  "name": "P9T19",
+  "ra": 150.4788,
+  "dec": 23.8263,
+  "b_deg": 51.78,
+  "density_per_deg2": 0.00020453486932431336,
+  "preflight": {
+   "name": "P9T19",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60792.134077149996,
+     "mjd_end": 60802.871745379,
+     "n_frames": 14,
+     "n_window": 14,
+     "window_days": 10.737668229005067,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60987.270867092,
+     "mjd_end": 61001.187636363,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 13.916769271003432,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61159.0658364325,
+     "mjd_end": 61174.476281143,
+     "n_frames": 52,
+     "n_window": 52,
+     "window_days": 15.410444710498268,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 20,
+  "name": "P9T20",
+  "ra": 221.9482,
+  "dec": -3.5266,
+  "b_deg": 48.44,
+  "density_per_deg2": 0.0001631503821458531,
+  "preflight": {
+   "name": "P9T20",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60852.802527867505,
+     "mjd_end": 60892.1392130295,
+     "n_frames": 60,
+     "n_window": 56,
+     "window_days": 14.405974698995124,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61064.874387208,
+     "mjd_end": 61077.162359407,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 12.287972187492414,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61220.981839187,
+     "mjd_end": 61231.978870992505,
+     "n_frames": 67,
+     "n_window": 67,
+     "window_days": 10.997031805505685,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 21,
+  "name": "P9T21",
+  "ra": 334.737,
+  "dec": -24.3178,
+  "b_deg": -55.67,
+  "density_per_deg2": 0.0001623545266231904,
+  "preflight": {
+   "name": "P9T21",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60804.263875541,
+     "mjd_end": 60828.179724129,
+     "n_frames": 55,
+     "n_window": 48,
+     "window_days": 14.8820836110026,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60976.5653763745,
+     "mjd_end": 60998.367328076,
+     "n_frames": 57,
+     "n_window": 45,
+     "window_days": 15.41154737299803,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61172.543793122,
+     "mjd_end": 61182.6632894995,
+     "n_frames": 36,
+     "n_window": 36,
+     "window_days": 10.119496377497853,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 22,
+  "name": "P9T22",
+  "ra": 65.1764,
+  "dec": 18.678,
+  "b_deg": -21.68,
+  "density_per_deg2": 0.0002459193565027737,
+  "preflight": {
+   "name": "P9T22",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60909.5691220225,
+     "mjd_end": 60918.461770136,
+     "n_frames": 53,
+     "n_window": 53,
+     "window_days": 8.89264811349858,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61082.555741525,
+     "mjd_end": 61099.596651606,
+     "n_frames": 53,
+     "n_window": 50,
+     "window_days": 15.415436157498334,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61274.5804761315,
+     "mjd_end": 61283.874772670504,
+     "n_frames": 53,
+     "n_window": 53,
+     "window_days": 9.294296539002971,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 23,
+  "name": "P9T23",
+  "ra": 308.2679,
+  "dec": -24.5003,
+  "b_deg": -32.45,
+  "density_per_deg2": 0.00017508821498579357,
+  "preflight": {
+   "name": "P9T23",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60790.130940205505,
+     "mjd_end": 60799.987148886,
+     "n_frames": 18,
+     "n_window": 18,
+     "window_days": 9.85620868049591,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60952.184293851504,
+     "mjd_end": 60968.012446015506,
+     "n_frames": 73,
+     "n_window": 73,
+     "window_days": 15.82815216400195,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61154.963966166,
+     "mjd_end": 61172.956046282,
+     "n_frames": 60,
+     "n_window": 59,
+     "window_days": 7.734746377500414,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 24,
+  "name": "P9T24",
+  "ra": 356.7589,
+  "dec": -12.8176,
+  "b_deg": -69.22,
+  "density_per_deg2": 0.00016951722632715466,
+  "preflight": {
+   "name": "P9T24",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60829.133433978495,
+     "mjd_end": 60849.442132670505,
+     "n_frames": 57,
+     "n_window": 46,
+     "window_days": 12.840805104504398,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61003.5269410965,
+     "mjd_end": 61024.6462543605,
+     "n_frames": 57,
+     "n_window": 50,
+     "window_days": 13.652105752502393,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61194.198899869996,
+     "mjd_end": 61230.250964001505,
+     "n_frames": 72,
+     "n_window": 65,
+     "window_days": 15.348837650002679,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 25,
+  "name": "P9T25",
+  "ra": 23.1302,
+  "dec": -1.5992,
+  "b_deg": -62.64,
+  "density_per_deg2": 0.00021249342455094037,
+  "preflight": {
+   "name": "P9T25",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60863.43745002,
+     "mjd_end": 60880.621955228504,
+     "n_frames": 56,
+     "n_window": 54,
+     "window_days": 13.590533727001457,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61035.6415425085,
+     "mjd_end": 61053.7733796845,
+     "n_frames": 56,
+     "n_window": 53,
+     "window_days": 15.349137164499552,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61225.971833863,
+     "mjd_end": 61238.529817312,
+     "n_frames": 54,
+     "n_window": 54,
+     "window_days": 12.557983449005405,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 26,
+  "name": "P9T26",
+  "ra": 29.8515,
+  "dec": 1.9016,
+  "b_deg": -56.67,
+  "density_per_deg2": 0.00021249342455094037,
+  "preflight": {
+   "name": "P9T26",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60869.280320923,
+     "mjd_end": 60904.2663769415,
+     "n_frames": 58,
+     "n_window": 55,
+     "window_days": 15.14878498850885,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61035.9122268605,
+     "mjd_end": 61063.6166828905,
+     "n_frames": 75,
+     "n_window": 71,
+     "window_days": 14.25844114600477,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61235.0676967795,
+     "mjd_end": 61258.829405853496,
+     "n_frames": 76,
+     "n_window": 75,
+     "window_days": 12.21853011600615,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 27,
+  "name": "P9T27",
+  "ra": 188.8941,
+  "dec": 12.2206,
+  "b_deg": 74.64,
+  "density_per_deg2": 0.00017270064841780548,
+  "preflight": {
+   "name": "P9T27",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60815.232435703,
+     "mjd_end": 60861.024740761,
+     "n_frames": 57,
+     "n_window": 53,
+     "window_days": 11.554358542001864,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61030.182519395,
+     "mjd_end": 61050.9561801475,
+     "n_frames": 63,
+     "n_window": 62,
+     "window_days": 11.67746199099929,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61182.486812566494,
+     "mjd_end": 61215.346835495,
+     "n_frames": 60,
+     "n_window": 50,
+     "window_days": 11.272511620503792,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 28,
+  "name": "P9T28",
+  "ra": 235.3988,
+  "dec": -10.9665,
+  "b_deg": 33.85,
+  "density_per_deg2": 0.0001615586711005277,
+  "preflight": {
+   "name": "P9T28",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60869.7180134925,
+     "mjd_end": 60883.3084402865,
+     "n_frames": 75,
+     "n_window": 75,
+     "window_days": 13.590426793998631,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61083.0062781335,
+     "mjd_end": 61095.291336687,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 10.590514432995406,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61233.87806752,
+     "mjd_end": 61251.1880830875,
+     "n_frames": 54,
+     "n_window": 49,
+     "window_days": 15.75204800949723,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 29,
+  "name": "P9T29",
+  "ra": 149.3818,
+  "dec": 20.3519,
+  "b_deg": 49.83,
+  "density_per_deg2": 0.00017827163707644433,
+  "preflight": {
+   "name": "P9T29",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60790.978149256494,
+     "mjd_end": 60808.3757799625,
+     "n_frames": 24,
+     "n_window": 20,
+     "window_days": 5.509345659505925,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60987.06289296,
+     "mjd_end": 61004.242228527,
+     "n_frames": 74,
+     "n_window": 69,
+     "window_days": 15.215563877500244,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61152.8214971845,
+     "mjd_end": 61174.41630671,
+     "n_frames": 73,
+     "n_window": 69,
+     "window_days": 14.465581065000151,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 30,
+  "name": "P9T30",
+  "ra": 0.6061,
+  "dec": -15.7685,
+  "b_deg": -73.92,
+  "density_per_deg2": 0.0002037390138016507,
+  "preflight": {
+   "name": "P9T30",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60834.9715021615,
+     "mjd_end": 60849.101916652,
+     "n_frames": 56,
+     "n_window": 56,
+     "window_days": 14.130414478997409,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61006.376419372,
+     "mjd_end": 61025.5963587355,
+     "n_frames": 56,
+     "n_window": 52,
+     "window_days": 13.107557129493216,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61201.943383585,
+     "mjd_end": 61230.181893909,
+     "n_frames": 55,
+     "n_window": 54,
+     "window_days": 12.143971122997755,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 31,
+  "name": "P9T31",
+  "ra": 323.6219,
+  "dec": -24.0071,
+  "b_deg": -45.75,
+  "density_per_deg2": 0.0001623545266231904,
+  "preflight": {
+   "name": "P9T31",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60794.95283671,
+     "mjd_end": 60806.576157821,
+     "n_frames": 45,
+     "n_window": 45,
+     "window_days": 11.62332109950512,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60831.978628099,
+     "mjd_end": 60834.156287659,
+     "n_frames": 13,
+     "n_window": 13,
+     "window_days": 2.177659548498923,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 60965.359998295506,
+     "mjd_end": 60992.1255634115,
+     "n_frames": 58,
+     "n_window": 46,
+     "window_days": 15.964232673497463,
+     "has_reference": true
+    },
+    {
+     "index": 3,
+     "mjd_start": 61162.833370749504,
+     "mjd_end": 61185.169833608,
+     "n_frames": 19,
+     "n_window": 18,
+     "window_days": 13.653279837999435,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 32,
+  "name": "P9T32",
+  "ra": 10.4687,
+  "dec": -13.362,
+  "b_deg": -76.05,
+  "density_per_deg2": 0.00023477737918549591,
+  "preflight": {
+   "name": "P9T32",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60842.784337265504,
+     "mjd_end": 60874.647766247,
+     "n_frames": 55,
+     "n_window": 53,
+     "window_days": 15.214679363496543,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61006.987391143,
+     "mjd_end": 61038.5634485505,
+     "n_frames": 57,
+     "n_window": 49,
+     "window_days": 13.44343876199855,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61208.3221521035,
+     "mjd_end": 61223.8665993835,
+     "n_frames": 56,
+     "n_window": 56,
+     "window_days": 15.544447268504882,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 33,
+  "name": "P9T33",
+  "ra": 148.1251,
+  "dec": 22.9734,
+  "b_deg": 49.47,
+  "density_per_deg2": 0.0001989638806656745,
+  "preflight": {
+   "name": "P9T33",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60792.0663395225,
+     "mjd_end": 60802.871745379,
+     "n_frames": 18,
+     "n_window": 18,
+     "window_days": 10.805405856503057,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60984.95769421,
+     "mjd_end": 61001.05226752,
+     "n_frames": 58,
+     "n_window": 57,
+     "window_days": 15.756879606495204,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61152.8214971845,
+     "mjd_end": 61174.476281143,
+     "n_frames": 58,
+     "n_window": 57,
+     "window_days": 15.410444710498268,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 34,
+  "name": "P9T34",
+  "ra": 55.1003,
+  "dec": 6.3911,
+  "b_deg": -37.16,
+  "density_per_deg2": 0.00029764996547584904,
+  "preflight": {
+   "name": "P9T34",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60895.638674904505,
+     "mjd_end": 60926.14132127,
+     "n_frames": 59,
+     "n_window": 58,
+     "window_days": 11.819315196997195,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61065.3120619995,
+     "mjd_end": 61089.686179025,
+     "n_frames": 57,
+     "n_window": 45,
+     "window_days": 13.848657638998702,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61261.540104719505,
+     "mjd_end": 61288.764039360496,
+     "n_frames": 62,
+     "n_window": 57,
+     "window_days": 8.416513251999277,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 35,
+  "name": "P9T35",
+  "ra": 40.9955,
+  "dec": 2.6479,
+  "b_deg": -49.72,
+  "density_per_deg2": 0.00033585103056365856,
+  "preflight": {
+   "name": "P9T35",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60879.198610564,
+     "mjd_end": 60904.064211953,
+     "n_frames": 55,
+     "n_window": 54,
+     "window_days": 9.919088379501773,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61037.0658464555,
+     "mjd_end": 61074.685429615,
+     "n_frames": 70,
+     "n_window": 62,
+     "window_days": 15.414192592492327,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61243.893727833,
+     "mjd_end": 61255.501943747004,
+     "n_frames": 74,
+     "n_window": 74,
+     "window_days": 11.608215914005996,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 36,
+  "name": "P9T36",
+  "ra": 213.5716,
+  "dec": 1.806,
+  "b_deg": 57.82,
+  "density_per_deg2": 0.00016872137080449197,
+  "preflight": {
+   "name": "P9T36",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60844.3100065015,
+     "mjd_end": 60853.889137115,
+     "n_frames": 54,
+     "n_window": 54,
+     "window_days": 9.579130613499728,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61056.3224883305,
+     "mjd_end": 61068.815627856,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 12.4931395254971,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61211.542260541,
+     "mjd_end": 61223.217681571,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 11.675421029998688,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 37,
+  "name": "P9T37",
+  "ra": 52.9119,
+  "dec": 4.4117,
+  "b_deg": -40.1,
+  "density_per_deg2": 0.00028809969920389665,
+  "preflight": {
+   "name": "P9T37",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60892.6486403445,
+     "mjd_end": 60905.627188874496,
+     "n_frames": 54,
+     "n_window": 54,
+     "window_days": 12.978548529994441,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61065.380350425505,
+     "mjd_end": 61087.382155414,
+     "n_frames": 62,
+     "n_window": 55,
+     "window_days": 15.618152060502325,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61260.3167043835,
+     "mjd_end": 61288.764039372,
+     "n_frames": 68,
+     "n_window": 63,
+     "window_days": 8.624505150502955,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 38,
+  "name": "P9T38",
+  "ra": 29.9817,
+  "dec": -0.9271,
+  "b_deg": -59.07,
+  "density_per_deg2": 0.0002737742997959681,
+  "preflight": {
+   "name": "P9T38",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60868.8708568375,
+     "mjd_end": 60881.440456999495,
+     "n_frames": 58,
+     "n_window": 58,
+     "window_days": 12.569600161994458,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61036.048377358,
+     "mjd_end": 61060.088495205506,
+     "n_frames": 55,
+     "n_window": 43,
+     "window_days": 11.885240891504509,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61234.8642349275,
+     "mjd_end": 61259.711559488,
+     "n_frames": 60,
+     "n_window": 57,
+     "window_days": 8.280967245496868,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 39,
+  "name": "P9T39",
+  "ra": 56.1911,
+  "dec": 14.0947,
+  "b_deg": -31.12,
+  "density_per_deg2": 0.00028889555472655934,
+  "preflight": {
+   "name": "P9T39",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60899.106302127,
+     "mjd_end": 60910.240174777,
+     "n_frames": 55,
+     "n_window": 55,
+     "window_days": 11.133872649996192,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61065.2432406335,
+     "mjd_end": 61088.055801826,
+     "n_frames": 55,
+     "n_window": 47,
+     "window_days": 10.115231527997821,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61265.1399032725,
+     "mjd_end": 61288.76601127,
+     "n_frames": 58,
+     "n_window": 56,
+     "window_days": 8.552183923500706,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 40,
+  "name": "P9T40",
+  "ra": 181.1687,
+  "dec": 14.8426,
+  "b_deg": 73.59,
+  "density_per_deg2": 0.0001623545266231904,
+  "preflight": {
+   "name": "P9T40",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60808.234513295494,
+     "mjd_end": 60849.0713965015,
+     "n_frames": 57,
+     "n_window": 54,
+     "window_days": 13.451030301002902,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61016.667150321,
+     "mjd_end": 61033.3739548815,
+     "n_frames": 55,
+     "n_window": 54,
+     "window_days": 15.556968946999405,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61176.308663643,
+     "mjd_end": 61215.346835495,
+     "n_frames": 64,
+     "n_window": 40,
+     "window_days": 13.242856643497362,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 41,
+  "name": "P9T41",
+  "ra": 37.4594,
+  "dec": 0.0741,
+  "b_deg": -53.96,
+  "density_per_deg2": 0.0003342593195183331,
+  "preflight": {
+   "name": "P9T41",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60876.685067115,
+     "mjd_end": 60904.402456363,
+     "n_frames": 64,
+     "n_window": 62,
+     "window_days": 11.68254342599539,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61036.930832914,
+     "mjd_end": 61071.970698411504,
+     "n_frames": 61,
+     "n_window": 50,
+     "window_days": 15.35002563699527,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61240.089205981,
+     "mjd_end": 61259.1691958305,
+     "n_frames": 55,
+     "n_window": 54,
+     "window_days": 11.34287857649906,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 42,
+  "name": "P9T42",
+  "ra": 4.1269,
+  "dec": -10.5353,
+  "b_deg": -71.48,
+  "density_per_deg2": 0.00018941361439372213,
+  "preflight": {
+   "name": "P9T42",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60841.359590541,
+     "mjd_end": 60874.987911525,
+     "n_frames": 58,
+     "n_window": 47,
+     "window_days": 12.430402905505616,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61006.782774569,
+     "mjd_end": 61032.047180518,
+     "n_frames": 56,
+     "n_window": 51,
+     "window_days": 13.855425579007715,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61204.787426282,
+     "mjd_end": 61230.25096399,
+     "n_frames": 58,
+     "n_window": 55,
+     "window_days": 12.223149004508741,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ },
+ {
+  "rank": 43,
+  "name": "P9T43",
+  "ra": 336.1291,
+  "dec": -19.9485,
+  "b_deg": -55.7,
+  "density_per_deg2": 0.00017190479289514276,
+  "preflight": {
+   "name": "P9T43",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60808.203442451,
+     "mjd_end": 60838.5702845805,
+     "n_frames": 49,
+     "n_window": 48,
+     "window_days": 13.049312118004309,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 60977.039380541,
+     "mjd_end": 60997.145881953,
+     "n_frames": 57,
+     "n_window": 53,
+     "window_days": 13.652462974503578,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61174.785071316495,
+     "mjd_end": 61182.936070159,
+     "n_frames": 44,
+     "n_window": 44,
+     "window_days": 8.149506597001164,
+     "has_reference": true
+    }
+   ],
+   "chosen": 1
+  }
+ },
+ {
+  "rank": 44,
+  "name": "P9T44",
+  "ra": 130.4217,
+  "dec": 23.3012,
+  "b_deg": 33.96,
+  "density_per_deg2": 0.00020692243589230146,
+  "preflight": {
+   "name": "P9T44",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60972.525486826,
+     "mjd_end": 60980.2674479715,
+     "n_frames": 56,
+     "n_window": 56,
+     "window_days": 7.741961145497044,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61124.986936895,
+     "mjd_end": 61164.8412352055,
+     "n_frames": 59,
+     "n_window": 54,
+     "window_days": 15.548580948998278,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 45,
+  "name": "P9T45",
+  "ra": 60.6872,
+  "dec": 7.0613,
+  "b_deg": -32.47,
+  "density_per_deg2": 0.00023477737918549591,
+  "preflight": {
+   "name": "P9T45",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60900.0518232145,
+     "mjd_end": 60926.073654603504,
+     "n_frames": 59,
+     "n_window": 58,
+     "window_days": 11.611980417001178,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61065.7204424275,
+     "mjd_end": 61097.087851675504,
+     "n_frames": 58,
+     "n_window": 48,
+     "window_days": 14.261443680501543,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61266.090043261,
+     "mjd_end": 61288.6961950435,
+     "n_frames": 58,
+     "n_window": 56,
+     "window_days": 9.84490270850074,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 46,
+  "name": "P9T46",
+  "ra": 36.3543,
+  "dec": 2.9899,
+  "b_deg": -52.31,
+  "density_per_deg2": 0.00029605825443052366,
+  "preflight": {
+   "name": "P9T46",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60877.567398319,
+     "mjd_end": 60888.913154048,
+     "n_frames": 66,
+     "n_window": 66,
+     "window_days": 11.345755729002121,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61036.454643747,
+     "mjd_end": 61071.6308551475,
+     "n_frames": 67,
+     "n_window": 61,
+     "window_days": 15.076410126996052,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61239.684520657,
+     "mjd_end": 61253.329380320996,
+     "n_frames": 57,
+     "n_window": 57,
+     "window_days": 13.644859663996613,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 47,
+  "name": "P9T47",
+  "ra": 8.4063,
+  "dec": -9.2469,
+  "b_deg": -71.63,
+  "density_per_deg2": 0.0002013514472336626,
+  "preflight": {
+   "name": "P9T47",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60848.49101649,
+     "mjd_end": 60874.987911536504,
+     "n_frames": 57,
+     "n_window": 55,
+     "window_days": 11.683370093000121,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61006.7827745805,
+     "mjd_end": 61034.357155321,
+     "n_frames": 56,
+     "n_window": 51,
+     "window_days": 12.0221192589961,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61208.25389921,
+     "mjd_end": 61230.115612925496,
+     "n_frames": 57,
+     "n_window": 54,
+     "window_days": 15.684008645999711,
+     "has_reference": true
+    }
+   ],
+   "chosen": 0
+  }
+ },
+ {
+  "rank": 48,
+  "name": "P9T48",
+  "ra": 41.62,
+  "dec": 1.0957,
+  "b_deg": -50.47,
+  "density_per_deg2": 0.0003239131977237181,
+  "preflight": {
+   "name": "P9T48",
+   "ok": true,
+   "passes": [
+    {
+     "index": 0,
+     "mjd_start": 60880.1498697425,
+     "mjd_end": 60904.674952751506,
+     "n_frames": 64,
+     "n_window": 61,
+     "window_days": 11.749019224494987,
+     "has_reference": true
+    },
+    {
+     "index": 1,
+     "mjd_start": 61057.505615379,
+     "mjd_end": 61073.736959569,
+     "n_frames": 50,
+     "n_window": 46,
+     "window_days": 14.465083021001192,
+     "has_reference": true
+    },
+    {
+     "index": 2,
+     "mjd_start": 61243.8922355875,
+     "mjd_end": 61259.7732748815,
+     "n_frames": 66,
+     "n_window": 66,
+     "window_days": 15.88103928250348,
+     "has_reference": true
+    }
+   ],
+   "chosen": 2
+  }
+ }
+]

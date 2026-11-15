@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The site's name is set by js/site.js (one constant); it is not repeated in the HTML. -->
+  <title>How closely do the measurements match?</title>
+  <meta name="description" content="Compare the motion and spectral types we measured for known objects with the values astronomers have published.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c0d10">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="How closely do the measurements match?">
+  <meta property="og:description" content="Compare the motion and spectral types we measured for known objects with the values astronomers have published.">
+  <meta property="og:image" content="social.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- When API_BASE (js/config.js) is a different origin, add that origin to connect-src and img-src,
+       e.g. img-src 'self' data: blob: https://api.example.org; connect-src 'self' https://api.example.org
+       Same-origin hosting needs no change. See deploy/README.md. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230c0d10'/%3E%3Cpath d='M5 26C12 23 18 17 22.5 10.5' fill='none' stroke='%23e9e6df' stroke-opacity='.45' stroke-width='1.5'/%3E%3Ccircle cx='6' cy='25.6' r='2' fill='%23e9e6df' fill-opacity='.45'/%3E%3Ccircle cx='14.4' cy='19.6' r='2.4' fill='%23e9e6df' fill-opacity='.7'/%3E%3Ccircle cx='22.5' cy='10.5' r='3.6' fill='%23f2a93b'/%3E%3C/svg%3E">
+  <link rel="preload" href="vendor/fonts/ibm-plex-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="vendor/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="validation.css">
+  <link rel="modulepreload" href="js/validation.js">
+</head>
+<body data-page="validation">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site chrome"></header>
+  <main id="main" tabindex="-1">
+    <section class="status card" role="status">
+      <h1>Loading…</h1>
+      <noscript><p>This page needs JavaScript to draw the images and spectra.</p></noscript>
+    </section>
+  </main>
+  <footer class="site chrome"></footer>
+  <script type="module" src="js/validation.js"></script>
+</body>
+</html>

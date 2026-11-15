@@ -1,0 +1,1641 @@
+{
+ "schema": 1,
+ "built": "2026-11-15T17:30:19Z",
+ "thresholds": {
+  "motion": "Both proper-motion components within 3 sigma of the catalogue, sigma being the error we state for that component. No percentage allowance: it would forgive large errors on fast movers.",
+  "type": "Our spectral-type range contains the published type. For an unresolved pair, any one published component inside the range counts. Where we say \"not a brown dwarf\" and gives no range, agreement with a published star or giant is a pass and disagreement with a published L, T or Y type is a fail.",
+  "refused": "We had a spectrum but left it unclassified. Shown with its own reason; neither a pass nor a fail.",
+  "provisional": "We gave a type but warned that a catalogued neighbour may add 10-25% of the light (at 25% or more the spectrum is left unclassified). The type is still scored against the published one; the row is flagged and counted. These two limits were chosen after seeing which targets each level affected. A second kind is counted apart from the other types: an object too faint to detect at many wavelengths one by one is typed only when a fit to all of its points together is at least 10 times the noise and is called a brown dwarf, the neighbour checks ran and found nothing, and the object is seen in an image. Its range is at least two subtypes either side. That limit and that width were chosen after tests on fainter copies of the eight brighter targets, not on the faint ones.",
+  "weak_test": "Where the catalogue's total motion is smaller than 3 times our stated error, a pass is marked a weak test: it shows we measure no false motion, but it cannot confirm the catalogue's. Such rows still count as passes.",
+  "all_frames": "Where no single image shows the object clearly enough to measure its position, the motion is fitted on all W2 images at once and scored by the same rule. Such a row counts images, not detections, and says so.",
+  "not_applicable": "The check cannot be made: no motion measured (target not detected), no published proper motion, no usable spectrum, no parsable published type, or no stated error.",
+  "motion_sigma": 3.0
+ },
+ "summary": {
+  "targets": 17,
+  "motion": {
+   "passed": 14,
+   "failed": 2,
+   "total": 16,
+   "refused": 0,
+   "not_applicable": 1
+  },
+  "type": {
+   "passed": 8,
+   "failed": 0,
+   "total": 8,
+   "refused": 6,
+   "not_applicable": 2,
+   "provisional": 2,
+   "faint": {
+    "passed": 1,
+    "failed": 0,
+    "open_ended": 1
+   }
+  },
+  "degraded": 0
+ },
+ "targets": [
+  {
+   "slug": "barnards-star",
+   "name": "Barnard's Star",
+   "group": "brief",
+   "known_type": "M4 star",
+   "known_type_ref": "M4V, SIMBAD bibcode 1991ApJS...77..417K (paper not opened)",
+   "motion": {
+    "catalogue": {
+     "pmra": -801.551,
+     "pmdec": 10362.394,
+     "total_arcsec_yr": 10.393,
+     "source": "Gaia DR3"
+    },
+    "measured": {
+     "pmra": -802.75,
+     "pmdec": 10375.19,
+     "total_arcsec_yr": 10.406
+    },
+    "diff": {
+     "pmra": -1.199,
+     "pmdec": 12.796,
+     "total": 12.85,
+     "pmra_pct": -0.15,
+     "pmdec_pct": 0.123,
+     "total_pct": 0.124
+    },
+    "err_masyr": {
+     "pmra": 8.79,
+     "pmdec": 8.79
+    },
+    "baseline_years": 16.41,
+    "n_detections": 27,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 0.89,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 0.136,
+     "pmdec": 1.456,
+     "max": 1.456
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "M4 star",
+    "best": null,
+    "range": null,
+    "pair": null,
+    "exact": null,
+    "reason": "Every SPHEREx spectrum point is unusable (357 where the target saturates the detector, 2 where too much of the target is covered by bad pixels), so there is no spectrum to judge.",
+    "provisional": null,
+    "provisional_kind": null,
+    "verdict": "not_applicable"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 22,
+     "epochs": 5
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 68,
+    "measured": 67,
+    "undetected": 1,
+    "max_px": 2.235,
+    "max_arcsec": 2.235,
+    "frame_id": "spx-b2-2026a",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.363,
+    "frame_warnings": [
+     "saturated",
+     "saturated core: position measured from the unsaturated wings"
+    ]
+   },
+   "generated": "2026-11-15T17:29:52Z"
+  },
+  {
+   "slug": "epsilon-indi-b",
+   "name": "Epsilon Indi Ba/Bb",
+   "group": "brief",
+   "known_type": "T1-1.5 + T6 (unresolved pair)",
+   "known_type_ref": "Chen et al. 2022, arXiv:2205.08077 (abstract opened); SIMBAD lists T1V+T6V, bibcode 2005AJ....129.2849B",
+   "motion": {
+    "catalogue": {
+     "pmra": 3981.977,
+     "pmdec": -2466.832,
+     "total_arcsec_yr": 4.684,
+     "source": "Gaia DR3"
+    },
+    "measured": {
+     "pmra": 3991.18,
+     "pmdec": -2509.2,
+     "total_arcsec_yr": 4.714
+    },
+    "diff": {
+     "pmra": 9.203,
+     "pmdec": -42.368,
+     "total": 30.239,
+     "pmra_pct": 0.231,
+     "pmdec_pct": -1.718,
+     "total_pct": 0.646
+    },
+    "err_masyr": {
+     "pmra": 5.95,
+     "pmdec": 5.95
+    },
+    "baseline_years": 16.41,
+    "n_detections": 27,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 0.66,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 1.547,
+     "pmdec": 7.121,
+     "max": 7.121
+    },
+    "reason": null,
+    "verdict": "fail",
+    "weak_test": false,
+    "note": "Likely explanation: Gaia DR3 gives this unresolved pair a poor single-star fit (RUWE 4.30, data/targets.json) and its 34-month motion includes the pair's orbital motion (the two brown dwarfs orbit each other every 11 years, Chen et al. 2022, arXiv:2205.08077). With that orbit, a fit over Gaia's 34 months can be off by up to about 100 mas/yr in declination, depending on where in the orbit it falls; over our 16 years, about one and a half orbits, by a few. It is still scored against Gaia and it still counts as a mismatch.",
+    "second_reference": {
+     "source": "Chen et al. 2022, AJ 163, 288, arXiv:2205.08077, Table 4 (the Ba+Bb pair with its orbit modelled; frame tied to Gaia EDR3)",
+     "pmra": 3987.41,
+     "pmdec": -2505.35,
+     "diff": {
+      "pmra": 3.77,
+      "pmdec": -3.85
+     },
+     "sigma": {
+      "pmra": 0.634,
+      "pmdec": 0.647,
+      "max": 0.647
+     },
+     "text": "Chen et al. 2022, AJ 163, 288, arXiv:2205.08077, Table 4 (the Ba+Bb pair with its orbit modelled; frame tied to Gaia EDR3): 3987.41, -2505.35 mas/yr. The measured motion differs from it by +3.8 and -3.8 mas/yr, 0.6 and 0.6 sigma. That match is expected only if the two brown dwarfs share the light at 4.6 um roughly as they share the mass, which has not been measured. This second reference was added after the mismatch with Gaia DR3 was seen; the row is still scored against Gaia DR3."
+    }
+   },
+   "type": {
+    "published": "T1-1.5 + T6 (unresolved pair)",
+    "best": "T2",
+    "range": [
+     "T1",
+     "T3"
+    ],
+    "pair": [
+     "T2",
+     "T6"
+    ],
+    "exact": false,
+    "reason": null,
+    "provisional": null,
+    "provisional_kind": null,
+    "range_open_warm": false,
+    "range_open_cold": false,
+    "class": "brown dwarf",
+    "confidence": "high",
+    "verdict": "pass"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 23,
+     "epochs": 4
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 69,
+    "measured": 68,
+    "undetected": 1,
+    "max_px": 1.489,
+    "max_arcsec": 1.489,
+    "frame_id": "spx-b4-2026b",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.242,
+    "frame_warnings": []
+   },
+   "generated": "2026-11-15T17:29:56Z"
+  },
+  {
+   "slug": "wise-0855-0714",
+   "name": "WISE 0855-0714",
+   "group": "brief",
+   "known_type": "Y4 (adopted estimate)",
+   "known_type_ref": "Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107, Table A1 adopted type 24.0; no near-IR spectral type exists (SIMBAD lists Y2, bibcode 2015ApJ...799...37L)",
+   "motion": {
+    "catalogue": {
+     "pmra": -8123.7,
+     "pmdec": 673.2,
+     "total_arcsec_yr": 8.152,
+     "source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code AT)"
+    },
+    "measured": {
+     "pmra": -8128.47,
+     "pmdec": 675.58,
+     "total_arcsec_yr": 8.156
+    },
+    "diff": {
+     "pmra": -4.77,
+     "pmdec": 2.38,
+     "total": 4.95,
+     "pmra_pct": -0.059,
+     "pmdec_pct": 0.354,
+     "total_pct": 0.061
+    },
+    "err_masyr": {
+     "pmra": 9.33,
+     "pmdec": 9.33
+    },
+    "baseline_years": 13.95,
+    "n_detections": 23,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 1.38,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 0.511,
+     "pmdec": 0.255,
+     "max": 0.511
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "Y4 (adopted estimate)",
+    "best": null,
+    "range": null,
+    "pair": null,
+    "exact": null,
+    "reason": "The spectrum is not classified because a Gaia star comes within one SPHEREx pixel of the target and is not clearly fainter than it, so it may supply much of the light at some wavelengths.",
+    "provisional": null,
+    "provisional_kind": null,
+    "verdict": "refused"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 22,
+     "epochs": 4
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 68,
+    "measured": 27,
+    "undetected": 41,
+    "max_px": 4.197,
+    "max_arcsec": 4.197,
+    "frame_id": "spx-b5-2025a",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.682,
+    "frame_warnings": [
+     "blended: a catalogued source (W2 15.2) lies 12.2 arcsec from the target, inside the area its position is fitted over, so this epoch is left out of the motion fit"
+    ]
+   },
+   "generated": "2026-11-15T17:29:42Z"
+  },
+  {
+   "slug": "rw-aurigae",
+   "name": "RW Aurigae A",
+   "group": "brief",
+   "known_type": "K1-K5 young star (T Tauri)",
+   "known_type_ref": "K1/5e+K5e, SIMBAD bibcode 1999A&A...351..954D (paper not opened); SIMBAD lists K6 for the Gaia source (2021ApJS..254...20L)",
+   "motion": {
+    "catalogue": {
+     "pmra": 2.641,
+     "pmdec": -27.398,
+     "total_arcsec_yr": 0.028,
+     "source": "Gaia DR3"
+    },
+    "measured": {
+     "pmra": 24.0,
+     "pmdec": -23.79,
+     "total_arcsec_yr": 0.034
+    },
+    "diff": {
+     "pmra": 21.359,
+     "pmdec": 3.608,
+     "total": 6.268,
+     "pmra_pct": 808.747,
+     "pmdec_pct": 13.169,
+     "total_pct": 22.772
+    },
+    "err_masyr": {
+     "pmra": 10.27,
+     "pmdec": 10.27
+    },
+    "baseline_years": 16.53,
+    "n_detections": 26,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 1.33,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 2.08,
+     "pmdec": 0.351,
+     "max": 2.08
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": true,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "K1-K5 young star (T Tauri)",
+    "best": null,
+    "range": null,
+    "pair": null,
+    "exact": null,
+    "reason": "The spectrum is not classified because only 5 of its points between 1.0 and 5.0 µm are usable, and at least 8 are needed to compare it with the templates.",
+    "provisional": null,
+    "provisional_kind": null,
+    "verdict": "refused"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 18,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 64,
+    "measured": 58,
+    "undetected": 6,
+    "max_px": 3.252,
+    "max_arcsec": 3.252,
+    "frame_id": "spx-b6-2026b",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.529,
+    "frame_warnings": [
+     "saturated",
+     "saturated core: position measured from the unsaturated wings"
+    ]
+   },
+   "generated": "2026-11-15T17:30:00Z"
+  },
+  {
+   "slug": "r-draconis",
+   "name": "R Draconis",
+   "group": "brief",
+   "known_type": "M4.5-M6 giant (Mira variable)",
+   "known_type_ref": "M4.5-6+e, SIMBAD bibcode 1966ApJS...13..333K (paper not opened); type varies with phase",
+   "motion": {
+    "catalogue": {
+     "pmra": -20.643,
+     "pmdec": 6.149,
+     "total_arcsec_yr": 0.022,
+     "source": "Gaia DR3"
+    },
+    "measured": {
+     "pmra": -22.27,
+     "pmdec": -11.0,
+     "total_arcsec_yr": 0.025
+    },
+    "diff": {
+     "pmra": -1.627,
+     "pmdec": -17.149,
+     "total": 3.299,
+     "pmra_pct": -7.882,
+     "pmdec_pct": -278.891,
+     "total_pct": 15.317
+    },
+    "err_masyr": {
+     "pmra": 20.03,
+     "pmdec": 20.03
+    },
+    "baseline_years": 15.94,
+    "n_detections": 27,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 5.3,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 0.081,
+     "pmdec": 0.856,
+     "max": 0.856
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": true,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "M4.5-M6 giant (Mira variable)",
+    "best": null,
+    "range": null,
+    "pair": null,
+    "exact": null,
+    "reason": "Every SPHEREx spectrum point is unusable (538 where the target saturates the detector, 1 where too much of the target is covered by bad pixels), so there is no spectrum to judge.",
+    "provisional": null,
+    "provisional_kind": null,
+    "verdict": "not_applicable"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 48,
+     "epochs": 24,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 18,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 66,
+    "measured": 63,
+    "undetected": 3,
+    "max_px": 1.815,
+    "max_arcsec": 1.815,
+    "frame_id": "spx-b3-2026a",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.295,
+    "frame_warnings": [
+     "saturated",
+     "saturated core: position measured from the unsaturated wings"
+    ]
+   },
+   "generated": "2026-11-15T17:30:19Z"
+  },
+  {
+   "slug": "wisea-1101-5400",
+   "name": "WISEA J1101+5400",
+   "group": "backyard-worlds",
+   "known_type": "T5.5",
+   "known_type_ref": "Kuchner et al. 2017, ApJL 841, L19, arXiv:1705.02919, doi:10.3847/2041-8213/aa7200 (IRTF/SpeX prism spectrum, Gk fit)",
+   "motion": {
+    "catalogue": {
+     "pmra": -714.59,
+     "pmdec": 65.0,
+     "total_arcsec_yr": 0.718,
+     "source": "SIMBAD, bibcode 2023AJ....166..103S"
+    },
+    "measured": {
+     "pmra": -737.5,
+     "pmdec": 67.13,
+     "total_arcsec_yr": 0.741
+    },
+    "diff": {
+     "pmra": -22.91,
+     "pmdec": 2.13,
+     "total": 23.009,
+     "pmra_pct": -3.206,
+     "pmdec_pct": 3.277,
+     "total_pct": 3.207
+    },
+    "err_masyr": {
+     "pmra": 23.37,
+     "pmdec": 23.43
+    },
+    "baseline_years": 15.97,
+    "n_detections": 23,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 1.57,
+    "parallax_model": "fitted",
+    "sigma": {
+     "pmra": 0.98,
+     "pmdec": 0.091,
+     "max": 0.98
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "T5.5",
+    "best": "T6",
+    "range": [
+     "T5",
+     "T7"
+    ],
+    "pair": null,
+    "exact": false,
+    "reason": null,
+    "provisional": null,
+    "provisional_kind": null,
+    "range_open_warm": false,
+    "range_open_cold": false,
+    "class": "brown dwarf",
+    "confidence": "high",
+    "verdict": "pass"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 15,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 61,
+    "measured": 30,
+    "undetected": 31,
+    "max_px": 1.313,
+    "max_arcsec": 1.313,
+    "frame_id": "wise-w2-2016b",
+    "mission": "WISE",
+    "native_pixscale_arcsec": 2.75,
+    "max_native_px": 0.477,
+    "frame_warnings": [
+     "position fitted together with a neighbouring source 16.4 arcsec away"
+    ]
+   },
+   "generated": "2026-11-15T17:30:01Z"
+  },
+  {
+   "slug": "cwise-0623-0715",
+   "name": "CWISE J0623+0715",
+   "group": "backyard-worlds",
+   "known_type": "sdT3",
+   "known_type_ref": "Burgasser et al. 2024, arXiv:2411.01378 (Keck/NIRES spectrum)",
+   "motion": {
+    "catalogue": {
+     "pmra": 7.0,
+     "pmdec": -980.0,
+     "total_arcsec_yr": 0.98,
+     "source": "Burgasser et al. 2024, arXiv:2411.01378, Table 9 (Sample Kinematics; errors 32 and 37 mas/yr; reference [7], their own measurement). Table 11, cited before by mistake, is T Subdwarf Spectral Standards"
+    },
+    "measured": {
+     "pmra": 35.31,
+     "pmdec": -898.21,
+     "total_arcsec_yr": 0.899
+    },
+    "diff": {
+     "pmra": 28.31,
+     "pmdec": 81.79,
+     "total": -81.121,
+     "pmra_pct": 404.429,
+     "pmdec_pct": 8.346,
+     "total_pct": -8.277
+    },
+    "err_masyr": {
+     "pmra": 36.05,
+     "pmdec": 35.62
+    },
+    "baseline_years": 13.96,
+    "n_detections": 0,
+    "method": "all_frames",
+    "n_frames": 23,
+    "reduced_chi2": 0.61,
+    "parallax_model": "none",
+    "sigma": {
+     "pmra": 0.785,
+     "pmdec": 2.296,
+     "max": 2.296
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": "No single image shows this object clearly enough to measure its position, so there are no detections to count. The motion comes from fitting all 23 W2 images at once: one source moving in a straight line, with its brightness, starting position and motion as the only free numbers, and the catalogued neighbours in the model.",
+    "second_reference": null
+   },
+   "type": {
+    "published": "sdT3",
+    "best": null,
+    "range": null,
+    "pair": null,
+    "exact": null,
+    "reason": "The spectrum is not classified because a brighter catalogued source (W1 14.4) 7.3 arcsec away falls inside the area the SPHEREx photometry is fitted over; its light there is estimated at 2 times the target's own, or more.",
+    "provisional": null,
+    "provisional_kind": null,
+    "verdict": "refused"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 20,
+     "epochs": 4
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 66,
+    "measured": 3,
+    "undetected": 63,
+    "max_px": 3.9,
+    "max_arcsec": 3.9,
+    "frame_id": "spx-b5-2026a",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.634,
+    "frame_warnings": [
+     "a catalogued star next to the target was fitted and removed first",
+     "blended: a catalogued source (W2 14.5) lies 7.4 arcsec from the target, inside the area its position is fitted over, so this epoch is left out of the motion fit"
+    ]
+   },
+   "generated": "2026-11-15T17:29:46Z"
+  },
+  {
+   "slug": "cwise-2112-0529",
+   "name": "CWISE J2112-0529",
+   "group": "backyard-worlds",
+   "known_type": "sdT1",
+   "known_type_ref": "Burgasser et al. 2024, arXiv:2411.01378 (Keck/NIRES spectrum)",
+   "motion": {
+    "catalogue": {
+     "pmra": -556.0,
+     "pmdec": -748.0,
+     "total_arcsec_yr": 0.932,
+     "source": "Burgasser et al. 2024, arXiv:2411.01378, Table 9 (Sample Kinematics; errors 24 and 25 mas/yr; reference [7], their own measurement). Table 11, cited before by mistake, is T Subdwarf Spectral Standards"
+    },
+    "measured": {
+     "pmra": -486.08,
+     "pmdec": -676.68,
+     "total_arcsec_yr": 0.833
+    },
+    "diff": {
+     "pmra": 69.92,
+     "pmdec": 71.32,
+     "total": -98.84,
+     "pmra_pct": 12.576,
+     "pmdec_pct": 9.535,
+     "total_pct": -10.605
+    },
+    "err_masyr": {
+     "pmra": 47.19,
+     "pmdec": 47.19
+    },
+    "baseline_years": 9.99,
+    "n_detections": 5,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 1.0,
+    "parallax_model": "none",
+    "sigma": {
+     "pmra": 1.482,
+     "pmdec": 1.511,
+     "max": 1.511
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "sdT1",
+    "best": "T1",
+    "range": [
+     "T0",
+     "T2"
+    ],
+    "pair": null,
+    "exact": false,
+    "reason": null,
+    "provisional": "A catalogued source (W2 16.7) 4.9 arcsec away may contribute about 15% of the light at these wavelengths, or more; treat the type as provisional.",
+    "provisional_kind": "neighbour",
+    "range_open_warm": false,
+    "range_open_cold": false,
+    "class": "brown dwarf",
+    "confidence": "high",
+    "verdict": "pass"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 20,
+     "epochs": 4
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 66,
+    "measured": 42,
+    "undetected": 24,
+    "max_px": 2.527,
+    "max_arcsec": 2.527,
+    "frame_id": "wise-w2-2020b",
+    "mission": "WISE",
+    "native_pixscale_arcsec": 2.75,
+    "max_native_px": 0.919,
+    "frame_warnings": [
+     "a catalogued star next to the target was fitted and removed first",
+     "blended: a catalogued source (W2 16.7) lies 11.0 arcsec from the target, inside the area its position is fitted over, so this epoch is left out of the motion fit"
+    ]
+   },
+   "generated": "2026-11-15T17:30:01Z"
+  },
+  {
+   "slug": "cwise-2021-1524",
+   "name": "CWISE J2021+1524",
+   "group": "backyard-worlds",
+   "known_type": "d/sdL9",
+   "known_type_ref": "Burgasser et al. 2024, arXiv:2411.01378 (Keck/NIRES spectrum)",
+   "motion": {
+    "catalogue": {
+     "pmra": -547.0,
+     "pmdec": -441.0,
+     "total_arcsec_yr": 0.703,
+     "source": "Burgasser et al. 2024, arXiv:2411.01378, Table 9 (Sample Kinematics; errors 3 and 3 mas/yr; reference [7], their own measurement). Table 11, cited before by mistake, is T Subdwarf Spectral Standards"
+    },
+    "measured": {
+     "pmra": null,
+     "pmdec": null,
+     "total_arcsec_yr": null
+    },
+    "diff": {
+     "pmra": null,
+     "pmdec": null,
+     "total": null,
+     "pmra_pct": null,
+     "pmdec_pct": null,
+     "total_pct": null
+    },
+    "err_masyr": {
+     "pmra": null,
+     "pmdec": null
+    },
+    "baseline_years": null,
+    "n_detections": null,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": null,
+    "parallax_model": null,
+    "verdict": "not_applicable",
+    "sigma": null,
+    "reason": "The target was not detected in any frame, so no motion was measured.",
+    "weak_test": null,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "d/sdL9",
+    "best": null,
+    "range": null,
+    "pair": null,
+    "exact": null,
+    "reason": "The spectrum is not classified because the target was not found in any WISE or SPHEREx image, so nothing confirms that the light measured at its predicted position is the target's.",
+    "provisional": null,
+    "provisional_kind": null,
+    "verdict": "refused"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 22,
+     "epochs": 5
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 68,
+    "measured": 0,
+    "undetected": 68,
+    "max_px": null
+   },
+   "generated": "2026-11-15T17:29:48Z"
+  },
+  {
+   "slug": "cwise-0411-4714",
+   "name": "CWISE J0411+4714",
+   "group": "backyard-worlds",
+   "known_type": "d/sdT7.5",
+   "known_type_ref": "Burgasser et al. 2024, arXiv:2411.01378 (Keck/NIRES spectrum); K21 Table A1 lists type 17.0 (T7) from photometry",
+   "motion": {
+    "catalogue": {
+     "pmra": 438.5,
+     "pmdec": -149.0,
+     "total_arcsec_yr": 0.463,
+     "source": "Kirkpatrick et al. 2021 Table A1 (code Ac, equal to CatWISE2020)"
+    },
+    "measured": {
+     "pmra": 405.87,
+     "pmdec": -175.2,
+     "total_arcsec_yr": 0.442
+    },
+    "diff": {
+     "pmra": -32.63,
+     "pmdec": -26.2,
+     "total": -21.054,
+     "pmra_pct": -7.441,
+     "pmdec_pct": -17.584,
+     "total_pct": -4.546
+    },
+    "err_masyr": {
+     "pmra": 39.06,
+     "pmdec": 39.03
+    },
+    "baseline_years": 13.95,
+    "n_detections": 0,
+    "method": "all_frames",
+    "n_frames": 23,
+    "reduced_chi2": 0.49,
+    "parallax_model": "none",
+    "sigma": {
+     "pmra": 0.835,
+     "pmdec": 0.671,
+     "max": 0.835
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": "No single image shows this object clearly enough to measure its position, so there are no detections to count. The motion comes from fitting all 23 W2 images at once: one source moving in a straight line, with its brightness, starting position and motion as the only free numbers, and the catalogued neighbours in the model.",
+    "second_reference": null
+   },
+   "type": {
+    "published": "d/sdT7.5",
+    "best": null,
+    "range": null,
+    "pair": null,
+    "exact": null,
+    "reason": "The spectrum is not classified because the target was not found in any WISE or SPHEREx image, so nothing confirms that the light measured at its predicted position is the target's.",
+    "provisional": null,
+    "provisional_kind": null,
+    "verdict": "refused"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 18,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 64,
+    "measured": 0,
+    "undetected": 64,
+    "max_px": null
+   },
+   "generated": "2026-11-15T17:30:04Z"
+  },
+  {
+   "slug": "cwise-2029-7910",
+   "name": "CWISE J2029-7910",
+   "group": "backyard-worlds",
+   "known_type": "L1 (blue)",
+   "known_type_ref": "Rothermich et al. 2024, arXiv:2403.04592 (SOAR/TripleSpec4 spectrum, 23 Oct 2021)",
+   "motion": {
+    "catalogue": {
+     "pmra": 219.692,
+     "pmdec": -210.048,
+     "total_arcsec_yr": 0.304,
+     "source": "Gaia DR3"
+    },
+    "measured": {
+     "pmra": 223.4,
+     "pmdec": -212.94,
+     "total_arcsec_yr": 0.309
+    },
+    "diff": {
+     "pmra": 3.708,
+     "pmdec": -2.892,
+     "total": 4.679,
+     "pmra_pct": 1.688,
+     "pmdec_pct": -1.377,
+     "total_pct": 1.539
+    },
+    "err_masyr": {
+     "pmra": 8.02,
+     "pmdec": 8.02
+    },
+    "baseline_years": 16.43,
+    "n_detections": 26,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 1.04,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 0.462,
+     "pmdec": 0.361,
+     "max": 0.462
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "L1 (blue)",
+    "best": "L1",
+    "range": [
+     "L0",
+     "L2"
+    ],
+    "pair": null,
+    "exact": true,
+    "reason": null,
+    "provisional": null,
+    "provisional_kind": null,
+    "range_open_warm": false,
+    "range_open_cold": false,
+    "class": "brown dwarf",
+    "confidence": "high",
+    "verdict": "pass"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 44,
+     "epochs": 22,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 22,
+     "epochs": 4
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 66,
+    "measured": 63,
+    "undetected": 3,
+    "max_px": 0.92,
+    "max_arcsec": 0.92,
+    "frame_id": "spx-b3-2026b",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.15,
+    "frame_warnings": []
+   },
+   "generated": "2026-11-15T17:30:10Z"
+  },
+  {
+   "slug": "cwise-1055-5443",
+   "name": "CWISE J1055+5443",
+   "group": "backyard-worlds",
+   "known_type": "Y0 (peculiar)",
+   "known_type_ref": "Robbins et al. 2023, arXiv:2310.09524 (Keck/NIRES spectrum); K21 Table A1 lists sdT8 from photometry",
+   "motion": {
+    "catalogue": {
+     "pmra": -1518.7,
+     "pmdec": -222.7,
+     "total_arcsec_yr": 1.535,
+     "source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code AT)"
+    },
+    "measured": {
+     "pmra": -1533.09,
+     "pmdec": -252.63,
+     "total_arcsec_yr": 1.554
+    },
+    "diff": {
+     "pmra": -14.39,
+     "pmdec": -29.93,
+     "total": 18.824,
+     "pmra_pct": -0.948,
+     "pmdec_pct": -13.44,
+     "total_pct": 1.226
+    },
+    "err_masyr": {
+     "pmra": 9.88,
+     "pmdec": 9.88
+    },
+    "baseline_years": 15.98,
+    "n_detections": 25,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 0.95,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 1.456,
+     "pmdec": 3.029,
+     "max": 3.029
+    },
+    "reason": null,
+    "verdict": "fail",
+    "weak_test": false,
+    "note": "Partly explained. CatWISE J105512.19+544339.0 (W2 15.0, the target 14.4) sits 10-13 arcsec north of the target from 2010 to 2019 and pulled the fitted positions north. Fitting that source together with the target moves the declination motion from -262.7 to -252.6 mas/yr: about 10 of the 40 mas/yr. The rest is not explained. No other source lies under the target's 2010-2016 path (nothing above 4% of its brightness in the 2021-2024 images), and fitting all 23 W2 images at once gives -247.5 +- 14.6 mas/yr. Kirkpatrick et al. 2021 give the total motion to 2.9 mas/yr. It still counts as a mismatch.",
+    "second_reference": null
+   },
+   "type": {
+    "published": "Y0 (peculiar)",
+    "best": "Y0",
+    "range": [
+     "T8",
+     "Y1"
+    ],
+    "pair": null,
+    "exact": true,
+    "reason": null,
+    "provisional": "The object is faint, so this type comes from fitting all of its SPHEREx points together rather than from clear detections at many wavelengths; treat it as provisional. Its range is at least two subtypes either side of the best match.",
+    "provisional_kind": "faint",
+    "range_open_warm": false,
+    "range_open_cold": true,
+    "class": "brown dwarf",
+    "confidence": "high",
+    "verdict": "pass"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 15,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 61,
+    "measured": 26,
+    "undetected": 35,
+    "max_px": 1.318,
+    "max_arcsec": 1.318,
+    "frame_id": "spx-b6-2025a",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.214,
+    "frame_warnings": []
+   },
+   "generated": "2026-11-15T17:29:52Z"
+  },
+  {
+   "slug": "denis-0255-4700",
+   "name": "DENIS J0255-4700",
+   "group": "benchmark",
+   "known_type": "L9",
+   "known_type_ref": "K21 Table A1 adopted L9 (optical L8, near-IR L9) Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107; SIMBAD L9, bibcode 2014AJ....147...34S",
+   "motion": {
+    "catalogue": {
+     "pmra": 1012.445,
+     "pmdec": -554.031,
+     "total_arcsec_yr": 1.154,
+     "source": "Gaia DR3"
+    },
+    "measured": {
+     "pmra": 1018.37,
+     "pmdec": -554.45,
+     "total_arcsec_yr": 1.16
+    },
+    "diff": {
+     "pmra": 5.925,
+     "pmdec": -0.419,
+     "total": 5.401,
+     "pmra_pct": 0.585,
+     "pmdec_pct": -0.076,
+     "total_pct": 0.468
+    },
+    "err_masyr": {
+     "pmra": 5.85,
+     "pmdec": 5.85
+    },
+    "baseline_years": 15.99,
+    "n_detections": 27,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 0.75,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 1.013,
+     "pmdec": 0.072,
+     "max": 1.013
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "L9",
+    "best": "L9",
+    "range": [
+     "L8",
+     "T0"
+    ],
+    "pair": null,
+    "exact": true,
+    "reason": null,
+    "provisional": null,
+    "provisional_kind": null,
+    "range_open_warm": false,
+    "range_open_cold": false,
+    "class": "brown dwarf",
+    "confidence": "high",
+    "verdict": "pass"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 48,
+     "epochs": 24,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 18,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 66,
+    "measured": 66,
+    "undetected": 0,
+    "max_px": 0.549,
+    "max_arcsec": 0.549,
+    "frame_id": "spx-b3-2025b",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.089,
+    "frame_warnings": []
+   },
+   "generated": "2026-11-15T17:30:05Z"
+  },
+  {
+   "slug": "2mass-0559-1404",
+   "name": "2MASS J0559-1404",
+   "group": "benchmark",
+   "known_type": "T4.5",
+   "known_type_ref": "SIMBAD, bibcode 2002ApJ...564..466G; K21 Table A1 adopted T4.5 Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107",
+   "motion": {
+    "catalogue": {
+     "pmra": 571.34,
+     "pmdec": -338.167,
+     "total_arcsec_yr": 0.664,
+     "source": "Gaia DR3"
+    },
+    "measured": {
+     "pmra": 569.7,
+     "pmdec": -342.16,
+     "total_arcsec_yr": 0.665
+    },
+    "diff": {
+     "pmra": -1.64,
+     "pmdec": -3.993,
+     "total": 0.636,
+     "pmra_pct": -0.287,
+     "pmdec_pct": -1.181,
+     "total_pct": 0.096
+    },
+    "err_masyr": {
+     "pmra": 6.0,
+     "pmdec": 6.0
+    },
+    "baseline_years": 16.53,
+    "n_detections": 26,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 0.52,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 0.273,
+     "pmdec": 0.666,
+     "max": 0.666
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "T4.5",
+    "best": "T4",
+    "range": [
+     "T3",
+     "T5"
+    ],
+    "pair": null,
+    "exact": false,
+    "reason": null,
+    "provisional": null,
+    "provisional_kind": null,
+    "range_open_warm": false,
+    "range_open_cold": false,
+    "class": "brown dwarf",
+    "confidence": "medium",
+    "verdict": "pass"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 18,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 64,
+    "measured": 63,
+    "undetected": 1,
+    "max_px": 0.459,
+    "max_arcsec": 0.459,
+    "frame_id": "spx-b1-2026b",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.075,
+    "frame_warnings": []
+   },
+   "generated": "2026-11-15T17:30:02Z"
+  },
+  {
+   "slug": "2mass-0415-0935",
+   "name": "2MASS J0415-0935",
+   "group": "benchmark",
+   "known_type": "T8",
+   "known_type_ref": "SIMBAD, bibcode 2002ApJ...564..421B; K21 Table A1 adopted T8 Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107",
+   "motion": {
+    "catalogue": {
+     "pmra": 2214.2,
+     "pmdec": 536.1,
+     "total_arcsec_yr": 2.278,
+     "source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code AD)"
+    },
+    "measured": {
+     "pmra": 2220.34,
+     "pmdec": 534.11,
+     "total_arcsec_yr": 2.284
+    },
+    "diff": {
+     "pmra": 6.14,
+     "pmdec": -1.99,
+     "total": 5.502,
+     "pmra_pct": 0.277,
+     "pmdec_pct": -0.371,
+     "total_pct": 0.241
+    },
+    "err_masyr": {
+     "pmra": 6.0,
+     "pmdec": 6.0
+    },
+    "baseline_years": 16.53,
+    "n_detections": 26,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 0.72,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 1.023,
+     "pmdec": 0.332,
+     "max": 1.023
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "T8",
+    "best": "T8",
+    "range": [
+     "T7",
+     "T9"
+    ],
+    "pair": null,
+    "exact": true,
+    "reason": null,
+    "provisional": null,
+    "provisional_kind": null,
+    "range_open_warm": false,
+    "range_open_cold": false,
+    "class": "brown dwarf",
+    "confidence": "high",
+    "verdict": "pass"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 46,
+     "epochs": 23,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 18,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 64,
+    "measured": 61,
+    "undetected": 3,
+    "max_px": 0.599,
+    "max_arcsec": 0.599,
+    "frame_id": "spx-b1-2025a",
+    "mission": "SPHEREx",
+    "native_pixscale_arcsec": 6.15,
+    "max_native_px": 0.097,
+    "frame_warnings": []
+   },
+   "generated": "2026-11-15T17:30:18Z"
+  },
+  {
+   "slug": "ugps-0722-0540",
+   "name": "UGPS J0722-0540",
+   "group": "benchmark",
+   "known_type": "T9",
+   "known_type_ref": "SIMBAD, bibcode 2010MNRAS.408L..56L; K21 Table A1 adopted T9 Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107",
+   "motion": {
+    "catalogue": {
+     "pmra": -904.14,
+     "pmdec": 352.03,
+     "total_arcsec_yr": 0.97,
+     "source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code Al)"
+    },
+    "measured": {
+     "pmra": -907.85,
+     "pmdec": 367.97,
+     "total_arcsec_yr": 0.98
+    },
+    "diff": {
+     "pmra": -3.71,
+     "pmdec": 15.94,
+     "total": 9.334,
+     "pmra_pct": -0.41,
+     "pmdec_pct": 4.528,
+     "total_pct": 0.962
+    },
+    "err_masyr": {
+     "pmra": 6.23,
+     "pmdec": 6.23
+    },
+    "baseline_years": 15.98,
+    "n_detections": 25,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 0.74,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 0.596,
+     "pmdec": 2.559,
+     "max": 2.559
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "T9",
+    "best": "T9",
+    "range": [
+     "T8",
+     "Y0"
+    ],
+    "pair": null,
+    "exact": true,
+    "reason": null,
+    "provisional": "A catalogued source (W1 16.3) 4.0 arcsec away may contribute about 22% of the light at these wavelengths, or more; treat the type as provisional.",
+    "provisional_kind": "neighbour",
+    "range_open_warm": false,
+    "range_open_cold": false,
+    "class": "brown dwarf",
+    "confidence": "high",
+    "verdict": "pass"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 44,
+     "epochs": 22,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 18,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 62,
+    "measured": 29,
+    "undetected": 33,
+    "max_px": 1.017,
+    "max_arcsec": 1.017,
+    "frame_id": "wise-w1-2022b",
+    "mission": "WISE",
+    "native_pixscale_arcsec": 2.75,
+    "max_native_px": 0.37,
+    "frame_warnings": [
+     "registered to 4 Gaia stars: frame offset -0.39\" E, +0.32\" N removed",
+     "blended: a catalogued source (W1 16.3) lies 3.8 arcsec from the target, inside the area its position is fitted over, so this epoch is left out of the motion fit"
+    ]
+   },
+   "generated": "2026-11-15T17:30:07Z"
+  },
+  {
+   "slug": "wise-1541-2250",
+   "name": "WISE 1541-2250",
+   "group": "benchmark",
+   "known_type": "Y1",
+   "known_type_ref": "Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107, Table A1 near-IR and adopted type 21.0 = Y1 (VizieR J/ApJS/253/7/tablea1, PName 1541-2250, read 2026-11-15); SIMBAD still lists Y0, bibcode 2011ApJS..197...19K (the discovery-era type)",
+   "motion": {
+    "catalogue": {
+     "pmra": -902.8,
+     "pmdec": -91.4,
+     "total_arcsec_yr": 0.907,
+     "source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code AT)"
+    },
+    "measured": {
+     "pmra": -901.58,
+     "pmdec": -120.45,
+     "total_arcsec_yr": 0.91
+    },
+    "diff": {
+     "pmra": 1.22,
+     "pmdec": -29.05,
+     "total": 2.176,
+     "pmra_pct": 0.135,
+     "pmdec_pct": -31.783,
+     "total_pct": 0.24
+    },
+    "err_masyr": {
+     "pmra": 22.22,
+     "pmdec": 22.22
+    },
+    "baseline_years": 11.92,
+    "n_detections": 22,
+    "method": null,
+    "n_frames": null,
+    "reduced_chi2": 1.54,
+    "parallax_model": "fixed",
+    "sigma": {
+     "pmra": 0.055,
+     "pmdec": 1.307,
+     "max": 1.307
+    },
+    "reason": null,
+    "verdict": "pass",
+    "weak_test": false,
+    "note": null,
+    "second_reference": null
+   },
+   "type": {
+    "published": "Y1",
+    "best": null,
+    "range": null,
+    "pair": null,
+    "exact": null,
+    "reason": "The spectrum is not classified because a brighter catalogued source (W1 16.6) 2.0 arcsec away falls inside the area the SPHEREx photometry is fitted over; its light there is estimated at 2 times the target's own, or more.",
+    "provisional": null,
+    "provisional_kind": null,
+    "verdict": "refused"
+   },
+   "degraded": {
+    "flag": false,
+    "reasons": []
+   },
+   "frames": {
+    "wise": {
+     "frames": 48,
+     "epochs": 24,
+     "first_year": 2010,
+     "last_year": 2024
+    },
+    "spherex": {
+     "frames": 18,
+     "epochs": 3
+    },
+    "gaps": []
+   },
+   "residual": {
+    "frames": 66,
+    "measured": 26,
+    "undetected": 40,
+    "max_px": 2.192,
+    "max_arcsec": 2.192,
+    "frame_id": "wise-w2-2014a",
+    "mission": "WISE",
+    "native_pixscale_arcsec": 2.75,
+    "max_native_px": 0.797,
+    "frame_warnings": [
+     "blended: a catalogued source (W2 14.9) lies 8.6 arcsec from the target, inside the area its position is fitted over, so this epoch is left out of the motion fit"
+    ]
+   },
+   "generated": "2026-11-15T17:30:18Z"
+  }
+ ]
+}

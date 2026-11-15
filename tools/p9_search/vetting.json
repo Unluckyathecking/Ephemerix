@@ -1,0 +1,1120 @@
+{
+ "P9T02#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 45.1,
+    "sep_px": 7.33,
+    "phot_g_mean_mag": 20.462389
+   },
+   {
+    "sep_arcsec": 48.3,
+    "sep_px": 7.85,
+    "phot_g_mean_mag": 19.285522
+   },
+   {
+    "sep_arcsec": 58.8,
+    "sep_px": 9.56,
+    "phot_g_mean_mag": 19.715069
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 17.0,
+    "sep_px": 2.76,
+    "w1mpro": 18.259,
+    "w2mpro": 17.19
+   },
+   {
+    "sep_arcsec": 21.5,
+    "sep_px": 3.49,
+    "w1mpro": 16.801,
+    "w2mpro": 16.25
+   },
+   {
+    "sep_arcsec": 21.9,
+    "sep_px": 3.57,
+    "w1mpro": 18.501,
+    "w2mpro": 17.751
+   },
+   {
+    "sep_arcsec": 26.0,
+    "sep_px": 4.22,
+    "w1mpro": 16.231,
+    "w2mpro": 16.195
+   },
+   {
+    "sep_arcsec": 27.4,
+    "sep_px": 4.45,
+    "w1mpro": 16.875,
+    "w2mpro": 16.058
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60831.507822127
+ },
+ "P9T05#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 10.4,
+    "sep_px": 1.69,
+    "phot_g_mean_mag": 19.7743
+   },
+   {
+    "sep_arcsec": 21.7,
+    "sep_px": 3.52,
+    "phot_g_mean_mag": 10.521684
+   },
+   {
+    "sep_arcsec": 24.6,
+    "sep_px": 3.99,
+    "phot_g_mean_mag": 19.199924
+   },
+   {
+    "sep_arcsec": 32.1,
+    "sep_px": 5.21,
+    "phot_g_mean_mag": 16.238724
+   },
+   {
+    "sep_arcsec": 35.5,
+    "sep_px": 5.77,
+    "phot_g_mean_mag": 20.88097
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 12.1,
+    "sep_px": 1.97,
+    "w1mpro": 16.763,
+    "w2mpro": 16.721
+   },
+   {
+    "sep_arcsec": 21.7,
+    "sep_px": 3.54,
+    "w1mpro": 9.214,
+    "w2mpro": 9.242
+   },
+   {
+    "sep_arcsec": 24.2,
+    "sep_px": 3.93,
+    "w1mpro": 16.586,
+    "w2mpro": 16.782
+   },
+   {
+    "sep_arcsec": 29.3,
+    "sep_px": 4.76,
+    "w1mpro": 17.018,
+    "w2mpro": 17.441
+   },
+   {
+    "sep_arcsec": 32.0,
+    "sep_px": 5.2,
+    "w1mpro": 14.567,
+    "w2mpro": 14.728
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60965.4646516635
+ },
+ "P9T09#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 16.7,
+    "sep_px": 2.71,
+    "phot_g_mean_mag": 18.742111
+   },
+   {
+    "sep_arcsec": 17.2,
+    "sep_px": 2.79,
+    "phot_g_mean_mag": 13.778488
+   },
+   {
+    "sep_arcsec": 29.7,
+    "sep_px": 4.83,
+    "phot_g_mean_mag": 21.094059
+   },
+   {
+    "sep_arcsec": 32.6,
+    "sep_px": 5.29,
+    "phot_g_mean_mag": 8.195856
+   },
+   {
+    "sep_arcsec": 32.7,
+    "sep_px": 5.32,
+    "phot_g_mean_mag": NaN
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 8.5,
+    "sep_px": 1.38,
+    "w1mpro": 15.189,
+    "w2mpro": 15.046
+   },
+   {
+    "sep_arcsec": 13.0,
+    "sep_px": 2.11,
+    "w1mpro": 17.295,
+    "w2mpro": 16.864
+   },
+   {
+    "sep_arcsec": 17.8,
+    "sep_px": 2.89,
+    "w1mpro": 18.174,
+    "w2mpro": 18.107
+   },
+   {
+    "sep_arcsec": 22.8,
+    "sep_px": 3.71,
+    "w1mpro": 17.266,
+    "w2mpro": 17.506
+   },
+   {
+    "sep_arcsec": 25.9,
+    "sep_px": 4.21,
+    "w1mpro": 17.281,
+    "w2mpro": 16.572
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 61148.783643393996
+ },
+ "P9T10#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 28.0,
+    "sep_px": 4.55,
+    "phot_g_mean_mag": 19.378239
+   },
+   {
+    "sep_arcsec": 32.3,
+    "sep_px": 5.26,
+    "phot_g_mean_mag": 11.285354
+   },
+   {
+    "sep_arcsec": 36.2,
+    "sep_px": 5.89,
+    "phot_g_mean_mag": 15.864421
+   },
+   {
+    "sep_arcsec": 36.8,
+    "sep_px": 5.98,
+    "phot_g_mean_mag": 20.575241
+   },
+   {
+    "sep_arcsec": 41.5,
+    "sep_px": 6.75,
+    "phot_g_mean_mag": 16.421736
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 8.4,
+    "sep_px": 1.37,
+    "w1mpro": 16.482,
+    "w2mpro": 15.967
+   },
+   {
+    "sep_arcsec": 32.4,
+    "sep_px": 5.26,
+    "w1mpro": 7.777,
+    "w2mpro": 7.766
+   },
+   {
+    "sep_arcsec": 36.2,
+    "sep_px": 5.89,
+    "w1mpro": 14.338,
+    "w2mpro": 14.318
+   },
+   {
+    "sep_arcsec": 45.4,
+    "sep_px": 7.39,
+    "w1mpro": 16.543,
+    "w2mpro": 15.897
+   },
+   {
+    "sep_arcsec": 49.1,
+    "sep_px": 7.98,
+    "w1mpro": 17.635,
+    "w2mpro": 17.35
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60916.6638428675
+ },
+ "P9T13#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 44.0,
+    "sep_px": 7.16,
+    "phot_g_mean_mag": 19.926392
+   },
+   {
+    "sep_arcsec": 54.1,
+    "sep_px": 8.79,
+    "phot_g_mean_mag": 12.465115
+   },
+   {
+    "sep_arcsec": 58.2,
+    "sep_px": 9.47,
+    "phot_g_mean_mag": 8.592539
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 10.1,
+    "sep_px": 1.64,
+    "w1mpro": 16.942,
+    "w2mpro": 17.805
+   },
+   {
+    "sep_arcsec": 15.9,
+    "sep_px": 2.59,
+    "w1mpro": 17.226,
+    "w2mpro": 17.836
+   },
+   {
+    "sep_arcsec": 19.3,
+    "sep_px": 3.14,
+    "w1mpro": 17.926,
+    "w2mpro": 17.861
+   },
+   {
+    "sep_arcsec": 22.7,
+    "sep_px": 3.69,
+    "w1mpro": 17.168,
+    "w2mpro": 17.467
+   },
+   {
+    "sep_arcsec": 26.7,
+    "sep_px": 4.34,
+    "w1mpro": 15.761,
+    "w2mpro": 15.754
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 61249.966805882505
+ },
+ "P9T14#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 30.2,
+    "sep_px": 4.92,
+    "phot_g_mean_mag": 9.738406
+   },
+   {
+    "sep_arcsec": 33.6,
+    "sep_px": 5.46,
+    "phot_g_mean_mag": 20.31887
+   },
+   {
+    "sep_arcsec": 41.0,
+    "sep_px": 6.67,
+    "phot_g_mean_mag": 20.687473
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 14.3,
+    "sep_px": 2.33,
+    "w1mpro": 16.653,
+    "w2mpro": 16.488
+   },
+   {
+    "sep_arcsec": 26.5,
+    "sep_px": 4.31,
+    "w1mpro": 17.349,
+    "w2mpro": 16.992
+   },
+   {
+    "sep_arcsec": 28.6,
+    "sep_px": 4.65,
+    "w1mpro": 16.359,
+    "w2mpro": 16.066
+   },
+   {
+    "sep_arcsec": 30.4,
+    "sep_px": 4.94,
+    "w1mpro": 8.567,
+    "w2mpro": 8.598
+   },
+   {
+    "sep_arcsec": 30.6,
+    "sep_px": 4.98,
+    "w1mpro": 16.482,
+    "w2mpro": 16.257
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 61208.0138768895
+ },
+ "P9T15#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 13.5,
+    "sep_px": 2.2,
+    "phot_g_mean_mag": 18.844336
+   },
+   {
+    "sep_arcsec": 17.3,
+    "sep_px": 2.82,
+    "phot_g_mean_mag": 20.440289
+   },
+   {
+    "sep_arcsec": 18.2,
+    "sep_px": 2.95,
+    "phot_g_mean_mag": 19.523241
+   },
+   {
+    "sep_arcsec": 22.5,
+    "sep_px": 3.66,
+    "phot_g_mean_mag": 17.876577
+   },
+   {
+    "sep_arcsec": 33.9,
+    "sep_px": 5.51,
+    "phot_g_mean_mag": 17.346413
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 12.9,
+    "sep_px": 2.1,
+    "w1mpro": 17.264,
+    "w2mpro": 16.942
+   },
+   {
+    "sep_arcsec": 13.5,
+    "sep_px": 2.19,
+    "w1mpro": 16.001,
+    "w2mpro": 16.007
+   },
+   {
+    "sep_arcsec": 16.0,
+    "sep_px": 2.61,
+    "w1mpro": 16.553,
+    "w2mpro": 16.588
+   },
+   {
+    "sep_arcsec": 17.0,
+    "sep_px": 2.76,
+    "w1mpro": 16.316,
+    "w2mpro": 16.701
+   },
+   {
+    "sep_arcsec": 18.2,
+    "sep_px": 2.96,
+    "w1mpro": 15.943,
+    "w2mpro": 15.857
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60922.0296533245
+ },
+ "P9T15#2": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 3.4,
+    "sep_px": 0.55,
+    "phot_g_mean_mag": 18.41582
+   },
+   {
+    "sep_arcsec": 7.6,
+    "sep_px": 1.23,
+    "phot_g_mean_mag": 20.877588
+   },
+   {
+    "sep_arcsec": 12.8,
+    "sep_px": 2.08,
+    "phot_g_mean_mag": 18.318665
+   },
+   {
+    "sep_arcsec": 21.0,
+    "sep_px": 3.41,
+    "phot_g_mean_mag": 20.138474
+   },
+   {
+    "sep_arcsec": 21.0,
+    "sep_px": 3.41,
+    "phot_g_mean_mag": 19.226
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 3.4,
+    "sep_px": 0.55,
+    "w1mpro": 16.281,
+    "w2mpro": 16.23
+   },
+   {
+    "sep_arcsec": 8.2,
+    "sep_px": 1.34,
+    "w1mpro": 18.216,
+    "w2mpro": 17.252
+   },
+   {
+    "sep_arcsec": 13.0,
+    "sep_px": 2.12,
+    "w1mpro": 15.528,
+    "w2mpro": 15.602
+   },
+   {
+    "sep_arcsec": 19.0,
+    "sep_px": 3.1,
+    "w1mpro": 16.675,
+    "w2mpro": 16.208
+   },
+   {
+    "sep_arcsec": 19.4,
+    "sep_px": 3.16,
+    "w1mpro": 17.493,
+    "w2mpro": 17.721
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60922.0296533245
+ },
+ "P9T17#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 18.7,
+    "sep_px": 3.03,
+    "phot_g_mean_mag": 19.00201
+   },
+   {
+    "sep_arcsec": 27.7,
+    "sep_px": 4.5,
+    "phot_g_mean_mag": 18.52286
+   },
+   {
+    "sep_arcsec": 30.2,
+    "sep_px": 4.91,
+    "phot_g_mean_mag": 14.809346
+   },
+   {
+    "sep_arcsec": 35.5,
+    "sep_px": 5.77,
+    "phot_g_mean_mag": 20.59785
+   },
+   {
+    "sep_arcsec": 38.5,
+    "sep_px": 6.26,
+    "phot_g_mean_mag": 21.27742
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 16.8,
+    "sep_px": 2.74,
+    "w1mpro": 16.361,
+    "w2mpro": 16.425
+   },
+   {
+    "sep_arcsec": 18.8,
+    "sep_px": 3.06,
+    "w1mpro": 14.92,
+    "w2mpro": 15.063
+   },
+   {
+    "sep_arcsec": 27.5,
+    "sep_px": 4.47,
+    "w1mpro": 16.272,
+    "w2mpro": 16.901
+   },
+   {
+    "sep_arcsec": 33.0,
+    "sep_px": 5.37,
+    "w1mpro": 17.185,
+    "w2mpro": 17.275
+   },
+   {
+    "sep_arcsec": 36.6,
+    "sep_px": 5.96,
+    "w1mpro": 16.541,
+    "w2mpro": 16.601
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60918.227254997
+ },
+ "P9T21#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 35.5,
+    "sep_px": 5.77,
+    "phot_g_mean_mag": 9.546893
+   },
+   {
+    "sep_arcsec": 47.2,
+    "sep_px": 7.68,
+    "phot_g_mean_mag": 14.882216
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 27.0,
+    "sep_px": 4.39,
+    "w1mpro": 16.779,
+    "w2mpro": 16.952
+   },
+   {
+    "sep_arcsec": 32.9,
+    "sep_px": 5.36,
+    "w1mpro": 16.607,
+    "w2mpro": 16.263
+   },
+   {
+    "sep_arcsec": 35.5,
+    "sep_px": 5.77,
+    "w1mpro": 8.046,
+    "w2mpro": 8.035
+   },
+   {
+    "sep_arcsec": 41.5,
+    "sep_px": 6.75,
+    "w1mpro": 17.282,
+    "w2mpro": 17.02
+   },
+   {
+    "sep_arcsec": 41.7,
+    "sep_px": 6.77,
+    "w1mpro": 18.207,
+    "w2mpro": 16.866
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60811.704917346506
+ },
+ "P9T22#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 4.2,
+    "sep_px": 0.69,
+    "phot_g_mean_mag": 19.689684
+   },
+   {
+    "sep_arcsec": 23.0,
+    "sep_px": 3.73,
+    "phot_g_mean_mag": 20.34374
+   },
+   {
+    "sep_arcsec": 28.2,
+    "sep_px": 4.59,
+    "phot_g_mean_mag": 20.389217
+   },
+   {
+    "sep_arcsec": 30.1,
+    "sep_px": 4.9,
+    "phot_g_mean_mag": 10.537881
+   },
+   {
+    "sep_arcsec": 34.6,
+    "sep_px": 5.63,
+    "phot_g_mean_mag": 20.771244
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 4.1,
+    "sep_px": 0.67,
+    "w1mpro": 15.919,
+    "w2mpro": 15.787
+   },
+   {
+    "sep_arcsec": 21.2,
+    "sep_px": 3.45,
+    "w1mpro": 17.531,
+    "w2mpro": 16.998
+   },
+   {
+    "sep_arcsec": 28.9,
+    "sep_px": 4.7,
+    "w1mpro": 17.877,
+    "w2mpro": 17.695
+   },
+   {
+    "sep_arcsec": 30.1,
+    "sep_px": 4.89,
+    "w1mpro": 8.598,
+    "w2mpro": 8.617
+   },
+   {
+    "sep_arcsec": 34.6,
+    "sep_px": 5.62,
+    "w1mpro": 18.306,
+    "w2mpro": 17.965
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60914.0154460795
+ },
+ "P9T22#14": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 12.6,
+    "sep_px": 2.04,
+    "phot_g_mean_mag": 18.984226
+   },
+   {
+    "sep_arcsec": 28.6,
+    "sep_px": 4.65,
+    "phot_g_mean_mag": 21.059275
+   },
+   {
+    "sep_arcsec": 39.4,
+    "sep_px": 6.41,
+    "phot_g_mean_mag": 17.442219
+   },
+   {
+    "sep_arcsec": 40.8,
+    "sep_px": 6.63,
+    "phot_g_mean_mag": 16.162811
+   },
+   {
+    "sep_arcsec": 40.9,
+    "sep_px": 6.65,
+    "phot_g_mean_mag": 16.861553
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 9.6,
+    "sep_px": 1.56,
+    "w1mpro": 17.153,
+    "w2mpro": 16.745
+   },
+   {
+    "sep_arcsec": 12.6,
+    "sep_px": 2.04,
+    "w1mpro": 14.887,
+    "w2mpro": 14.918
+   },
+   {
+    "sep_arcsec": 15.8,
+    "sep_px": 2.58,
+    "w1mpro": 17.248,
+    "w2mpro": 17.043
+   },
+   {
+    "sep_arcsec": 19.7,
+    "sep_px": 3.2,
+    "w1mpro": 17.012,
+    "w2mpro": 16.729
+   },
+   {
+    "sep_arcsec": 23.5,
+    "sep_px": 3.82,
+    "w1mpro": 17.413,
+    "w2mpro": 17.52
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60914.0154460795
+ },
+ "P9T24#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 48.4,
+    "sep_px": 7.88,
+    "phot_g_mean_mag": 19.403671
+   },
+   {
+    "sep_arcsec": 52.0,
+    "sep_px": 8.45,
+    "phot_g_mean_mag": 21.086613
+   },
+   {
+    "sep_arcsec": 56.3,
+    "sep_px": 9.15,
+    "phot_g_mean_mag": 8.579477
+   },
+   {
+    "sep_arcsec": 56.8,
+    "sep_px": 9.23,
+    "phot_g_mean_mag": 9.908189
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 11.4,
+    "sep_px": 1.85,
+    "w1mpro": 16.972,
+    "w2mpro": 17.38
+   },
+   {
+    "sep_arcsec": 14.8,
+    "sep_px": 2.4,
+    "w1mpro": 16.748,
+    "w2mpro": 17.272
+   },
+   {
+    "sep_arcsec": 35.4,
+    "sep_px": 5.76,
+    "w1mpro": 17.752,
+    "w2mpro": 16.765
+   },
+   {
+    "sep_arcsec": 46.5,
+    "sep_px": 7.56,
+    "w1mpro": 18.124,
+    "w2mpro": 17.376
+   },
+   {
+    "sep_arcsec": 48.6,
+    "sep_px": 7.9,
+    "w1mpro": 19.147,
+    "w2mpro": 17.074
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 61201.873318695
+ },
+ "P9T24#2": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 5.7,
+    "sep_px": 0.93,
+    "phot_g_mean_mag": 17.744694
+   },
+   {
+    "sep_arcsec": 22.7,
+    "sep_px": 3.69,
+    "phot_g_mean_mag": 19.996252
+   },
+   {
+    "sep_arcsec": 27.9,
+    "sep_px": 4.54,
+    "phot_g_mean_mag": 17.929434
+   },
+   {
+    "sep_arcsec": 36.4,
+    "sep_px": 5.92,
+    "phot_g_mean_mag": 19.597883
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 5.7,
+    "sep_px": 0.93,
+    "w1mpro": 15.395,
+    "w2mpro": 15.318
+   },
+   {
+    "sep_arcsec": 6.8,
+    "sep_px": 1.1,
+    "w1mpro": 16.17,
+    "w2mpro": 15.68
+   },
+   {
+    "sep_arcsec": 7.0,
+    "sep_px": 1.14,
+    "w1mpro": 17.317,
+    "w2mpro": 17.745
+   },
+   {
+    "sep_arcsec": 8.1,
+    "sep_px": 1.32,
+    "w1mpro": 17.831,
+    "w2mpro": 17.173
+   },
+   {
+    "sep_arcsec": 10.4,
+    "sep_px": 1.69,
+    "w1mpro": 17.322,
+    "w2mpro": 17.063
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 61201.873318695
+ },
+ "P9T26#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 34.4,
+    "sep_px": 5.6,
+    "phot_g_mean_mag": 10.474542
+   },
+   {
+    "sep_arcsec": 41.0,
+    "sep_px": 6.67,
+    "phot_g_mean_mag": 20.86301
+   },
+   {
+    "sep_arcsec": 42.2,
+    "sep_px": 6.87,
+    "phot_g_mean_mag": 19.363455
+   },
+   {
+    "sep_arcsec": 45.8,
+    "sep_px": 7.45,
+    "phot_g_mean_mag": 19.057177
+   },
+   {
+    "sep_arcsec": 51.2,
+    "sep_px": 8.33,
+    "phot_g_mean_mag": 14.493553
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 4.2,
+    "sep_px": 0.68,
+    "w1mpro": 17.984,
+    "w2mpro": 16.867
+   },
+   {
+    "sep_arcsec": 14.4,
+    "sep_px": 2.34,
+    "w1mpro": 16.256,
+    "w2mpro": 15.9
+   },
+   {
+    "sep_arcsec": 17.6,
+    "sep_px": 2.86,
+    "w1mpro": 18.07,
+    "w2mpro": 17.796
+   },
+   {
+    "sep_arcsec": 22.0,
+    "sep_px": 3.57,
+    "w1mpro": 17.178,
+    "w2mpro": 16.616
+   },
+   {
+    "sep_arcsec": 23.2,
+    "sep_px": 3.78,
+    "w1mpro": 17.583,
+    "w2mpro": 17.049
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 61241.176961849
+ },
+ "P9T30#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 22.2,
+    "sep_px": 3.61,
+    "phot_g_mean_mag": 20.891716
+   },
+   {
+    "sep_arcsec": 24.5,
+    "sep_px": 3.99,
+    "phot_g_mean_mag": 17.648163
+   },
+   {
+    "sep_arcsec": 41.1,
+    "sep_px": 6.68,
+    "phot_g_mean_mag": 19.647984
+   },
+   {
+    "sep_arcsec": 48.0,
+    "sep_px": 7.81,
+    "phot_g_mean_mag": 19.187681
+   },
+   {
+    "sep_arcsec": 50.2,
+    "sep_px": 8.16,
+    "phot_g_mean_mag": 19.92469
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 25.2,
+    "sep_px": 4.1,
+    "w1mpro": 16.641,
+    "w2mpro": 16.171
+   },
+   {
+    "sep_arcsec": 28.0,
+    "sep_px": 4.55,
+    "w1mpro": 18.108,
+    "w2mpro": 18.234
+   },
+   {
+    "sep_arcsec": 29.3,
+    "sep_px": 4.77,
+    "w1mpro": 18.044,
+    "w2mpro": 17.255
+   },
+   {
+    "sep_arcsec": 29.5,
+    "sep_px": 4.8,
+    "w1mpro": 16.961,
+    "w2mpro": 16.365
+   },
+   {
+    "sep_arcsec": 34.7,
+    "sep_px": 5.64,
+    "w1mpro": 17.376,
+    "w2mpro": 17.326
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60842.036709412496
+ },
+ "P9T30#2": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 28.9,
+    "sep_px": 4.7,
+    "phot_g_mean_mag": 10.346395
+   },
+   {
+    "sep_arcsec": 41.0,
+    "sep_px": 6.67,
+    "phot_g_mean_mag": 15.479095
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 27.2,
+    "sep_px": 4.42,
+    "w1mpro": 15.799,
+    "w2mpro": 15.47
+   },
+   {
+    "sep_arcsec": 29.0,
+    "sep_px": 4.72,
+    "w1mpro": 8.369,
+    "w2mpro": 8.419
+   },
+   {
+    "sep_arcsec": 31.8,
+    "sep_px": 5.16,
+    "w1mpro": 15.475,
+    "w2mpro": 15.122
+   },
+   {
+    "sep_arcsec": 36.2,
+    "sep_px": 5.89,
+    "w1mpro": 15.885,
+    "w2mpro": 15.905
+   },
+   {
+    "sep_arcsec": 40.1,
+    "sep_px": 6.52,
+    "w1mpro": 16.674,
+    "w2mpro": 16.015
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60842.036709412496
+ },
+ "P9T31#1": {
+  "match_arcsec": 60.0,
+  "jpl": [],
+  "gaia_dr3": [
+   {
+    "sep_arcsec": 21.5,
+    "sep_px": 3.49,
+    "phot_g_mean_mag": 11.185888
+   },
+   {
+    "sep_arcsec": 37.4,
+    "sep_px": 6.09,
+    "phot_g_mean_mag": 11.545491
+   },
+   {
+    "sep_arcsec": 44.3,
+    "sep_px": 7.21,
+    "phot_g_mean_mag": 21.033667
+   },
+   {
+    "sep_arcsec": 45.5,
+    "sep_px": 7.4,
+    "phot_g_mean_mag": 16.486319
+   },
+   {
+    "sep_arcsec": 45.7,
+    "sep_px": 7.42,
+    "phot_g_mean_mag": 16.746752
+   }
+  ],
+  "gaia_dr3_service": "https://datalab.noirlab.edu/tap/sync",
+  "catwise2020": [
+   {
+    "sep_arcsec": 21.4,
+    "sep_px": 3.48,
+    "w1mpro": 9.318,
+    "w2mpro": 9.355
+   },
+   {
+    "sep_arcsec": 30.6,
+    "sep_px": 4.98,
+    "w1mpro": 16.596,
+    "w2mpro": 15.944
+   },
+   {
+    "sep_arcsec": 31.4,
+    "sep_px": 5.1,
+    "w1mpro": 17.78,
+    "w2mpro": 17.135
+   },
+   {
+    "sep_arcsec": 36.4,
+    "sep_px": 5.92,
+    "w1mpro": 18.506,
+    "w2mpro": 16.968
+   },
+   {
+    "sep_arcsec": 37.4,
+    "sep_px": 6.08,
+    "w1mpro": 9.343,
+    "w2mpro": 9.406
+   }
+  ],
+  "catwise2020_service": "https://datalab.noirlab.edu/tap/sync",
+  "mjd_mid": 60976.194897561
+ }
+}

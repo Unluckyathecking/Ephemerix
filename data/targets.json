@@ -1,0 +1,893 @@
+[
+  {
+    "slug": "barnards-star",
+    "name": "Barnard's Star",
+    "blurb": "The star with the fastest apparent motion in the sky: over 10 arcseconds a year, almost due north.",
+    "ra": 269.4485025,
+    "dec": 4.7394201,
+    "epoch": 2016.0,
+    "pmra_masyr": -801.551,
+    "pmdec_masyr": 10362.394,
+    "parallax_mas": 546.976,
+    "known_type": "M4 star",
+    "known_type_ref": "M4V, SIMBAD bibcode 1991ApJS...77..417K (paper not opened)",
+    "discovery_ref": "Brief target; discovery reference not looked up. Not a Backyard Worlds discovery.",
+    "w1_mag": 4.358,
+    "w2_mag": 3.658,
+    "group": "brief",
+    "notes": "Saturates SPHEREx in every detector (OVERFLOW/SUR_ERROR/BLOOM). Motion demo only. Saturated in AllWISE too (W1/W2 flagged).",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, source_id=4472832130942575872, fetched 2026-11-14)",
+      "https://irsa.ipac.caltech.edu/TAP/sync (allwise_p3as_psd, fetched 2026-11-14)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=Barnard's+star (SIMBAD Harvard mirror)"
+    ],
+    "position_source": "Gaia DR3 source_id 4472832130942575872, epoch 2016.0 (RUWE 1.08)",
+    "pm_source": "Gaia DR3",
+    "photometry_source": "AllWISE J175747.94+044323.8 (epoch about 2010.5; ph_qual BBAA, cc_flags hHH0)",
+    "catalog_ids": {
+      "gaia_dr3": "4472832130942575872"
+    },
+    "total_pm_masyr": 10393.3,
+    "motion_2010_5_to_2026_5_arcsec": 166.29,
+    "motion_2010_5_to_2026_5_spherex_px": 27.0,
+    "pos_2010_5": [
+      269.4497313,
+      4.7235886
+    ],
+    "pos_2026_5": [
+      269.4461566,
+      4.7696437
+    ],
+    "designation_check": {
+      "designation": "AllWISE J175747.94+044323.8",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 1.12,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J175747.94+044323.8",
+      "separation_arcsec": 1.12,
+      "w1_mag": 4.358,
+      "w2_mag": 3.658,
+      "w2_snr": 4.7
+    }
+  },
+  {
+    "slug": "epsilon-indi-b",
+    "name": "Epsilon Indi Ba/Bb",
+    "blurb": "Two brown dwarfs (T1 and T6) orbiting each other, 12 light years from the Sun.",
+    "ra": 331.0764526,
+    "dec": -56.7938121,
+    "epoch": 2016.0,
+    "pmra_masyr": 3981.977,
+    "pmdec_masyr": -2466.832,
+    "parallax_mas": 270.658,
+    "known_type": "T1-1.5 + T6 (unresolved pair)",
+    "known_type_ref": "Chen et al. 2022, arXiv:2205.08077 (abstract opened); SIMBAD lists T1V+T6V, bibcode 2005AJ....129.2849B",
+    "discovery_ref": "Brief target; discovery reference not looked up. Not a Backyard Worlds discovery.",
+    "w1_mag": 10.718,
+    "w2_mag": 9.492,
+    "group": "brief",
+    "notes": "Best SPHEREx spectrum demo: 106/107 frames clean, CH4, CO2 and CO visible. Gaia RUWE 4.3 (unresolved pair), astrometry approximate. CatWISE2020 fits it badly (pm about 1.1 arcsec/yr against 4.7 true), so Gaia is adopted.",
+    "pm_second_reference": {
+      "pmra_masyr": 3987.41,
+      "pmdec_masyr": -2505.35,
+      "err_pmra_masyr": 0.12,
+      "err_pmdec_masyr": 0.10,
+      "source": "Chen et al. 2022, AJ 163, 288, arXiv:2205.08077, Table 4 (the Ba+Bb pair with its orbit modelled; frame tied to Gaia EDR3)",
+      "caveat": "That match is expected only if the two brown dwarfs share the light at 4.6 um roughly as they share the mass, which has not been measured. This second reference was added after the mismatch with Gaia DR3 was seen; the row is still scored against Gaia DR3.",
+      "added": "2026-11-15, after the motion check against Gaia DR3 had failed"
+    },
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, source_id=6412596012146801152, fetched 2026-11-14)",
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/ApJS/253/7 (PName 2204-5646)",
+      "https://irsa.ipac.caltech.edu/TAP/sync (allwise_p3as_psd, fetched 2026-11-14)",
+      "https://arxiv.org/abs/2205.08077"
+    ],
+    "position_source": "Gaia DR3 source_id 6412596012146801152, epoch 2016.0 (RUWE 4.30)",
+    "pm_source": "Gaia DR3",
+    "photometry_source": "AllWISE J220415.75-564724.4 (epoch about 2010.5; ph_qual AAAB, cc_flags hh00)",
+    "catalog_ids": {
+      "gaia_dr3": "6412596012146801152"
+    },
+    "total_pm_masyr": 4684.2,
+    "motion_2010_5_to_2026_5_arcsec": 74.95,
+    "motion_2010_5_to_2026_5_spherex_px": 12.2,
+    "pos_2010_5": [
+      331.0653442,
+      -56.7900433
+    ],
+    "pos_2026_5": [
+      331.0976596,
+      -56.801007
+    ],
+    "designation_check": {
+      "designation": "WISEA J220415.75-564724.4",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 0.61,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J220415.75-564724.4",
+      "separation_arcsec": 0.67,
+      "w1_mag": 10.718,
+      "w2_mag": 9.492,
+      "w2_snr": 54.2
+    }
+  },
+  {
+    "slug": "wise-0855-0714",
+    "name": "WISE 0855-0714",
+    "blurb": "One of the coldest brown dwarfs known, 7.4 light years away and moving more than 8 arcseconds a year.",
+    "ra": 133.783924,
+    "dec": -7.2443404,
+    "epoch": 2015.405,
+    "pmra_masyr": -8123.7,
+    "pmdec_masyr": 673.2,
+    "parallax_mas": 439.0,
+    "known_type": "Y4 (adopted estimate)",
+    "known_type_ref": "Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107, Table A1 adopted type 24.0; no near-IR spectral type exists (SIMBAD lists Y2, bibcode 2015ApJ...799...37L)",
+    "discovery_ref": "Brief target; discovery reference not looked up. Not a Backyard Worlds discovery.",
+    "w1_mag": 17.966,
+    "w2_mag": 13.82,
+    "group": "brief",
+    "notes": "Detected by SPHEREx at 3.8-5 um (S/N about 11 stacked) and moves as predicted, but too faint for a spectrum with molecular bands. The brief's coordinate (RA 133.7951, Dec -7.2451) is the WISE-designation position at about 2010.5, not 2015. Live CatWISE2020 splits it into fragments (W2 15.7-15.8); the W2 here is the K21 value, backed by Spitzer ch2 13.92.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J085507.96-071439.3, fetched 2026-11-14)",
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/ApJS/253/7 (PName 0855-0714)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=WISE+J085510.83-071442.5 (SIMBAD Harvard mirror)"
+    ],
+    "position_source": "CatWISE2020 J085507.96-071439.3 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code AT)",
+    "photometry_source": "Kirkpatrick et al. 2021 Table A1 (CatWISE2020 W1/W2 as tabulated there)",
+    "catalog_ids": {
+      "catwise2020": "J085507.96-071439.3"
+    },
+    "total_pm_masyr": 8151.5,
+    "motion_2010_5_to_2026_5_arcsec": 130.42,
+    "motion_2010_5_to_2026_5_spherex_px": 21.2,
+    "pos_2010_5": [
+      133.7950816,
+      -7.2452576
+    ],
+    "pos_2026_5": [
+      133.7586857,
+      -7.2422656
+    ],
+    "designation_check": {
+      "designation": "WISEA J085510.74-071442.5",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 1.26,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J085510.74-071442.5",
+      "separation_arcsec": 1.22,
+      "w1_mag": 16.231,
+      "w2_mag": 13.704,
+      "w2_snr": 32.4
+    }
+  },
+  {
+    "slug": "rw-aurigae",
+    "name": "RW Aurigae A",
+    "blurb": "A young multiple-star system in Auriga, about 510 light years away.",
+    "ra": 76.9560812,
+    "dec": 30.4012046,
+    "epoch": 2016.0,
+    "pmra_masyr": 2.641,
+    "pmdec_masyr": -27.398,
+    "parallax_mas": 6.406,
+    "known_type": "K1-K5 young star (T Tauri)",
+    "known_type_ref": "K1/5e+K5e, SIMBAD bibcode 1999A&A...351..954D (paper not opened); SIMBAD lists K6 for the Gaia source (2021ApJS..254...20L)",
+    "discovery_ref": "Brief target; discovery reference not looked up.",
+    "w1_mag": 6.246,
+    "w2_mag": 5.228,
+    "group": "brief",
+    "notes": "Brighter of two Gaia sources 1.5 arcsec apart (G 12.18), so blended in SPHEREx and WISE. Saturates SPHEREx (65 of 109 frames masked, spherex-data.md). Saturated in AllWISE.",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, source_id=156430822114424576, fetched 2026-11-14)",
+      "https://irsa.ipac.caltech.edu/TAP/sync (allwise_p3as_psd, fetched 2026-11-14)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=V*+RW+Aur (SIMBAD Harvard mirror)"
+    ],
+    "position_source": "Gaia DR3 source_id 156430822114424576, epoch 2016.0 (RUWE 1.50)",
+    "pm_source": "Gaia DR3",
+    "photometry_source": "AllWISE J050749.54+302404.7 (epoch about 2010.5; ph_qual AAAA, cc_flags 0000)",
+    "catalog_ids": {
+      "gaia_dr3": "156430822114424576"
+    },
+    "total_pm_masyr": 27.5,
+    "motion_2010_5_to_2026_5_arcsec": 0.44,
+    "motion_2010_5_to_2026_5_spherex_px": 0.1,
+    "pos_2010_5": [
+      76.9560765,
+      30.4012464
+    ],
+    "pos_2026_5": [
+      76.9560901,
+      30.4011247
+    ],
+    "designation_check": {
+      "designation": "AllWISE J050749.54+302404.7",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 1.08,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J050749.54+302404.7",
+      "separation_arcsec": 1.21,
+      "w1_mag": 6.246,
+      "w2_mag": 5.228,
+      "w2_snr": 19.4
+    }
+  },
+  {
+    "slug": "r-draconis",
+    "name": "R Draconis",
+    "blurb": "A pulsating red giant (a Mira variable) in Draco, roughly 2,600 light years away, that brightens and fades over months.",
+    "ra": 248.1673784,
+    "dec": 66.7550067,
+    "epoch": 2016.0,
+    "pmra_masyr": -20.643,
+    "pmdec_masyr": 6.149,
+    "parallax_mas": 1.251,
+    "known_type": "M4.5-M6 giant (Mira variable)",
+    "known_type_ref": "M4.5-6+e, SIMBAD bibcode 1966ApJS...13..333K (paper not opened); type varies with phase",
+    "discovery_ref": "Brief target; discovery reference not looked up.",
+    "w1_mag": 0.393,
+    "w2_mag": 0.129,
+    "group": "brief",
+    "notes": "Saturates every SPHEREx detector, so no spectrum or light curve from L2 pixels. W1/W2 are saturated in AllWISE and the values are lower limits on brightness. Only source brighter than G 12 within 36 arcsec.",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, source_id=1648328016354496384, fetched 2026-11-14)",
+      "https://irsa.ipac.caltech.edu/TAP/sync (allwise_p3as_psd, fetched 2026-11-14)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=R+Dra (SIMBAD Harvard mirror)"
+    ],
+    "position_source": "Gaia DR3 source_id 1648328016354496384, epoch 2016.0 (RUWE 1.30)",
+    "pm_source": "Gaia DR3",
+    "photometry_source": "AllWISE J163240.19+664517.9 (epoch about 2010.5; ph_qual UUAA, cc_flags hh00)",
+    "catalog_ids": {
+      "gaia_dr3": "1648328016354496384"
+    },
+    "total_pm_masyr": 21.5,
+    "motion_2010_5_to_2026_5_arcsec": 0.34,
+    "motion_2010_5_to_2026_5_spherex_px": 0.1,
+    "pos_2010_5": [
+      248.1674583,
+      66.7549974
+    ],
+    "pos_2026_5": [
+      248.1672258,
+      66.7550247
+    ],
+    "designation_check": {
+      "designation": "AllWISE J163240.19+664517.9",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 0.09,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J163240.19+664517.9",
+      "separation_arcsec": 0.04,
+      "w1_mag": 0.393,
+      "w2_mag": 0.129,
+      "w2_snr": 1.0
+    }
+  },
+  {
+    "slug": "wisea-1101-5400",
+    "name": "WISEA J1101+5400",
+    "blurb": "The first brown dwarf found by Backyard Worlds volunteers, a T dwarf about 110 light years away.",
+    "ra": 165.3566296,
+    "dec": 54.014827,
+    "epoch": 2015.405,
+    "pmra_masyr": -714.59,
+    "pmdec_masyr": 65.0,
+    "parallax_mas": null,
+    "known_type": "T5.5",
+    "known_type_ref": "Kuchner et al. 2017, ApJL 841, L19, arXiv:1705.02919, doi:10.3847/2041-8213/aa7200 (IRTF/SpeX prism spectrum, Gk fit)",
+    "discovery_ref": "Kuchner et al. 2017, arXiv:1705.02919. Flagged by several volunteers within a week of the 15 Feb 2017 launch; the paper does not name them.",
+    "w1_mag": 17.235,
+    "w2_mag": 15.58,
+    "group": "backyard-worlds",
+    "notes": "Marginal for SPHEREx: W2 15.37 in the paper (15.58 in live CatWISE2020), at the faint end of the rule. Expect WISE blink and motion, not a spectrum.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J110125.55+540053.4, fetched 2026-11-14)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=WISEA+J110125.95+540052.8 (SIMBAD Harvard mirror)",
+      "https://arxiv.org/abs/1705.02919"
+    ],
+    "position_source": "CatWISE2020 J110125.55+540053.4 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "SIMBAD, bibcode 2023AJ....166..103S",
+    "photometry_source": "CatWISE2020 J110125.55+540053.4 (cc_flags -, ab_flags 00)",
+    "catalog_ids": {
+      "catwise2020": "J110125.55+540053.4"
+    },
+    "total_pm_masyr": 717.5,
+    "motion_2010_5_to_2026_5_arcsec": 11.48,
+    "motion_2010_5_to_2026_5_spherex_px": 1.9,
+    "pos_2010_5": [
+      165.3582866,
+      54.0147384
+    ],
+    "pos_2026_5": [
+      165.3528814,
+      54.0150273
+    ],
+    "designation_check": {
+      "designation": "WISEA J110125.95+540052.8",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 0.43,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J110125.95+540052.8",
+      "separation_arcsec": 0.34,
+      "w1_mag": 17.124,
+      "w2_mag": 15.371,
+      "w2_snr": 12.5
+    }
+  },
+  {
+    "slug": "cwise-0623-0715",
+    "name": "CWISE J0623+0715",
+    "blurb": "A cool T dwarf low in heavy elements (a subdwarf), flagged by Backyard Worlds and moving 1 arcsecond a year.",
+    "ra": 95.8174917,
+    "dec": 7.2517367,
+    "epoch": 2015.405,
+    "pmra_masyr": 7.0,
+    "pmdec_masyr": -980.0,
+    "parallax_mas": null,
+    "known_type": "sdT3",
+    "known_type_ref": "Burgasser et al. 2024, arXiv:2411.01378 (Keck/NIRES spectrum)",
+    "discovery_ref": "Burgasser et al. 2024, arXiv:2411.01378; candidate selected from Backyard Worlds: Planet 9 flipbooks. Zooniverse volunteers of Backyard Worlds: Planet 9, thanked collectively; the paper names no individual discoverer.",
+    "w1_mag": 16.65,
+    "w2_mag": 15.012,
+    "group": "backyard-worlds",
+    "notes": "W2 15.0: motion and detection demo; a SPHEREx spectrum is unlikely. Metal-poor, so a good test of whether the template match fails gracefully.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J062316.19+071505.6, fetched 2026-11-14)",
+      "https://arxiv.org/abs/2411.01378"
+    ],
+    "position_source": "CatWISE2020 J062316.19+071505.6 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "Burgasser et al. 2024, arXiv:2411.01378, Table 9 (Sample Kinematics; errors 32 and 37 mas/yr; reference [7], their own measurement). Table 11, cited before by mistake, is T Subdwarf Spectral Standards",
+    "photometry_source": "CatWISE2020 J062316.19+071505.6 (cc_flags -, ab_flags 00)",
+    "catalog_ids": {
+      "catwise2020": "J062316.19+071505.6"
+    },
+    "total_pm_masyr": 980.0,
+    "motion_2010_5_to_2026_5_arcsec": 15.68,
+    "motion_2010_5_to_2026_5_spherex_px": 2.5,
+    "pos_2010_5": [
+      95.8174821,
+      7.253072
+    ],
+    "pos_2026_5": [
+      95.8175134,
+      7.2487164
+    ],
+    "designation_check": {
+      "designation": "CWISE J062316.19+071505.6",
+      "check_epoch": 2015.405,
+      "separation_arcsec": 0.66,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J062316.16+071510.9",
+      "separation_arcsec": 0.42,
+      "w1_mag": 16.858,
+      "w2_mag": 14.904,
+      "w2_snr": 13.9
+    }
+  },
+  {
+    "slug": "cwise-2112-0529",
+    "name": "CWISE J2112-0529",
+    "blurb": "A cool T subdwarf found through Backyard Worlds, moving 0.9 arcseconds a year.",
+    "ra": 318.2089298,
+    "dec": -5.4901897,
+    "epoch": 2015.405,
+    "pmra_masyr": -556.0,
+    "pmdec_masyr": -748.0,
+    "parallax_mas": null,
+    "known_type": "sdT1",
+    "known_type_ref": "Burgasser et al. 2024, arXiv:2411.01378 (Keck/NIRES spectrum)",
+    "discovery_ref": "Burgasser et al. 2024, arXiv:2411.01378; abstract names it among three new metal-poor T subdwarfs from the Backyard Worlds programme. Zooniverse volunteers of Backyard Worlds: Planet 9, thanked collectively; the paper names no individual discoverer.",
+    "w1_mag": 16.159,
+    "w2_mag": 15.346,
+    "group": "backyard-worlds",
+    "notes": "Marginal: W2 15.35, near the faint limit of the rule. Live CatWISE2020 also lists a second fragment 2 arcsec away (W2 17.25). Motion demo only.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J211250.11-052925.2, fetched 2026-11-14)",
+      "https://arxiv.org/abs/2411.01378"
+    ],
+    "position_source": "CatWISE2020 J211250.11-052925.2 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "Burgasser et al. 2024, arXiv:2411.01378, Table 9 (Sample Kinematics; errors 24 and 25 mas/yr; reference [7], their own measurement). Table 11, cited before by mistake, is T Subdwarf Spectral Standards",
+    "photometry_source": "CatWISE2020 J211250.11-052925.2 (cc_flags -, ab_flags 00)",
+    "catalog_ids": {
+      "catwise2020": "J211250.11-052925.2"
+    },
+    "total_pm_masyr": 932.0,
+    "motion_2010_5_to_2026_5_arcsec": 14.91,
+    "motion_2010_5_to_2026_5_spherex_px": 2.4,
+    "pos_2010_5": [
+      318.2096908,
+      -5.4891705
+    ],
+    "pos_2026_5": [
+      318.2072083,
+      -5.492495
+    ],
+    "designation_check": {
+      "designation": "CWISE J211250.11-052925.2",
+      "check_epoch": 2015.405,
+      "separation_arcsec": 0.72,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": null
+  },
+  {
+    "slug": "cwise-2021-1524",
+    "name": "CWISE J2021+1524",
+    "blurb": "A faint, metal-poor L dwarf found through Backyard Worlds, moving 0.7 arcseconds a year.",
+    "ra": 305.3754386,
+    "dec": 15.4050867,
+    "epoch": 2015.405,
+    "pmra_masyr": -547.0,
+    "pmdec_masyr": -441.0,
+    "parallax_mas": null,
+    "known_type": "d/sdL9",
+    "known_type_ref": "Burgasser et al. 2024, arXiv:2411.01378 (Keck/NIRES spectrum)",
+    "discovery_ref": "Burgasser et al. 2024, arXiv:2411.01378; candidate from the Backyard Worlds search. Zooniverse volunteers of Backyard Worlds: Planet 9, thanked collectively; the paper names no individual discoverer.",
+    "w1_mag": 15.176,
+    "w2_mag": 14.668,
+    "group": "backyard-worlds",
+    "notes": "W2 14.7. CatWISE W1 carries a diffraction-spike flag (ab_flags D), so W1 is less reliable. Motion and detection demo.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J202130.08+152418.0, fetched 2026-11-14)",
+      "https://arxiv.org/abs/2411.01378"
+    ],
+    "position_source": "CatWISE2020 J202130.08+152418.0 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "Burgasser et al. 2024, arXiv:2411.01378, Table 9 (Sample Kinematics; errors 3 and 3 mas/yr; reference [7], their own measurement). Table 11, cited before by mistake, is T Subdwarf Spectral Standards",
+    "photometry_source": "CatWISE2020 J202130.08+152418.0 (cc_flags -, ab_flags D0)",
+    "catalog_ids": {
+      "catwise2020": "J202130.08+152418.0"
+    },
+    "total_pm_masyr": 702.6,
+    "motion_2010_5_to_2026_5_arcsec": 11.24,
+    "motion_2010_5_to_2026_5_spherex_px": 1.8,
+    "pos_2010_5": [
+      305.3762117,
+      15.4056876
+    ],
+    "pos_2026_5": [
+      305.37369,
+      15.4037276
+    ],
+    "designation_check": {
+      "designation": "CWISE J202130.08+152418.0",
+      "check_epoch": 2015.405,
+      "separation_arcsec": 0.48,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": null
+  },
+  {
+    "slug": "cwise-0411-4714",
+    "name": "CWISE J0411+4714",
+    "blurb": "A late T dwarf with slightly low metal content, found through Backyard Worlds.",
+    "ra": 62.7600638,
+    "dec": 47.2396138,
+    "epoch": 2015.405,
+    "pmra_masyr": 438.5,
+    "pmdec_masyr": -149.0,
+    "parallax_mas": null,
+    "known_type": "d/sdT7.5",
+    "known_type_ref": "Burgasser et al. 2024, arXiv:2411.01378 (Keck/NIRES spectrum); K21 Table A1 lists type 17.0 (T7) from photometry",
+    "discovery_ref": "Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107, Table 1 discoverer codes A, D, N, R, W = Nikolaj Stevnbak Andersen, Dan Caselden, Kareem Ammar, Austin Rothermich, Jim Walla (legend in the paper's table notes; the paper does not say which of them first spotted it); spectrum and type from Burgasser et al. 2024, arXiv:2411.01378.",
+    "w1_mag": 17.089,
+    "w2_mag": 14.678,
+    "group": "backyard-worlds",
+    "notes": "W2 14.7, methane-rich so brighter at 4.5 um than in W1. Detection and motion demo; spectrum unlikely.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J041102.41+471422.6, fetched 2026-11-14)",
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/ApJS/253/7 (PName 0411+4714)",
+      "https://arxiv.org/abs/2411.01378"
+    ],
+    "position_source": "CatWISE2020 J041102.41+471422.6 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "Kirkpatrick et al. 2021 Table A1 (code Ac, equal to CatWISE2020)",
+    "photometry_source": "CatWISE2020 J041102.41+471422.6 (cc_flags dh00, ab_flags 00)",
+    "catalog_ids": {
+      "catwise2020": "J041102.41+471422.6"
+    },
+    "total_pm_masyr": 463.1,
+    "motion_2010_5_to_2026_5_arcsec": 7.41,
+    "motion_2010_5_to_2026_5_spherex_px": 1.2,
+    "pos_2010_5": [
+      62.7591838,
+      47.2398168
+    ],
+    "pos_2026_5": [
+      62.7620543,
+      47.2391546
+    ],
+    "designation_check": {
+      "designation": "CWISE J041102.41+471422.6",
+      "check_epoch": 2015.405,
+      "separation_arcsec": 0.05,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J041102.17+471423.6",
+      "separation_arcsec": 0.41,
+      "w1_mag": 16.859,
+      "w2_mag": 14.618,
+      "w2_snr": 17.4
+    }
+  },
+  {
+    "slug": "cwise-2029-7910",
+    "name": "CWISE J2029-7910",
+    "blurb": "A blue L1 dwarf found by volunteers as a wide companion to an M6 star.",
+    "ra": 307.3950501,
+    "dec": -79.1703337,
+    "epoch": 2016.0,
+    "pmra_masyr": 219.692,
+    "pmdec_masyr": -210.048,
+    "parallax_mas": 19.626,
+    "known_type": "L1 (blue)",
+    "known_type_ref": "Rothermich et al. 2024, arXiv:2403.04592 (SOAR/TripleSpec4 spectrum, 23 Oct 2021)",
+    "discovery_ref": "Rothermich et al. 2024, arXiv:2403.04592; co-moving companion flagged by Backyard Worlds volunteers. Zooniverse volunteers of Backyard Worlds: Planet 9, thanked collectively; the paper names no individual discoverer.",
+    "w1_mag": 13.924,
+    "w2_mag": 13.622,
+    "group": "backyard-worlds",
+    "notes": "Right at the motion limit: 0.30 arcsec/yr. Host SCR J2029-7910 (M6, W2 about 11.1) is 34 arcsec away, 5.5 SPHEREx pixels.",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, source_id=6361974496804484608, fetched 2026-11-14)",
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, cone at the 2015.405 position, fetched 2026-11-14)",
+      "https://arxiv.org/abs/2403.04592"
+    ],
+    "position_source": "Gaia DR3 source_id 6361974496804484608, epoch 2016.0 (RUWE 1.05)",
+    "pm_source": "Gaia DR3",
+    "photometry_source": "CatWISE2020 J202934.80-791013.1 (cc_flags 0000, ab_flags 00)",
+    "catalog_ids": {
+      "gaia_dr3": "6361974496804484608"
+    },
+    "total_pm_masyr": 303.9,
+    "motion_2010_5_to_2026_5_arcsec": 4.86,
+    "motion_2010_5_to_2026_5_spherex_px": 0.8,
+    "pos_2010_5": [
+      307.3932637,
+      -79.1700128
+    ],
+    "pos_2026_5": [
+      307.3984604,
+      -79.1709464
+    ],
+    "designation_check": {
+      "designation": "CWISE J202934.80-791013.1",
+      "check_epoch": 2015.405,
+      "separation_arcsec": 0.1,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J202934.39-791011.9",
+      "separation_arcsec": 0.06,
+      "w1_mag": 13.925,
+      "w2_mag": 13.565,
+      "w2_snr": 37.0
+    }
+  },
+  {
+    "slug": "cwise-1055-5443",
+    "name": "CWISE J1055+5443",
+    "blurb": "A nearby Y0 dwarf with unusual colours, about 22 light years away and moving 1.5 arcseconds a year.",
+    "ra": 163.8001351,
+    "dec": 54.7245183,
+    "epoch": 2015.405,
+    "pmra_masyr": -1518.7,
+    "pmdec_masyr": -222.7,
+    "parallax_mas": 145.0,
+    "known_type": "Y0 (peculiar)",
+    "known_type_ref": "Robbins et al. 2023, arXiv:2310.09524 (Keck/NIRES spectrum); K21 Table A1 lists sdT8 from photometry",
+    "discovery_ref": "Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107, Table 1 discoverer codes D, G, J = Dan Caselden, Samuel J. Goodman, J. Davy Kirkpatrick (legend in the paper's table notes); K21 gives Goodman a Backyard Worlds: Planet 9 affiliation. Robbins et al. 2023 lists the Backyard Worlds collaboration as authors but does not describe the discovery.",
+    "w1_mag": 17.332,
+    "w2_mag": 14.371,
+    "group": "backyard-worlds",
+    "notes": "W2 14.4 (K21; live CatWISE2020 fragments say 15.3-15.5): detection and motion demo, and a second Y dwarf next to WISE 0855. Discovery credit rests on the K21 Table 1 codes, not on a statement that a volunteer first spotted it.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J105512.11+544328.3, fetched 2026-11-14)",
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/ApJS/253/7 (PName 1055+5443)",
+      "https://arxiv.org/abs/2310.09524",
+      "https://arxiv.org/abs/2011.11616"
+    ],
+    "position_source": "CatWISE2020 J105512.11+544328.3 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code AT)",
+    "photometry_source": "Kirkpatrick et al. 2021 Table A1 (CatWISE2020 W1/W2 as tabulated there)",
+    "catalog_ids": {
+      "catwise2020": "J105512.11+544328.3"
+    },
+    "total_pm_masyr": 1534.9,
+    "motion_2010_5_to_2026_5_arcsec": 24.56,
+    "motion_2010_5_to_2026_5_spherex_px": 4.0,
+    "pos_2010_5": [
+      163.8037181,
+      54.7248217
+    ],
+    "pos_2026_5": [
+      163.7920304,
+      54.723832
+    ],
+    "designation_check": {
+      "designation": "CWISE J105512.11+544328.3",
+      "check_epoch": 2015.405,
+      "separation_arcsec": 0.67,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J105512.93+544329.7",
+      "separation_arcsec": 0.54,
+      "w1_mag": 17.306,
+      "w2_mag": 14.366,
+      "w2_snr": 24.6
+    }
+  },
+  {
+    "slug": "denis-0255-4700",
+    "name": "DENIS J0255-4700",
+    "blurb": "A nearby L9 brown dwarf, 16 light years away, moving 1.15 arcseconds a year.",
+    "ra": 43.7719859,
+    "dec": -47.0167284,
+    "epoch": 2016.0,
+    "pmra_masyr": 1012.445,
+    "pmdec_masyr": -554.031,
+    "parallax_mas": 205.425,
+    "known_type": "L9",
+    "known_type_ref": "K21 Table A1 adopted L9 (optical L8, near-IR L9) Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107; SIMBAD L9, bibcode 2014AJ....147...34S",
+    "discovery_ref": "Named for the DENIS survey; discovery paper not looked up. Benchmark, not a Backyard Worlds discovery.",
+    "w1_mag": 10.773,
+    "w2_mag": 10.212,
+    "group": "benchmark",
+    "notes": "Brightest L/T-transition benchmark here (W2 10.2, Ks 11.6), so a SPHEREx spectrum is plausible (untested; Eps Ind B at Ks 11.2 was clean).",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, source_id=4752399493622045696, fetched 2026-11-14)",
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/ApJS/253/7 (PName 0255-4700)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=DENIS+J025503.3-470049 (SIMBAD Harvard mirror)"
+    ],
+    "position_source": "Gaia DR3 source_id 4752399493622045696, epoch 2016.0 (RUWE 1.12)",
+    "pm_source": "Gaia DR3",
+    "photometry_source": "Kirkpatrick et al. 2021 Table A1 (CatWISE2020 W1/W2 as tabulated there)",
+    "catalog_ids": {
+      "gaia_dr3": "4752399493622045696"
+    },
+    "total_pm_masyr": 1154.1,
+    "motion_2010_5_to_2026_5_arcsec": 18.47,
+    "motion_2010_5_to_2026_5_spherex_px": 3.0,
+    "pos_2010_5": [
+      43.7697172,
+      -47.0158819
+    ],
+    "pos_2026_5": [
+      43.7763172,
+      -47.0183443
+    ],
+    "designation_check": {
+      "designation": "WISEA J025504.75-470057.3",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 0.22,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J025504.75-470057.3",
+      "separation_arcsec": 0.27,
+      "w1_mag": 10.769,
+      "w2_mag": 10.207,
+      "w2_snr": 52.1
+    }
+  },
+  {
+    "slug": "2mass-0559-1404",
+    "name": "2MASS J0559-1404",
+    "blurb": "A mid-T (T4.5) brown dwarf 34 light years away, moving 0.66 arcseconds a year.",
+    "ra": 89.8325648,
+    "dec": -14.0818382,
+    "epoch": 2016.0,
+    "pmra_masyr": 571.34,
+    "pmdec_masyr": -338.167,
+    "parallax_mas": 95.271,
+    "known_type": "T4.5",
+    "known_type_ref": "SIMBAD, bibcode 2002ApJ...564..466G; K21 Table A1 adopted T4.5 Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107",
+    "discovery_ref": "Named for the 2MASS survey; discovery paper not looked up. Benchmark, not a Backyard Worlds discovery.",
+    "w1_mag": 13.42,
+    "w2_mag": 11.985,
+    "group": "benchmark",
+    "notes": "Ks 13.6, W2 about 12: strongest at 4.5 um, so expect a detection with a usable red half of the spectrum (untested).",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, source_id=2997171394834174976, fetched 2026-11-14)",
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/ApJS/253/7 (PName 0559-1404)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=2MASS+J05591914-1404488 (SIMBAD Harvard mirror)"
+    ],
+    "position_source": "Gaia DR3 source_id 2997171394834174976, epoch 2016.0 (RUWE 1.30)",
+    "pm_source": "Gaia DR3",
+    "photometry_source": "Kirkpatrick et al. 2021 Table A1 (CatWISE2020 W1/W2 as tabulated there)",
+    "catalog_ids": {
+      "gaia_dr3": "2997171394834174976"
+    },
+    "total_pm_masyr": 663.9,
+    "motion_2010_5_to_2026_5_arcsec": 10.62,
+    "motion_2010_5_to_2026_5_spherex_px": 1.7,
+    "pos_2010_5": [
+      89.8316649,
+      -14.0813216
+    ],
+    "pos_2026_5": [
+      89.8342829,
+      -14.0828246
+    ],
+    "designation_check": {
+      "designation": "WISEA J055919.59-140452.6",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 0.21,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J055919.59-140452.6",
+      "separation_arcsec": 0.09,
+      "w1_mag": 13.393,
+      "w2_mag": 11.908,
+      "w2_snr": 50.7
+    }
+  },
+  {
+    "slug": "2mass-0415-0935",
+    "name": "2MASS J0415-0935",
+    "blurb": "A T8 brown dwarf 19 light years away with deep methane absorption, moving 2.3 arcseconds a year.",
+    "ra": 63.8417701,
+    "dec": -9.5827135,
+    "epoch": 2015.405,
+    "pmra_masyr": 2214.2,
+    "pmdec_masyr": 536.1,
+    "parallax_mas": 175.2,
+    "known_type": "T8",
+    "known_type_ref": "SIMBAD, bibcode 2002ApJ...564..421B; K21 Table A1 adopted T8 Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107",
+    "discovery_ref": "Named for the 2MASS survey; discovery paper not looked up. Benchmark, not a Backyard Worlds discovery.",
+    "w1_mag": 15.148,
+    "w2_mag": 12.305,
+    "group": "benchmark",
+    "notes": "K 15.4: faint at SPHEREx's short wavelengths, so only the 3-5 um methane and CO2 region is likely usable (untested). Live CatWISE2020 splits it into two fragments; the one whose motion matches the literature is adopted, the other has pm 26% too high.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J041522.17-093457.1, fetched 2026-11-14)",
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/ApJS/253/7 (PName 0415-0935)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=2MASS+J04151954-0935066 (SIMBAD Harvard mirror)"
+    ],
+    "position_source": "CatWISE2020 J041522.17-093457.1 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code AD)",
+    "photometry_source": "Kirkpatrick et al. 2021 Table A1 (CatWISE2020 W1/W2 as tabulated there)",
+    "catalog_ids": {
+      "catwise2020": "J041522.17-093457.1"
+    },
+    "total_pm_masyr": 2278.2,
+    "motion_2010_5_to_2026_5_arcsec": 36.45,
+    "motion_2010_5_to_2026_5_spherex_px": 5.9,
+    "pos_2010_5": [
+      63.8387106,
+      -9.5834439
+    ],
+    "pos_2026_5": [
+      63.8486907,
+      -9.5810613
+    ],
+    "designation_check": {
+      "designation": "WISEA J041521.26-093500.4",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 0.45,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J041521.26-093500.4",
+      "separation_arcsec": 0.37,
+      "w1_mag": 15.14,
+      "w2_mag": 12.292,
+      "w2_snr": 44.2
+    }
+  },
+  {
+    "slug": "ugps-0722-0540",
+    "name": "UGPS J0722-0540",
+    "blurb": "One of the coolest T dwarfs (T9), 13 light years away, moving 1 arcsecond a year.",
+    "ra": 110.6124168,
+    "dec": -5.6744734,
+    "epoch": 2015.405,
+    "pmra_masyr": -904.14,
+    "pmdec_masyr": 352.03,
+    "parallax_mas": 242.8,
+    "known_type": "T9",
+    "known_type_ref": "SIMBAD, bibcode 2010MNRAS.408L..56L; K21 Table A1 adopted T9 Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107",
+    "discovery_ref": "Named for the UKIDSS GPS; bibcode 2010MNRAS.408L..56L is SIMBAD's type reference (not opened). Benchmark, not a Backyard Worlds discovery.",
+    "w1_mag": 15.143,
+    "w2_mag": 12.198,
+    "group": "benchmark",
+    "notes": "K 17, W2 12.2: a 4.5 um detection is likely, but the short-wavelength half of the spectrum will be empty (untested). Live CatWISE2020 has a second, fainter fragment 0.9 arcsec away.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J072226.89-054027.5, fetched 2026-11-14)",
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/ApJS/253/7 (PName 0722-0540)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=UGPS+J072227.51-054031.2 (SIMBAD Harvard mirror)"
+    ],
+    "position_source": "CatWISE2020 J072226.89-054027.5 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code Al)",
+    "photometry_source": "Kirkpatrick et al. 2021 Table A1 (CatWISE2020 W1/W2 as tabulated there)",
+    "catalog_ids": {
+      "catwise2020": "J072226.89-054027.5"
+    },
+    "total_pm_masyr": 970.3,
+    "motion_2010_5_to_2026_5_arcsec": 15.52,
+    "motion_2010_5_to_2026_5_spherex_px": 2.5,
+    "pos_2010_5": [
+      110.6136548,
+      -5.674953
+    ],
+    "pos_2026_5": [
+      110.6096166,
+      -5.6733885
+    ],
+    "designation_check": {
+      "designation": "WISEP J072227.27-054029.9",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 0.13,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": {
+      "designation": "J072227.27-054029.8",
+      "separation_arcsec": 0.04,
+      "w1_mag": 15.25,
+      "w2_mag": 12.2,
+      "w2_snr": 46.8
+    }
+  },
+  {
+    "slug": "wise-1541-2250",
+    "name": "WISE 1541-2250",
+    "blurb": "A Y dwarf about 20 light years away, much cooler than a T dwarf, moving 0.9 arcseconds a year.",
+    "ra": 235.4637315,
+    "dec": -22.8406144,
+    "epoch": 2015.405,
+    "pmra_masyr": -902.8,
+    "pmdec_masyr": -91.4,
+    "parallax_mas": 166.9,
+    "known_type": "Y1",
+    "known_type_ref": "Kirkpatrick et al. 2021, ApJS 253, 7, arXiv:2011.11616, doi:10.3847/1538-4365/abd107, Table A1 near-IR and adopted type 21.0 = Y1 (VizieR J/ApJS/253/7/tablea1, PName 1541-2250, read 2026-11-15); SIMBAD still lists Y0, bibcode 2011ApJS..197...19K (the discovery-era type)",
+    "discovery_ref": "WISE discovery (name); bibcode 2011ApJS..197...19K is SIMBAD's type reference (not opened). Benchmark, not a Backyard Worlds discovery.",
+    "w1_mag": 17.605,
+    "w2_mag": 14.218,
+    "group": "benchmark",
+    "notes": "W2 14.2: a detection-and-motion target for SPHEREx, like WISE 0855, not a spectrum target. Live CatWISE2020 gives W2 15.1 and 14.8 for two fragments.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, source_name=J154151.41-225026.1, fetched 2026-11-14)",
+      "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/ApJS/253/7 (PName 1541-2250)",
+      "https://simbad.cfa.harvard.edu/simbad/sim-id?Ident=WISEPA+J154151.66-225025.2 (SIMBAD Harvard mirror)"
+    ],
+    "position_source": "CatWISE2020 J154151.41-225026.1 motion-fit position (ra_pm, dec_pm), MJD 57170 = 2015.405",
+    "pm_source": "Kirkpatrick et al. 2021 Table A1 (parallax programme; astrometry code AT)",
+    "photometry_source": "Kirkpatrick et al. 2021 Table A1 (CatWISE2020 W1/W2 as tabulated there)",
+    "catalog_ids": {
+      "catwise2020": "J154151.41-225026.1"
+    },
+    "total_pm_masyr": 907.4,
+    "motion_2010_5_to_2026_5_arcsec": 14.52,
+    "motion_2010_5_to_2026_5_spherex_px": 2.4,
+    "pos_2010_5": [
+      235.4650662,
+      -22.8404899
+    ],
+    "pos_2026_5": [
+      235.4607124,
+      -22.8408961
+    ],
+    "designation_check": {
+      "designation": "WISEP J154151.65-225025.2",
+      "check_epoch": 2010.5,
+      "separation_arcsec": 0.73,
+      "flag": "ok"
+    },
+    "allwise_2010_5_check": null
+  }
+]

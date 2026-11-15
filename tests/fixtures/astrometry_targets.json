@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Barnard's Star",
+    "ra_deg": 269.4485025,
+    "dec_deg": 4.7394201,
+    "epoch": 2016.0,
+    "pmra_masyr": -801.551,
+    "pmdec_masyr": 10362.394,
+    "parallax_mas": 546.976,
+    "gaia_source_id": "4472832130942575872",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, fetched 2026-11-14)"
+    ],
+    "w1_mag": null,
+    "w2_mag": null,
+    "pos_2010_5": [
+      269.4497313,
+      4.7235887
+    ],
+    "pos_2026_5": [
+      269.4461566,
+      4.7696437
+    ]
+  },
+  {
+    "name": "Epsilon Indi Ba/Bb",
+    "ra_deg": 331.0764526,
+    "dec_deg": -56.7938121,
+    "epoch": 2016.0,
+    "pmra_masyr": 3981.977,
+    "pmdec_masyr": -2466.832,
+    "parallax_mas": 270.658,
+    "gaia_source_id": "6412596012146801152",
+    "note": "Gaia RUWE 4.3 (unresolved pair); treat astrometry as approximate",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, fetched 2026-11-14)"
+    ],
+    "w1_mag": null,
+    "w2_mag": null,
+    "pos_2010_5": [
+      331.0653442,
+      -56.7900433
+    ],
+    "pos_2026_5": [
+      331.0976596,
+      -56.801007
+    ]
+  },
+  {
+    "name": "WISE 0855-0714",
+    "ra_deg": 133.7835555,
+    "dec_deg": -7.244052,
+    "epoch": 2015.405,
+    "pmra_masyr": -8123.7,
+    "pmdec_masyr": 673.2,
+    "parallax_mas": 439.0,
+    "note": "Position is the CatWISE2020 motion-fit position (ra_pm, dec_pm, epoch MJD 57170). Proper motion and parallax are quoted from Kirkpatrick et al. 2021 via Wikipedia, not read from the paper. CatWISE's own fit gives -7920, +494 mas/yr, same direction, within 3% in RA.",
+    "sources": [
+      "https://irsa.ipac.caltech.edu/TAP/sync (catwise_2020, fetched 2026-11-14)",
+      "https://en.wikipedia.org/wiki/WISE_0855-0714"
+    ],
+    "w1_mag": null,
+    "w2_mag": null,
+    "pos_2010_5": [
+      133.7947131,
+      -7.2449692
+    ],
+    "pos_2026_5": [
+      133.7583173,
+      -7.2419772
+    ]
+  },
+  {
+    "name": "RW Aurigae A",
+    "ra_deg": 76.9560812,
+    "dec_deg": 30.40120459,
+    "epoch": 2016.0,
+    "pmra_masyr": 2.641,
+    "pmdec_masyr": -27.398,
+    "parallax_mas": 6.406,
+    "gaia_source_id": "156430822114424576",
+    "note": "Brighter of two Gaia sources 1.5 arcsec apart (G 12.18); blended in SPHEREx and WISE",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, fetched 2026-11-14)"
+    ],
+    "w1_mag": null,
+    "w2_mag": null,
+    "pos_2010_5": [
+      76.9560765,
+      30.4012464
+    ],
+    "pos_2026_5": [
+      76.9560901,
+      30.4011247
+    ]
+  },
+  {
+    "name": "R Draconis",
+    "ra_deg": 248.16737837,
+    "dec_deg": 66.75500675,
+    "epoch": 2016.0,
+    "pmra_masyr": -20.643,
+    "pmdec_masyr": 6.149,
+    "parallax_mas": 1.251,
+    "gaia_source_id": "1648328016354496384",
+    "note": "Only source brighter than G 12 within 36 arcsec; G 6.37",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, fetched 2026-11-14)"
+    ],
+    "w1_mag": null,
+    "w2_mag": null,
+    "pos_2010_5": [
+      248.1674583,
+      66.7549974
+    ],
+    "pos_2026_5": [
+      248.1672258,
+      66.7550247
+    ]
+  },
+  {
+    "name": "Epsilon Indi A",
+    "ra_deg": 330.87240788,
+    "dec_deg": -56.79725466,
+    "epoch": 2016.0,
+    "pmra_masyr": 3966.661,
+    "pmdec_masyr": -2536.192,
+    "parallax_mas": 274.843,
+    "gaia_source_id": "6412595290592307840",
+    "note": "Reference only",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, fetched 2026-11-14)"
+    ],
+    "w1_mag": null,
+    "w2_mag": null,
+    "pos_2010_5": [
+      330.8613412,
+      -56.7933799
+    ],
+    "pos_2026_5": [
+      330.8935353,
+      -56.8046519
+    ]
+  },
+  {
+    "name": "Luhman 16",
+    "ra_deg": 162.30840223,
+    "dec_deg": -53.31804475,
+    "epoch": 2016.0,
+    "pmra_masyr": null,
+    "pmdec_masyr": null,
+    "parallax_mas": null,
+    "gaia_source_id": "5353626573555863424",
+    "note": "Gaia DR3 has a position only (no proper motion). Not one of the brief's targets; proper motion must come from the literature before use.",
+    "sources": [
+      "https://gea.esac.esa.int/tap-server/tap/sync (gaiadr3.gaia_source, fetched 2026-11-14)"
+    ],
+    "w1_mag": null,
+    "w2_mag": null,
+    "pos_2010_5": null,
+    "pos_2026_5": null
+  }
+]

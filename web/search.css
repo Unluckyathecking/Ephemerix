@@ -1,0 +1,19 @@
+/* "Searching blind for slow movers" page. Layout, prose, stats, plot and tables come from styles.css. */
+.sr-table td { white-space: pre; vertical-align: top; }
+.sr-table thead th { vertical-align: bottom; }
+#sr-px .sr-table { margin: var(--s3) 0; }
+.sr-limits h3 { margin: var(--s4) 0 var(--s2); }
+.sr-limits h3:first-of-type { margin-top: 0; }
+.sr-caveats { padding-left: var(--s5); color: var(--ink-2); margin: 0; max-width: 52rem; }
+.sr-caveats li { margin-bottom: var(--s2); line-height: 1.5; }
+.sr-source { max-width: 52rem; }
+/* The answer first; the detail sits in closed sections, one per question. */
+.sr-next { color: var(--ink-2); margin: calc(-1 * var(--s3)) 0 var(--s5); max-width: 44rem; }
+.page > details { margin-bottom: var(--s3); }
+.sr-more { padding-block: var(--s4); }
+.sr-more > summary { color: var(--ink); }
+.sr-more[open] > summary { margin-bottom: var(--s4); }
+.sr-more > h3 { margin: var(--s5) 0 var(--s2); }
+.sr-more .prose > h3:first-child { margin-top: 0; }
+.p9-more { margin-top: var(--s4); }
+.p9-more[open] > summary { margin-bottom: var(--s3); }

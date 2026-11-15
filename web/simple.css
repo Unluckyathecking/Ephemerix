@@ -1,0 +1,73 @@
+/* The simple view (js/simpleview.js), the search suggestions (js/suggest.js) and the
+   example chips on the landing. Tokens come from styles.css. */
+
+.view.simple { grid-template-columns: minmax(0, 1fr); }
+.back-to-map { display: inline-block; margin-bottom: var(--s2); font-size: var(--fs-sm); color: var(--ink); text-decoration-color: var(--accent); }
+.simple-grid { display: grid; grid-template-columns: minmax(0, max(540px, min(610px, calc(100vh - 380px)))) minmax(0, 1fr);
+  grid-template-areas: "blink answer" "blink side" "blink ."; grid-template-rows: auto auto 1fr; gap: var(--s4) var(--s5); align-items: start; }
+.simple-grid > .simple-answer { grid-area: answer; }
+.simple-grid > .simple-blink { grid-area: blink; }
+.simple-grid > .simple-side { grid-area: side; }
+.simple-look { margin: 0; font-size: var(--fs-md); color: var(--ink); border-left: 2px solid var(--accent); padding-left: var(--s3); }
+.simple-pill { display: inline-block; margin: 0 0 var(--s3); padding: 2px var(--s3); border: 1px solid var(--line-strong); border-radius: 999px; font-size: var(--fs-sm) !important; color: var(--ink-2); }
+.simple-pill.agree { border-color: var(--accent); color: var(--ink); }
+.simple-row { display: flex; flex-wrap: wrap; gap: var(--s3) var(--s4); align-items: center; }
+.simple-choice { display: flex; flex-wrap: wrap; gap: var(--s2); align-items: center; }
+.simple-scale { margin: 0; }
+.linkish { appearance: none; border: 0; background: none; padding: 0; font: inherit; color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; cursor: pointer; }
+.simple-actions { display: block; }
+/* Simple mode on the landing: the moving picture, one box, the chips and the map link; the rest waits below. */
+body.mode-simple .landing > .scorestrip, body.mode-simple .landing > .start, body.mode-simple .hero .lede, body.mode-simple .hero-note,
+body.mode-simple .hero-readout, body.mode-simple .search-more { display: none; }
+.simple-answer h2.label { font: 500 0.75rem/1.4 var(--mono); letter-spacing: 0.08em; }
+.simple-blink { display: grid; gap: var(--s3); }
+.simple-blink .stage-wrap { max-width: max(240px, min(560px, calc(100vh - 490px))); margin: 0; }
+.simple-now { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--s1) var(--s3); }
+.simple-date { margin: 0; font: 500 var(--fs-lg)/1.2 var(--serif); color: var(--ink); }
+.simple-date::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: var(--s2); background: var(--muted); vertical-align: 0.1em; }
+.simple-date[data-mission="SPHEREx"]::before { background: var(--accent); }
+.simple-count { margin: 0; }
+.simple-controls select { width: auto; }
+.simple-missions { justify-self: start; }
+.simple-side { display: grid; gap: var(--s4); }
+.simple-answer p { margin: 0 0 var(--s3); font-size: var(--fs-md); line-height: 1.55; }
+.simple-answer h2 { margin-bottom: var(--s3); }
+.simple-answer .simple-partial { font-size: var(--fs-sm); color: var(--ink-2); border-left: 2px solid var(--accent); padding-left: var(--s3); }
+.explain { display: grid; gap: var(--s2); border-top: 1px solid var(--line); padding-top: var(--s3); }
+.explain p { margin: var(--s2) 0 0; color: var(--ink-2); font-size: var(--fs-sm); }
+.simple-actions { display: flex; flex-wrap: wrap; gap: var(--s2) var(--s3); align-items: center; }
+
+/* Suggestions under the search box: a listbox tied to the input (combobox pattern). */
+.suggest-wrap { position: relative; }
+.suggest { position: absolute; z-index: 20; left: 0; right: 0; top: calc(100% + 4px); margin: 0; padding: var(--s1); list-style: none;
+  background: var(--surface-2); border: 1px solid var(--line-strong); border-radius: var(--r); box-shadow: 0 8px 24px rgb(0 0 0 / 0.45); }
+.suggest[hidden] { display: none; }
+/* A short wide screen (1280x720): the blurb and the gaps give way, so the picture and its switch fit. */
+@media (min-width: 861px) and (max-height: 800px) {
+  .view.simple .view-head .blurb { display: none; }
+  .view.simple .simple-blink { gap: var(--s2); padding-block: var(--s4); }
+  .view.simple .simple-look { font-size: var(--fs-base); }
+}
+body.suggest-open .mode-hint, body.suggest-open #pos-hint { visibility: hidden; }
+.suggest li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px var(--s3); align-items: baseline; padding: var(--s2) var(--s3); border-radius: var(--r); cursor: pointer; }
+.suggest li[aria-selected="true"], .suggest li:hover { background: var(--accent-soft); }
+.sg-name { color: var(--ink); font-weight: 500; overflow-wrap: anywhere; }
+.sg-also { grid-column: 1; color: var(--muted); font-size: var(--fs-xs); overflow-wrap: anywhere; }
+.sg-when { grid-row: 1 / span 2; grid-column: 2; font-size: var(--fs-xs); color: var(--ink-2); white-space: nowrap; }
+.sg-when.instant { color: var(--accent); }
+.understood { margin: var(--s2) 0 0; font-size: var(--fs-sm); color: var(--ink-2); }
+.examples { display: flex; flex-wrap: wrap; gap: var(--s2); align-items: center; margin: var(--s3) 0 0; }
+.examples .chip { display: inline-flex; align-items: center; min-height: 32px; padding: 0 var(--s3); border: 1px solid var(--line-strong); border-radius: 999px;
+  color: var(--ink); text-decoration: none; font-size: var(--fs-sm); background: var(--surface-2); }
+.examples .chip:hover { border-color: var(--accent); }
+.search-kind { margin-top: var(--s3); }
+
+@media (max-width: 860px) {
+  .simple-grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "answer" "blink" "side"; grid-template-rows: auto; }
+  .sg-when { grid-row: auto; grid-column: 1; }
+  /* On a phone: the title, a compact moving picture, then the box; the long words wait below. */
+  .hero .hero-eyebrow, .hero .lede, .hero .hero-note, .hero .hero-caption { order: 1; }
+  .hero-visual .hero-stage { max-width: 260px; margin-inline: auto; }
+  .hero-visual .hero-readout, .hero-visual .hero-caption { display: none; }
+  .hero h1 { font-size: var(--fs-xl); }
+}

@@ -1,0 +1,3774 @@
+{
+ "drawn_utc": "2026-11-14",
+ "source": "https://ssd-api.jpl.nasa.gov/sbdb_query.api",
+ "rules": [
+  "TNO H ..4",
+  "CEN H ..",
+  "TJN H 8..9",
+  "TJN H 9..10",
+  "TJN H 10..11",
+  "TJN H 11..12",
+  "TJN H 12..13",
+  "TJN H 13..14",
+  "TJN H 14..15",
+  "MBA H 5..5.5",
+  "MBA H 5.5..6",
+  "MBA H 6..6.5",
+  "MBA H 6.5..7",
+  "MBA H 7..7.5",
+  "MBA H 7.5..8",
+  "MBA H 8..8.5",
+  "MBA H 8.5..9",
+  "MBA H 9..9.5",
+  "MBA H 9.5..10",
+  "MBA H 10..10.5",
+  "MBA H 10.5..11",
+  "MBA H 11..11.5",
+  "MBA H 11.5..12",
+  "MBA H 12..12.5",
+  "MBA H 12.5..13",
+  "MBA H 13..13.5",
+  "MBA H 13.5..14",
+  "MBA H 14..14.5",
+  "MBA H 14.5..15",
+  "MBA H 15..15.5",
+  "MBA H 15.5..16",
+  "MBA H 16..16.5",
+  "MBA H 16.5..17",
+  "MBA H 17..17.5",
+  "MBA H 17.5..18"
+ ],
+ "bins": [
+  {
+   "bin": "TNO H ..4",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "TNO",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|LT|4.0\"]}"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20020000,
+      "20000",
+      " 20000 Varuna (2000 WR106)",
+      "3.79",
+      "TNO"
+     ],
+     [
+      20028978,
+      "28978",
+      " 28978 Ixion (2001 KX76)",
+      "3.47",
+      "TNO"
+     ],
+     [
+      20050000,
+      "50000",
+      " 50000 Quaoar (2002 LM60)",
+      "2.41",
+      "TNO"
+     ],
+     [
+      20055565,
+      "55565",
+      " 55565 Aya (2002 AW197)",
+      "3.44",
+      "TNO"
+     ],
+     [
+      20055636,
+      "55636",
+      " 55636 (2002 TX300)",
+      "3.51",
+      "TNO"
+     ],
+     [
+      20055637,
+      "55637",
+      " 55637 Uni (2002 UX25)",
+      "3.83",
+      "TNO"
+     ],
+     [
+      20084522,
+      "84522",
+      " 84522 (2002 TC302)",
+      "3.91",
+      "TNO"
+     ],
+     [
+      20084922,
+      "84922",
+      " 84922 (2003 VS2)",
+      "3.98",
+      "TNO"
+     ],
+     [
+      20090377,
+      "90377",
+      " 90377 Sedna (2003 VB12)",
+      "1.50",
+      "TNO"
+     ],
+     [
+      20090482,
+      "90482",
+      " 90482 Orcus (2004 DW)",
+      "2.13",
+      "TNO"
+     ],
+     [
+      20090568,
+      "90568",
+      " 90568 Goibniu (2004 GV9)",
+      "3.96",
+      "TNO"
+     ],
+     [
+      20120178,
+      "120178",
+      "120178 (2003 OP32)",
+      "3.94",
+      "TNO"
+     ],
+     [
+      20134340,
+      "134340",
+      "134340 Pluto (1930 BM)",
+      "-0.55",
+      "TNO"
+     ],
+     [
+      20136108,
+      "136108",
+      "136108 Haumea (2003 EL61)",
+      "0.14",
+      "TNO"
+     ],
+     [
+      20136199,
+      "136199",
+      "136199 Eris (2003 UB313)",
+      "-1.26",
+      "TNO"
+     ],
+     [
+      20136472,
+      "136472",
+      "136472 Makemake (2005 FY9)",
+      "-0.25",
+      "TNO"
+     ],
+     [
+      20145452,
+      "145452",
+      "145452 Ritona (2005 RN43)",
+      "3.69",
+      "TNO"
+     ],
+     [
+      20174567,
+      "174567",
+      "174567 Varda (2003 MW12)",
+      "3.46",
+      "TNO"
+     ],
+     [
+      20202421,
+      "202421",
+      "202421 (2005 UQ513)",
+      "3.91",
+      "TNO"
+     ],
+     [
+      20208996,
+      "208996",
+      "208996 Achlys (2003 AZ84)",
+      "3.71",
+      "TNO"
+     ],
+     [
+      20225088,
+      "225088",
+      "225088 Gonggong (2007 OR10)",
+      "1.82",
+      "TNO"
+     ],
+     [
+      20229762,
+      "229762",
+      "229762 G!kun||'homdima (2007 UK126)",
+      "3.44",
+      "TNO"
+     ],
+     [
+      20303775,
+      "303775",
+      "303775 (2005 QU182)",
+      "3.75",
+      "TNO"
+     ],
+     [
+      20307261,
+      "307261",
+      "307261 Mani (2002 MS4)",
+      "3.64",
+      "TNO"
+     ],
+     [
+      20523692,
+      "523692",
+      "523692 (2014 EZ51)",
+      "3.86",
+      "TNO"
+     ],
+     [
+      20523794,
+      "523794",
+      "523794 (2015 RR245)",
+      "3.81",
+      "TNO"
+     ],
+     [
+      20532037,
+      "532037",
+      "532037 Chiminigagua (2013 FY27)",
+      "3.09",
+      "TNO"
+     ],
+     [
+      20574372,
+      "574372",
+      "574372 (2010 JO179)",
+      "3.83",
+      "TNO"
+     ],
+     [
+      20589683,
+      "589683",
+      "589683 (2010 RF43)",
+      "3.80",
+      "TNO"
+     ]
+    ],
+    "count": 29
+   }
+  },
+  {
+   "bin": "CEN H ..",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "CEN",
+    "sb-ns": "n",
+    "limit": "14"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000944,
+      "944",
+      "   944 Hidalgo (A920 UB)",
+      "10.55",
+      "CEN"
+     ],
+     [
+      20002060,
+      "2060",
+      "  2060 Chiron (1977 UB)",
+      "5.54",
+      "CEN"
+     ],
+     [
+      20005145,
+      "5145",
+      "  5145 Pholus (1992 AD)",
+      "7.07",
+      "CEN"
+     ],
+     [
+      20005335,
+      "5335",
+      "  5335 Damocles (1991 DA)",
+      "13.23",
+      "CEN"
+     ],
+     [
+      20007066,
+      "7066",
+      "  7066 Nessus (1993 HA2)",
+      "9.57",
+      "CEN"
+     ],
+     [
+      20008405,
+      "8405",
+      "  8405 Asbolus (1995 GO)",
+      "9.20",
+      "CEN"
+     ],
+     [
+      20010199,
+      "10199",
+      " 10199 Chariklo (1997 CU26)",
+      "6.55",
+      "CEN"
+     ],
+     [
+      20010370,
+      "10370",
+      " 10370 Hylonome (1995 DW2)",
+      "8.20",
+      "CEN"
+     ],
+     [
+      20015504,
+      "15504",
+      " 15504 (1999 RG33)",
+      "12.29",
+      "CEN"
+     ],
+     [
+      20020461,
+      "20461",
+      " 20461 Dioretsa (1999 LD31)",
+      "13.92",
+      "CEN"
+     ],
+     [
+      20031824,
+      "31824",
+      " 31824 Elatus (1999 UG5)",
+      "10.26",
+      "CEN"
+     ],
+     [
+      20032532,
+      "32532",
+      " 32532 Thereus (2001 PT13)",
+      "9.17",
+      "CEN"
+     ],
+     [
+      20037117,
+      "37117",
+      " 37117 Narcissus (2000 VU2)",
+      "13.39",
+      "CEN"
+     ],
+     [
+      20049036,
+      "49036",
+      " 49036 Pelion (1998 QM107)",
+      "10.38",
+      "CEN"
+     ]
+    ],
+    "count": 214
+   }
+  },
+  {
+   "bin": "TJN H 8..9",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "TJN",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|8.0|9.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000588,
+      "588",
+      "   588 Achilles (A906 DN)",
+      "8.20",
+      "TJN"
+     ],
+     [
+      20000617,
+      "617",
+      "   617 Patroclus (A906 UL)",
+      "8.22",
+      "TJN"
+     ],
+     [
+      20000659,
+      "659",
+      "   659 Nestor (A908 FE)",
+      "8.69",
+      "TJN"
+     ],
+     [
+      20000884,
+      "884",
+      "   884 Priamus (A917 SU)",
+      "8.65",
+      "TJN"
+     ],
+     [
+      20001143,
+      "1143",
+      "  1143 Odysseus (1930 BH)",
+      "8.38",
+      "TJN"
+     ],
+     [
+      20001172,
+      "1172",
+      "  1172 Aneas (1930 UA)",
+      "8.21",
+      "TJN"
+     ],
+     [
+      20001173,
+      "1173",
+      "  1173 Anchises (1930 UB)",
+      "8.90",
+      "TJN"
+     ],
+     [
+      20001437,
+      "1437",
+      "  1437 Diomedes (1937 PB)",
+      "8.14",
+      "TJN"
+     ]
+    ],
+    "count": 23
+   }
+  },
+  {
+   "bin": "TJN H 9..10",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "TJN",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|9.0|10.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20001208,
+      "1208",
+      "  1208 Troilus (1931 YA)",
+      "9.03",
+      "TJN"
+     ],
+     [
+      20001404,
+      "1404",
+      "  1404 Ajax (1936 QW)",
+      "9.29",
+      "TJN"
+     ],
+     [
+      20001749,
+      "1749",
+      "  1749 Telamon (1949 SB)",
+      "9.46",
+      "TJN"
+     ],
+     [
+      20001868,
+      "1868",
+      "  1868 Thersites (2008 P-L)",
+      "9.47",
+      "TJN"
+     ],
+     [
+      20002223,
+      "2223",
+      "  2223 Sarpedon (1977 TL3)",
+      "9.11",
+      "TJN"
+     ],
+     [
+      20002260,
+      "2260",
+      "  2260 Neoptolemus (1975 WM1)",
+      "9.40",
+      "TJN"
+     ],
+     [
+      20002456,
+      "2456",
+      "  2456 Palamedes (1966 BA1)",
+      "9.25",
+      "TJN"
+     ],
+     [
+      20002674,
+      "2674",
+      "  2674 Pandarus (1982 BC3)",
+      "9.09",
+      "TJN"
+     ]
+    ],
+    "count": 50
+   }
+  },
+  {
+   "bin": "TJN H 10..11",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "TJN",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|10.0|11.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20001647,
+      "1647",
+      "  1647 Menelaus (1957 MK)",
+      "10.47",
+      "TJN"
+     ],
+     [
+      20001870,
+      "1870",
+      "  1870 Glaukos (1971 FE)",
+      "10.65",
+      "TJN"
+     ],
+     [
+      20001872,
+      "1872",
+      "  1872 Helenos (1971 FG)",
+      "10.79",
+      "TJN"
+     ],
+     [
+      20001873,
+      "1873",
+      "  1873 Agenor (1971 FH)",
+      "10.15",
+      "TJN"
+     ],
+     [
+      20002146,
+      "2146",
+      "  2146 Stentor (1976 UQ)",
+      "10.02",
+      "TJN"
+     ],
+     [
+      20002148,
+      "2148",
+      "  2148 Epeios (1976 UW)",
+      "10.82",
+      "TJN"
+     ],
+     [
+      20002759,
+      "2759",
+      "  2759 Idomeneus (1980 GC)",
+      "10.05",
+      "TJN"
+     ],
+     [
+      20002895,
+      "2895",
+      "  2895 Memnon (1981 AE1)",
+      "10.05",
+      "TJN"
+     ]
+    ],
+    "count": 136
+   }
+  },
+  {
+   "bin": "TJN H 11..12",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "TJN",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|11.0|12.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20001869,
+      "1869",
+      "  1869 Philoctetes (4596 P-L)",
+      "11.12",
+      "TJN"
+     ],
+     [
+      20001871,
+      "1871",
+      "  1871 Astyanax (1971 FF)",
+      "11.24",
+      "TJN"
+     ],
+     [
+      20002594,
+      "2594",
+      "  2594 Acamas (1978 TB)",
+      "11.95",
+      "TJN"
+     ],
+     [
+      20003801,
+      "3801",
+      "  3801 Thrasymedes (1985 VS)",
+      "11.07",
+      "TJN"
+     ],
+     [
+      20004829,
+      "4829",
+      "  4829 Sergestus (1988 RM1)",
+      "11.27",
+      "TJN"
+     ],
+     [
+      20005233,
+      "5233",
+      "  5233 Nastes (1988 RL10)",
+      "11.58",
+      "TJN"
+     ],
+     [
+      20005637,
+      "5637",
+      "  5637 Gyas (1988 RF1)",
+      "11.65",
+      "TJN"
+     ],
+     [
+      20005907,
+      "5907",
+      "  5907 Rhigmus (1989 TU5)",
+      "11.21",
+      "TJN"
+     ]
+    ],
+    "count": 327
+   }
+  },
+  {
+   "bin": "TJN H 12..13",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "TJN",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|12.0|13.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20005257,
+      "5257",
+      "  5257 Laogonus (1988 RS10)",
+      "12.01",
+      "TJN"
+     ],
+     [
+      20006443,
+      "6443",
+      "  6443 Harpalion (1988 RH12)",
+      "12.21",
+      "TJN"
+     ],
+     [
+      20009590,
+      "9590",
+      "  9590 Hyria (1991 DK1)",
+      "12.07",
+      "TJN"
+     ],
+     [
+      20009828,
+      "9828",
+      "  9828 Antimachos (1973 SS)",
+      "12.05",
+      "TJN"
+     ],
+     [
+      20011251,
+      "11251",
+      " 11251 Icarion (1973 SN1)",
+      "12.15",
+      "TJN"
+     ],
+     [
+      20013181,
+      "13181",
+      " 13181 Peneleos (1996 RS28)",
+      "12.12",
+      "TJN"
+     ],
+     [
+      20013185,
+      "13185",
+      " 13185 Agasthenes (1996 TH52)",
+      "12.10",
+      "TJN"
+     ],
+     [
+      20013387,
+      "13387",
+      " 13387 Irus (1998 YW6)",
+      "12.23",
+      "TJN"
+     ]
+    ],
+    "count": 1045
+   }
+  },
+  {
+   "bin": "TJN H 13..14",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "TJN",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|13.0|14.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20037572,
+      "37572",
+      " 37572 (1989 UC5)",
+      "13.36",
+      "TJN"
+     ],
+     [
+      20037789,
+      "37789",
+      " 37789 (1997 UL16)",
+      "13.20",
+      "TJN"
+     ],
+     [
+      20040262,
+      "40262",
+      " 40262 (1999 CF156)",
+      "13.01",
+      "TJN"
+     ],
+     [
+      20043627,
+      "43627",
+      " 43627 (2002 CL224)",
+      "13.06",
+      "TJN"
+     ],
+     [
+      20054614,
+      "54614",
+      " 54614 (2000 RL84)",
+      "13.18",
+      "TJN"
+     ],
+     [
+      20058366,
+      "58366",
+      " 58366 (1995 OD8)",
+      "13.24",
+      "TJN"
+     ],
+     [
+      20058473,
+      "58473",
+      " 58473 (1996 RN7)",
+      "13.04",
+      "TJN"
+     ],
+     [
+      20058475,
+      "58475",
+      " 58475 (1996 RE11)",
+      "13.24",
+      "TJN"
+     ]
+    ],
+    "count": 2998
+   }
+  },
+  {
+   "bin": "TJN H 14..15",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "TJN",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|14.0|15.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20157730,
+      "157730",
+      "157730 (2006 BS88)",
+      "14.10",
+      "TJN"
+     ],
+     [
+      20179217,
+      "179217",
+      "179217 (2001 TB225)",
+      "14.02",
+      "TJN"
+     ],
+     [
+      20187473,
+      "187473",
+      "187473 (2006 BJ103)",
+      "14.18",
+      "TJN"
+     ],
+     [
+      20188835,
+      "188835",
+      "188835 (2006 BP90)",
+      "14.16",
+      "TJN"
+     ],
+     [
+      20216877,
+      "216877",
+      "216877 (2008 FS54)",
+      "14.00",
+      "TJN"
+     ],
+     [
+      20219857,
+      "219857",
+      "219857 (2002 CB230)",
+      "14.03",
+      "TJN"
+     ],
+     [
+      20220333,
+      "220333",
+      "220333 (2003 FM133)",
+      "14.01",
+      "TJN"
+     ],
+     [
+      20225319,
+      "225319",
+      "225319 (1997 TV19)",
+      "14.18",
+      "TJN"
+     ]
+    ],
+    "count": 5699
+   }
+  },
+  {
+   "bin": "MBA H 5..5.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|5.0|5.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000003,
+      "3",
+      "     3 Juno (A804 RA)",
+      "5.19",
+      "MBA"
+     ],
+     [
+      20000015,
+      "15",
+      "    15 Eunomia (A851 OA)",
+      "5.42",
+      "MBA"
+     ]
+    ],
+    "count": 2
+   }
+  },
+  {
+   "bin": "MBA H 5.5..6",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|5.5|6.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000006,
+      "6",
+      "     6 Hebe (A847 NA)",
+      "5.62",
+      "MBA"
+     ],
+     [
+      20000007,
+      "7",
+      "     7 Iris (A847 PA)",
+      "5.70",
+      "MBA"
+     ],
+     [
+      20000010,
+      "10",
+      "    10 Hygiea (A849 GA)",
+      "5.65",
+      "MBA"
+     ],
+     [
+      20000029,
+      "29",
+      "    29 Amphitrite (A854 EB)",
+      "5.97",
+      "MBA"
+     ],
+     [
+      20000039,
+      "39",
+      "    39 Laetitia (A856 CA)",
+      "5.97",
+      "MBA"
+     ],
+     [
+      20000349,
+      "349",
+      "   349 Dembowska (A892 XB)",
+      "5.97",
+      "MBA"
+     ],
+     [
+      20000532,
+      "532",
+      "   532 Herculina (A904 HE)",
+      "5.92",
+      "MBA"
+     ]
+    ],
+    "count": 7
+   }
+  },
+  {
+   "bin": "MBA H 6..6.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|6.0|6.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000009,
+      "9",
+      "     9 Metis (A848 HA)",
+      "6.18",
+      "MBA"
+     ],
+     [
+      20000016,
+      "16",
+      "    16 Psyche (A852 FA)",
+      "6.20",
+      "MBA"
+     ],
+     [
+      20000018,
+      "18",
+      "    18 Melpomene (A852 MA)",
+      "6.35",
+      "MBA"
+     ],
+     [
+      20000089,
+      "89",
+      "    89 Julia (A866 PA)",
+      "6.39",
+      "MBA"
+     ],
+     [
+      20000354,
+      "354",
+      "   354 Eleonora (A893 BC)",
+      "6.17",
+      "MBA"
+     ],
+     [
+      20000471,
+      "471",
+      "   471 Papagena (A901 LA)",
+      "6.34",
+      "MBA"
+     ],
+     [
+      20000511,
+      "511",
+      "   511 Davida (A903 KB)",
+      "6.42",
+      "MBA"
+     ],
+     [
+      20000704,
+      "704",
+      "   704 Interamnia (A910 TC)",
+      "6.34",
+      "MBA"
+     ]
+    ],
+    "count": 8
+   }
+  },
+  {
+   "bin": "MBA H 6.5..7",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|6.5|7.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000005,
+      "5",
+      "     5 Astraea (A845 XA)",
+      "6.95",
+      "MBA"
+     ],
+     [
+      20000008,
+      "8",
+      "     8 Flora (A847 UA)",
+      "6.62",
+      "MBA"
+     ],
+     [
+      20000011,
+      "11",
+      "    11 Parthenope (A850 JA)",
+      "6.73",
+      "MBA"
+     ],
+     [
+      20000013,
+      "13",
+      "    13 Egeria (A850 VA)",
+      "6.92",
+      "MBA"
+     ],
+     [
+      20000014,
+      "14",
+      "    14 Irene (A851 KA)",
+      "6.55",
+      "MBA"
+     ],
+     [
+      20000020,
+      "20",
+      "    20 Massalia (A852 SA)",
+      "6.54",
+      "MBA"
+     ],
+     [
+      20000022,
+      "22",
+      "    22 Kalliope (A852 WA)",
+      "6.79",
+      "MBA"
+     ],
+     [
+      20000031,
+      "31",
+      "    31 Euphrosyne (A854 RA)",
+      "6.83",
+      "MBA"
+     ]
+    ],
+    "count": 16
+   }
+  },
+  {
+   "bin": "MBA H 7..7.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|7.0|7.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000012,
+      "12",
+      "    12 Victoria (A850 RA)",
+      "7.30",
+      "MBA"
+     ],
+     [
+      20000019,
+      "19",
+      "    19 Fortuna (A852 QA)",
+      "7.49",
+      "MBA"
+     ],
+     [
+      20000021,
+      "21",
+      "    21 Lutetia (A852 VA)",
+      "7.48",
+      "MBA"
+     ],
+     [
+      20000023,
+      "23",
+      "    23 Thalia (A852 XA)",
+      "7.08",
+      "MBA"
+     ],
+     [
+      20000024,
+      "24",
+      "    24 Themis (A853 GA)",
+      "7.21",
+      "MBA"
+     ],
+     [
+      20000026,
+      "26",
+      "    26 Proserpina (A853 JA)",
+      "7.48",
+      "MBA"
+     ],
+     [
+      20000027,
+      "27",
+      "    27 Euterpe (A853 VA)",
+      "7.03",
+      "MBA"
+     ],
+     [
+      20000028,
+      "28",
+      "    28 Bellona (A854 EA)",
+      "7.21",
+      "MBA"
+     ]
+    ],
+    "count": 27
+   }
+  },
+  {
+   "bin": "MBA H 7.5..8",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|7.5|8.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000017,
+      "17",
+      "    17 Thetis (A852 HA)",
+      "7.91",
+      "MBA"
+     ],
+     [
+      20000025,
+      "25",
+      "    25 Phocaea (A853 GB)",
+      "7.88",
+      "MBA"
+     ],
+     [
+      20000030,
+      "30",
+      "    30 Urania (A854 OA)",
+      "7.57",
+      "MBA"
+     ],
+     [
+      20000032,
+      "32",
+      "    32 Pomona (A854 UA)",
+      "7.75",
+      "MBA"
+     ],
+     [
+      20000041,
+      "41",
+      "    41 Daphne (A856 KA)",
+      "7.58",
+      "MBA"
+     ],
+     [
+      20000042,
+      "42",
+      "    42 Isis (A856 KB)",
+      "7.69",
+      "MBA"
+     ],
+     [
+      20000043,
+      "43",
+      "    43 Ariadne (A857 GA)",
+      "7.92",
+      "MBA"
+     ],
+     [
+      20000045,
+      "45",
+      "    45 Eugenia (A857 MA)",
+      "7.74",
+      "MBA"
+     ]
+    ],
+    "count": 54
+   }
+  },
+  {
+   "bin": "MBA H 8..8.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|8.0|8.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000033,
+      "33",
+      "    33 Polyhymnia (A854 UB)",
+      "8.46",
+      "MBA"
+     ],
+     [
+      20000047,
+      "47",
+      "    47 Aglaja (A857 RA)",
+      "8.14",
+      "MBA"
+     ],
+     [
+      20000059,
+      "59",
+      "    59 Elpis (A860 RA)",
+      "8.08",
+      "MBA"
+     ],
+     [
+      20000067,
+      "67",
+      "    67 Asia (A861 HA)",
+      "8.37",
+      "MBA"
+     ],
+     [
+      20000070,
+      "70",
+      "    70 Panopaea (A861 JA)",
+      "8.16",
+      "MBA"
+     ],
+     [
+      20000078,
+      "78",
+      "    78 Diana (A863 EA)",
+      "8.39",
+      "MBA"
+     ],
+     [
+      20000080,
+      "80",
+      "    80 Sappho (A864 JA)",
+      "8.06",
+      "MBA"
+     ],
+     [
+      20000082,
+      "82",
+      "    82 Alkmene (A864 WA)",
+      "8.26",
+      "MBA"
+     ]
+    ],
+    "count": 68
+   }
+  },
+  {
+   "bin": "MBA H 8.5..9",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|8.5|9.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000034,
+      "34",
+      "    34 Circe (A855 GA)",
+      "8.75",
+      "MBA"
+     ],
+     [
+      20000035,
+      "35",
+      "    35 Leukothea (A855 HA)",
+      "8.68",
+      "MBA"
+     ],
+     [
+      20000036,
+      "36",
+      "    36 Atalante (A855 TA)",
+      "8.53",
+      "MBA"
+     ],
+     [
+      20000038,
+      "38",
+      "    38 Leda (A856 AA)",
+      "8.51",
+      "MBA"
+     ],
+     [
+      20000046,
+      "46",
+      "    46 Hestia (A857 QA)",
+      "8.52",
+      "MBA"
+     ],
+     [
+      20000053,
+      "53",
+      "    53 Kalypso (A858 GA)",
+      "8.88",
+      "MBA"
+     ],
+     [
+      20000056,
+      "56",
+      "    56 Melete (A857 RB)",
+      "8.51",
+      "MBA"
+     ],
+     [
+      20000060,
+      "60",
+      "    60 Echo (A860 RB)",
+      "8.63",
+      "MBA"
+     ]
+    ],
+    "count": 99
+   }
+  },
+  {
+   "bin": "MBA H 9..9.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|9.0|9.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000050,
+      "50",
+      "    50 Virginia (A857 TA)",
+      "9.43",
+      "MBA"
+     ],
+     [
+      20000058,
+      "58",
+      "    58 Concordia (A860 FA)",
+      "9.03",
+      "MBA"
+     ],
+     [
+      20000072,
+      "72",
+      "    72 Feronia (A861 KA)",
+      "9.08",
+      "MBA"
+     ],
+     [
+      20000073,
+      "73",
+      "    73 Klytia (A862 GA)",
+      "9.04",
+      "MBA"
+     ],
+     [
+      20000075,
+      "75",
+      "    75 Eurydike (A862 SA)",
+      "9.22",
+      "MBA"
+     ],
+     [
+      20000084,
+      "84",
+      "    84 Klio (A865 QA)",
+      "9.33",
+      "MBA"
+     ],
+     [
+      20000091,
+      "91",
+      "    91 Aegina (A866 VA)",
+      "9.12",
+      "MBA"
+     ],
+     [
+      20000099,
+      "99",
+      "    99 Dike (A868 KA)",
+      "9.46",
+      "MBA"
+     ]
+    ],
+    "count": 144
+   }
+  },
+  {
+   "bin": "MBA H 9.5..10",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|9.5|10.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000066,
+      "66",
+      "    66 Maja (A861 GA)",
+      "9.53",
+      "MBA"
+     ],
+     [
+      20000112,
+      "112",
+      "   112 Iphigenia (A870 SA)",
+      "9.77",
+      "MBA"
+     ],
+     [
+      20000136,
+      "136",
+      "   136 Austria (A874 FA)",
+      "9.75",
+      "MBA"
+     ],
+     [
+      20000163,
+      "163",
+      "   163 Erigone (A876 HC)",
+      "9.77",
+      "MBA"
+     ],
+     [
+      20000166,
+      "166",
+      "   166 Rhodope (A876 PB)",
+      "9.88",
+      "MBA"
+     ],
+     [
+      20000169,
+      "169",
+      "   169 Zelia (A876 SB)",
+      "9.54",
+      "MBA"
+     ],
+     [
+      20000177,
+      "177",
+      "   177 Irma (A877 VA)",
+      "9.62",
+      "MBA"
+     ],
+     [
+      20000193,
+      "193",
+      "   193 Ambrosia (A879 DB)",
+      "9.77",
+      "MBA"
+     ]
+    ],
+    "count": 166
+   }
+  },
+  {
+   "bin": "MBA H 10..10.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|10.0|10.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000131,
+      "131",
+      "   131 Vala (A873 KA)",
+      "10.04",
+      "MBA"
+     ],
+     [
+      20000180,
+      "180",
+      "   180 Garumna (A878 BA)",
+      "10.31",
+      "MBA"
+     ],
+     [
+      20000207,
+      "207",
+      "   207 Hedda (A879 UA)",
+      "10.25",
+      "MBA"
+     ],
+     [
+      20000239,
+      "239",
+      "   239 Adrastea (A884 QA)",
+      "10.50",
+      "MBA"
+     ],
+     [
+      20000243,
+      "243",
+      "   243 Ida (A884 SB)",
+      "10.06",
+      "MBA"
+     ],
+     [
+      20000248,
+      "248",
+      "   248 Lameia (A885 LA)",
+      "10.29",
+      "MBA"
+     ],
+     [
+      20000253,
+      "253",
+      "   253 Mathilde (A885 VA)",
+      "10.35",
+      "MBA"
+     ],
+     [
+      20000263,
+      "263",
+      "   263 Dresda (A886 VB)",
+      "10.24",
+      "MBA"
+     ]
+    ],
+    "count": 190
+   }
+  },
+  {
+   "bin": "MBA H 10.5..11",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|10.5|11.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000142,
+      "142",
+      "   142 Polana (A875 BA)",
+      "10.52",
+      "MBA"
+     ],
+     [
+      20000149,
+      "149",
+      "   149 Medusa (A875 SA)",
+      "10.54",
+      "MBA"
+     ],
+     [
+      20000232,
+      "232",
+      "   232 Russia (A883 BA)",
+      "10.58",
+      "MBA"
+     ],
+     [
+      20000239,
+      "239",
+      "   239 Adrastea (A884 QA)",
+      "10.50",
+      "MBA"
+     ],
+     [
+      20000255,
+      "255",
+      "   255 Oppavia (A886 FB)",
+      "10.52",
+      "MBA"
+     ],
+     [
+      20000272,
+      "272",
+      "   272 Antonia (A888 CA)",
+      "10.85",
+      "MBA"
+     ],
+     [
+      20000273,
+      "273",
+      "   273 Atropos (A888 EA)",
+      "10.51",
+      "MBA"
+     ],
+     [
+      20000280,
+      "280",
+      "   280 Philia (A888 UB)",
+      "10.97",
+      "MBA"
+     ]
+    ],
+    "count": 246
+   }
+  },
+  {
+   "bin": "MBA H 11..11.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|11.0|11.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000155,
+      "155",
+      "   155 Scylla (A875 VE)",
+      "11.15",
+      "MBA"
+     ],
+     [
+      20000157,
+      "157",
+      "   157 Dejanira (A875 XA)",
+      "11.18",
+      "MBA"
+     ],
+     [
+      20000220,
+      "220",
+      "   220 Stephania (A881 KA)",
+      "11.20",
+      "MBA"
+     ],
+     [
+      20000249,
+      "249",
+      "   249 Ilse (A885 QA)",
+      "11.40",
+      "MBA"
+     ],
+     [
+      20000282,
+      "282",
+      "   282 Clorinde (A889 BA)",
+      "11.11",
+      "MBA"
+     ],
+     [
+      20000298,
+      "298",
+      "   298 Baptistina (A890 RB)",
+      "11.20",
+      "MBA"
+     ],
+     [
+      20000299,
+      "299",
+      "   299 Thora (A890 TA)",
+      "11.35",
+      "MBA"
+     ],
+     [
+      20000302,
+      "302",
+      "   302 Clarissa (A890 VA)",
+      "11.28",
+      "MBA"
+     ]
+    ],
+    "count": 357
+   }
+  },
+  {
+   "bin": "MBA H 11.5..12",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|11.5|12.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000244,
+      "244",
+      "   244 Sita (A884 TA)",
+      "11.99",
+      "MBA"
+     ],
+     [
+      20000254,
+      "254",
+      "   254 Augusta (A886 FA)",
+      "11.83",
+      "MBA"
+     ],
+     [
+      20000262,
+      "262",
+      "   262 Valda (A886 VA)",
+      "11.67",
+      "MBA"
+     ],
+     [
+      20000265,
+      "265",
+      "   265 Anna (A887 DA)",
+      "11.88",
+      "MBA"
+     ],
+     [
+      20000291,
+      "291",
+      "   291 Alice (A890 HA)",
+      "11.54",
+      "MBA"
+     ],
+     [
+      20000343,
+      "343",
+      "   343 Ostara (A892 VA)",
+      "11.69",
+      "MBA"
+     ],
+     [
+      20000421,
+      "421",
+      "   421 Zahringia (A896 RE)",
+      "11.57",
+      "MBA"
+     ],
+     [
+      20000428,
+      "428",
+      "   428 Monachia (A897 WA)",
+      "11.99",
+      "MBA"
+     ]
+    ],
+    "count": 679
+   }
+  },
+  {
+   "bin": "MBA H 12..12.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|12.0|12.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000228,
+      "228",
+      "   228 Agathe (A882 QA)",
+      "12.27",
+      "MBA"
+     ],
+     [
+      20000281,
+      "281",
+      "   281 Lucretia (A888 UC)",
+      "12.04",
+      "MBA"
+     ],
+     [
+      20000290,
+      "290",
+      "   290 Bruna (A890 FA)",
+      "12.04",
+      "MBA"
+     ],
+     [
+      20000525,
+      "525",
+      "   525 Adelaide (A908 UJ)",
+      "12.21",
+      "MBA"
+     ],
+     [
+      20000531,
+      "531",
+      "   531 Zerlina (A904 GC)",
+      "12.05",
+      "MBA"
+     ],
+     [
+      20000553,
+      "553",
+      "   553 Kundry (A904 YA)",
+      "12.39",
+      "MBA"
+     ],
+     [
+      20000557,
+      "557",
+      "   557 Violetta (A905 BD)",
+      "12.12",
+      "MBA"
+     ],
+     [
+      20000574,
+      "574",
+      "   574 Reginhild (A905 SH)",
+      "12.39",
+      "MBA"
+     ]
+    ],
+    "count": 1183
+   }
+  },
+  {
+   "bin": "MBA H 12.5..13",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|12.5|13.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000296,
+      "296",
+      "   296 Phaetusa (A890 QB)",
+      "12.53",
+      "MBA"
+     ],
+     [
+      20000315,
+      "315",
+      "   315 Constantia (A891 RB)",
+      "12.56",
+      "MBA"
+     ],
+     [
+      20000330,
+      "330",
+      "   330 Adalberta (A910 CB)",
+      "12.51",
+      "MBA"
+     ],
+     [
+      20000610,
+      "610",
+      "   610 Valeska (A906 SN)",
+      "12.52",
+      "MBA"
+     ],
+     [
+      20000646,
+      "646",
+      "   646 Kastalia (A907 RL)",
+      "12.63",
+      "MBA"
+     ],
+     [
+      20000649,
+      "649",
+      "   649 Josefa (A907 RO)",
+      "12.88",
+      "MBA"
+     ],
+     [
+      20000650,
+      "650",
+      "   650 Amalasuntha (A907 TL)",
+      "12.64",
+      "MBA"
+     ],
+     [
+      20000728,
+      "728",
+      "   728 Leonisis (A912 DB)",
+      "12.86",
+      "MBA"
+     ]
+    ],
+    "count": 2256
+   }
+  },
+  {
+   "bin": "MBA H 13..13.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|13.0|13.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000827,
+      "827",
+      "   827 Wolfiana (A916 QG)",
+      "13.14",
+      "MBA"
+     ],
+     [
+      20000831,
+      "831",
+      "   831 Stateira (A916 SD)",
+      "13.00",
+      "MBA"
+     ],
+     [
+      20000836,
+      "836",
+      "   836 Jole (A916 SJ)",
+      "13.33",
+      "MBA"
+     ],
+     [
+      20001045,
+      "1045",
+      "  1045 Michela (A924 WN)",
+      "13.03",
+      "MBA"
+     ],
+     [
+      20001141,
+      "1141",
+      "  1141 Bohmia (1930 AA)",
+      "13.47",
+      "MBA"
+     ],
+     [
+      20001151,
+      "1151",
+      "  1151 Ithaka (1929 RK)",
+      "13.27",
+      "MBA"
+     ],
+     [
+      20001195,
+      "1195",
+      "  1195 Orangia (1931 KD)",
+      "13.18",
+      "MBA"
+     ],
+     [
+      20001218,
+      "1218",
+      "  1218 Aster (1932 BJ)",
+      "13.22",
+      "MBA"
+     ]
+    ],
+    "count": 4461
+   }
+  },
+  {
+   "bin": "MBA H 13.5..14",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|13.5|14.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000724,
+      "724",
+      "   724 Hapag (A911 UP)",
+      "13.87",
+      "MBA"
+     ],
+     [
+      20000730,
+      "730",
+      "   730 Athanasia (A912 GG)",
+      "13.75",
+      "MBA"
+     ],
+     [
+      20000843,
+      "843",
+      "   843 Nicolaia (A916 SO)",
+      "13.83",
+      "MBA"
+     ],
+     [
+      20001037,
+      "1037",
+      "  1037 Davidweilla (A924 UC)",
+      "13.66",
+      "MBA"
+     ],
+     [
+      20001205,
+      "1205",
+      "  1205 Ebella (1931 TB1)",
+      "13.51",
+      "MBA"
+     ],
+     [
+      20001370,
+      "1370",
+      "  1370 Hella (1935 QG)",
+      "13.58",
+      "MBA"
+     ],
+     [
+      20001399,
+      "1399",
+      "  1399 Teneriffa (1936 QY)",
+      "13.56",
+      "MBA"
+     ],
+     [
+      20001507,
+      "1507",
+      "  1507 Vaasa (1939 RD)",
+      "13.70",
+      "MBA"
+     ]
+    ],
+    "count": 8463
+   }
+  },
+  {
+   "bin": "MBA H 14..14.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|14.0|14.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20001538,
+      "1538",
+      "  1538 Detre (1940 RF)",
+      "14.37",
+      "MBA"
+     ],
+     [
+      20001779,
+      "1779",
+      "  1779 Parana (1950 LZ)",
+      "14.24",
+      "MBA"
+     ],
+     [
+      20001966,
+      "1966",
+      "  1966 Tristan (2552 P-L)",
+      "14.28",
+      "MBA"
+     ],
+     [
+      20002018,
+      "2018",
+      "  2018 Schuster (1931 UC)",
+      "14.41",
+      "MBA"
+     ],
+     [
+      20002076,
+      "2076",
+      "  2076 Levin (1974 WA)",
+      "14.38",
+      "MBA"
+     ],
+     [
+      20002128,
+      "2128",
+      "  2128 Wetherill (1973 SB)",
+      "14.43",
+      "MBA"
+     ],
+     [
+      20002210,
+      "2210",
+      "  2210 Lois (9597 P-L)",
+      "14.16",
+      "MBA"
+     ],
+     [
+      20002285,
+      "2285",
+      "  2285 Ron Helin (1976 QB)",
+      "14.12",
+      "MBA"
+     ]
+    ],
+    "count": 15045
+   }
+  },
+  {
+   "bin": "MBA H 14.5..15",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|14.5|15.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20000878,
+      "878",
+      "   878 Mildred (A916 RC)",
+      "14.87",
+      "MBA"
+     ],
+     [
+      20002028,
+      "2028",
+      "  2028 Janequeo (1968 OB1)",
+      "14.90",
+      "MBA"
+     ],
+     [
+      20002129,
+      "2129",
+      "  2129 Cosicosi (1973 SJ)",
+      "14.67",
+      "MBA"
+     ],
+     [
+      20002198,
+      "2198",
+      "  2198 Ceplecha (1975 VF)",
+      "14.67",
+      "MBA"
+     ],
+     [
+      20002435,
+      "2435",
+      "  2435 Horemheb (4578 P-L)",
+      "14.85",
+      "MBA"
+     ],
+     [
+      20002503,
+      "2503",
+      "  2503 Liaoning (1965 UB1)",
+      "14.71",
+      "MBA"
+     ],
+     [
+      20002539,
+      "2539",
+      "  2539 Ningxia (1964 TS2)",
+      "14.53",
+      "MBA"
+     ],
+     [
+      20002643,
+      "2643",
+      "  2643 Bernhard (1973 SD)",
+      "14.57",
+      "MBA"
+     ]
+    ],
+    "count": 26343
+   }
+  },
+  {
+   "bin": "MBA H 15..15.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|15.0|15.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20003004,
+      "3004",
+      "  3004 Knud (1976 DD)",
+      "15.15",
+      "MBA"
+     ],
+     [
+      20004320,
+      "4320",
+      "  4320 Jarosewich (1981 EJ17)",
+      "15.09",
+      "MBA"
+     ],
+     [
+      20004394,
+      "4394",
+      "  4394 Fritzheide (1981 EB19)",
+      "15.07",
+      "MBA"
+     ],
+     [
+      20004415,
+      "4415",
+      "  4415 Echnaton (4237 P-L)",
+      "15.38",
+      "MBA"
+     ],
+     [
+      20004416,
+      "4416",
+      "  4416 Ramses (4530 P-L)",
+      "15.40",
+      "MBA"
+     ],
+     [
+      20004906,
+      "4906",
+      "  4906 Seneferu (2533 P-L)",
+      "15.25",
+      "MBA"
+     ],
+     [
+      20004924,
+      "4924",
+      "  4924 Hiltner (1981 EQ40)",
+      "15.21",
+      "MBA"
+     ],
+     [
+      20005341,
+      "5341",
+      "  5341 Purgathofer (6040 P-L)",
+      "15.24",
+      "MBA"
+     ]
+    ],
+    "count": 43659
+   }
+  },
+  {
+   "bin": "MBA H 15.5..16",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|15.5|16.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20006256,
+      "6256",
+      "  6256 Canova (4063 P-L)",
+      "15.67",
+      "MBA"
+     ],
+     [
+      20007006,
+      "7006",
+      "  7006 Folco (1981 ER31)",
+      "15.71",
+      "MBA"
+     ],
+     [
+      20007229,
+      "7229",
+      "  7229 Tonimoore (1985 RV)",
+      "15.58",
+      "MBA"
+     ],
+     [
+      20007377,
+      "7377",
+      "  7377 Pizzarello (1981 EW9)",
+      "15.68",
+      "MBA"
+     ],
+     [
+      20007465,
+      "7465",
+      "  7465 Munkanber (1989 UA3)",
+      "15.50",
+      "MBA"
+     ],
+     [
+      20007552,
+      "7552",
+      "  7552 Sephton (1981 EB27)",
+      "15.58",
+      "MBA"
+     ],
+     [
+      20007670,
+      "7670",
+      "  7670 Kabelac (1995 QJ)",
+      "15.83",
+      "MBA"
+     ],
+     [
+      20007968,
+      "7968",
+      "  7968 Elst-Pizarro (1996 NU5)",
+      "15.65",
+      "MBA"
+     ]
+    ],
+    "count": 69662
+   }
+  },
+  {
+   "bin": "MBA H 16..16.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|16.0|16.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20007733,
+      "7733",
+      "  7733 Segarpassi (1979 MH4)",
+      "16.20",
+      "MBA"
+     ],
+     [
+      20008193,
+      "8193",
+      "  8193 Ciaurro (1993 SF)",
+      "16.05",
+      "MBA"
+     ],
+     [
+      20009235,
+      "9235",
+      "  9235 Shimanamikaido (1997 CT21)",
+      "16.08",
+      "MBA"
+     ],
+     [
+      20009418,
+      "9418",
+      "  9418 Mayumi (1995 WX5)",
+      "16.43",
+      "MBA"
+     ],
+     [
+      20009438,
+      "9438",
+      "  9438 Satie (1997 EE16)",
+      "16.05",
+      "MBA"
+     ],
+     [
+      20009498,
+      "9498",
+      "  9498 Westerbork (1197 T-2)",
+      "16.00",
+      "MBA"
+     ],
+     [
+      20009678,
+      "9678",
+      "  9678 van der Meer (2584 P-L)",
+      "16.01",
+      "MBA"
+     ],
+     [
+      20009679,
+      "9679",
+      "  9679 Crutzen (2600 P-L)",
+      "16.07",
+      "MBA"
+     ]
+    ],
+    "count": 107517
+   }
+  },
+  {
+   "bin": "MBA H 16.5..17",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|16.5|17.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20009692,
+      "9692",
+      "  9692 Kuperus (6354 P-L)",
+      "16.61",
+      "MBA"
+     ],
+     [
+      20012472,
+      "12472",
+      " 12472 Samadhi (1997 CW11)",
+      "16.84",
+      "MBA"
+     ],
+     [
+      20014053,
+      "14053",
+      " 14053 (1995 YS25)",
+      "16.58",
+      "MBA"
+     ],
+     [
+      20014710,
+      "14710",
+      " 14710 (2000 CC33)",
+      "16.78",
+      "MBA"
+     ],
+     [
+      20015577,
+      "15577",
+      " 15577 Gywilliams (2000 GN68)",
+      "16.55",
+      "MBA"
+     ],
+     [
+      20015818,
+      "15818",
+      " 15818 DeVeny (1994 RO7)",
+      "16.71",
+      "MBA"
+     ],
+     [
+      20015911,
+      "15911",
+      " 15911 Davidgauthier (1997 TL21)",
+      "16.76",
+      "MBA"
+     ],
+     [
+      20016219,
+      "16219",
+      " 16219 Venturelli (2000 DL29)",
+      "16.59",
+      "MBA"
+     ]
+    ],
+    "count": 151281
+   }
+  },
+  {
+   "bin": "MBA H 17..17.5",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|17.0|17.5\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "version": "1.0",
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20011606,
+      "11606",
+      " 11606 Almary (1995 UU6)",
+      "17.19",
+      "MBA"
+     ],
+     [
+      20023362,
+      "23362",
+      " 23362 (3248 T-1)",
+      "17.00",
+      "MBA"
+     ],
+     [
+      20028176,
+      "28176",
+      " 28176 (1998 VV43)",
+      "17.14",
+      "MBA"
+     ],
+     [
+      20029114,
+      "29114",
+      " 29114 (1981 EB34)",
+      "17.00",
+      "MBA"
+     ],
+     [
+      20030946,
+      "30946",
+      " 30946 (1994 HB)",
+      "17.10",
+      "MBA"
+     ],
+     [
+      20037364,
+      "37364",
+      " 37364 (2001 UW118)",
+      "17.03",
+      "MBA"
+     ],
+     [
+      20037412,
+      "37412",
+      " 37412 (2001 XG183)",
+      "17.02",
+      "MBA"
+     ],
+     [
+      20037798,
+      "37798",
+      " 37798 (1997 WU24)",
+      "17.20",
+      "MBA"
+     ]
+    ],
+    "count": 164109
+   }
+  },
+  {
+   "bin": "MBA H 17.5..18",
+   "params": {
+    "fields": "spkid,pdes,full_name,H,class",
+    "sb-class": "MBA",
+    "sb-ns": "n",
+    "sb-cdata": "{\"AND\": [\"H|RG|17.5|18.0\"]}",
+    "limit": "8"
+   },
+   "response": {
+    "signature": {
+     "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+     "version": "1.0"
+    },
+    "fields": [
+     "spkid",
+     "pdes",
+     "full_name",
+     "H",
+     "class"
+    ],
+    "data": [
+     [
+      20027832,
+      "27832",
+      " 27832 (1994 EW)",
+      "17.53",
+      "MBA"
+     ],
+     [
+      20048359,
+      "48359",
+      " 48359 (1219 T-2)",
+      "17.75",
+      "MBA"
+     ],
+     [
+      20060844,
+      "60844",
+      " 60844 (2000 HF62)",
+      "17.54",
+      "MBA"
+     ],
+     [
+      20064032,
+      "64032",
+      " 64032 (2001 SF172)",
+      "17.53",
+      "MBA"
+     ],
+     [
+      20085728,
+      "85728",
+      " 85728 Yangfujia (1998 SR75)",
+      "17.84",
+      "MBA"
+     ],
+     [
+      20090793,
+      "90793",
+      " 90793 (1994 PF38)",
+      "17.56",
+      "MBA"
+     ],
+     [
+      20090848,
+      "90848",
+      " 90848 (1996 EP7)",
+      "17.57",
+      "MBA"
+     ],
+     [
+      20092382,
+      "92382",
+      " 92382 (2000 HT72)",
+      "17.50",
+      "MBA"
+     ]
+    ],
+    "count": 130554
+   }
+  }
+ ],
+ "bodies": [
+  {
+   "pdes": "20000",
+   "name": "20000 Varuna (2000 WR106)",
+   "H": 3.79,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "28978",
+   "name": "28978 Ixion (2001 KX76)",
+   "H": 3.47,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "50000",
+   "name": "50000 Quaoar (2002 LM60)",
+   "H": 2.41,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "55565",
+   "name": "55565 Aya (2002 AW197)",
+   "H": 3.44,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "55636",
+   "name": "55636 (2002 TX300)",
+   "H": 3.51,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "55637",
+   "name": "55637 Uni (2002 UX25)",
+   "H": 3.83,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "84522",
+   "name": "84522 (2002 TC302)",
+   "H": 3.91,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "84922",
+   "name": "84922 (2003 VS2)",
+   "H": 3.98,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "90377",
+   "name": "90377 Sedna (2003 VB12)",
+   "H": 1.5,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "90482",
+   "name": "90482 Orcus (2004 DW)",
+   "H": 2.13,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "90568",
+   "name": "90568 Goibniu (2004 GV9)",
+   "H": 3.96,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "120178",
+   "name": "120178 (2003 OP32)",
+   "H": 3.94,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "134340",
+   "name": "134340 Pluto (1930 BM)",
+   "H": -0.55,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "136108",
+   "name": "136108 Haumea (2003 EL61)",
+   "H": 0.14,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "136199",
+   "name": "136199 Eris (2003 UB313)",
+   "H": -1.26,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "136472",
+   "name": "136472 Makemake (2005 FY9)",
+   "H": -0.25,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "145452",
+   "name": "145452 Ritona (2005 RN43)",
+   "H": 3.69,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "174567",
+   "name": "174567 Varda (2003 MW12)",
+   "H": 3.46,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "202421",
+   "name": "202421 (2005 UQ513)",
+   "H": 3.91,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "208996",
+   "name": "208996 Achlys (2003 AZ84)",
+   "H": 3.71,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "225088",
+   "name": "225088 Gonggong (2007 OR10)",
+   "H": 1.82,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "229762",
+   "name": "229762 G!kun||'homdima (2007 UK126)",
+   "H": 3.44,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "303775",
+   "name": "303775 (2005 QU182)",
+   "H": 3.75,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "307261",
+   "name": "307261 Mani (2002 MS4)",
+   "H": 3.64,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "523692",
+   "name": "523692 (2014 EZ51)",
+   "H": 3.86,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "523794",
+   "name": "523794 (2015 RR245)",
+   "H": 3.81,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "532037",
+   "name": "532037 Chiminigagua (2013 FY27)",
+   "H": 3.09,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "574372",
+   "name": "574372 (2010 JO179)",
+   "H": 3.83,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "589683",
+   "name": "589683 (2010 RF43)",
+   "H": 3.8,
+   "cls": "TNO",
+   "bin": "TNO H ..4"
+  },
+  {
+   "pdes": "944",
+   "name": "944 Hidalgo (A920 UB)",
+   "H": 10.55,
+   "cls": "CEN",
+   "bin": "CEN H .."
+  },
+  {
+   "pdes": "2060",
+   "name": "2060 Chiron (1977 UB)",
+   "H": 5.54,
+   "cls": "CEN",
+   "bin": "CEN H .."
+  },
+  {
+   "pdes": "5145",
+   "name": "5145 Pholus (1992 AD)",
+   "H": 7.07,
+   "cls": "CEN",
+   "bin": "CEN H .."
+  },
+  {
+   "pdes": "5335",
+   "name": "5335 Damocles (1991 DA)",
+   "H": 13.23,
+   "cls": "CEN",
+   "bin": "CEN H .."
+  },
+  {
+   "pdes": "7066",
+   "name": "7066 Nessus (1993 HA2)",
+   "H": 9.57,
+   "cls": "CEN",
+   "bin": "CEN H .."
+  },
+  {
+   "pdes": "8405",
+   "name": "8405 Asbolus (1995 GO)",
+   "H": 9.2,
+   "cls": "CEN",
+   "bin": "CEN H .."
+  },
+  {
+   "pdes": "10199",
+   "name": "10199 Chariklo (1997 CU26)",
+   "H": 6.55,
+   "cls": "CEN",
+   "bin": "CEN H .."
+  },
+  {
+   "pdes": "10370",
+   "name": "10370 Hylonome (1995 DW2)",
+   "H": 8.2,
+   "cls": "CEN",
+   "bin": "CEN H .."
+  },
+  {
+   "pdes": "588",
+   "name": "588 Achilles (A906 DN)",
+   "H": 8.2,
+   "cls": "TJN",
+   "bin": "TJN H 8..9"
+  },
+  {
+   "pdes": "617",
+   "name": "617 Patroclus (A906 UL)",
+   "H": 8.22,
+   "cls": "TJN",
+   "bin": "TJN H 8..9"
+  },
+  {
+   "pdes": "1208",
+   "name": "1208 Troilus (1931 YA)",
+   "H": 9.03,
+   "cls": "TJN",
+   "bin": "TJN H 9..10"
+  },
+  {
+   "pdes": "1404",
+   "name": "1404 Ajax (1936 QW)",
+   "H": 9.29,
+   "cls": "TJN",
+   "bin": "TJN H 9..10"
+  },
+  {
+   "pdes": "1647",
+   "name": "1647 Menelaus (1957 MK)",
+   "H": 10.47,
+   "cls": "TJN",
+   "bin": "TJN H 10..11"
+  },
+  {
+   "pdes": "1870",
+   "name": "1870 Glaukos (1971 FE)",
+   "H": 10.65,
+   "cls": "TJN",
+   "bin": "TJN H 10..11"
+  },
+  {
+   "pdes": "1869",
+   "name": "1869 Philoctetes (4596 P-L)",
+   "H": 11.12,
+   "cls": "TJN",
+   "bin": "TJN H 11..12"
+  },
+  {
+   "pdes": "1871",
+   "name": "1871 Astyanax (1971 FF)",
+   "H": 11.24,
+   "cls": "TJN",
+   "bin": "TJN H 11..12"
+  },
+  {
+   "pdes": "5257",
+   "name": "5257 Laogonus (1988 RS10)",
+   "H": 12.01,
+   "cls": "TJN",
+   "bin": "TJN H 12..13"
+  },
+  {
+   "pdes": "6443",
+   "name": "6443 Harpalion (1988 RH12)",
+   "H": 12.21,
+   "cls": "TJN",
+   "bin": "TJN H 12..13"
+  },
+  {
+   "pdes": "37572",
+   "name": "37572 (1989 UC5)",
+   "H": 13.36,
+   "cls": "TJN",
+   "bin": "TJN H 13..14"
+  },
+  {
+   "pdes": "37789",
+   "name": "37789 (1997 UL16)",
+   "H": 13.2,
+   "cls": "TJN",
+   "bin": "TJN H 13..14"
+  },
+  {
+   "pdes": "157730",
+   "name": "157730 (2006 BS88)",
+   "H": 14.1,
+   "cls": "TJN",
+   "bin": "TJN H 14..15"
+  },
+  {
+   "pdes": "179217",
+   "name": "179217 (2001 TB225)",
+   "H": 14.02,
+   "cls": "TJN",
+   "bin": "TJN H 14..15"
+  },
+  {
+   "pdes": "3",
+   "name": "3 Juno (A804 RA)",
+   "H": 5.19,
+   "cls": "MBA",
+   "bin": "MBA H 5..5.5"
+  },
+  {
+   "pdes": "15",
+   "name": "15 Eunomia (A851 OA)",
+   "H": 5.42,
+   "cls": "MBA",
+   "bin": "MBA H 5..5.5"
+  },
+  {
+   "pdes": "6",
+   "name": "6 Hebe (A847 NA)",
+   "H": 5.62,
+   "cls": "MBA",
+   "bin": "MBA H 5.5..6"
+  },
+  {
+   "pdes": "7",
+   "name": "7 Iris (A847 PA)",
+   "H": 5.7,
+   "cls": "MBA",
+   "bin": "MBA H 5.5..6"
+  },
+  {
+   "pdes": "9",
+   "name": "9 Metis (A848 HA)",
+   "H": 6.18,
+   "cls": "MBA",
+   "bin": "MBA H 6..6.5"
+  },
+  {
+   "pdes": "16",
+   "name": "16 Psyche (A852 FA)",
+   "H": 6.2,
+   "cls": "MBA",
+   "bin": "MBA H 6..6.5"
+  },
+  {
+   "pdes": "5",
+   "name": "5 Astraea (A845 XA)",
+   "H": 6.95,
+   "cls": "MBA",
+   "bin": "MBA H 6.5..7"
+  },
+  {
+   "pdes": "8",
+   "name": "8 Flora (A847 UA)",
+   "H": 6.62,
+   "cls": "MBA",
+   "bin": "MBA H 6.5..7"
+  },
+  {
+   "pdes": "12",
+   "name": "12 Victoria (A850 RA)",
+   "H": 7.3,
+   "cls": "MBA",
+   "bin": "MBA H 7..7.5"
+  },
+  {
+   "pdes": "19",
+   "name": "19 Fortuna (A852 QA)",
+   "H": 7.49,
+   "cls": "MBA",
+   "bin": "MBA H 7..7.5"
+  },
+  {
+   "pdes": "17",
+   "name": "17 Thetis (A852 HA)",
+   "H": 7.91,
+   "cls": "MBA",
+   "bin": "MBA H 7.5..8"
+  },
+  {
+   "pdes": "25",
+   "name": "25 Phocaea (A853 GB)",
+   "H": 7.88,
+   "cls": "MBA",
+   "bin": "MBA H 7.5..8"
+  },
+  {
+   "pdes": "33",
+   "name": "33 Polyhymnia (A854 UB)",
+   "H": 8.46,
+   "cls": "MBA",
+   "bin": "MBA H 8..8.5"
+  },
+  {
+   "pdes": "47",
+   "name": "47 Aglaja (A857 RA)",
+   "H": 8.14,
+   "cls": "MBA",
+   "bin": "MBA H 8..8.5"
+  },
+  {
+   "pdes": "34",
+   "name": "34 Circe (A855 GA)",
+   "H": 8.75,
+   "cls": "MBA",
+   "bin": "MBA H 8.5..9"
+  },
+  {
+   "pdes": "35",
+   "name": "35 Leukothea (A855 HA)",
+   "H": 8.68,
+   "cls": "MBA",
+   "bin": "MBA H 8.5..9"
+  },
+  {
+   "pdes": "50",
+   "name": "50 Virginia (A857 TA)",
+   "H": 9.43,
+   "cls": "MBA",
+   "bin": "MBA H 9..9.5"
+  },
+  {
+   "pdes": "58",
+   "name": "58 Concordia (A860 FA)",
+   "H": 9.03,
+   "cls": "MBA",
+   "bin": "MBA H 9..9.5"
+  },
+  {
+   "pdes": "66",
+   "name": "66 Maja (A861 GA)",
+   "H": 9.53,
+   "cls": "MBA",
+   "bin": "MBA H 9.5..10"
+  },
+  {
+   "pdes": "112",
+   "name": "112 Iphigenia (A870 SA)",
+   "H": 9.77,
+   "cls": "MBA",
+   "bin": "MBA H 9.5..10"
+  },
+  {
+   "pdes": "131",
+   "name": "131 Vala (A873 KA)",
+   "H": 10.04,
+   "cls": "MBA",
+   "bin": "MBA H 10..10.5"
+  },
+  {
+   "pdes": "180",
+   "name": "180 Garumna (A878 BA)",
+   "H": 10.31,
+   "cls": "MBA",
+   "bin": "MBA H 10..10.5"
+  },
+  {
+   "pdes": "142",
+   "name": "142 Polana (A875 BA)",
+   "H": 10.52,
+   "cls": "MBA",
+   "bin": "MBA H 10.5..11"
+  },
+  {
+   "pdes": "149",
+   "name": "149 Medusa (A875 SA)",
+   "H": 10.54,
+   "cls": "MBA",
+   "bin": "MBA H 10.5..11"
+  },
+  {
+   "pdes": "155",
+   "name": "155 Scylla (A875 VE)",
+   "H": 11.15,
+   "cls": "MBA",
+   "bin": "MBA H 11..11.5"
+  },
+  {
+   "pdes": "157",
+   "name": "157 Dejanira (A875 XA)",
+   "H": 11.18,
+   "cls": "MBA",
+   "bin": "MBA H 11..11.5"
+  },
+  {
+   "pdes": "244",
+   "name": "244 Sita (A884 TA)",
+   "H": 11.99,
+   "cls": "MBA",
+   "bin": "MBA H 11.5..12"
+  },
+  {
+   "pdes": "254",
+   "name": "254 Augusta (A886 FA)",
+   "H": 11.83,
+   "cls": "MBA",
+   "bin": "MBA H 11.5..12"
+  },
+  {
+   "pdes": "228",
+   "name": "228 Agathe (A882 QA)",
+   "H": 12.27,
+   "cls": "MBA",
+   "bin": "MBA H 12..12.5"
+  },
+  {
+   "pdes": "281",
+   "name": "281 Lucretia (A888 UC)",
+   "H": 12.04,
+   "cls": "MBA",
+   "bin": "MBA H 12..12.5"
+  },
+  {
+   "pdes": "296",
+   "name": "296 Phaetusa (A890 QB)",
+   "H": 12.53,
+   "cls": "MBA",
+   "bin": "MBA H 12.5..13"
+  },
+  {
+   "pdes": "315",
+   "name": "315 Constantia (A891 RB)",
+   "H": 12.56,
+   "cls": "MBA",
+   "bin": "MBA H 12.5..13"
+  },
+  {
+   "pdes": "827",
+   "name": "827 Wolfiana (A916 QG)",
+   "H": 13.14,
+   "cls": "MBA",
+   "bin": "MBA H 13..13.5"
+  },
+  {
+   "pdes": "831",
+   "name": "831 Stateira (A916 SD)",
+   "H": 13.0,
+   "cls": "MBA",
+   "bin": "MBA H 13..13.5"
+  },
+  {
+   "pdes": "724",
+   "name": "724 Hapag (A911 UP)",
+   "H": 13.87,
+   "cls": "MBA",
+   "bin": "MBA H 13.5..14"
+  },
+  {
+   "pdes": "730",
+   "name": "730 Athanasia (A912 GG)",
+   "H": 13.75,
+   "cls": "MBA",
+   "bin": "MBA H 13.5..14"
+  },
+  {
+   "pdes": "1538",
+   "name": "1538 Detre (1940 RF)",
+   "H": 14.37,
+   "cls": "MBA",
+   "bin": "MBA H 14..14.5"
+  },
+  {
+   "pdes": "1779",
+   "name": "1779 Parana (1950 LZ)",
+   "H": 14.24,
+   "cls": "MBA",
+   "bin": "MBA H 14..14.5"
+  },
+  {
+   "pdes": "878",
+   "name": "878 Mildred (A916 RC)",
+   "H": 14.87,
+   "cls": "MBA",
+   "bin": "MBA H 14.5..15"
+  },
+  {
+   "pdes": "2028",
+   "name": "2028 Janequeo (1968 OB1)",
+   "H": 14.9,
+   "cls": "MBA",
+   "bin": "MBA H 14.5..15"
+  },
+  {
+   "pdes": "3004",
+   "name": "3004 Knud (1976 DD)",
+   "H": 15.15,
+   "cls": "MBA",
+   "bin": "MBA H 15..15.5"
+  },
+  {
+   "pdes": "4320",
+   "name": "4320 Jarosewich (1981 EJ17)",
+   "H": 15.09,
+   "cls": "MBA",
+   "bin": "MBA H 15..15.5"
+  },
+  {
+   "pdes": "6256",
+   "name": "6256 Canova (4063 P-L)",
+   "H": 15.67,
+   "cls": "MBA",
+   "bin": "MBA H 15.5..16"
+  },
+  {
+   "pdes": "7006",
+   "name": "7006 Folco (1981 ER31)",
+   "H": 15.71,
+   "cls": "MBA",
+   "bin": "MBA H 15.5..16"
+  },
+  {
+   "pdes": "7733",
+   "name": "7733 Segarpassi (1979 MH4)",
+   "H": 16.2,
+   "cls": "MBA",
+   "bin": "MBA H 16..16.5"
+  },
+  {
+   "pdes": "8193",
+   "name": "8193 Ciaurro (1993 SF)",
+   "H": 16.05,
+   "cls": "MBA",
+   "bin": "MBA H 16..16.5"
+  },
+  {
+   "pdes": "9692",
+   "name": "9692 Kuperus (6354 P-L)",
+   "H": 16.61,
+   "cls": "MBA",
+   "bin": "MBA H 16.5..17"
+  },
+  {
+   "pdes": "12472",
+   "name": "12472 Samadhi (1997 CW11)",
+   "H": 16.84,
+   "cls": "MBA",
+   "bin": "MBA H 16.5..17"
+  },
+  {
+   "pdes": "11606",
+   "name": "11606 Almary (1995 UU6)",
+   "H": 17.19,
+   "cls": "MBA",
+   "bin": "MBA H 17..17.5"
+  },
+  {
+   "pdes": "23362",
+   "name": "23362 (3248 T-1)",
+   "H": 17.0,
+   "cls": "MBA",
+   "bin": "MBA H 17..17.5"
+  },
+  {
+   "pdes": "27832",
+   "name": "27832 (1994 EW)",
+   "H": 17.53,
+   "cls": "MBA",
+   "bin": "MBA H 17.5..18"
+  },
+  {
+   "pdes": "48359",
+   "name": "48359 (1219 T-2)",
+   "H": 17.75,
+   "cls": "MBA",
+   "bin": "MBA H 17.5..18"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "generated": "2026-11-15T17:31:14Z",
+ "index": {
+  "source": "manifest.json on the Modal volume pxs-index (tools/spherex_index)",
+  "code_version": "e8643bb",
+  "releases": [
+   {
+    "name": "DR1",
+    "frames": 1179406,
+    "newest_frame": "2026-05-14",
+    "mjd_max": 61174.5040477285
+   },
+   {
+    "name": "QR3",
+    "frames": 448823,
+    "newest_frame": "2026-10-05",
+    "mjd_max": 61318.002053793505
+   }
+  ],
+  "frames_total": 1628229,
+  "newest_frame": "2026-10-05",
+  "refreshed": "2026-11-14"
+ },
+ "gallery": {
+  "source": "web/gallery/*/manifest.json",
+  "views": 19,
+  "spherex_frames": 336,
+  "newest_frame": "2026-10-02",
+  "built": "2026-11-15"
+ }
+}

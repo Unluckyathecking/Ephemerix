@@ -1,0 +1,45 @@
+[project]
+name = "planet-x-spherex"
+version = "0.0.1"
+description = "NASA Space Apps 2026: 16-year WISE + SPHEREx blink and spectrum tool"
+requires-python = ">=3.11"
+dependencies = [
+    "astropy>=6",      # FITS, WCS, coordinates
+    "numpy",
+    "requests",
+    "pyvo",            # IRSA TAP and SIA queries
+    "fsspec",          # partial reads from the public S3 bucket
+    "s3fs",
+    "aiohttp",         # fsspec HTTP range reads
+    "reproject>=0.21.0",
+    "pillow>=13.0.0",
+    "scipy>=1.17.1",
+    "fastapi>=0.162.7",
+    "uvicorn>=0.54.0",
+    "pyarrow",         # reads the local SPHEREx frame index (Parquet); no lighter reader exists
+    "astropy-healpix>=2.0.1",  # HEALPix pixel of a position, to read the NEOWISE source table
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest",
+    "ruff",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pxs"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tools"]
+markers = ["network: needs live IRSA and S3 access; runs only with PXS_NETWORK=1"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+extend-exclude = ["probes"]  # one-off validation scripts, kept as evidence

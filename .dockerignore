@@ -1,0 +1,11 @@
+.git
+.venv
+.claude
+cache
+probes
+tests
+web
+docs
+**/__pycache__
+*.fits
+*.fits.gz
